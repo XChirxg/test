@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+    <div id="topicName" class="slide">
+        <h1>Topic Name</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+
+    <div id="slideContainer">
+
+
+
+
+
+        <div class="slide">
+            <h1>Slide 1</h1>
+            <p>Content of Slide 1</p>
+        </div>
+        <div class="slide">
+            <h1>Slide 2</h1>
+            <p>Content of Slide 2</p>
+        </div>
+
+
+
+
+
+        <br><br><br>
+        <!-- Add more slides as needed -->
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+</body>
+</html>
