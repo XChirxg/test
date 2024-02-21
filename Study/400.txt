@@ -1,0 +1,618 @@
+MC401: SECURITY ANALYSIS & PORTFOLIO MANAGEMENT (DSC)
+Max Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks.
+Course Objective: To equip the students with essential tools, techniques, models and investment theory
+necessary for analyzing different types of securities, making sound investment decisions and optimal
+portfolio choice.
+Course Contents:
+Unit I
+Portfolio Analysis: Estimating rate of return and standard deviation of portfolio. Effect of combining the
+securities, Markowitz Risk-return optimisation.
+Portfolio Performance Evaluation: Measure of return, risk adjusted measures of return, market timing,
+evaluation criteria and procedures. Investment policies of Individuals, Tax saving schemes in India.
+Unit II
+Fundamental Analysis, Technical Analysis and Efficient Market Hypothesis.
+Unit III
+Single Index Model or Market Model: Portfolio total risk, portfolio market risk and unique risk, Simple
+Sharpe’s optimisation solution.
+Unit IV
+Capital Market Theory: Capital market line, security market line, risk free lending and borrowings.
+Unit V
+Factor Models: Arbitrage pricing theory, two factor and multi- factor models, Principle of arbitrage,
+arbitrage portfolios.
+55
+Course outcome
+After learning of the course , the students will be able:
+• To know about the different risks and returns involved in different securities.
+• To develop portfolio by reducing risk and getting better returns.
+References:
+Fischer, D.E. and Jordan R.J., Security Analysis and Portfolio Management, Prentice Hall, 1983.
+Reilly, F.K., Investment Analysis & Portfolio Management, Drygen Press, 1985.
+
+
+
+
+
+
+
+MC 402: ENTREPRENEURSHIP DEVELOPMENT AND PROJECT MANAGEMENT (DSC)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objective: This course aims to provide necessary inputs for entrepreneurial effort and planning to
+start a new venture and taking investment decisions to enable them to investigate, understand and
+internalize the process of setting up a business and project planning.
+Course Contents: Unit I
+Introduction: Concept of Entrepreneurship; Role of entrepreneurship in economic development; Factors
+impacting emergence of entrepreneurship; Types of entrepreneurs; Characteristic of successful
+entrepreneurs.
+Entrepreneurship Development and Leadership: Types of startups; Entrepreneurial training;
+Entrepreneurship Development Pogrammes; Characteristics of entrepreneurial leadership, Components of
+entrepreneurial leadership
+Unit II
+Identification of investment opportunities: Project ideas generation and screening. Phases in Project
+Management, Project feasibility study, Appraisal criteria and process; Methods of appraisal under certainty,
+uncertainty and risk.
+Unit III
+Market and demand analysis: Sources of information – primary and secondary; Demand forecasting and
+market planning;
+Technical analysis: Materials and inputs; Production technology; Product mix; Plant location and layout;
+Selection of plant and equipment.
+Unit IV Financial analysis: Cost of project and means of financing; Major cost components; Planning
+capital structure; Financing schemes of financial institutions.
+Unit V Social cost benefit analysis: Meaning and methodology; L & M and UNIDO approach; SCBA in
+India Project implementation; PERT and CPM. Problem of time and cost overrun, Project implementation
+practices in India. Project Review/control – Evaluation of Project.
+Course outcome
+After learning of the course , the students will be able:
+• To develop entrepreneurship skills.
+• To know about the process of pursuing projects and preparing project reports.
+References:
+Rathore, BS and JS Saini, A Handbook of Entrepreneurship (Ed.), Aapga Publications, Panchkula
+(Haryana)
+Gupta, CB and P Srinivasan, Entrepreneurship Development, Sultan Chand and Sons, New Delhi
+Arya, K. (2016). Entrepreneurship: Creating and Leading an Entrepreneurial Organization. Pearson.
+Hisrich, R. D., Shepherd, D. A. & Peters, M. P. (2016), Entrepreneurship, McGraw-Hill Education.
+57
+Galindo, C. R. (2018). The Entrepreneur's Guide To Winning: 7 Arts You Need To Master To Win The
+Game Of Business. Create Space Independent Publishing.
+Ramachandran, K. (2014). Entrepreneurship Development: Indian cases on Change Agents. Tata
+McGraw Hill.
+Robinson, P. J. (2017). A Guide for Writing Your Business Plan. Independently published
+Chandra, Prasana: Project Planning Analysis, Financing Implementation and Review. TATA McGraw Hill,
+New Delhi.
+Patel, Bhavesh M., Project Management, Vikash Publishing House Pvt. Ltd., New Delhi.
+Pitale, R.L.. Project Appraisal Techniques, Oxford and IBH.
+Timothy, D.R. and Swell W.R. Project Appraisal and Review, McMillan, India.
+
+
+
+
+
+MC403: STRATEGIC MANAGEMENT AND BUSINESS POLICY (DSC)
+Max Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks.
+Course Objective: The objective of the course is to develop the knowledge about strategy making process
+and business policy that is informed, integrative and responsive to rapid changes in organization
+environment and also about tasks implementing in a global market.
+Course Contents:
+UNIT I
+Strategic Management and Business Policy: Strategic Management – meaning, level at which strategy
+operates and essentials of strategic management process. Strategic management: awareness and change, EV-R Congruence, Models of Strategic Management. Strategic Leadership and Decision Making. Business
+policy and genesis of strategic management and business policy. Strategy formulation- environmental
+appraisal, organizational appraisal and corporate level strategies.
+UNIT II
+Strategic Success: The Organizational Mission and Objectives: Vision, Mission and Objectives. Financial
+Analysis, Company Failure predicting company failure, symptoms and causes of company decline.
+Environmental Awareness and Management, SWOT Analysis. The competitive environment and
+competitive advantage: competition and the structure and regulation of industry in the United Kingdom,
+Analysing an industry, competitive advantage, successful competitive strategies. Competitive advantage
+through products, processes and service: the organisation‘s value chain, The value chain and competitive
+advantage marketing strategy, Research and development, innovation and new products, speed and
+competitive advantage operations management, Service ,not-for-profit and small businesses ,supply chain
+architecture, Service and total quality management .
+UNIT III
+Financial Strategy: Financing and competitive advantage. Information, information systems and
+information technology, The strategy information challenge, information technology and competitive
+advantage. Planning and creating corporate strategy: Strategy formulation, planning and planning systems,
+strategic planning techniques. Strategic alternatives and market entry strategies: disinvestment strategies ,
+strategic means, international strategies and selection of strategies. Issues in strategic growth:
+diversification and acquisition, acquisition, effective acquisition strategies, joint ventures and strategic
+alliances. Issues in strategic consolidation and recovery: the feasibility of recovery, retrenchment strategies,
+turnaround strategies, management buy outs, financing a buyout , management buy ins, managing
+recession, strategies for declining industries, implementing recovery strategies.
+UNIT IV Corporate Strategy and Corporate Management Style: styles of corporate management,
+strategic management at the corporate level, the role of general managers, organizations in the late 1990s.
+Issues in strategic resource management: corporate resource planning, functional planning, policies,
+procedures, plans and budgets, crisis avoidance and management. Issues in strategic change management:
+issues in the management of change, strategies for implementation and change, power and politics.
+Unit V
+Strategic Implementation, Evaluation and Control: Strategy implementation- concept, nature, barriers
+and model of strategy implementation. Resource allocation- strategic budgeting, aligning resource
+allocation to strategy, factor affecting resource allocation and difficulties in resource allocation. An
+overview of strategic evaluation and control, nature, importance, participants and barriers in strategic 
+evaluation, requirements for effective evaluation. Strategic control- premise control, implementation
+control, strategic surveillance, and special control. Operation Control. Techniques of strategic evaluation
+and control.
+Course outcome
+After learning of the course , the students will be able:
+• To know about congruence and models of strategic management
+• To understand about business vision , mission and goals with strategic
+References:
+1. H. Igor Ansoff , Implanting Strategic Management , Prentice Hall 1984.
+2. C. Roland Christensen, Kenneth R. Andrews, Jospeh L. Bower, Rochard G. Hamermesh, Michael E.
+Porter, Business Policy: Text and cases, Fifth Edition, Richard D. Irwin ,inc, Homewood , LL Linois, 1982.
+3. William F. Glueck and Lawrence R. Jauch, Business Policy and Strategic Management, Fourth
+Ed,McGraw –Hill,1984.
+4. Management, Seventh Ed., South Western Publishing co. Cincinnati, Dhio, 1976.
+5. KS Chopra, Business Policy for Indian Industries: Corporate Strategy Formulation, The Times Research
+Foundation, Pune 1985
+6. John Grieve Smith, Business Strategy: An introduction Basil Blackwell, Oxford and economist
+Publications London, 1985.
+7. S.K Bhattachary and N. Venkataarmin, managing Business Enterprises Strategies, Structures and
+Systems, Vikas Publishing House New Delhi 8. John L Thompson, Strategic Management: Awareness and
+change, International Thompson press.1997.
+
+
+
+
+
+MC 404 AF( a ): ADVANCED FINANCIAL MANAGEMENT AND POLICY (DSE)
+Maximum Marks: 80
+Internal assessment: 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objectives: On successful completion of this course, the student will be able to: Critically evaluate
+the capital structure theories and policy and analyse the financial statements of the organization, understand
+the concept of leverage, corporate restructuring, merger and takeover; learn about the methods of
+calculating cost of capital; know the process of valuation of various securities like shares and bonds;
+Understand the concept and types of financial derivatives i.e. Option, Future, Hedging and Swap.
+Course Contents:
+Unit-I
+Capital Structure Theory and Policy: Concept, Meaning, Importance, Determinants of Capital structure,
+Optimum Capital Structure, Theories of capital structure.
+Financial Statement Analysis- Comparative Statement Analysis, Common Size Statement Analysis, Trend
+Analysis, Ratio Analysis. Financial and Operating Leverages.
+Unit-II
+Corporate Restructuring and Policy: Concept, Meaning, Objectives, Techniques of Corporate
+restructuring. Mergers and Takeovers: Types, Objectives, Legal and Procedural Aspect of Mergers and
+Takeovers, valuation and financing Mergers and Takeovers, An overview of Mergers and Takeovers in
+India.
+Financial Restructuring: Meaning, Objectives, Steps in Financial Restructuring, Reorganization of Capital,
+Buy-back of shares. Financial Management of Sick Unit.
+Unit-III
+Cost of Capital: Meaning, significance, Computation of Cost of Capital including CAMP, Weighted
+Average Cost of Capital.
+Unit-IV
+Valuation of Securities: Valuation of Securities – Bonds and Equities. Shareholder Value and Corporate
+Governance.
+Unit-IV Financial Derivatives and Policy: Concept, Recent developments in financial derivative market.
+Financial Derivative Market in India- Structure, Regulatory Framework and Classification. OptionsConcept, Uses, Types, Models – Black-Scholes, Put—Call Parity Relationship. Futures- Futures Market,
+Futures Contracts and Futures Trading.
+Hedging- Concept, process, objectives, importance, foreign exchange risk and hedging. Swaps- Concept,
+Basic Swap structure and Growth of Swap Market. 
+Course outcome
+After learning of the course , the students will be able:
+• To know about the concepts of advanced financial management.
+• To understand the implication of corporate restructuring .
+• To know about the policy initiatives required for corporate finance
+Reference Books:
+Ravi M. Kishore: Financial Management, Taxmann Publications Pvt. Ltd., New Delhi.
+Sinha, Pradip Kumar: Financial Management, Excel Books, New Delhi
+Van, Horne: Financial Management and Policy, Prentice Hall of India, New Delhi.
+Hampton: Financial Decision Making, Prentice Hall of India, New Delhi.
+Prasanna, Chandra: Financial Management, Tata McGraw Hill, New Delhi.
+Khan, M. Y.and Jain,P.K.: Financial Management, Tata McGraw Hill, New Delhi.
+Bhalla, V. K. (2014). Working capital management. S. Chand, New Delhi.
+Pandey, I. M. (2021). Financial Management, Pearson, Chennai.
+Brigham, E. F., &amp; Ehrhardt, M. C. (2015). Financial management: Theory &amp; practice. Cengage
+Learning, Delhi.
+Lasher, W. R. (2016). Practical financial management. Cengage Learning, Delhi
+
+MC404AF(b): BUSINESS TAXATION (DSE)
+Maximum Marks: 80
+Internal assessment: 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objective: The purpose of this subject is to make students acquainted with the knowledge of rules
+and regulations relating to Goods and Services Act, 2017 and other emerging issues of business taxes. The
+course will help to understand the various provisions of GST such as basic concepts of GST, Provisions
+relating to Place and Time of supply of Goods and Services, determination of value, input tax credit,
+registration of entities, computing tax and preparing and uploading return. From the skill point of view this
+course is very significant to the students of commerce as it will help in developing practical skill of
+computing GST.
+Course Contents:
+UNIT-I
+Kautlia’s Economic Thought on Business Taxes. Concepts of Goods and Services Tax Act, 2017.
+Provisions relating to supply of goods or services or both. Levy of Central GST (CGST), State GST (SGST)
+Union Territory GST (UTGST) and Integrated GST (IGST).
+UNIT-II
+Exemptions of Goods and Services from tax. Provisions relating to Place and Time of supply of Goods
+and Services.
+UNIT-III
+Parameters for determining the value of supply of Goods and Services Tax. Reverse charges mechanism.
+Registration under GST: Persons liable to get registered, Compulsory Registration, Registration Procedure,
+Reverse Charge Mechanism, Composition Scheme and assessment under composition scheme; Zero rated
+supply; Exemption from GST, GST tax rate.
+UNIT-IV
+Input Tax Credit (ITC), Eligibility and conditions for taking Input Tax Credit, Apportionment of ITC and
+Blocked Credit; Various Documents under GST- Tax Invoice, Bill for Supply, Debit Note, Credit Note,
+Payment Voucher, Receipt Voucher, E-way bill, HSN Code and SAC Code.
+UNIT-V
+Assessment and Administration of GST - Types of GST Returns, Types of Assessment & Assessment
+Procedures, Role and Functions of GST Council, Tax Authorities and their powers; Tax deduction at Source
+& Tax Collection at Source, Refund of Tax
+Course outcome
+After learning of the course , the students will be able:
+• To know about different Taxation Laws applicable for business.
+• To understand the provisions of Tax laws.
+Reference Books:
+Singhania, V.K. and Singhania, Monica, (2019). Income Tax Including GST, Taxmann
+S.K. Shukla: GST in India (Hindi & English)
+Bare Act
+Taxman: Goods and Service Tax (Hindi & English)
+Dattey, V S, Taxmann’s GST Ready Reckoner, Taxmann, New Delhi.
+Gupta,N K, Goods and Services Tax (Law, Practice and Procedures),Bharat Law House Private Limited.
+Mehrotra, H.C. and Agarwal V.P., Goods and Services Tax GST, Sahitya Bhawan Publications.
+MC404 AF(C ): FORENSIC ACCOUNTING AND AUDITING (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objectives: To enable students to meet the challenges posed by rising financial frauds and scams
+world over, more so in the view of limitations of financial accounting and auditing procedures.
+Course Contents:
+Unit I
+Forensic Accounting & Fraud Auditing Fundamentals: Meaning, nature and scope, Auditors liability for
+undetected frauds, Fraud auditing (forensic audit) phases: Recognition and planning, Evidence collection
+and evaluation, Communication of results
+Unit II
+Fraud Definition & Taxonomy: Ingredients of fraud, why is a fraud committed and who commits a fraud?
+, Meaning and nature of corporate fraud, concept of fraud under Companies Act 2013, frauds for and against
+a company, victims of fraud.
+Unit III
+Types of Corporate Frauds: Bribery and corruption, Misappropriation of assets, Manipulation of financial
+statements, Procedure-related frauds, Corporate espionage, Fraud in e-commerce. Fraud PreventionStrategies, Fraud prevention for consumers and businesses.
+UNIT IV
+Auditing: Concept Type, Principles, Internal Control- Internal Check and Internal Audit, Vouching and
+Verification of Assets and Liabilities.
+UNIT V
+Dividend and Divisible Profits, Company Auditor: Qualifications and disqualifications, Appointment,
+Removal, Remuneration, Rights, Duties and Liabilities, Audit Committee, Auditor’s Report: Contents and
+Types, Auditor’s Certificates.
+Course outcome
+After learning of the course , the students will be able:
+• To prepare forensic accounting
+• To know about probable fronds and the techniques of their rectification.
+References:
+Albrecht, W. Steve. (2009). Forensic Accounting & Fraud Examination. Cengage Learning (India Edition).
+Albrecht, Chad O., Albrecht, Conan C., Albrecht, W. Steve & Zimbelman, Mark F. (2015). Forensic
+Accounting & Fraud Examination. Cengage Learning (India Edition).
+Banerjee, Robin (2015). Who Cheats and How? Sage Publications, New Delhi.
+Bologna, Jack and Lindquist, Robert J. (1995). Fraud Auditing and Forensic Accounting. Wiley.
+Bremser, Wayne G. (1995). Forensic Accounting and Financial Fraud.American Management Association.
+Dalal, Chetan. (2015). Novel & Conventional Methods of Audit, Investigation and Fraud Detection.
+Wolters Kluwer India Pvt. Ltd. 
+Gupta, Sanjeev (2016). Corporate Frauds and their Regulation in India. Bharat Law House Pvt. Ltd
+Kaul, Vivek (2013). Easy Money. Sage Publications, New Delhi.
+Manning, George A. (2010). Financial Investigation and Forensic Accounting. CRC Press: Taylor &
+Francis Group.
+Sharma, B. R. (2014). Bank Frauds. Universal Law Publishing, New Delhi
+
+
+
+
+
+MC404 MKT (a): CONSUMER BEHAVIOUR (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objective: To provide an in-depth understanding of the consumer buying processes and their
+determinants as relevant for marketing decision making.
+Course Contents:
+Unit I
+Consumer Behaviour: Importance and nature of consumer behaviour; Types of consumers and their role;
+Consumer behaviour and marketing concept; Changing profile of Indian consumers and new consumption
+patterns; Conducting consumer research – overview of process, complexities and issues.
+Unit II
+Consumer Decision Making Process: Buying motives; Buying roles; Consumer buying process; Stages
+and levels of consumer decision making; Business buying behaviour- an overview; Theories of motivation
+and its application.
+Unit III
+Personal Factors Affecting Consumer Behaviour: Demographic characteristics; Family, Family life cycle
+and consumer decision making; Household influence onconsumer buying behaviour; Needs and
+motivation; Perception; Perceptual mapping and positioning; Value perceptions; Attitude and attitude
+change; Attitude models; Learning and learning theories; Consumer involvement- antecedents and
+consequences; Personality- Concept and personality theories; Psychographics; Life style and applications.
+Unit IV
+Socio-Cultural Determinants of Consumer Behaviour: Reference group influences- Theories of reference
+group and applications; WOM communication and opinion leaders; Social class and social class
+stratification in India; Understanding cultural and sub-cultural
+Unit V
+Models of Consumer Behaviour and Business Buying Behaviour: An overview of contemporary models;
+Deterministic and probabilistic approaches; Contemporary Models of consumer behaviour.
+Course outcome
+After learning of the course, the students will be able:
+• To understand consumer buying processes .
+• To know about the determinants of marketing decision making.
+References:
+Blackwell, R. D., Miniard, P. W., & Engel, J. F. (2009). Consumer Behavior. New Delhi: Cengage
+Learning.
+Hawkins, D. I., Motherbaugh, D. L., & Mookerjee, A.(2016). Consumer Behavior: Building Marketing
+Strategies. Chennai: Mc Graw Hill Education (India).
+Schiffman, L. G., & Kanuk, L. L. (2008).Consumer Behaviour. Prentice Hall.
+Assael, H. (1994). Consumer Behaviour and Marketing Action. South-Western.
+MC404 MKT (b): RETAIL MANAGEMENT (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Learning Objective: The course develops practical understanding of the retail sector covering areas like
+retail buying, category management, retail store operations and customer marketing , FDI.
+Course Contents:
+Unit I
+Retailing: Concept, Characteristics, importance and functions; Theories of retailing: Retailing in India.
+Strategic Planning in retailing; Planning for global retailing.
+Retailing Formats: Classifying retail institutions according to ownership, store based and non-store based
+retail organizations. Planning location of retail institution; Trading area analysis, deciding the most
+desirable type of location, choice of a general location, choosing and evaluating a particular site.
+Unit II
+Human Resource Management in retailing: Objectives and function; setting up a retail
+organization, organizational patterns in retailing. Managing store employees.
+Unit III
+Store Operations Management: blueprinting operations; deciding stores layout; store design and displays;
+energy management; loss prevention and security issues.
+Customer Service: Concept and importance, developing service strategy; service quality dimensions and
+GAPS model; Retailing customers.
+Unit IV
+Financial management in retailing: Sources of finance, FDI in retail; analysis of financial and operational
+performance, retail audit.
+Unit V
+Applications of information technology in retailing: Social, ethical and legal aspects in retailing.
+Course outcome
+After learning of the course, the students will be able:
+• To understand about retail sector areas.
+• To know about different resources required for retailing
+REFERENCES
+Gilbert David: Retail Marketing Management, Pearson Education, Delhi.
+Pradhan Swapna: Retailing Management: Text & Cases. Tata McGraw Hill, New Delhi.
+Bermans & Evans: Retail Management – A Strategic Approach, Prentice Hall of India, New Delhi.
+Lamba: The Art of Retailing, Tata McGraw Hill, New Delhi.
+Mcgoldrick, P.: Retail Marketing, McGraw Hill, U.K.
+MC404MKT (C ): RURAL MARKETING (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objective: The objective of this course is to explore the students to the agriculture and rural
+marketing environment so that they can understand.
+Course Contents:
+Unit 1
+Nature, Characteristics and Potential of Rural markets in India. Socio-Cultural, economic and other
+environmental factors affecting rural marketing: Attitudes and behavior of the rural consumers and farmers.
+Unit II
+Marketing of Consumer durables and non-durable goods and services in the rural Markets with Special
+Reference to product Planning, Media Planning , Planning of Distribution Channels and organizing
+personnel selling in rural markets in India. Marketing of agricultural inputs with special reference to
+fertilizers, seeds and tractors.
+Unit III
+Organisation and functions of agricultural marketing in India-Classification of agricultural products with
+particular reference to seasonality and perish ability. Marketing Structure and Performance, Processing
+facilities for different agricultural products.
+Unit IV
+ Role of Warehousing, Determination of Agricultural prices and marketing margins. Role of Agricultural
+price commission. Role of Central and State Government, Institutions and Organisations in agricultural
+marketing.
+UNIT V
+Unique features of commodity markets in India. Problems of agricultural marketing. Nature, Scope and
+Role of co-operative marketing in India.
+Course outcome
+After learning of the course , the students will be able:
+• To know about the different modes of rural marketing.
+• To understand the pattern of sector –wise rural marketing.
+
+References:
+Dinesh Kumar,Punam Gupta (2019), Rural Marketing: Challenges and Opportunities, First Edition Sage.
+Krishnamacharyulu (2010), Rural Marketing, Text and Cases,2e.
+Morleg J.E.Agricultural Products and their Marketing
+Kohles,Richerd L.; Marketing of Agricultural Products.
+Boyle J.E, Marketing of Agricultural Produce.
+Dogra,Balram & Ghuman,Karminder: Rural Marketing,Tata Megraw Hill, Delhi.
+Kulkarni K.R.Agricultural Marketing in India.
+Mukherjee,B.B.: Marketing of Agricultural Produce in India.
+Gupta,A.P. “Marketing of Agricultural Products in India”.
+
+
+
+
+
+
+
+
+
+MC404 HRM (a): HUMAN RESOURCE DEVELOPMENT (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Learning Objective: The objective of this course is to build a critical perspective of human resource
+development (HRD) in an organizational, national and international context.
+Course Contents: Unit I
+Introduction to Human Resource Development: Historical perspective, emergence of HRD,
+conceptualizing critical HRD; Contemporary realities and future of HRD; Andragogy and life-long
+learning.
+Unit II
+Theoretical approaches to Human Resource Development: Social capital theory, learning network theory,
+relevance of systems theory to HRD, human capital theory and screening theory of HRD.
+Unit III
+Human Resource Development Process: Identifying HRD needs; Designing and developing effective HRD
+programs; Evaluating effectiveness of HRD Programs; HRD interventions.
+Unit IV
+- Integrating learning with work: Theories of learning, trends in workplace learning, learning interventions;
+Transfer of learning; Strategic learning and leadership; Learning organizations and organizational learning.
+Unit V
+Human Resource Development Trends: New ways of working and employability; Coaching, mentoring
+and management of performance; Virtual HRD; Workforce diversity and HRD.
+Course outcome
+After learning of the course, the students will be able:
+• To build critical perspective of human resource evaluation for their development.
+References:
+Bandura, A. (2018), Towards a psychology of Human Pathways and Reflections, Perspectives on
+Psychological Science, 13(2)130-136
+Bennet, Elisabeth E. (2014). Introducing New Perspectives on Virtual Human Resource Development
+Advances in Developing Human Resources. 16(3) 263 –280
+Cast, C. (2018). 6 ways to take control of your career development if your company does not care about it,
+Harvard Business review, web article 1-4
+V Cho, Y. & Egan, T. M. (2009). Action Learning Research and Conceptual Framework. Human Resource
+Development Review 8, 431-462
+Mankin, D., (2009). Human Resource Development, Oxford University Press Chapter- 4, 6, 7, 9
+McLean, Gary N., McLean L. (2001). If we can‘t define HRD in one country, how can we define it in an
+international context? Human Resource Development International, 4(3), 313–326.
+Poell, Rob F., Tonette S. Rocco and Gene L. Roth Lee, M. (2015). The Routledge Companion to Human
+resource Development, Chapter -1, 12-15.
+Rao, T.V., (2005). Future of HRD, Macmillan Publishers India. Chapter 1 & 6
+Schultz, Theodore W. (1961). Investment in Human Capital. The American Economic Review. 51(1):1-17. 
+MC404 HRM(b): MANAGEMENT OF INDUSTRIAL RELATIONS (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objective: The course aims at providing fundamental knowledge and exposure to the industrial
+relations and related aspects prevailing in industries.
+Course Contents:
+Unit I
+Industrial Relations Perspectives: Concept, Scope & Objectives, Industrial Relations & Emerging Socio
+economic Scenario, Industrial Relations & the State Industrial Relations in India, Emerging trends in
+Industrial Relations, Industrial Relations and technological change.
+Unit II
+Trade Unions – Functions and Objectives; Development of trade Unions in India; Pattern of trade Unions
+in structure, Central trade Union organization; Registration and Recognition of trade Unions; Management
+of trade Unions; Problems of India trade Union Movement; White collar and Managerial trade Unions;
+Employers Association; Trade Union response toward liberalization and technological change. Employee
+response to industrial restricting and organization re-engineering. Future of Trade Unions.
+Unit III
+Dynamics of Industrial Conflicts; Discipline and Grievance Management. Contemporary issues in
+industrial conflicts.
+Unit IV
+Nature and types of collective Bargaining; Emerging trends in collective Bargaining, Productivity
+bargaining, negotiation and collective bargaining settlement, Settlement Machinery.
+Unit V
+Col-ownership Management – Concept, Significance and Historical Development; Types of workers
+participation in Management, Practices; Level of Participation; Models in WPM; Co-ownership Forms of
+WPM. Issues in Labour Flexibility participation; Strategies and Planning for Implementing WPM
+effectively. Empowerment and Quality Management.
+Course outcome
+After learning of the course, the students will be able:
+• To get knowledge about industrial groups and their behavior in the organizations
+• To understand the system of prevalence of relations and negotiations in the organizations.
+REFERENCES
+Ramaswamy, E.; Managing Human Resources, New Delhi, Oxford University Press.
+Venkata Ratnam, C.S. and Sinha, Pravin, Trade Unions Challenges at the Deginning of 21st Century, IIRA
+Excel Books, New Delhi.
+Monappa, A., Industrial Relations, Tata McGraw Hill, New Delhi.
+Dutta, S.K., Guide to Disciplinary Action, Tata McGraw Hill, New Delhi.
+Venkataratnam, C.S., Globalization & Labour Management Relations, Response Books, New Delhi.
+MC404 HRM (C ): LABOUR LEGISLATION AND EMPLOYEE WELFARE (DSE)
+Max. Marks 80
+Internal Assessment 20
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objective: The course aims as to know the development and the judicial setup of Labour Laws.
+Course Contents:
+Unit I
+Evolution of Industrial workers: Meaning, Its various phases, Need for Labour Legislation in India The
+concept of Labour welfare: definition, Scope and Objectives, welfare work and social work .Main
+recommendations of second National Labour Commission, The Trade Union Act. 1926.
+Unit II
+Payment of Wages Act, 1936.The Minimum Wages Act, 1948, Contract Labour Act 1970,
+Unit III
+The Maternity Benefits Act,1961. The Payment of Bonus Act, 1965.
+Unit IV
+The Workmen Compensation Act, 1923, Adjustment processes and Voluntary Retirement schemes, The
+ESI Act 1948.
+Unit V
+The Factories Act, 1948. The Employees Provident Fund and Miscellaneous Provisions act 1952.
+Course outcome
+After learning the course the students will be able:
+• To know about different labour laws
+References:
+1) Sinha, P.R.N. et al (2011). Industrial Relations, Trade Unions, and Labour Legislation. Pearson Eduction.
+2) Blyton, P. & Turnbull, P. (2009). The Dynamics of Employee Relations. Palgrave Macmillan.
+3) Ackers, P. & Wilkinson, A. (2009). Understanding Work & Employment: Industrial Relations in
+Transition.Oxford: Oxford University Press.
+4) Padhi, P.K. (2010). Labor and Industrial Laws. Prentice Hall of India.
+5) Singh, B.D. (2009). Industrial Relations: Emerging Paradigms. Excel Books.
+6) Sen, R. (2009). Industrial Relations: Text and Cases. Macmillan India.
+ MC –GE-II: INDIAN ETHOS, LIFE SKILLS AND BUSINESS
+Marks: 40
+Internal Assessment: 10
+Note: There will be Ten (10) questions in all spreading into Five Units consisting of two
+questionsfrom each unit. The candidate will require to attempt one question from each unit.
+Each questionwill carry Sixteen (16) marks
+Course Objectives: To develop the insight about Indian Ethos, Values, Spirituality, Yoga of wisdom,
+Yoga of Works, Meditation and
+Devotion in the backdrop of Srimad Bhagvad Gita. The techniques of inner engineering will help in
+improving inner capacity and making the working environment full with energy, love, respect, power,
+success and prosperity.
+Course Contents:
+Unit-I
+The Concept of Ethics: Meaning and theories; Ethical Dilemma and Critical Thinking in the light of
+Vishad Yoga; Ethics and Dharma; Ethics and Religion; Significance of Ethics in business and
+Management.
+Unit- II
+The Concept of Values: Values and Bhagvad Gita; Values and four Purushawarthas; Values and Yoga
+philosophy; Relevance of values in modern business and management.
+Unit-III
+The Concept of Spirituality: Spirituality and Science; Spirituality and Culture; Spirituality and
+Humanism; Lessons for Leadership, Inter-Personal Relations, Team Building and Business.
+Unit-IV
+Yoga of Wisdom and Work: Yoga of Wisdom (Sankhaya Yoga); Yoga of Work (Nishkam Karma)
+Law of Karma; Significance of Yoga of Wisdom and Work in Decision Making and Management.
+Unit-V
+Techniques for Inner Engineering: Meditation –Yoga, Silent Sitting and Mindfulness; Devotion -
+Singing; Inner engineering and Organizational effectiveness.
+Course outcome
+After learning of the course, the students will be able:
+• To get knowledge about ethics value , spirituality wisdom for applying in life and business
+• To improve inner capacity through human engineering activities.
+Recommended Books:
+Chakraborty, Thought, Himalayan S. K. Publishing Foundations House, of Managerial New Delhi.Work
+-Contributions from Indian
+Chakraborty, S. K. Managerial Effectiveness and Quality of Work Life - Indian Insights, Tata Mc Graw
+Hill Publishing Company, New Delhi.
+Chakraborty, Press, S. K. New Management Delhi. by Values -Towards Cultural Congruence, Oxford
+University
+Ananta K. Giri values, Ethics and Business; Rawat Publications, Jaipur.
+Singh, Raj Kumar: Business Ethics and CSR, Kalayani Publication, New Delhi.
+Education in Values -A Source Book; NCERT, New Delhi.
+Sri Aurobindo: The Messages of the Gita.
+Paramhamsa Yogananda: Gods Talk with Arjuna.
+
+
+
+
+
+
+
+
+
+
+

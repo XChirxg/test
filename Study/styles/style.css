@@ -1,0 +1,60 @@
+body {
+  background-color: #1D1F32;
+  font-family: myFont;
+  color: azure;
+}
+@font-face{
+  font-family: myFont;
+  src: url(IniSans.otf);
+}
+div{
+  font-family: myFont;
+}
+h1 {
+  font-size: 3vw; /* 5% of the viewport width */
+}
+
+h3 {
+  font-size: 2vw; /* 3% of the viewport width */
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 5vw; /* 8% of the viewport width for smaller screens */
+  }
+
+  h3 {
+    font-size: 4vw; /* 5% of the viewport width for smaller screens */
+  }
+}
+#head {
+  background-color: #252746;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  height:60px;
+  z-index: 3;
+}
+.chapter{
+  background-color: #252746;
+  margin: 10px;
+  padding:4px;
+}
+
+#topic {
+  background-color: #443D7A;
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 3vw;
+}
+
+a{
+  color:#c9b3ee;
+  padding: 5px;
+  text-decoration: none;
+}
+a:hover {
+  color:#e9e5f1;
+}
