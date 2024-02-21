@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Com 4th Sem</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+
+
+        #subjects {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .subject {
+            font-size: 1.2em;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .subject:hover {
+            background-color: #333;
+        }
+
+        .subject.active {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .subject.disabled {
+            color: #888;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>M.Com 4th Sem</h1></center>
+    <div id="subjects">
+        <div class="subject active" onclick="window.location.href='MC401/MC401.html';">MC401 - Security Analysis and Portfolio Management</div>
+        <div class="subject disabled">MC402 - Entrepreneurship Development and Project Management</div>
+        <div class="subject disabled">MC403 - Strategic Management and Business Policy</div>
+<hr>
+        <div class="subject disabled">MC404AF(a) - Advanced Financial Management and Policy</div>
+        <div class="subject disabled">MC404AF(b) - Business Taxation</div>
+        <div class="subject disabled">MC404AF(c) - Forensic Accounting and Auditing</div>
+<hr>
+    </div>
+</body>
+</html>
