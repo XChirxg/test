@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicProjectFeasibilityStudy" class="slide">
+        <h1>Project Feasibility Study</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Feasibility Study</h1>
+            <p>A feasibility study is an assessment of the practicality and potential success of a proposed project. It evaluates various aspects such as economic, technical, legal, and scheduling feasibility.</p>
+        </div>
+        <div class="slide">
+            <h1>Objectives of Feasibility Study</h1>
+            <p>The main objectives of a feasibility study are to determine whether a project is viable, identify potential risks and challenges, and provide a basis for decision-making regarding the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Components of Feasibility Study</h1>
+            <p>A feasibility study typically includes an analysis of market feasibility, technical feasibility, financial feasibility, organizational feasibility, and legal feasibility.</p>
+        </div>
+        <div class="slide">
+            <h1>Methods for Conducting Feasibility Study</h1>
+            <p>There are various methods for conducting a feasibility study, including market surveys, technical assessments, financial projections, and risk analysis. These methods help assess the viability of the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Importance of Feasibility Study</h1>
+            <p>Conducting a feasibility study is important to minimize risks and maximize the chances of project success. It provides stakeholders with valuable information to make informed decisions about the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Example</h1>
+            <p>For example, a real estate developer may conduct a feasibility study before starting a new housing project. The study would assess factors such as market demand, construction costs, regulatory requirements, and potential returns on investment.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

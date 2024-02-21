@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+        
+    <div id="topicLMUNIDOApproach" class="slide">
+        <h1>L & M and UNIDO Approach</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>L & M Approach</h1>
+            <p>The L & M approach to social cost-benefit analysis (SCBA) is based on the work of economists J. R. Hicks and R. G. D. Allen. It focuses on the measurement of social welfare changes resulting from a project or policy.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of L & M Approach</h1>
+            <ul>
+                <li><b>Compensating Variation (CV):</b> The amount of money that would need to be given to individuals to compensate them for the welfare loss caused by a project or policy.</li>
+                <li><b>Equivalent Variation (EV):</b> The amount of money that individuals would be willing to pay to receive the welfare gain from a project or policy.</li>
+                <li><b>Consumer Surplus:</b> The difference between what consumers are willing to pay for a good or service and what they actually pay.</li>
+                <li><b>Producer Surplus:</b> The difference between the price producers receive for a good or service and the minimum price they are willing to accept.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>UNIDO Approach</h1>
+            <p>The United Nations Industrial Development Organization (UNIDO) approach to SCBA emphasizes the economic and social impacts of industrial development projects in developing countries.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of UNIDO Approach</h1>
+            <ul>
+                <li><b>Economic Rate of Return (ERR):</b> The rate of return on investment that is necessary to make a project economically viable.</li>
+                <li><b>Financial Rate of Return (FRR):</b> The rate of return on investment that is necessary to cover all costs and provide a return to investors.</li>
+                <li><b>Net Present Value (NPV):</b> The difference between the present value of benefits and the present value of costs over the life of a project.</li>
+                <li><b>Internal Rate of Return (IRR):</b> The discount rate that makes the NPV of a project equal to zero.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz"> Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+        
+    <div id="topicTimeCostOverrun" class="slide">
+        <h1>Problem of Time and Cost Overrun</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Overview</h1>
+            <p>Time and cost overrun is a common problem in project management where projects exceed their planned schedule and budget. It can have significant implications for project success, including increased costs, delays in completion, and decreased stakeholder satisfaction.</p>
+        </div>
+        <div class="slide">
+            <h1>Causes of Time and Cost Overrun</h1>
+            <ul>
+                <li><b>Poor Planning:</b> Inaccurate estimates, incomplete scope definition, and inadequate risk assessment can lead to project delays and cost overruns.</li>
+                <li><b>Scope Creep:</b> Changes to project scope or requirements after the project has started can result in additional work and increased costs.</li>
+                <li><b>Resource Constraints:</b> Lack of resources, including skilled personnel, equipment, and funding, can lead to delays in project execution.</li>
+                <li><b>External Factors:</b> External factors such as regulatory changes, market conditions, and natural disasters can impact project timelines and costs.</li>
+                <li><b>Communication Issues:</b> Poor communication among project stakeholders can lead to misunderstandings, delays in decision-making, and ultimately, project delays and cost overruns.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Impact of Time and Cost Overrun</h1>
+            <ul>
+                <li>Increased project costs due to additional resources, overtime, and penalties for delays.</li>
+                <li>Delays in project completion, which can impact the organization's ability to realize benefits from the project.</li>
+                <li>Reputation damage for the project team and organization.</li>
+                <li>Legal implications, such as contract disputes and claims for damages.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategies to Address Time and Cost Overrun</h1>
+            <ul>
+                <li><b>Effective Planning:</b> Develop a detailed project plan with realistic timelines and budgets, and regularly review and update the plan as needed.</li>
+                <li><b>Change Management:</b> Implement a formal change management process to control scope creep and minimize the impact of changes on project timelines and costs.</li>
+                <li><b>Resource Management:</b> Ensure adequate resources are available and effectively utilized throughout the project.</li>
+                <li><b>Risk Management:</b> Identify potential risks early and develop mitigation strategies to minimize their impact on project timelines and costs.</li>
+                <li><b>Communication:</b> Establish clear lines of communication among project stakeholders to ensure everyone is informed and aligned on project goals and progress.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz"> Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t7.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

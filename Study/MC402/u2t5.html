@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicMethodsAppraisal" class="slide">
+        <h1>Methods of Appraisal under Certainty, Uncertainty, and Risk</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Appraisal under Certainty</h1>
+            <ul>
+                <li>Under certainty, the outcome of a project is known with certainty.</li>
+                <li>Methods such as payback period, accounting rate of return (ARR), and net present value (NPV) are commonly used for appraisal.</li>
+                <li>These methods help determine the financial viability of a project when the outcome is certain.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Appraisal under Uncertainty</h1>
+            <ul>
+                <li>Under uncertainty, the outcome of a project is not known with certainty.</li>
+                <li>Methods such as decision tree analysis and sensitivity analysis are used to assess the project's viability under different scenarios.</li>
+                <li>These methods help account for the uncertainty in project outcomes and make informed decisions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Appraisal under Risk</h1>
+            <ul>
+                <li>Under risk, the probability of different outcomes is known.</li>
+                <li>Methods such as expected monetary value (EMV) analysis and Monte Carlo simulation are used to assess the project's viability based on the probabilities of different outcomes.</li>
+                <li>These methods help account for the risk in project outcomes and make risk-adjusted decisions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Comparison of Methods</h1>
+            <ul>
+                <li>Each method has its strengths and weaknesses, and the choice of method depends on the level of certainty, uncertainty, or risk associated with the project.</li>
+                <li>It is important to use multiple methods and sensitivity analysis to assess the robustness of the appraisal results.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next UNIT</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

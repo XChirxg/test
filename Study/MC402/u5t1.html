@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicSCBA" class="slide">
+        <h1>Meaning and Methodology of Social Cost Benefit Analysis (SCBA)</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Social Cost Benefit Analysis (SCBA)</h1>
+            <p>Social Cost Benefit Analysis (SCBA) is a technique used to assess the social and economic impact of a project or policy. It involves identifying and quantifying the costs and benefits of a project to society as a whole, rather than just to the project owner or investors.</p>
+        </div>
+        <div class="slide">
+            <h1>Methodology of SCBA</h1>
+            <p>The methodology of SCBA typically involves the following steps:</p>
+            <ol>
+                <li><b>Identification of Costs and Benefits:</b> Identify all the costs and benefits associated with the project, including direct and indirect effects.</li>
+                <li><b>Valuation of Costs and Benefits:</b> Assign a monetary value to each cost and benefit, taking into account factors such as market prices, shadow prices, and social values.</li>
+                <li><b>Discounting:</b> Discount future costs and benefits to their present value to account for the time value of money.</li>
+                <li><b>Calculation of Net Present Value (NPV):</b> Calculate the difference between the present value of benefits and the present value of costs to determine the net present value of the project.</li>
+                <li><b>Sensitivity Analysis:</b> Conduct sensitivity analysis to assess the impact of changes in assumptions or parameters on the results of the analysis.</li>
+                <li><b>Decision Making:</b> Use the results of the SCBA to inform decision-making regarding the project, considering factors such as efficiency, equity, and sustainability.</li>
+            </ol>
+        </div>
+        <div class="slide">
+            <h1>Importance of SCBA</h1>
+            <p>SCBA is important because it provides a comprehensive framework for evaluating the costs and benefits of a project from a societal perspective. It helps decision-makers prioritize projects based on their impact on society and allocate resources efficiently.</p>
+        </div>
+        <div class="slide">
+            <h1>Limitations of SCBA</h1>
+            <p>SCBA has several limitations, including the difficulty of valuing intangible costs and benefits, the reliance on subjective judgments, and the potential for bias in the analysis. It is also sensitive to changes in assumptions and parameters, which can affect the results.</p>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

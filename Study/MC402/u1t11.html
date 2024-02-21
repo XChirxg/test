@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicComponentsEntrepreneurialLeadership" class="slide">
+        <h1>Components of Entrepreneurial Leadership</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Strategic Thinking</h1>
+            <p>Entrepreneurial leaders are strategic thinkers who are able to anticipate and plan for future opportunities and challenges. They develop clear goals and strategies to achieve them.</p>
+        </div>
+        <div class="slide">
+            <h1>Decision-Making</h1>
+            <p>Entrepreneurial leaders are decisive and able to make tough decisions under pressure. They weigh the risks and benefits of each decision and choose the course of action that aligns with their goals.</p>
+        </div>
+        <div class="slide">
+            <h1>Resource Management</h1>
+            <p>Entrepreneurial leaders effectively manage resources such as finances, people, and time. They allocate resources wisely to maximize efficiency and achieve their goals.</p>
+        </div>
+        <div class="slide">
+            <h1>Team Building</h1>
+            <p>Entrepreneurial leaders build and lead high-performing teams. They recruit and retain top talent, foster a positive work environment, and motivate their team members to achieve their best.</p>
+        </div>
+        <div class="slide">
+            <h1>Innovation and Creativity</h1>
+            <p>Entrepreneurial leaders encourage innovation and creativity within their organization. They create a culture that embraces new ideas and approaches, and they are open to trying new things.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next UNIT</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

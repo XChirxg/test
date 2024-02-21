@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicPlanningCapitalStructure" class="slide">
+        <h1>Planning Capital Structure</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Capital Structure</h1>
+            <p>Capital structure refers to the mix of debt and equity used by a company to finance its operations and growth. It represents the long-term financing of the company and impacts its overall financial health and risk profile.</p>
+        </div>
+        <div class="slide">
+            <h1>Factors to Consider in Planning Capital Structure</h1>
+            <ul>
+                <li><b>Cost of Capital:</b> The cost of capital is the rate of return required by investors to invest in the company. It is influenced by the company's capital structure, with higher leverage leading to higher cost of capital.</li>
+                <li><b>Financial Flexibility:</b> A flexible capital structure allows the company to raise capital quickly and at a lower cost, reducing the risk of financial distress.</li>
+                <li><b>Business Risk:</b> The riskiness of the company's operations and industry affects the optimal capital structure. Higher business risk may require a more conservative capital structure.</li>
+                <li><b>Tax Considerations:</b> Debt offers tax advantages as interest payments are tax-deductible. This makes debt financing cheaper than equity financing, leading to a preference for debt in the capital structure.</li>
+                <li><b>Market Conditions:</b> Market conditions, such as interest rates and investor sentiment, can impact the cost and availability of debt and equity financing.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Methods of Financing</h1>
+            <p>Companies can finance their operations through various methods, including:</p>
+            <ul>
+                <li><b>Equity Financing:</b> Issuing shares of stock to investors in exchange for capital.</li>
+                <li><b>Debt Financing:</b> Borrowing money from lenders and repaying it with interest.</li>
+                <li><b>Hybrid Financing:</b> Using a combination of debt and equity financing, such as convertible bonds or preferred stock.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Optimal Capital Structure</h1>
+            <p>The optimal capital structure is the mix of debt and equity that maximizes the value of the company and minimizes its cost of capital. It is a balance between risk and return that varies depending on the company's circumstances and goals.</p>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicFactorsImpactEntrepreneurship" class="slide">
+        <h1>Factors Impacting Emergence of Entrepreneurship</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Economic Factors</h1>
+            <p>Economic conditions, such as market demand, access to capital, and regulatory environment, significantly impact the emergence of entrepreneurship. Favorable economic conditions can encourage entrepreneurial activity, while adverse conditions may hinder it.</p>
+        </div>
+        <div class="slide">
+            <h1>Social and Cultural Factors</h1>
+            <p>Social and cultural norms play a crucial role in shaping attitudes towards entrepreneurship. Societies that value risk-taking, innovation, and entrepreneurial success are more likely to have a thriving entrepreneurial ecosystem.</p>
+        </div>
+        <div class="slide">
+            <h1>Technological Factors</h1>
+            <p>Technological advancements can both enable and disrupt entrepreneurial activity. Access to new technologies can create opportunities for innovative ventures, while rapid technological change can also pose challenges for entrepreneurs to adapt and compete.</p>
+        </div>
+        <div class="slide">
+            <h1>Government Policies</h1>
+            <p>Government policies and regulations can significantly impact the ease of starting and operating a business. Policies that promote entrepreneurship, such as tax incentives, access to funding, and streamlined regulatory processes, can stimulate entrepreneurial activity.</p>
+        </div>
+        <div class="slide">
+            <h1>Educational and Institutional Support</h1>
+            <p>Access to education and support from institutions such as universities, incubators, and accelerators can enhance entrepreneurial skills and provide resources for aspiring entrepreneurs to start and grow their ventures.</p>
+        </div>
+        <div class="slide">
+            <h1>Globalization</h1>
+            <p>Globalization has opened up new markets and opportunities for entrepreneurs to expand their businesses internationally. It has also increased competition but has also provided access to a larger customer base.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicMajorCostComponents" class="slide">
+        <h1>Major Cost Components</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Overview</h1>
+            <p>The cost of a project consists of various components, including both fixed and variable costs. Understanding these components is essential for effective project cost management and budgeting.</p>
+        </div>
+        <div class="slide">
+            <h1>Fixed Costs</h1>
+            <p>Fixed costs are costs that do not vary with the level of production or sales. They remain constant regardless of the volume of output. Examples of fixed costs include rent, salaries, and insurance.</p>
+        </div>
+        <div class="slide">
+            <h1>Variable Costs</h1>
+            <p>Variable costs are costs that vary with the level of production or sales. They increase or decrease as the volume of output changes. Examples of variable costs include raw materials, labor, and utilities.</p>
+        </div>
+        <div class="slide">
+            <h1>Total Cost</h1>
+            <p>The total cost of a project is the sum of fixed and variable costs. It represents the total amount of money required to complete the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Direct Costs</h1>
+            <p>Direct costs are costs that can be directly attributed to a specific project or activity. Examples of direct costs include materials, labor, and equipment used in the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Indirect Costs</h1>
+            <p>Indirect costs are costs that cannot be directly attributed to a specific project but are necessary for the overall operation of the business. Examples of indirect costs include overhead expenses such as rent, utilities, and administrative costs.</p>
+        </div>
+        <div class="slide">
+            <h1>Contingency Costs</h1>
+            <p>Contingency costs are additional costs that are included in the project budget to account for unforeseen events or changes in project scope. It is important to include a contingency buffer to avoid budget overruns.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

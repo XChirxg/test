@@ -1,0 +1,170 @@
+body {
+  background-color: #1D1F32;
+  font-family: myFont;
+  color: azure;
+}
+@font-face{
+  font-family: myFont;
+  src: url(IniSans.otf);
+}
+div{
+  font-family: myFont;
+}
+#head {
+  background-color: #1D1F32;
+  position:fixed;
+  top:0;
+  width:100%;
+  height:30px;
+  z-index: 3;
+}
+#progressBar {
+  position:fixed;
+  background-color: #A175EA;
+  top:10px;
+  height: 10px;
+  border-radius: 5px;
+  width:1%;
+  z-index: 2;
+  transition:width 0.5s ease-in-out;
+}
+p{
+  background-color: #3F4273;
+  color:white;
+  font-family: myFont;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+#options{
+  background-color: #252746;
+  padding:10px;
+  display:block;
+}
+#A,#B,#C,#D{
+  background-color: #3F4273;
+  min-height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+
+#bottom{
+  position:fixed;
+  background-color: #333661;
+  bottom:0;
+  height:55px;
+  width:100%;
+  left:0;
+  right:0;
+  
+}
+#submit,#correct,#wrong,#next,#previous{
+ border-radius: 5px; 
+  height:30px;
+  width:30%;
+  margin: 2px;
+  text-align: center;
+  
+}
+#submit{
+  background-color: #443D7A;
+  display: block;
+  margin:4px 0 0 0;
+  padding: 9px 0 0 0;
+}
+#wrong{
+  background-color: #854848;
+  display: none;
+  margin:4px 0 0 0;
+  padding: 9px 0 0 0;
+}
+#correct{
+  background-color: #056705;
+  display: none;
+  margin:4px 0 0 0;
+  padding: 9px 0 0 0;
+}
+#previous{
+  position:fixed;
+  left:10px;
+  bottom:10px;
+  background-color: #443D7A;
+  padding:9px 0 0 0;
+}
+#next{
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  background-color: #443D7A;
+  padding:9px 0 0 0;
+}
+/* Add these styles to your existing CSS */
+
+.selected {
+    border: 2px solid #FFD700; /* Highlight color for selected option */
+}
+
+.selected.wrong {
+    border: 2px solid #FF0000; /* Highlight color for selected wrong option */
+}
+
+#submit {
+    transition: background-color 0.3s ease;
+}
+
+#submit.correct {
+    background-color: #056705; /* Color for correct answer */
+}
+
+#submit.wrong {
+    background-color: #854848; /* Color for wrong answer */
+}
+/* Add these styles to your existing CSS */
+
+.show-results #submit {
+    display: none;
+}
+
+.show-results #next,
+.show-results #previous {
+    display: none;
+}
+
+/* Add the following style for the disabled state of the buttons */
+#submit:disabled,
+#next:disabled {
+    opacity: 0.5;
+}
+
+/* Add style for the correct border */
+.correct-border {
+    border: 2px solid green; /* Change to your desired color */
+}
+
+/* Add these styles for the restart button */
+button {
+    padding: 10px;
+    background-color: #443D7A; /* Change to your desired color */
+    color: #ffffff; /* Text color */
+  font-family: myFont;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #635a9e; /* Change to your desired hover color */
+}
+
+
+
+
+

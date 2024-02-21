@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicProductMix" class="slide">
+        <h1>Product Mix</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Product Mix</h1>
+            <p>Product mix refers to the combination of products or services that a company offers to its customers. It includes all the product lines and items that a company sells.</p>
+        </div>
+        <div class="slide">
+            <h1>Components of Product Mix</h1>
+            <ul>
+                <li><b>Product Lines:</b> These are groups of related products that are sold by a company. For example, a clothing company may have product lines for men, women, and children.</li>
+                <li><b>Product Items:</b> These are individual products or services that are part of a product line. For example, within the men's clothing product line, there may be product items such as shirts, pants, and jackets.</li>
+                <li><b>Product Width:</b> This refers to the number of product lines that a company offers. A company with a wide product width offers a variety of product lines.</li>
+                <li><b>Product Depth:</b> This refers to the number of product items within a product line. A company with a deep product depth offers a wide range of choices within each product line.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Importance of Product Mix</h1>
+            <p>Product mix is important for businesses because it allows them to meet the diverse needs and preferences of their customers. It also helps businesses differentiate themselves from competitors and maximize sales and profits.</p>
+        </div>
+        <div class="slide">
+            <h1>Strategies for Managing Product Mix</h1>
+            <ul>
+                <li><b>Product Line Extensions:</b> Introducing new products or variations of existing products to expand the product line.</li>
+                <li><b>Product Line Pruning:</b> Removing products or product lines that are no longer profitable or aligned with the company's strategy.</li>
+                <li><b>Product Line Modernization:</b> Updating existing products to meet changing customer preferences or technological advancements.</li>
+                <li><b>Product Line Diversification:</b> Expanding into new product categories or markets to reduce risk and capture new opportunities.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Challenges in Managing Product Mix</h1>
+            <ul>
+                <li>Keeping up with changing customer preferences and market trends</li>
+                <li>Balancing the need for innovation with the need for stability</li>
+                <li>Managing costs and profitability of individual products</li>
+                <li>Coordinating marketing and sales efforts for diverse product lines</li>
+            </ul>
+        </div>
+    </div>
+    
+
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t8.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

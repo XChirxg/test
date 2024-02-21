@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicTypesEntrepreneurs" class="slide">
+        <h1>Types of Entrepreneurs</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Small Business Entrepreneurs</h1>
+            <p>Small business entrepreneurs are individuals who start and operate small-scale businesses. They are often involved in traditional sectors and focus on meeting local market needs.</p>
+        </div>
+        <div class="slide">
+            <h1>Scalable Start-up Entrepreneurs</h1>
+            <p>Scalable start-up entrepreneurs are individuals who pursue high-growth ventures with the potential for rapid expansion and scalability. They often seek investment to fuel growth and aim to capture larger market opportunities.</p>
+        </div>
+        <div class="slide">
+            <h1>Social Entrepreneurs</h1>
+            <p>Social entrepreneurs are individuals who address social or environmental issues through innovative business models. They prioritize social impact over profit and seek sustainable solutions to societal challenges.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t5.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

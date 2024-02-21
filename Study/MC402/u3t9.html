@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+
+    <div id="topicPlantEquipmentSelection" class="slide">
+        <h1>Selection of Plant and Equipment</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Importance of Plant and Equipment Selection</h1>
+            <p>The selection of appropriate plant and equipment is crucial for the efficient and effective operation of a manufacturing plant. It impacts the quality, cost, and productivity of the production process.</p>
+        </div>
+        <div class="slide">
+            <h1>Factors to Consider in Selection</h1>
+            <ul>
+                <li><b>Production Requirements:</b> The plant and equipment should be able to meet the production requirements in terms of quantity, quality, and efficiency.</li>
+                <li><b>Cost:</b> The cost of purchasing, installing, and maintaining the plant and equipment should be within budget and provide a favorable return on investment.</li>
+                <li><b>Technology:</b> The plant and equipment should incorporate the latest technology to improve efficiency, quality, and flexibility.</li>
+                <li><b>Quality and Reliability:</b> The plant and equipment should be of high quality and reliable to minimize downtime and maintenance costs.</li>
+                <li><b>Flexibility:</b> The plant and equipment should be flexible enough to adapt to changing production requirements and market conditions.</li>
+                <li><b>Environmental Impact:</b> The plant and equipment should comply with environmental regulations and minimize environmental impact.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Selection Process</h1>
+            <p>The selection process for plant and equipment typically involves the following steps:</p>
+            <ol>
+                <li>Assessing production requirements and technology needs</li>
+                <li>Identifying potential suppliers and equipment options</li>
+                <li>Evaluating equipment options based on criteria such as cost, quality, and technology</li>
+                <li>Selecting the most suitable equipment and negotiating terms with the supplier</li>
+                <li>Installing and commissioning the equipment</li>
+                <li>Training employees on the use and maintenance of the equipment</li>
+            </ol>
+        </div>
+        <div class="slide">
+            <h1>Examples of Plant and Equipment</h1>
+            <p>Plant and equipment can vary widely depending on the industry and production requirements. Some examples include:</p>
+            <ul>
+                <li>Machinery for manufacturing processes</li>
+                <li>Tools and equipment for assembly and packaging</li>
+                <li>Material handling equipment such as conveyor belts and forklifts</li>
+                <li>Quality control equipment such as testing machines and inspection tools</li>
+            </ul>
+        </div>
+    </div>
+      
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Unit</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

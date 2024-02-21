@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+
+    <div id="topicPERTandCPM" class="slide">
+        <h1>PERT and CPM</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Overview</h1>
+            <p>PERT (Program Evaluation and Review Technique) and CPM (Critical Path Method) are project management techniques used to plan and schedule complex projects. They help identify the critical path, which is the sequence of tasks that determines the minimum time needed to complete the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of PERT and CPM</h1>
+            <ul>
+                <li><b>Activity:</b> A specific task that needs to be completed as part of the project.</li>
+                <li><b>Node:</b> Represents a point in the project where one or more activities start or end.</li>
+                <li><b>Duration:</b> The time required to complete an activity.</li>
+                <li><b>Predecessor:</b> An activity that must be completed before another activity can start.</li>
+                <li><b>Successor:</b> An activity that cannot start until another activity has been completed.</li>
+                <li><b>Network Diagram:</b> A graphical representation of the project's activities and their dependencies.</li>
+                <li><b>Critical Path:</b> The longest path through the network diagram, which determines the minimum time required to complete the project.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Benefits of PERT and CPM</h1>
+            <ul>
+                <li>Help identify the critical path and prioritize tasks.</li>
+                <li>Enable better resource allocation and scheduling.</li>
+                <li>Facilitate communication and coordination among project team members.</li>
+                <li>Allow for the identification of potential delays and the implementation of corrective actions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Application of PERT and CPM in Project Management</h1>
+            <p>PERT and CPM are widely used in various industries, including construction, engineering, and information technology, to plan and manage projects efficiently. They are particularly useful for projects with complex and interdependent tasks.</p>
+        </div>
+        <div class="slide">
+            <h1>Limitations of PERT and CPM</h1>
+            <p>While PERT and CPM are effective tools for project management, they have some limitations, such as the assumption of fixed activity durations, which may not always reflect real-world conditions. Additionally, they require a significant amount of data and may be complex to implement for small projects.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t6.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+
+    <div id="topicMaterialsInputs" class="slide">
+        <h1>Materials and Inputs</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Materials and Inputs</h1>
+            <p>Materials and inputs refer to the resources required for production or operation of a business. They include raw materials, components, supplies, and other resources necessary for the manufacturing process.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Materials and Inputs</h1>
+            <ul>
+                <li><b>Raw Materials:</b> These are materials in their natural state that are used in the production process.</li>
+                <li><b>Components:</b> These are parts or sub-assemblies that are used in the assembly of a final product.</li>
+                <li><b>Supplies:</b> These are consumable items that are used in the operation of a business but do not become part of the final product.</li>
+                <li><b>Other Resources:</b> These include labor, machinery, tools, and equipment required for production.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Importance of Materials and Inputs</h1>
+            <p>Materials and inputs are essential for the production process. The availability and quality of materials can affect the cost, quality, and efficiency of production.</p>
+        </div>
+        <div class="slide">
+            <h1>Procurement of Materials and Inputs</h1>
+            <p>Businesses must carefully plan and manage the procurement of materials and inputs to ensure that they are available when needed and at the right price. This involves sourcing, purchasing, and inventory management.</p>
+        </div>
+        <div class="slide">
+            <h1>Cost Control and Efficiency</h1>
+            <p>Effective management of materials and inputs is essential for controlling costs and improving efficiency. This includes minimizing waste, optimizing inventory levels, and negotiating favorable terms with suppliers.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t6.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

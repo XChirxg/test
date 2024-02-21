@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+
+    <div id="topicSCBAIndia" class="slide">
+        <h1>SCBA in India</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Overview</h1>
+            <p>Social Cost-Benefit Analysis (SCBA) is a method used in India to assess the social and economic impacts of public policies and projects. It is used to evaluate whether the benefits of a project or policy outweigh its costs and to inform decision-making.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Components of SCBA in India</h1>
+            <ul>
+                <li><b>Identification of Costs and Benefits:</b> SCBA involves identifying and quantifying the costs and benefits of a project or policy. Costs may include investment costs, operating costs, and environmental costs. Benefits may include revenue generation, cost savings, and social benefits.</li>
+                <li><b>Valuation of Costs and Benefits:</b> Once costs and benefits are identified, they need to be valued in monetary terms. This involves estimating the monetary value of intangible benefits such as improved health or environmental quality.</li>
+                <li><b>Discounting:</b> Future costs and benefits are discounted to present value using a discount rate. This accounts for the fact that a rupee received or spent in the future is worth less than a rupee received or spent today.</li>
+                <li><b>Sensitivity Analysis:</b> SCBA often involves uncertainty, so sensitivity analysis is used to assess how changes in key assumptions or parameters affect the results of the analysis.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Applications of SCBA in India</h1>
+            <p>SCBA is used in India to assess a wide range of projects and policies, including infrastructure projects, social welfare programs, and environmental regulations. It helps policymakers make informed decisions about resource allocation and policy design.</p>
+        </div>
+        <div class="slide">
+            <h1>Challenges of SCBA in India</h1>
+            <p>Despite its usefulness, SCBA faces several challenges in India, including data limitations, valuation issues, and political considerations. Improving the quality and availability of data and ensuring transparency in the analysis process can help address some of these challenges.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

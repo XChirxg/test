@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicSourcesInformationMarketAnalysis" class="slide">
+        <h1>Sources of Information for Market Analysis</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Primary Sources of Information</h1>
+            <ul>
+                <li>Primary sources of information are those that provide firsthand data or information that has not been previously published.</li>
+                <li>Examples of primary sources include surveys, interviews, observations, and experiments conducted specifically for the purpose of the market analysis.</li>
+                <li>Primary sources provide original and specific data relevant to the market being analyzed.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Secondary Sources of Information</h1>
+            <ul>
+                <li>Secondary sources of information are those that provide data or information that has already been published or collected by others.</li>
+                <li>Examples of secondary sources include books, articles, reports, and databases that contain information relevant to the market analysis.</li>
+                <li>Secondary sources provide access to a wide range of data and information but may not be as specific or relevant as primary sources.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Uses of Primary and Secondary Sources</h1>
+            <ul>
+                <li>Primary sources are used to gather specific and detailed information directly from the market or target audience.</li>
+                <li>Secondary sources are used to gather background information, statistics, and trends related to the market.</li>
+                <li>Combining both primary and secondary sources provides a comprehensive and reliable basis for market analysis.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Importance of Sources of Information</h1>
+            <ul>
+                <li>The sources of information used for market analysis determine the quality and reliability of the analysis.</li>
+                <li>Using a combination of primary and secondary sources helps ensure that the analysis is based on accurate and up-to-date information.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

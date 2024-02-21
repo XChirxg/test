@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+    <div id="topicProjectReviewControl" class="slide">
+        <h1>Project Review/Control – Evaluation of Project</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Overview</h1>
+            <p>Project review and control involve monitoring and assessing a project's progress and performance to ensure it stays on track and meets its objectives. Evaluation of the project is a crucial part of this process, providing insights into its success and areas for improvement.</p>
+        </div>
+        <div class="slide">
+            <h1>Project Review</h1>
+            <p>Project review involves regularly reviewing the project's progress, milestones, and budget to identify any deviations from the plan. It helps in ensuring that the project stays on schedule and within budget.</p>
+        </div>
+        <div class="slide">
+            <h1>Project Control</h1>
+            <p>Project control involves taking corrective actions to address any issues identified during the project review process. This may include reallocating resources, revising timelines, or updating the project plan.</p>
+        </div>
+        <div class="slide">
+            <h1>Evaluation of Project</h1>
+            <p>Evaluation of the project is a comprehensive assessment of its performance, outcomes, and impact. It helps stakeholders understand the project's success and areas for improvement.</p>
+        </div>
+        <div class="slide">
+            <h1>Methods of Project Evaluation</h1>
+            <p>There are several methods for evaluating a project, including:</p>
+            <ul>
+                <li><b>Performance Metrics:</b> Using key performance indicators (KPIs) to measure progress and success.</li>
+                <li><b>Stakeholder Feedback:</b> Gathering feedback from project stakeholders to assess satisfaction and identify areas for improvement.</li>
+                <li><b>Lessons Learned:</b> Documenting and analyzing lessons learned from the project to inform future projects.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Benefits of Project Evaluation</h1>
+            <ul>
+                <li>Provides insights into project performance and outcomes.</li>
+                <li>Helps identify areas for improvement and best practices.</li>
+                <li>Facilitates informed decision-making about future projects.</li>
+                <li>Enhances accountability and transparency in project management.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Challenges of Project Evaluation</h1>
+            <ul>
+                <li>Defining clear and measurable project objectives and outcomes.</li>
+                <li>Collecting and analyzing relevant data for evaluation.</li>
+                <li>Ensuring the evaluation process is unbiased and transparent.</li>
+                <li>Interpreting and communicating evaluation results effectively to stakeholders.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Subject Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Subject</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "../index.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

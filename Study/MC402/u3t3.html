@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicMarketPlanning" class="slide">
+        <h1>Market Planning</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Market Planning</h1>
+            <p>Market planning is the process of creating a roadmap for achieving marketing objectives and goals. It involves analyzing the market, identifying target customers, and developing strategies to reach and satisfy those customers.</p>
+        </div>
+        <div class="slide">
+            <h1>Components of Market Planning</h1>
+            <ul>
+                <li><b>Market Analysis:</b> Understanding the market size, trends, and competitors.</li>
+                <li><b>Target Market Identification:</b> Identifying the specific segments of the market to target.</li>
+                <li><b>Marketing Mix Development:</b> Creating the product, price, place, and promotion strategies.</li>
+                <li><b>Implementation Plan:</b> Detailing how the marketing strategies will be executed.</li>
+                <li><b>Monitoring and Control:</b> Evaluating the performance of the marketing strategies and making adjustments as needed.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Importance of Market Planning</h1>
+            <p>Market planning helps businesses focus their efforts and resources on the most profitable opportunities. It also ensures that marketing activities are aligned with overall business objectives.</p>
+        </div>
+        <div class="slide">
+            <h1>Steps in Market Planning</h1>
+            <ol>
+                <li>Setting Objectives</li>
+                <li>Market Analysis</li>
+                <li>Target Market Identification</li>
+                <li>Developing Marketing Mix</li>
+                <li>Implementation</li>
+                <li>Monitoring and Control</li>
+            </ol>
+        </div>
+        <div class="slide">
+            <h1>Challenges of Market Planning</h1>
+            <ul>
+                <li>Changing market dynamics and competition</li>
+                <li>Uncertainty in consumer behavior</li>
+                <li>Resource constraints</li>
+                <li>Measuring the effectiveness of marketing strategies</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

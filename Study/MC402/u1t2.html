@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+        
+    <div id="topicRoleEntrepreneurship" class="slide">
+        <h1>Role of Entrepreneurship in Economic Development</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Importance of Entrepreneurship</h1>
+            <p>Entrepreneurship plays a critical role in driving economic development by stimulating innovation, creating employment opportunities, and fostering competition.</p>
+        </div>
+        <div class="slide">
+            <h1>Stimulating Innovation</h1>
+            <p>Entrepreneurs are often at the forefront of innovation, developing new products, services, and business models that drive technological advancement and economic growth.</p>
+        </div>
+        <div class="slide">
+            <h1>Creating Employment Opportunities</h1>
+            <p>Entrepreneurial ventures create jobs, reducing unemployment rates and providing individuals with opportunities for economic empowerment.</p>
+        </div>
+        <div class="slide">
+            <h1>Fostering Competition</h1>
+            <p>Entrepreneurship introduces new competitors into markets, stimulating competition and leading to increased efficiency, lower prices, and improved quality of goods and services.</p>
+        </div>
+        <div class="slide">
+            <h1>Driving Economic Growth</h1>
+            <p>Overall, entrepreneurship drives economic growth by increasing productivity, stimulating investment, and diversifying economic activities.</p>
+        </div>
+        <div class="slide">
+            <h1>Government Support</h1>
+            <p>Governments often support entrepreneurship through policies and programs that provide funding, training, and infrastructure to foster a conducive environment for entrepreneurial activity.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

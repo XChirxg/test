@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicPhasesProjectManagement" class="slide">
+        <h1>Phases in Project Management</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Initiation Phase</h1>
+            <p>The initiation phase is the first phase of project management, where the project is defined at a broad level. Project stakeholders are identified, and the project charter is created.</p>
+        </div>
+        <div class="slide">
+            <h1>Planning Phase</h1>
+            <p>In the planning phase, the project scope is defined in detail, along with the project objectives, deliverables, and timelines. A detailed project plan is created, outlining the resources, budget, and schedule.</p>
+        </div>
+        <div class="slide">
+            <h1>Execution Phase</h1>
+            <p>The execution phase is where the project plan is put into action. Tasks are assigned to team members, and project progress is monitored and controlled. This phase involves the most work and resources.</p>
+        </div>
+        <div class="slide">
+            <h1>Monitoring and Controlling Phase</h1>
+            <p>In this phase, project performance is monitored and measured against the project plan. Any deviations from the plan are identified and corrective actions are taken to keep the project on track.</p>
+        </div>
+        <div class="slide">
+            <h1>Closing Phase</h1>
+            <p>The closing phase is the final phase of project management, where the project is formally closed out. This involves completing any remaining deliverables, obtaining customer acceptance, and releasing project resources.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicDemandForecasting" class="slide">
+        <h1>Demand Forecasting</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Demand Forecasting</h1>
+            <p>Demand forecasting is the process of estimating the future demand for a product or service. It is an important aspect of market analysis and helps businesses make informed decisions regarding production, inventory, and pricing.</p>
+        </div>
+        <div class="slide">
+            <h1>Methods of Demand Forecasting</h1>
+            <ul>
+                <li><b>Qualitative Methods:</b> These methods are based on expert opinion, market surveys, and consumer behavior analysis. They are useful when historical data is not available or reliable.</li>
+                <li><b>Quantitative Methods:</b> These methods use historical data and statistical techniques to forecast demand. Examples include time series analysis, regression analysis, and econometric models.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Factors Affecting Demand Forecasting</h1>
+            <ul>
+                <li>Market trends and economic conditions</li>
+                <li>Consumer preferences and behavior</li>
+                <li>Competitor actions and market competition</li>
+                <li>Technological advancements and innovations</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Importance of Demand Forecasting</h1>
+            <p>Demand forecasting helps businesses anticipate market trends, plan production and inventory, and make pricing decisions. It also helps in resource allocation and budgeting.</p>
+        </div>
+        <div class="slide">
+            <h1>Challenges of Demand Forecasting</h1>
+            <ul>
+                <li>Uncertainty in market conditions and consumer behavior</li>
+                <li>Availability and accuracy of data</li>
+                <li>Complexity of forecasting methods</li>
+                <li>Changing business environment and competition</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

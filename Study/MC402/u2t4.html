@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicAppraisalCriteriaProcess" class="slide">
+        <h1>Appraisal Criteria and Process</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Appraisal</h1>
+            <p>Appraisal is the process of assessing the value or worth of a project or investment opportunity. It involves evaluating various criteria to determine the feasibility and potential return on investment of the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Appraisal Criteria</h1>
+            <p>Appraisal criteria are the standards or benchmarks used to evaluate the feasibility and potential success of a project. These criteria typically include financial viability, market demand, technical feasibility, and organizational capability.</p>
+        </div>
+        <div class="slide">
+            <h1>Appraisal Process</h1>
+            <p>The appraisal process involves several steps, including identifying the need for the appraisal, defining the appraisal objectives, gathering and analyzing relevant data, evaluating alternatives, and making recommendations based on the findings.</p>
+        </div>
+        <div class="slide">
+            <h1>Methods of Appraisal</h1>
+            <p>There are various methods of project appraisal, including payback period, net present value (NPV), internal rate of return (IRR), and profitability index. These methods help assess the financial viability and potential return on investment of the project.</p>
+        </div>
+        <div class="slide">
+            <h1>Importance of Appraisal</h1>
+            <p>Appraisal is important as it helps organizations make informed decisions about whether to pursue a project or investment opportunity. It provides a basis for allocating resources and mitigating risks.</p>
+        </div>
+        <div class="slide">
+            <h1>Example</h1>
+            <p>For example, a manufacturing company may conduct an appraisal of a new production facility. The appraisal would assess factors such as the cost of construction, expected revenue from the facility, and the payback period.</p>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t5.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

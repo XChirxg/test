@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+    <div id="topicCostProjectFinancing" class="slide">
+        <h1>Cost of Project and Means of Financing</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Cost of Project</h1>
+            <p>The cost of a project includes all the expenses incurred in setting up and running the project. It includes the cost of land, buildings, machinery, equipment, labor, materials, and overheads.</p>
+        </div>
+        <div class="slide">
+            <h1>Components of Project Cost</h1>
+            <ul>
+                <li><b>Fixed Capital:</b> This includes the cost of land, buildings, and machinery that are not expected to change over the life of the project.</li>
+                <li><b>Working Capital:</b> This includes the cost of raw materials, labor, and other expenses that are required for day-to-day operations of the project.</li>
+                <li><b>Preliminary and Preoperative Expenses:</b> These include expenses such as feasibility studies, project reports, legal expenses, and other pre-project expenses.</li>
+                <li><b>Contingency Fund:</b> This is a fund set aside to cover unexpected expenses or cost overruns during the project.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Means of Financing</h1>
+            <p>There are various means through which a project can be financed, including:</p>
+            <ul>
+                <li><b>Equity:</b> This involves raising capital by issuing shares to investors. It represents ownership in the company and does not need to be repaid.</li>
+                <li><b>Debt:</b> This involves borrowing money from lenders, such as banks or financial institutions, and repaying it with interest over time.</li>
+                <li><b>Internal Sources:</b> This includes funds generated from the company's operations, such as profits reinvested in the business.</li>
+                <li><b>Government Assistance:</b> This includes grants, subsidies, or tax incentives provided by the government to support the project.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Factors Influencing Financing Decision</h1>
+            <ul>
+                <li>Cost of Capital</li>
+                <li>Risk Profile of the Project</li>
+                <li>Availability of Funds</li>
+                <li>Term of Financing</li>
+                <li>Tax Considerations</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

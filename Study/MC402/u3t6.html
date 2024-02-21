@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicProductionTechnology" class="slide">
+        <h1>Production Technology</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition of Production Technology</h1>
+            <p>Production technology refers to the methods, techniques, and processes used in the manufacturing of products. It includes the use of machinery, tools, equipment, and labor to convert raw materials into finished goods.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Production Technology</h1>
+            <ul>
+                <li><b>Traditional Technology:</b> This includes methods that have been used for centuries and rely on manual labor and basic tools.</li>
+                <li><b>Modern Technology:</b> This includes advanced methods that utilize machinery, automation, and computer technology to improve efficiency and productivity.</li>
+                <li><b>Lean Manufacturing:</b> This is a production philosophy that focuses on reducing waste and increasing efficiency through continuous improvement.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Role of Production Technology in Business</h1>
+            <p>Production technology plays a crucial role in business operations by influencing the cost, quality, and efficiency of production. It also affects the competitiveness of a business in the market.</p>
+        </div>
+        <div class="slide">
+            <h1>Adoption of New Technologies</h1>
+            <p>Businesses must continually evaluate and adopt new production technologies to stay competitive and meet changing market demands. This involves investing in research and development, training employees, and upgrading equipment.</p>
+        </div>
+        <div class="slide">
+            <h1>Challenges in Production Technology</h1>
+            <ul>
+                <li>High initial investment costs</li>
+                <li>Integration with existing systems and processes</li>
+                <li>Training and skill development of employees</li>
+                <li>Maintaining and upgrading technology</li>
+            </ul>
+        </div>
+    </div>
+    
+
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t7.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

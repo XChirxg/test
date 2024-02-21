@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicFinancingSchemes" class="slide">
+        <h1>Financing Schemes of Financial Institutions</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Overview</h1>
+            <p>Financial institutions offer various financing schemes to help businesses raise capital for their projects and operations. These schemes are designed to meet the diverse financial needs of businesses and promote economic growth.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Financing Schemes</h1>
+            <p>Financial institutions offer a range of financing schemes, including:</p>
+            <ul>
+                <li><b>Term Loans:</b> Loans provided for a specific period, usually for the purchase of fixed assets or working capital needs.</li>
+                <li><b>Working Capital Loans:</b> Loans provided to finance day-to-day operations, such as purchase of raw materials and payment of wages.</li>
+                <li><b>Project Finance:</b> Financing provided for specific projects, with the project's cash flows and assets used as collateral.</li>
+                <li><b>Trade Finance:</b> Financing provided to facilitate international trade, such as letters of credit and export financing.</li>
+                <li><b>Asset-Based Financing:</b> Financing secured by the company's assets, such as inventory or accounts receivable.</li>
+                <li><b>Equity Financing:</b> Financing provided in exchange for ownership in the company, often used for startups and high-growth companies.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Benefits of Financing Schemes</h1>
+            <p>Financing schemes offered by financial institutions provide several benefits to businesses, including:</p>
+            <ul>
+                <li>Access to capital for growth and expansion</li>
+                <li>Flexible repayment terms</li>
+                <li>Competitive interest rates</li>
+                <li>Expertise and advice from financial professionals</li>
+                <li>Enhanced credibility with suppliers and customers</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Considerations for Choosing Financing Schemes</h1>
+            <p>When choosing a financing scheme, businesses should consider factors such as:</p>
+            <ul>
+                <li>Cost of financing</li>
+                <li>Terms and conditions</li>
+                <li>Repayment schedule</li>
+                <li>Collateral requirements</li>
+                <li>Impact on cash flow</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Unit</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

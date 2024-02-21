@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+        
+    <div id="topicEntrepreneurialDevelopmentLeadership" class="slide">
+        <h1>Entrepreneurial Development and Leadership</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Types of Startups</h1>
+            <p>Startups can be classified into different types based on their business models and target markets. Common types include technology startups, social impact startups, and lifestyle startups.</p>
+        </div>
+        <div class="slide">
+            <h1>Entrepreneurial Training</h1>
+            <p>Entrepreneurial training programs aim to equip individuals with the skills and knowledge needed to start and manage a successful business. These programs cover topics such as business planning, marketing, finance, and leadership.</p>
+        </div>
+        <div class="slide">
+            <h1>Entrepreneurship Development Programs</h1>
+            <p>Entrepreneurship development programs are initiatives that promote entrepreneurship and support aspiring entrepreneurs. These programs may include mentorship, networking opportunities, and access to funding.</p>
+        </div>
+        <div class="slide">
+            <h1>Characteristics of Entrepreneurial Leadership</h1>
+            <p>Entrepreneurial leadership is characterized by vision, innovation, risk-taking, and the ability to inspire and motivate others. Entrepreneurial leaders are often visionary thinkers who are able to identify and capitalize on opportunities.</p>
+        </div>
+        <div class="slide">
+            <h1>Components of Entrepreneurial Leadership</h1>
+            <p>Entrepreneurial leadership involves several key components, including strategic thinking, decision-making, resource management, and team building. Successful entrepreneurial leaders are able to balance these components effectively to drive their ventures forward.</p>
+        </div>
+    </div>
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t7.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

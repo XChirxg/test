@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicPlantLocationLayout" class="slide">
+        <h1>Plant Location and Layout</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Plant Location</h1>
+            <p>Plant location refers to the selection of a suitable site for establishing a manufacturing plant. It involves factors such as proximity to raw materials, access to transportation, availability of labor, and proximity to markets.</p>
+        </div>
+        <div class="slide">
+            <h1>Factors Influencing Plant Location</h1>
+            <ul>
+                <li><b>Proximity to Raw Materials:</b> Manufacturing plants are often located near sources of raw materials to reduce transportation costs.</li>
+                <li><b>Transportation Infrastructure:</b> Access to roads, railways, ports, and airports is important for transporting raw materials and finished goods.</li>
+                <li><b>Availability of Labor:</b> Plants are often located in areas with a skilled and cost-effective labor force.</li>
+                <li><b>Market Access:</b> Proximity to markets is important for reducing transportation costs and ensuring timely delivery to customers.</li>
+                <li><b>Government Policies:</b> Government incentives, regulations, and taxes can influence plant location decisions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Plant Layout</h1>
+            <p>Plant layout refers to the arrangement of machinery, equipment, and other facilities within a manufacturing plant. It aims to optimize workflow, minimize waste, and improve efficiency.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Plant Layout</h1>
+            <ul>
+                <li><b>Process Layout:</b> Machines and equipment are grouped based on the type of process they perform. This layout is suitable for job shops or small-scale production.</li>
+                <li><b>Product Layout:</b> Machines and equipment are arranged in a sequence to produce a specific product. This layout is suitable for high-volume production.</li>
+                <li><b>Fixed Position Layout:</b> The product remains stationary, and workers, materials, and equipment are brought to the product. This layout is suitable for large and bulky products.</li>
+                <li><b>Combination Layout:</b> A combination of process, product, and fixed position layouts to optimize different parts of the production process.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Factors Influencing Plant Layout</h1>
+            <ul>
+                <li>Production Process</li>
+                <li>Product Design</li>
+                <li>Volume and Variety of Production</li>
+                <li>Material Handling</li>
+                <li>Safety and Regulations</li>
+            </ul>
+        </div>
+    </div>
+    
+
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t9.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+
