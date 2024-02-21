@@ -13,18 +13,107 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const questions = [
         {
-            question: "Q1. This is the place for the first question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q1. What does the Capital Market Line (CML) represent?",
+            options: ["The set of efficient portfolios", "The set of all possible portfolios", "The set of risky portfolios", "The set of risk-free portfolios"],
             correctAnswer: 0,
         },
         {
-            question: "Q2. This is the place for the second question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q2. What is the Security Market Line (SML) used for?",
+            options: ["To evaluate the performance of individual stocks", "To predict market trends", "To calculate the risk-free rate", "To determine the expected return of an asset given its risk"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q3. How does the Capital Market Line (CML) differ from the Security Market Line (SML)?",
+            options: ["CML includes only risky assets, while SML includes both risky and risk-free assets", "CML represents the efficient portfolios, while SML represents all possible portfolios", "CML is a straight line, while SML is a curved line", "CML has a positive slope, while SML has a negative slope"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q4. What is the primary goal of the Capital Market Line (CML)?",
+            options: ["To determine the risk-free rate", "To identify the market risk premium", "To represent the risk-return tradeoff for efficient portfolios", "To predict market trends"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q5. What does the slope of the Capital Market Line (CML) represent?",
+            options: ["The risk-free rate", "The market risk premium", "The Sharpe ratio", "The standard deviation of the market index"],
             correctAnswer: 1,
         },
-    
-        // Add more questions as needed
+        {
+            question: "Q6. Which of the following statements is true about the Capital Market Line (CML)?",
+            options: ["It is a graphical representation of the efficient frontier", "It represents the set of all possible portfolios", "It is a straight line that connects the risk-free rate to the market portfolio", "It indicates the relationship between risk and return for individual securities"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q7. What is the main concept behind the Security Market Line (SML)?",
+            options: ["The relationship between risk and return for individual securities", "The relationship between risk and return for the market portfolio", "The relationship between risk and return for risk-free securities", "The relationship between risk and return for efficient portfolios"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q8. What is the risk-free rate used for in the context of the Security Market Line (SML)?",
+            options: ["To calculate the expected return of a portfolio", "To eliminate all risk from a portfolio", "To determine the market risk premium", "To evaluate company financials"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q9. How is the Security Market Line (SML) related to the Capital Market Line (CML)?",
+            options: ["They are parallel lines", "They intersect at the market portfolio", "They have the same slope", "They represent the same concept"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q10. What is the main concept behind the Capital Market Line (CML)?",
+            options: ["The relationship between risk and return for individual securities", "The relationship between risk and return for the market portfolio", "The relationship between risk and return for risk-free securities", "The relationship between risk and return for efficient portfolios"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q11. How is the Capital Market Line (CML) used in portfolio management?",
+            options: ["To calculate the risk-free rate", "To select the optimal portfolio with the highest Sharpe ratio", "To predict market trends", "To evaluate company financials"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q12. What is the relationship between the Security Market Line (SML) and the Capital Market Line (CML)?",
+            options: ["They are parallel lines", "They intersect at the market portfolio", "They have the same slope", "They represent the same concept"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q13. What does the slope of the Security Market Line (SML) represent?",
+            options: ["The risk-free rate", "The market risk premium", "The Sharpe ratio", "The standard deviation of the market index"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q14. How does the Security Market Line (SML) differ from the Capital Market Line (CML)?",
+            options: ["SML includes only risky assets, while CML includes both risky and risk-free assets", "SML represents the efficient portfolios, while CML represents all possible portfolios", "SML is a straight line, while CML is a curved line", "SML has a positive slope, while CML has a negative slope"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q15. What is the main advantage of using the Capital Market Line (CML) in portfolio management?",
+            options: ["It provides a clear indication of the market risk premium", "It helps in identifying overvalued securities", "It allows for the construction of efficient portfolios", "It eliminates all risk from a portfolio"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q16. How is the risk-free rate used in the Capital Market Line (CML)?",
+            options: ["To calculate the expected return of a portfolio", "To eliminate all risk from a portfolio", "To determine the market risk premium", "To evaluate company financials"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q17. What is the primary goal of the Security Market Line (SML)?",
+            options: ["To determine the risk-free rate", "To identify the market risk premium", "To represent the risk-return tradeoff for efficient portfolios", "To predict market trends"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q18. How is the Security Market Line (SML) used in portfolio management?",
+            options: ["To calculate the risk-free rate", "To select the optimal portfolio with the highest Sharpe ratio", "To predict market trends", "To evaluate company financials"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q19. What does the Security Market Line (SML) indicate about a security?",
+            options: ["Its risk level relative to the market", "Its risk level relative to the risk-free rate", "Its expected return relative to the market", "Its expected return relative to the risk-free rate"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q20. What is the main advantage of using the Security Market Line (SML) in portfolio management?",
+            options: ["It provides a clear indication of the market risk premium", "It helps in identifying overvalued securities", "It allows for the construction of efficient portfolios", "It eliminates all risk from a portfolio"],
+            correctAnswer: 0,
+        }
     ];
+    
 
     function updateQuestion() {
         const questionContainer = document.getElementById('question');

@@ -13,18 +13,108 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const questions = [
         {
-            question: "Q1. This is the place for the first question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q1. Which of the following is NOT a method for estimating the rate of return?",
+            options: ["Arithmetic mean return", "Geometric mean return", "Standard deviation return", "Capital market line"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q2. What does the standard deviation of a portfolio measure?",
+            options: ["The average return of the portfolio", "The risk of the portfolio", "The market risk of the portfolio", "The liquidity of the portfolio"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q3. Which model is used for Markowitz Risk-Return Optimization?",
+            options: ["Mean-variance analysis", "Capital asset pricing model", "Arbitrage pricing theory", "Modigliani-Miller theorem"],
             correctAnswer: 0,
         },
         {
-            question: "Q2. This is the place for the second question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
-            correctAnswer: 1,
+            question: "Q4. How is the performance of a portfolio evaluated?",
+            options: ["By comparing it with the returns of a single asset", "By comparing it with the returns of a risk-free asset", "By comparing it with a benchmark index", "By comparing it with the returns of a mutual fund"],
+            correctAnswer: 2,
         },
-    
-        // Add more questions as needed
+        {
+            question: "Q5. Which of the following is NOT a factor considered in evaluating the performance of a portfolio?",
+            options: ["Risk-adjusted return", "Sharpe ratio", "Standard deviation of individual assets", "Jensen's alpha"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q6. What factors should be considered in the investment policies of individuals?",
+            options: ["Risk tolerance and time horizon", "Income level and age", "Investment goals and financial obligations", "All of the above"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q7. Which of the following is a tax-saving scheme in India?",
+            options: ["National Pension Scheme (NPS)", "Public Provident Fund (PPF)", "Equity-linked Savings Scheme (ELSS)", "All of the above"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q8. What is the primary goal of estimating the rate of return?",
+            options: ["To maximize returns", "To minimize risk", "To estimate future earnings", "To evaluate performance"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q9. How is the standard deviation of a portfolio calculated?",
+            options: ["As the square root of the variance", "As the sum of the variances of individual assets", "As the average of the variances of individual assets", "As the square of the average of the variances of individual assets"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q10. Which of the following is a measure of risk-adjusted return?",
+            options: ["Beta", "Alpha", "Standard deviation", "Sharpe ratio"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q11. What is the purpose of the Markowitz Risk-Return Optimization model?",
+            options: ["To maximize returns", "To minimize risk", "To achieve a balance between risk and return", "To estimate future earnings"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q12. How is the performance of a portfolio compared to a benchmark index?",
+            options: ["By calculating the Sharpe ratio", "By calculating the Treynor ratio", "By calculating the Jensen's alpha", "By calculating the Information ratio"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q13. Which of the following is NOT a factor considered in evaluating the performance of a portfolio?",
+            options: ["Standard deviation", "Beta", "Alpha", "Liquidity of individual assets"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q14. What factors should be considered in the investment policies of individuals?",
+            options: ["Income level", "Age", "Risk tolerance", "All of the above"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q15. Which of the following is a tax-saving scheme in India?",
+            options: ["Employee Provident Fund (EPF)", "Sukanya Samriddhi Yojana (SSY)", "Senior Citizens Savings Scheme (SCSS)", "All of the above"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q16. What is the primary goal of estimating the rate of return?",
+            options: ["To maximize returns", "To minimize risk", "To estimate future earnings", "To evaluate performance"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q17. How is the standard deviation of a portfolio calculated?",
+            options: ["As the square root of the variance", "As the sum of the variances of individual assets", "As the average of the variances of individual assets", "As the square of the average of the variances of individual assets"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q18. Which of the following is a measure of risk-adjusted return?",
+            options: ["Beta", "Alpha", "Standard deviation", "Sharpe ratio"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q19. What is the purpose of the Markowitz Risk-Return Optimization model?",
+            options: ["To maximize returns", "To minimize risk", "To achieve a balance between risk and return", "To estimate future earnings"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q20. How is the performance of a portfolio compared to a benchmark index?",
+            options: ["By calculating the Sharpe ratio", "By calculating the Treynor ratio", "By calculating the Jensen's alpha", "By calculating the Information ratio"],
+            correctAnswer: 2,
+        }
     ];
+    
+    
 
     function updateQuestion() {
         const questionContainer = document.getElementById('question');

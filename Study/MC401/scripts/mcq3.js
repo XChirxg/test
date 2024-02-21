@@ -13,18 +13,108 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const questions = [
         {
-            question: "Q1. This is the place for the first question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q1. What is the Single Index Model (SIM) also known as?",
+            options: ["Market model", "CAPM", "Market portfolio", "Efficient market hypothesis"],
             correctAnswer: 0,
         },
         {
-            question: "Q2. This is the place for the second question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q2. What does the Single Index Model (SIM) seek to explain?",
+            options: ["The relationship between a security and the market", "The relationship between two securities", "The relationship between risk and return", "The relationship between different markets"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q3. Which of the following is NOT a component of total risk in a portfolio?",
+            options: ["Portfolio market risk", "Unique risk", "Systematic risk", "Market risk"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q4. What does portfolio market risk represent?",
+            options: ["The risk that can be eliminated through diversification", "The risk that is inherent in the market", "The risk that is specific to an individual security", "The risk that is specific to a portfolio"],
             correctAnswer: 1,
         },
-    
-        // Add more questions as needed
+        {
+            question: "Q5. What does unique risk represent?",
+            options: ["The risk that can be eliminated through diversification", "The risk that is inherent in the market", "The risk that is specific to an individual security", "The risk that is specific to a portfolio"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q6. Which of the following statements is true about the Single Index Model (SIM)?",
+            options: ["It uses multiple indices to explain stock returns", "It assumes that all stocks move together in the same direction", "It is based on the principle that a single index can represent the entire market", "It ignores market movements"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q7. What does portfolio total risk consist of?",
+            options: ["Systematic risk only", "Market risk only", "Unique risk only", "Both market risk and unique risk"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q8. Which of the following is a characteristic of unique risk?",
+            options: ["It can be eliminated through diversification", "It affects the entire market", "It is also known as market risk", "It is systematic in nature"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q9. What is the Simple Sharpe's Optimization Solution?",
+            options: ["A method for calculating the Sharpe ratio", "A method for optimizing portfolio returns", "A method for calculating portfolio risk", "A method for evaluating market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q10. What does the Single Index Model (SIM) assume about stock returns?",
+            options: ["Stock returns are independent of the market", "Stock returns are linearly related to the market", "Stock returns are inversely related to the market", "Stock returns are random"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q11. Which of the following is a component of total risk in a portfolio?",
+            options: ["Market risk", "Systematic risk", "Unique risk", "All of the above"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q12. What is portfolio market risk?",
+            options: ["The risk that can be eliminated through diversification", "The risk that is inherent in the market", "The risk that is specific to an individual security", "The risk that is specific to a portfolio"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q13. What does unique risk represent?",
+            options: ["The risk that can be eliminated through diversification", "The risk that is inherent in the market", "The risk that is specific to an individual security", "The risk that is specific to a portfolio"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q14. Which of the following statements is true about the Single Index Model (SIM)?",
+            options: ["It uses multiple indices to explain stock returns", "It assumes that all stocks move together in the same direction", "It is based on the principle that a single index can represent the entire market", "It ignores market movements"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q15. What does portfolio total risk consist of?",
+            options: ["Systematic risk only", "Market risk only", "Unique risk only", "Both market risk and unique risk"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q16. Which of the following is a characteristic of unique risk?",
+            options: ["It can be eliminated through diversification", "It affects the entire market", "It is also known as market risk", "It is systematic in nature"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q17. What is the Simple Sharpe's Optimization Solution?",
+            options: ["A method for calculating the Sharpe ratio", "A method for optimizing portfolio returns", "A method for calculating portfolio risk", "A method for evaluating market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q18. What does the Single Index Model (SIM) assume about stock returns?",
+            options: ["Stock returns are independent of the market", "Stock returns are linearly related to the market", "Stock returns are inversely related to the market", "Stock returns are random"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q19. Which of the following is a component of total risk in a portfolio?",
+            options: ["Market risk", "Systematic risk", "Unique risk", "All of the above"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q20. What is portfolio market risk?",
+            options: ["The risk that can be eliminated through diversification", "The risk that is inherent in the market", "The risk that is specific to an individual security", "The risk that is specific to a portfolio"],
+            correctAnswer: 1,
+        }
     ];
+    
+    
 
     function updateQuestion() {
         const questionContainer = document.getElementById('question');

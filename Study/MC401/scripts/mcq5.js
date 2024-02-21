@@ -13,18 +13,107 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const questions = [
         {
-            question: "Q1. This is the place for the first question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q1. What does the Arbitrage Pricing Theory (APT) suggest about asset pricing?",
+            options: ["Assets are always priced correctly", "Assets are sometimes mispriced", "Assets are always mispriced", "Asset pricing is random"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q2. What is the primary assumption of the Arbitrage Pricing Theory (APT)?",
+            options: ["Investors are risk-averse", "Markets are inefficient", "There are no arbitrage opportunities", "Asset prices follow a random walk"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q3. What is the key concept behind the Arbitrage Pricing Theory (APT)?",
+            options: ["The law of one price", "The principle of risk-return tradeoff", "The absence of arbitrage opportunities", "The efficient market hypothesis"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q4. How are two-factor and multi-factor models different from the Capital Asset Pricing Model (CAPM)?",
+            options: ["They use different risk measures", "They include more factors than just market risk", "They assume all investors are risk-averse", "They are based on different assumptions about market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q5. What is the main advantage of using a multi-factor model over a single-factor model?",
+            options: ["It is simpler to implement", "It provides a more comprehensive view of risk", "It guarantees higher returns", "It eliminates all risk from a portfolio"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q6. What is the Principle of Arbitrage?",
+            options: ["The idea that assets should be priced based on their intrinsic value", "The idea that riskier assets should have higher returns", "The idea that mispriced assets can be exploited for profit", "The idea that markets are always efficient"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q7. How are arbitrage portfolios constructed?",
+            options: ["By combining assets in a way that eliminates risk", "By buying undervalued assets and selling overvalued assets", "By diversifying across multiple asset classes", "By investing in high-risk, high-return assets"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q8. Which of the following is NOT an assumption of the Arbitrage Pricing Theory (APT)?",
+            options: ["Investors are rational", "Markets are efficient", "There are no transaction costs", "There are no arbitrage opportunities"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q9. How does the Arbitrage Pricing Theory (APT) differ from the Capital Asset Pricing Model (CAPM)?",
+            options: ["APT considers multiple factors affecting asset prices, while CAPM considers only market risk", "APT assumes all investors are risk-averse, while CAPM does not", "APT is based on the principle of arbitrage, while CAPM is based on the efficient market hypothesis", "APT is a single-factor model, while CAPM is a multi-factor model"],
             correctAnswer: 0,
         },
         {
-            question: "Q2. This is the place for the second question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q10. What does the Arbitrage Pricing Theory (APT) suggest about the relationship between risk and return?",
+            options: ["There is no relationship between risk and return", "There is a linear relationship between risk and return", "There is a non-linear relationship between risk and return", "There is an inverse relationship between risk and return"],
             correctAnswer: 1,
         },
-    
-        // Add more questions as needed
+        {
+            question: "Q11. How are two-factor and multi-factor models different from the Capital Asset Pricing Model (CAPM)?",
+            options: ["They use different risk measures", "They include more factors than just market risk", "They assume all investors are risk-averse", "They are based on different assumptions about market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q12. What is the main advantage of using a multi-factor model over a single-factor model?",
+            options: ["It is simpler to implement", "It provides a more comprehensive view of risk", "It guarantees higher returns", "It eliminates all risk from a portfolio"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q13. What is the Principle of Arbitrage?",
+            options: ["The idea that assets should be priced based on their intrinsic value", "The idea that riskier assets should have higher returns", "The idea that mispriced assets can be exploited for profit", "The idea that markets are always efficient"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q14. How are arbitrage portfolios constructed?",
+            options: ["By combining assets in a way that eliminates risk", "By buying undervalued assets and selling overvalued assets", "By diversifying across multiple asset classes", "By investing in high-risk, high-return assets"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q15. Which of the following is NOT an assumption of the Arbitrage Pricing Theory (APT)?",
+            options: ["Investors are rational", "Markets are efficient", "There are no transaction costs", "There are no arbitrage opportunities"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q16. How does the Arbitrage Pricing Theory (APT) differ from the Capital Asset Pricing Model (CAPM)?",
+            options: ["APT considers multiple factors affecting asset prices, while CAPM considers only market risk", "APT assumes all investors are risk-averse, while CAPM does not", "APT is based on the principle of arbitrage, while CAPM is based on the efficient market hypothesis", "APT is a single-factor model, while CAPM is a multi-factor model"],
+            correctAnswer: 0,
+        },
+        {
+            question: "Q17. What does the Arbitrage Pricing Theory (APT) suggest about the relationship between risk and return?",
+            options: ["There is no relationship between risk and return", "There is a linear relationship between risk and return", "There is a non-linear relationship between risk and return", "There is an inverse relationship between risk and return"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q18. What is the main advantage of using a multi-factor model over a single-factor model?",
+            options: ["It is simpler to implement", "It provides a more comprehensive view of risk", "It guarantees higher returns", "It eliminates all risk from a portfolio"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q19. What is the Principle of Arbitrage?",
+            options: ["The idea that assets should be priced based on their intrinsic value", "The idea that riskier assets should have higher returns", "The idea that mispriced assets can be exploited for profit", "The idea that markets are always efficient"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q20. How are arbitrage portfolios constructed?",
+            options: ["By combining assets in a way that eliminates risk", "By buying undervalued assets and selling overvalued assets", "By diversifying across multiple asset classes", "By investing in high-risk, high-return assets"],
+            correctAnswer: 1,
+        }
     ];
+    
 
     function updateQuestion() {
         const questionContainer = document.getElementById('question');

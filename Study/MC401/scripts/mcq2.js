@@ -13,18 +13,108 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const questions = [
         {
-            question: "Q1. This is the place for the first question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q1. What is the primary focus of fundamental analysis?",
+            options: ["Market trends", "Company's financials and management", "Price charts and patterns", "Market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q2. Which of the following is NOT a tool used in fundamental analysis?",
+            options: ["Income statement analysis", "Technical indicators", "Balance sheet analysis", "Cash flow statement analysis"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q3. What is the goal of technical analysis?",
+            options: ["To analyze company financials", "To predict future price movements based on past data", "To understand market trends", "To evaluate market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q4. Which of the following is a key assumption of the efficient market hypothesis?",
+            options: ["Investors always act rationally", "Market prices reflect all available information", "Past price movements can predict future price movements", "Markets are always in equilibrium"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q5. What does fundamental analysis primarily use to evaluate a stock?",
+            options: ["Price charts", "Technical indicators", "Company financials", "Market trends"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q6. Which of the following statements is true about fundamental analysis?",
+            options: ["It relies heavily on historical price data", "It is used to predict short-term price movements", "It focuses on the intrinsic value of a security", "It ignores company financials"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q7. What is a technical indicator used for in technical analysis?",
+            options: ["To analyze company financial statements", "To predict future price movements", "To understand market trends", "To evaluate market efficiency"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q8. According to the efficient market hypothesis, what happens if a stock is undervalued?",
+            options: ["It will be overbought", "It will be underbought", "It will be accurately priced", "It will be overvalued"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q9. Which form of market efficiency suggests that all historical prices are fully reflected in current market prices?",
+            options: ["Weak form", "Semi-strong form", "Strong form", "None of the above"],
             correctAnswer: 0,
         },
         {
-            question: "Q2. This is the place for the second question?",
-            options: ["Option A", "Option B", "Option C", "Option D"],
+            question: "Q10. What is the goal of fundamental analysis?",
+            options: ["To predict short-term price movements", "To analyze price charts and patterns", "To evaluate a company's intrinsic value", "To understand market trends"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q11. Which of the following is NOT a component of fundamental analysis?",
+            options: ["Balance sheet analysis", "Income statement analysis", "Technical indicator analysis", "Cash flow statement analysis"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q12. What does technical analysis primarily use to predict future price movements?",
+            options: ["Company financial statements", "Historical price and volume data", "Market trends", "Fundamental ratios"],
             correctAnswer: 1,
         },
-    
-        // Add more questions as needed
+        {
+            question: "Q13. Which of the following is a key principle of the efficient market hypothesis?",
+            options: ["Investors always act rationally", "Market prices reflect all available information", "Past price movements can predict future price movements", "Markets are always in equilibrium"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q14. What is the main focus of technical analysis?",
+            options: ["Market trends", "Company's financials and management", "Price charts and patterns", "Market efficiency"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q15. Which of the following statements is true about technical analysis?",
+            options: ["It relies heavily on company financial statements", "It is used to predict long-term price movements", "It focuses on market trends and psychology", "It ignores past price data"],
+            correctAnswer: 2,
+        },
+        {
+            question: "Q16. What is a key assumption of the efficient market hypothesis?",
+            options: ["Investors always act irrationally", "Market prices do not reflect all available information", "Past price movements can reliably predict future price movements", "Markets are not always in equilibrium"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q17. Which of the following is NOT a tool used in technical analysis?",
+            options: ["Moving averages", "Relative strength index (RSI)", "MACD histogram", "Income statement analysis"],
+            correctAnswer: 3,
+        },
+        {
+            question: "Q18. What does the efficient market hypothesis suggest about the possibility of consistently beating the market?",
+            options: ["It is possible with the right strategy", "It is impossible due to market efficiency", "It is possible with luck", "It is possible with insider information"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q19. Which form of market efficiency suggests that all public information is fully reflected in current market prices?",
+            options: ["Weak form", "Semi-strong form", "Strong form", "None of the above"],
+            correctAnswer: 1,
+        },
+        {
+            question: "Q20. What is the goal of technical analysis?",
+            options: ["To analyze price charts and patterns", "To evaluate a company's intrinsic value", "To predict short-term price movements", "To understand market trends"],
+            correctAnswer: 0,
+        }
     ];
+    
+    
 
     function updateQuestion() {
         const questionContainer = document.getElementById('question');
