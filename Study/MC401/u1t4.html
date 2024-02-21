@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+        
+    <div id="topicPortfolioPerformanceEvaluation" class="slide">
+        <h1>Portfolio Performance Evaluation</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Measures of Return</h1>
+            <p>There are several measures used to evaluate the performance of a portfolio:</p>
+            <ul>
+                <li><b>Total Return:</b> The sum of all returns from an investment, including capital gains and dividends, expressed as a percentage of the initial investment.</li>
+                <li><b>Annualized Return:</b> The average annual return of an investment over a specified period.</li>
+                <li><b>Cumulative Return:</b> The total return of an investment over a specified period.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Risk Adjusted Measures of Return</h1>
+            <p>These measures take into account the risk taken to achieve a certain level of return:</p>
+            <ul>
+                <li><b>Sharpe Ratio:</b> Measures the risk-adjusted return of a portfolio, calculated as the portfolio's excess return over the risk-free rate divided by the portfolio's standard deviation.</li>
+                <li><b>Treynor Ratio:</b> Similar to the Sharpe ratio, but uses beta as a measure of risk instead of standard deviation.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Market Timing</h1>
+            <p>Market timing refers to the strategy of moving in and out of the market or switching between different assets based on predictions about future market movements.</p>
+        </div>
+        <div class="slide">
+            <h1>Evaluation Criteria and Procedures</h1>
+            <p>There are several criteria and procedures used to evaluate the performance of a portfolio:</p>
+            <ul>
+                <li>Comparison with benchmark indices.</li>
+                <li>Peer group comparison.</li>
+                <li>Style analysis.</li>
+                <li>Performance attribution analysis.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Investment Policies of Individuals</h1>
+            <p>Individual investors may have different investment policies based on their risk tolerance, investment goals, and time horizon.</p>
+        </div>
+        <div class="slide">
+            <h1>Tax Saving Schemes in India</h1>
+            <p>There are several tax saving schemes available in India, such as Equity Linked Savings Scheme (ELSS), Public Provident Fund (PPF), National Pension System (NPS), and Tax-saving Fixed Deposits.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t5.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>

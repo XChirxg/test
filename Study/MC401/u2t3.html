@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicEfficientMarketHypothesis" class="slide">
+        <h1>Efficient Market Hypothesis</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>The Efficient Market Hypothesis (EMH) is a theory that states that asset prices reflect all available information and that it is impossible to consistently outperform the market by using any information that the market already knows.</p>
+        </div>
+        <div class="slide">
+            <h1>Forms of Efficient Market Hypothesis</h1>
+            <p>There are three forms of EMH:</p>
+            <ul>
+                <li><b>Weak Form:</b> Prices reflect all past market trading information, such as historical prices and trading volume. Technical analysis is not effective in this form.</li>
+                <li><b>Semi-Strong Form:</b> Prices reflect all publicly available information, including both past trading information and other public information such as earnings reports and news. Fundamental analysis is not effective in this form.</li>
+                <li><b>Strong Form:</b> Prices reflect all information, both public and private. No form of analysis or insider information can provide an edge in this form.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Implications of Efficient Market Hypothesis</h1>
+            <p>The EMH has several implications for investors:</p>
+            <ul>
+                <li>It suggests that it is difficult to consistently outperform the market through stock picking or market timing.</li>
+                <li>It implies that the best investment strategy is to hold a diversified portfolio of securities.</li>
+                <li>It suggests that the stock market is efficient and reflects all available information.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Criticisms of Efficient Market Hypothesis</h1>
+            <p>There are several criticisms of the EMH, including:</p>
+            <ul>
+                <li>It does not account for irrational behavior or market anomalies.</li>
+                <li>It assumes that all investors have the same access to information, which may not be true.</li>
+                <li>It does not explain why some investors are able to consistently outperform the market.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>The Efficient Market Hypothesis is a controversial theory that has important implications for investors and financial markets. While it suggests that it is difficult to beat the market, it has been the subject of much debate and criticism.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next UNIT</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC401.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

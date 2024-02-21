@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicArbitragePricingTheory" class="slide">
+        <h1>Arbitrage Pricing Theory</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Arbitrage Pricing Theory (APT) is an asset pricing theory that predicts the relationship between the expected return of a financial asset and its systematic risk factors. APT suggests that the expected return of an asset can be modeled as a linear function of various macroeconomic factors.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of Arbitrage Pricing Theory</h1>
+            <p>The key concepts of APT include:</p>
+            <ul>
+                <li><b>Systematic Risk Factors:</b> APT assumes that the expected return of an asset is influenced by multiple systematic risk factors, such as inflation, interest rates, and economic growth.</li>
+                <li><b>Arbitrage:</b> APT assumes that any deviations from the model's predicted return can be exploited through arbitrage, which involves buying and selling assets to take advantage of price differences.</li>
+                <li><b>Factor Sensitivities:</b> APT calculates the sensitivity of an asset's return to each systematic risk factor, known as factor sensitivities or factor loadings.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Calculation of Expected Return</h1>
+            <p>The expected return of an asset according to APT is calculated as follows:</p>
+            <p>\[ E(R) = R_f + \beta_1 \times RP_1 + \beta_2 \times RP_2 + ... + \beta_n \times RP_n \]</p>
+            <ul>
+                <li>Where \( E(R) \) is the expected return of the asset,</li>
+                <li>\( R_f \) is the risk-free rate,</li>
+                <li>\( \beta_1, \beta_2, ..., \beta_n \) are the factor sensitivities,</li>
+                <li>\( RP_1, RP_2, ..., RP_n \) are the risk premiums associated with each factor.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Implications of Arbitrage Pricing Theory</h1>
+            <p>Arbitrage Pricing Theory has several implications for investors:</p>
+            <ul>
+                <li>It suggests that asset prices are influenced by multiple factors, not just market risk.</li>
+                <li>It implies that investors can use APT to estimate the expected return of an asset based on its exposure to various systematic risk factors.</li>
+                <li>It highlights the importance of diversification to reduce the impact of specific risk factors on an investment portfolio.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Arbitrage Pricing Theory is a useful tool for understanding the relationship between risk and return in financial markets. By incorporating multiple systematic risk factors, APT provides a more comprehensive framework for asset pricing than traditional models like the Capital Asset Pricing Model (CAPM).</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

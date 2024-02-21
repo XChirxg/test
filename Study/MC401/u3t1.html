@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicPortfolioTotalRisk" class="slide">
+        <h1>Portfolio Total Risk</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Portfolio total risk refers to the overall risk associated with holding a portfolio of assets. It includes both systematic risk (market risk) and unsystematic risk (specific risk).</p>
+        </div>
+        <div class="slide">
+            <h1>Components of Portfolio Total Risk</h1>
+            <p>Portfolio total risk consists of two main components:</p>
+            <ul>
+                <li><b>Systematic Risk:</b> Also known as market risk, systematic risk is the risk that is inherent in the overall market and cannot be diversified away. It is caused by factors such as economic conditions, interest rates, and market sentiment.</li>
+                <li><b>Unsystematic Risk:</b> Also known as specific risk, unsystematic risk is the risk that is specific to an individual stock or asset and can be diversified away by holding a diversified portfolio. It includes factors such as company-specific events, management changes, and industry risks.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Measurement of Portfolio Total Risk</h1>
+            <p>Portfolio total risk can be measured using several metrics, including:</p>
+            <ul>
+                <li><b>Variance:</b> A statistical measure that indicates the extent to which the returns of a portfolio vary from the expected return. A higher variance indicates higher total risk.</li>
+                <li><b>Standard Deviation:</b> A measure of the dispersion of returns around the mean return. It is the square root of variance and provides a more intuitive measure of risk.</li>
+                <li><b>Beta:</b> A measure of the sensitivity of a portfolio's returns to changes in the market index. A higher beta indicates higher systematic risk.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Managing Portfolio Total Risk</h1>
+            <p>Portfolio total risk can be managed through diversification, which involves spreading investments across different asset classes, industries, and geographic regions. By diversifying, investors can reduce unsystematic risk and minimize the impact of individual asset performance on the overall portfolio.</p>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Portfolio total risk is an important concept in investment management, as it helps investors understand the overall risk associated with their investment portfolio. By managing total risk through diversification and other risk management strategies, investors can build a more stable and resilient portfolio.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

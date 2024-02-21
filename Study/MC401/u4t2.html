@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicSecurityMarketLine" class="slide">
+        <h1>Security Market Line</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>The Security Market Line (SML) is a graphical representation of the relationship between risk and return for individual securities. It is used to determine whether a security is undervalued or overvalued based on its expected return and its risk as measured by beta.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of Security Market Line</h1>
+            <p>The Security Market Line is based on the following key concepts:</p>
+            <ul>
+                <li><b>Beta:</b> A measure of the sensitivity of a security's returns to changes in the market index. Beta measures the systematic risk of a security.</li>
+                <li><b>Market Risk Premium:</b> The excess return that investors expect to receive for bearing the risk of investing in the market portfolio rather than the risk-free asset.</li>
+                <li><b>Capital Asset Pricing Model (CAPM):</b> A model that describes the relationship between risk and expected return and is used to determine the expected return of an asset given its beta and the market risk premium.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Calculation of Security Market Line</h1>
+            <p>The Security Market Line is calculated using the Capital Asset Pricing Model (CAPM) formula:</p>
+            <p>\[ E(R_i) = R_f + \beta_i(E(R_m) - R_f) \]</p>
+            <ul>
+                <li>Where \( E(R_i) \) is the expected return of security \( i \),</li>
+                <li>\( R_f \) is the risk-free rate,</li>
+                <li>\( \beta_i \) is the beta of security \( i \),</li>
+                <li>\( E(R_m) \) is the expected return of the market portfolio.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Interpretation of Security Market Line</h1>
+            <p>The Security Market Line helps investors determine whether a security is undervalued or overvalued based on its position relative to the line. A security that lies above the SML is considered undervalued, while a security that lies below the SML is considered overvalued.</p>
+        </div>
+        <div class="slide">
+            <h1>Implications of Security Market Line</h1>
+            <p>The Security Market Line has several implications for investors:</p>
+            <ul>
+                <li>It provides a framework for evaluating the risk and return of individual securities.</li>
+                <li>It helps investors determine whether a security is priced appropriately based on its risk.</li>
+                <li>It can be used to make investment decisions and construct portfolios that are aligned with an investor's risk tolerance and investment goals.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>The Security Market Line is a useful tool for investors to evaluate the risk and return of individual securities. By understanding the concepts of the Security Market Line, investors can make more informed investment decisions and build portfolios that are optimized for risk and return.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

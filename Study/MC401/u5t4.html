@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+    <div id="topicArbitragePortfolios" class="slide">
+        <h1>Arbitrage Portfolios</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>An arbitrage portfolio is a portfolio of assets constructed to exploit pricing inefficiencies in the market. Arbitrageurs create these portfolios to take advantage of mispricings and earn risk-free profits by buying and selling assets simultaneously at different prices.</p>
+        </div>
+        <div class="slide">
+            <h1>Construction of Arbitrage Portfolios</h1>
+            <p>Arbitrageurs construct portfolios by:</p>
+            <ul>
+                <li>Identifying assets that are mispriced relative to each other or to the market.</li>
+                <li>Buying the undervalued assets and selling the overvalued assets to take advantage of the price difference.</li>
+                <li>Adjusting the portfolio to ensure that it remains risk-free or nearly risk-free.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Types of Arbitrage Portfolios</h1>
+            <p>There are several types of arbitrage portfolios, including:</p>
+            <ul>
+                <li><b>Conversion Arbitrage:</b> Involves buying a convertible security and hedging the position by selling the underlying stock short to capture the price difference.</li>
+                <li><b>Merger Arbitrage:</b> Involves buying the stock of a target company in a merger and short selling the stock of the acquiring company to profit from the price difference when the merger is completed.</li>
+                <li><b>Index Arbitrage:</b> Involves buying or selling a basket of stocks to take advantage of discrepancies between the prices of the stocks and their corresponding index futures contracts.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Risk and Reward in Arbitrage Portfolios</h1>
+            <p>Arbitrage portfolios are typically considered low-risk, as they are designed to exploit pricing discrepancies rather than market movements. However, there is always a risk that the mispricing may not correct as expected, leading to potential losses for the arbitrageur.</p>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Arbitrage portfolios play an important role in financial markets by helping to ensure that prices remain efficient. By exploiting pricing inefficiencies, arbitrageurs contribute to the overall efficiency of markets and help prices reflect all available information.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Subject Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Subject</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "../index.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

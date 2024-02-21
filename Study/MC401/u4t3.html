@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicRiskFreeLendingBorrowings" class="slide">
+        <h1>Risk-Free Lending and Borrowings</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Risk-free lending and borrowings refer to transactions that involve no risk of default. In financial markets, risk-free lending and borrowings typically refer to transactions involving government securities or other highly rated securities.</p>
+        </div>
+        <div class="slide">
+            <h1>Risk-Free Rate</h1>
+            <p>The risk-free rate is the theoretical rate of return of an investment with no risk of financial loss. It is often approximated by the yield on government bonds, such as U.S. Treasury bonds, which are considered to be virtually risk-free.</p>
+        </div>
+        <div class="slide">
+            <h1>Use in Capital Market Theory</h1>
+            <p>Risk-free lending and borrowings play a crucial role in the Capital Asset Pricing Model (CAPM) and the calculation of the Security Market Line (SML). The risk-free rate is used as the proxy for the risk-free rate of return in these models.</p>
+        </div>
+        <div class="slide">
+            <h1>Implications for Portfolio Management</h1>
+            <p>For investors, risk-free lending and borrowings offer a benchmark against which to compare the risk and return of other investments. The risk-free rate serves as the minimum return that an investor should expect for taking on additional risk.</p>
+        </div>
+        <div class="slide">
+            <h1>Benefits of Risk-Free Lending and Borrowings</h1>
+            <p>Risk-free lending and borrowings provide several benefits, including:</p>
+            <ul>
+                <li>Providing a safe investment option for investors who prioritize capital preservation.</li>
+                <li>Serving as a benchmark for evaluating the performance of other investments.</li>
+                <li>Facilitating the pricing of other securities based on their risk relative to the risk-free rate.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Risk-free lending and borrowings are important concepts in finance, serving as a benchmark for evaluating the risk and return of other investments. By understanding the role of risk-free lending and borrowings, investors can make more informed investment decisions and build portfolios that are aligned with their risk tolerance and investment goals.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Unit</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC401.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

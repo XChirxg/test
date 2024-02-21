@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicSimpleSharpesOptimization" class="slide">
+        <h1>Simple Sharpe's Optimization Solution</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Simple Sharpe's Optimization Solution is a method used to determine the optimal portfolio allocation that maximizes the Sharpe ratio. The Sharpe ratio measures the risk-adjusted return of a portfolio and is calculated as the portfolio's excess return over the risk-free rate divided by the portfolio's standard deviation.</p>
+        </div>
+        <div class="slide">
+            <h1>Sharpe Ratio Formula</h1>
+            <p>The Sharpe ratio is calculated as follows:</p>
+            <p>\[ Sharpe Ratio = \frac{(R_p - R_f)}{\sigma_p} \]</p>
+            <ul>
+                <li>Where \( R_p \) is the portfolio return,</li>
+                <li>\( R_f \) is the risk-free rate,</li>
+                <li>\( \sigma_p \) is the portfolio standard deviation.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Simple Sharpe's Optimization Solution</h1>
+            <p>The Simple Sharpe's Optimization Solution involves constructing a portfolio that maximizes the Sharpe ratio by adjusting the allocation of assets in the portfolio. The optimal allocation is determined by finding the portfolio with the highest Sharpe ratio.</p>
+        </div>
+        <div class="slide">
+            <h1>Benefits of Simple Sharpe's Optimization</h1>
+            <p>Simple Sharpe's Optimization can help investors achieve better risk-adjusted returns by allocating their investments in a way that maximizes the Sharpe ratio. It can also help investors build more efficient portfolios that balance risk and return.</p>
+        </div>
+        <div class="slide">
+            <h1>Limitations of Simple Sharpe's Optimization</h1>
+            <p>Simple Sharpe's Optimization has some limitations, including:</p>
+            <ul>
+                <li>It assumes that historical returns and volatility will continue in the future, which may not always be the case.</li>
+                <li>It does not account for changes in market conditions or unexpected events that may impact the performance of the portfolio.</li>
+                <li>It relies on the accuracy of inputs, such as expected returns and volatility estimates, which may be subject to error.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Simple Sharpe's Optimization is a useful tool for investors seeking to build a portfolio that balances risk and return. By maximizing the Sharpe ratio, investors can construct portfolios that offer better risk-adjusted returns and improve their overall investment performance.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Unit</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC401.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

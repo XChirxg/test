@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicPortfolioUniqueRisk" class="slide">
+        <h1>Portfolio Unique Risk</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Portfolio unique risk, also known as unsystematic risk, is the risk that is specific to an individual stock or asset and can be diversified away by holding a diversified portfolio. It includes factors such as company-specific events, management changes, and industry risks.</p>
+        </div>
+        <div class="slide">
+            <h1>Measurement of Portfolio Unique Risk</h1>
+            <p>Portfolio unique risk can be measured using the standard deviation of a stock's returns. A higher standard deviation indicates higher unique risk, as it reflects the volatility of the stock's returns that is not related to market movements.</p>
+        </div>
+        <div class="slide">
+            <h1>Diversification and Portfolio Unique Risk</h1>
+            <p>Diversification is the key strategy for reducing portfolio unique risk. By holding a diversified portfolio that includes assets from different industries and geographic regions, investors can reduce the impact of individual stock events on the overall portfolio.</p>
+        </div>
+        <div class="slide">
+            <h1>Benefits of Diversifying Portfolio Unique Risk</h1>
+            <p>Diversifying portfolio unique risk has several benefits, including:</p>
+            <ul>
+                <li>Reducing the impact of company-specific events on the overall portfolio.</li>
+                <li>Improving risk-adjusted returns by spreading risk across different assets.</li>
+                <li>Enhancing portfolio stability and reducing volatility.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Portfolio unique risk is an important consideration for investors, as it highlights the need for diversification to reduce the impact of individual stock events on the overall portfolio. By diversifying their portfolios, investors can reduce risk and improve their chances of achieving their investment goals.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

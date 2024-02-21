@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicPrincipleOfArbitrage" class="slide">
+        <h1>Principle of Arbitrage</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>The Principle of Arbitrage is a fundamental concept in finance that states that in an efficient market, identical assets should have the same price. If the price of an asset is higher in one market than in another, investors can make a risk-free profit by buying the asset in the cheaper market and selling it in the more expensive market.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Arbitrage</h1>
+            <p>There are several types of arbitrage, including:</p>
+            <ul>
+                <li><b>Simple Arbitrage:</b> Involves buying and selling the same asset simultaneously in different markets to exploit price differences.</li>
+                <li><b>Triangular Arbitrage:</b> Involves trading three different currencies to exploit price discrepancies in the foreign exchange market.</li>
+                <li><b>Statistical Arbitrage:</b> Involves using quantitative models to identify and exploit mispricings in securities based on statistical analysis.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Role in Capital Markets</h1>
+            <p>The Principle of Arbitrage plays a crucial role in ensuring efficient pricing in capital markets. By exploiting price differences, arbitrageurs help align prices across markets and eliminate opportunities for risk-free profits, thereby increasing market efficiency.</p>
+        </div>
+        <div class="slide">
+            <h1>Arbitrage in Practice</h1>
+            <p>Arbitrage opportunities are rare in efficient markets due to the presence of arbitrageurs who quickly exploit any price discrepancies. However, arbitrage can still occur in less efficient markets or when new information is not immediately reflected in asset prices.</p>
+        </div>
+        <div class="slide">
+            <h1>Implications</h1>
+            <p>The Principle of Arbitrage has several implications for investors and market participants:</p>
+            <ul>
+                <li>It reinforces the idea that markets are efficient and that prices reflect all available information.</li>
+                <li>It highlights the importance of acting quickly on information to exploit potential arbitrage opportunities.</li>
+                <li>It demonstrates the role of arbitrageurs in maintaining market efficiency by ensuring that prices are aligned across markets.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>The Principle of Arbitrage is a foundational concept in finance that underpins market efficiency. By understanding the principles of arbitrage, investors can gain insights into how prices are determined in financial markets and how they can capitalize on pricing inefficiencies.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

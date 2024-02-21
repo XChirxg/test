@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicFundamentalAnalysis" class="slide">
+        <h1>Fundamental Analysis</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Fundamental analysis is a method of evaluating a security or investment by analyzing the intrinsic value of the asset. It involves studying various factors that can affect the value of the asset, such as the company's financial statements, industry trends, and macroeconomic factors.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of Fundamental Analysis</h1>
+            <p>There are several key concepts used in fundamental analysis, including:</p>
+            <ul>
+                <li><b>Financial Statements:</b> Analysis of a company's financial statements, including the balance sheet, income statement, and cash flow statement, to assess its financial health and performance.</li>
+                <li><b>Valuation:</b> Estimating the intrinsic value of a security based on its fundamentals, such as earnings, growth potential, and industry outlook.</li>
+                <li><b>Economic Indicators:</b> Monitoring macroeconomic indicators, such as GDP growth, inflation, and unemployment, to understand the broader economic environment.</li>
+                <li><b>Industry Analysis:</b> Studying the competitive dynamics and trends within an industry to assess the growth prospects of companies operating in that industry.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Methods of Fundamental Analysis</h1>
+            <p>There are two primary methods of conducting fundamental analysis:</p>
+            <ul>
+                <li><b>Top-down Analysis:</b> Starts with an analysis of the broader economy and industry trends before focusing on individual companies.</li>
+                <li><b>Bottom-up Analysis:</b> Starts with an analysis of individual companies and their financial health before considering broader economic and industry factors.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Tools and Techniques</h1>
+            <p>There are several tools and techniques used in fundamental analysis, including:</p>
+            <ul>
+                <li>Ratio analysis to assess financial performance and health.</li>
+                <li>Discounted cash flow (DCF) analysis to estimate the intrinsic value of a security.</li>
+                <li>Comparative analysis to compare a company's performance with its peers.</li>
+                <li>Qualitative analysis to assess non-financial factors, such as management quality and industry position.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Importance of Fundamental Analysis</h1>
+            <p>Fundamental analysis is important for investors as it helps them make informed investment decisions based on the underlying value of a security. It can also help identify undervalued or overvalued securities, allowing investors to capitalize on potential opportunities.</p>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Fundamental analysis is a key tool used by investors to assess the value of a security. By analyzing a company's financial statements, industry trends, and macroeconomic factors, investors can make informed decisions and achieve their investment goals.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

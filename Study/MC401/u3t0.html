@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicSingleIndexModel" class="slide">
+        <h1>Single Index Model or Market Model</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>The Single Index Model (SIM), also known as the Market Model, is a financial model that describes the relationship between the returns of a stock and the returns of the overall market. It is based on the premise that the returns of a stock can be explained by its sensitivity to market movements, as represented by a market index.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of Single Index Model</h1>
+            <p>The SIM is based on the following key concepts:</p>
+            <ul>
+                <li><b>Market Index:</b> A benchmark index that represents the overall market, such as the S&P 500.</li>
+                <li><b>Beta Coefficient:</b> A measure of the stock's sensitivity to market movements. It indicates how much the stock's return is expected to move for a given change in the market index.</li>
+                <li><b>Alpha:</b> A measure of the stock's excess return compared to its expected return based on the market index. A positive alpha indicates outperformance, while a negative alpha indicates underperformance.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Calculation of Single Index Model</h1>
+            <p>The SIM is calculated using the following formula:</p>
+            <p>\[ R_i = \alpha_i + \beta_i R_m + \epsilon_i \]</p>
+            <ul>
+                <li>Where \( R_i \) is the return of stock \( i \),</li>
+                <li>\( \alpha_i \) is the alpha of stock \( i \),</li>
+                <li>\( \beta_i \) is the beta coefficient of stock \( i \),</li>
+                <li>\( R_m \) is the return of the market index, and</li>
+                <li>\( \epsilon_i \) is the error term representing the stock's idiosyncratic risk.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Application of Single Index Model</h1>
+            <p>The SIM is used in portfolio management and asset pricing to:</p>
+            <ul>
+                <li>Estimate the expected return of a stock based on its beta coefficient.</li>
+                <li>Measure the risk-adjusted performance of a stock.</li>
+                <li>Construct efficient portfolios that balance risk and return based on the market index.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Limitations of Single Index Model</h1>
+            <p>While the SIM is a useful tool, it has some limitations, including:</p>
+            <ul>
+                <li>It assumes a linear relationship between stock returns and market returns, which may not always hold true.</li>
+                <li>It does not account for factors specific to individual stocks that may affect their returns.</li>
+                <li>It relies on historical data and may not accurately predict future returns.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>The Single Index Model or Market Model is a valuable tool for understanding the relationship between stock returns and market movements. While it has its limitations, it provides useful insights for portfolio management and asset pricing.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t1.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicCapitalMarketTheory" class="slide">
+        <h1>Capital Market Theory</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Capital Market Theory is a financial theory that describes the relationship between risk and return in the capital markets. It suggests that investors can achieve a higher return by taking on higher risk and that the expected return of an investment should be commensurate with its risk.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts of Capital Market Theory</h1>
+            <p>Capital Market Theory is based on the following key concepts:</p>
+            <ul>
+                <li><b>Efficient Market Hypothesis:</b> The theory that asset prices reflect all available information and that it is impossible to consistently outperform the market.</li>
+                <li><b>Risk and Return Tradeoff:</b> The principle that higher returns are associated with higher levels of risk, and that investors should be compensated for taking on additional risk.</li>
+                <li><b>Capital Market Line:</b> A line representing the risk-return tradeoff for a portfolio that consists of a risk-free asset and a risky portfolio of assets.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Capital Market Line (CML)</h1>
+            <p>The Capital Market Line is a graphical representation of the risk-return tradeoff for a portfolio that consists of a risk-free asset and a risky portfolio of assets. It shows the optimal combination of the risk-free asset and the risky portfolio to achieve the highest return for a given level of risk.</p>
+        </div>
+        <div class="slide">
+            <h1>Security Market Line (SML)</h1>
+            <p>The Security Market Line is a graphical representation of the relationship between risk and return for individual securities. It is used to determine whether a security is undervalued or overvalued based on its expected return and its risk as measured by beta.</p>
+        </div>
+        <div class="slide">
+            <h1>Implications of Capital Market Theory</h1>
+            <p>Capital Market Theory has several implications for investors:</p>
+            <ul>
+                <li>It suggests that diversification is important for reducing risk in a portfolio.</li>
+                <li>It implies that investors should be compensated for taking on additional risk.</li>
+                <li>It emphasizes the importance of understanding the risk-return tradeoff when making investment decisions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Capital Market Theory provides a framework for understanding the relationship between risk and return in the capital markets. By applying the principles of Capital Market Theory, investors can make more informed investment decisions and build portfolios that are aligned with their risk tolerance and investment goals.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

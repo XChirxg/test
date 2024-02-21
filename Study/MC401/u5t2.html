@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+        
+    <div id="topicTwoFactorMultiFactorModels" class="slide">
+        <h1>Two-Factor and Multi-Factor Models</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Two-Factor and Multi-Factor Models are asset pricing models that extend the Arbitrage Pricing Theory (APT) by incorporating additional systematic risk factors beyond the market factor. These models aim to provide a more accurate representation of the risk-return relationship for assets.</p>
+        </div>
+        <div class="slide">
+            <h1>Key Concepts</h1>
+            <p>The key concepts of Two-Factor and Multi-Factor Models include:</p>
+            <ul>
+                <li><b>Factor Selection:</b> These models identify and include additional factors that are believed to influence asset returns, such as interest rates, inflation, and industry-specific factors.</li>
+                <li><b>Factor Sensitivities:</b> Similar to APT, these models calculate the sensitivity of an asset's return to each factor, known as factor sensitivities or factor loadings.</li>
+                <li><b>Expected Return Calculation:</b> The expected return of an asset in these models is calculated as a linear combination of the factor sensitivities and their respective risk premiums.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Two-Factor Model</h1>
+            <p>The Two-Factor Model is an extension of APT that includes two systematic risk factors in addition to the market factor. These factors are chosen based on their ability to explain variations in asset returns beyond what is explained by the market factor.</p>
+        </div>
+        <div class="slide">
+            <h1>Multi-Factor Model</h1>
+            <p>The Multi-Factor Model expands on the Two-Factor Model by including multiple systematic risk factors. These factors are selected based on empirical evidence and economic theory to capture the various sources of risk that affect asset returns.</p>
+        </div>
+        <div class="slide">
+            <h1>Implications</h1>
+            <p>Two-Factor and Multi-Factor Models have several implications for investors:</p>
+            <ul>
+                <li>They provide a more comprehensive framework for asset pricing than single-factor models like the Capital Asset Pricing Model (CAPM).</li>
+                <li>They allow investors to better understand the sources of risk in their portfolios and make more informed investment decisions.</li>
+                <li>They can help investors construct more efficient portfolios that balance risk and return based on multiple factors.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Two-Factor and Multi-Factor Models enhance our understanding of the risk-return relationship in financial markets by incorporating additional systematic risk factors. By using these models, investors can improve their portfolio management strategies and potentially achieve better risk-adjusted returns.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz"> Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

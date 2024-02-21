@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicPortfolioMarketRisk" class="slide">
+        <h1>Portfolio Market Risk</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Definition</h1>
+            <p>Portfolio market risk, also known as systematic risk, is the risk that is inherent in the overall market and affects all investments to some degree. It cannot be diversified away and is caused by factors such as economic conditions, interest rates, and market sentiment.</p>
+        </div>
+        <div class="slide">
+            <h1>Measurement of Portfolio Market Risk</h1>
+            <p>Portfolio market risk can be measured using beta, which is a measure of the sensitivity of a portfolio's returns to changes in the market index. A beta of 1 indicates that the portfolio's returns move in line with the market, while a beta greater than 1 indicates higher volatility than the market, and a beta less than 1 indicates lower volatility than the market.</p>
+        </div>
+        <div class="slide">
+            <h1>Managing Portfolio Market Risk</h1>
+            <p>Portfolio market risk cannot be eliminated, but it can be managed through diversification and hedging strategies. Diversification involves spreading investments across different asset classes, industries, and geographic regions to reduce the impact of market movements on the overall portfolio. Hedging involves using financial instruments such as options and futures to offset potential losses from adverse market movements.</p>
+        </div>
+        <div class="slide">
+            <h1>Implications of Portfolio Market Risk</h1>
+            <p>Portfolio market risk has several implications for investors:</p>
+            <ul>
+                <li>It highlights the importance of diversification in reducing overall portfolio risk.</li>
+                <li>It suggests that investors should consider their risk tolerance and investment goals when constructing a portfolio.</li>
+                <li>It emphasizes the need for active portfolio management to respond to changing market conditions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Portfolio market risk is an important concept in investment management, as it helps investors understand the inherent risk in the overall market. By managing market risk through diversification and other risk management strategies, investors can build a more resilient portfolio that can withstand market fluctuations.</p>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
+

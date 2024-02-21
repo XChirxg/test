@@ -11,66 +11,64 @@
         <div id="progressBar"></div>
     </div>
     <br>
-    <div id="topicName" class="slide">
-        <h1>Topic Name</h1>
+    <div id="topicEstimatingStandardDeviation" class="slide">
+        <h1>Estimating Standard Deviation of Portfolio</h1>
         <!-- Add the name of the topic here -->
     </div>
-
+    
     <div id="slideContainer">
-
-
-
-
         <div class="slide">
-            <h1>History of Phones</h1>
-            <p>The first handheld mobile phone was invented by Martin Cooper of Motorola in 1973.</p>
-            <p>Over the years, phones have evolved significantly in terms of size, features, and functionality.</p>
+            <h1>Standard Deviation</h1>
+            <p>Standard deviation is a measure of the dispersion or spread of a set of values. In the context of a portfolio, it measures the volatility or risk of the portfolio.</p>
         </div>
         <div class="slide">
-            <h1>Features of Phones</h1>
+            <h1>Formula for Standard Deviation</h1>
+            <p>The formula to calculate standard deviation of a portfolio is:</p>
+            <p>Standard Deviation = √(∑(Weight of Asset i * (Standard Deviation of Asset i)²))</p>
+        </div>
+        <div class="slide">
+            <h1>Example</h1>
+            <p>Suppose you have a portfolio with two assets. Asset 1 has a weight of 0.6 and a standard deviation of 0.1, and Asset 2 has a weight of 0.4 and a standard deviation of 0.2. The standard deviation of the portfolio would be:</p>
+            <p>Standard Deviation = √(0.6 * (0.1)² + 0.4 * (0.2)²) = √(0.006 + 0.016) = √0.022 ≈ 0.1483</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Risk in Portfolio</h1>
             <ul>
-                <li>Communication: Allows for calling and texting.</li>
-                <li>Internet Connectivity: Provides access to the internet.</li>
-                <li>Camera: Equipped with cameras for capturing photos and videos.</li>
-                <li>Apps: Supports various applications for different purposes.</li>
-                <li>GPS: Includes GPS technology for navigation.</li>
+                <li><b>Systematic Risk:</b> Also known as market risk, it is the risk inherent to the entire market or market segment. It cannot be eliminated through diversification.</li>
+                <li><b>Unsystematic Risk:</b> Also known as specific risk, it is the risk that is specific to a particular company or industry. It can be reduced through diversification.</li>
             </ul>
         </div>
         <div class="slide">
-            <h1>Advantages of Phones</h1>
+            <h1>Need for Estimating Standard Deviation</h1>
+            <p>Estimating the standard deviation of a portfolio is important for investors to understand the risk associated with their investments and to make informed decisions about diversification.</p>
+        </div>
+        <div class="slide">
+            <h1>Nature/Features of Standard Deviation</h1>
             <ul>
-                <li>Communication: Facilitates easy communication with others.</li>
-                <li>Convenience: Provides access to information and services on the go.</li>
-                <li>Emergency Assistance: Can be used to seek help during emergencies.</li>
-                <li>Entertainment: Offers a wide range of entertainment options.</li>
-                <li>Productivity: Enhances productivity with organizational tools and apps.</li>
+                <li>Measures the volatility or risk of a portfolio.</li>
+                <li>Helps in assessing the diversification benefits of adding assets to a portfolio.</li>
             </ul>
         </div>
         <div class="slide">
-            <h1>Disadvantages of Phones</h1>
+            <h1>Advantages of Estimating Standard Deviation</h1>
             <ul>
-                <li>Distraction: Phones can be a source of distraction.</li>
-                <li>Addiction: Excessive phone use can lead to addiction.</li>
-                <li>Health Concerns: Concerns about radiation and mental health.</li>
-                <li>Privacy Concerns: Vulnerable to security breaches and privacy issues.</li>
-                <li>Social Impact: Impacts face-to-face interactions and social relationships.</li>
+                <li>Helps investors in managing risk by diversifying their portfolios.</li>
+                <li>Provides a quantitative measure of the risk associated with a portfolio.</li>
             </ul>
         </div>
         <div class="slide">
-            <h1>Types of Phones</h1>
+            <h1>Disadvantages of Estimating Standard Deviation</h1>
             <ul>
-                <li>Smartphones: Advanced phones with internet connectivity and app support.</li>
-                <li>Feature Phones: Basic phones with calling and texting capabilities.</li>
-                <li>Foldable Phones: Phones with flexible displays that can be folded.</li>
-                <li>Rugged Phones: Designed to withstand harsh environments.</li>
+                <li>Does not account for all types of risk, such as political or economic risk.</li>
+                <li>Relies on historical data, which may not always be indicative of future performance.</li>
             </ul>
         </div>
         <div class="slide">
-            <h1>Future of Phones</h1>
-            <p>The future of phones will bring advancements in technology such as 5G connectivity, AI integration, foldable displays, and more.</p>
+            <h1>Conclusion</h1>
+            <p>Estimating the standard deviation of a portfolio is essential for investors to manage risk and make informed decisions about diversification, but it should be used along with other measures of risk.</p>
         </div>
-
-
+    </div>
+    
 
         
         <!-- Add more slides as needed -->
@@ -87,7 +85,7 @@
             <h1>Completed!</h1>
             <p>Choose an option:</p>
             <button id="nextTopic">Next Topic</button>
-            <button id="takeQuiz">Take Quiz</button>
+            <button id="takeQuiz">Unit Quiz</button>
             <button id="allTopics">All Topics</button>
         </div>
     </div>
@@ -99,9 +97,9 @@
     <script src="scripts/learn.js"></script>
     <script>
         document.getElementById("nextTopic").addEventListener("click", nextTopic);
-        function nextTopic(){ window.location = "u1t2.html"; }
+        function nextTopic(){ window.location = "u1t3.html"; }
         document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
-        function takeQuiz(){ window.location = "quiz.html"; }
+        function takeQuiz(){ window.location = "quiz1.html"; }
         document.getElementById("allTopics").addEventListener("click", allTopics);
         function allTopics(){ window.location = "MC401.html"; }
 

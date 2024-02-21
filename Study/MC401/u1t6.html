@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicTaxSavingSchemes" class="slide">
+        <h1>Tax Saving Schemes in India</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Introduction</h1>
+            <p>Tax saving schemes in India are investment options that not only help individuals save tax but also offer opportunities for wealth creation. These schemes are regulated by the government and provide tax benefits under various sections of the Income Tax Act.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Tax Saving Schemes</h1>
+            <p>There are several tax saving schemes available in India, including:</p>
+            <ul>
+                <li><b>Equity Linked Savings Scheme (ELSS):</b> ELSS is a mutual fund scheme that invests primarily in equities. It offers tax benefits under Section 80C of the Income Tax Act.</li>
+                <li><b>Public Provident Fund (PPF):</b> PPF is a long-term savings scheme offered by the government. It offers tax-free returns and tax benefits under Section 80C.</li>
+                <li><b>National Pension System (NPS):</b> NPS is a pension scheme that offers tax benefits under Section 80CCD of the Income Tax Act.</li>
+                <li><b>Tax-saving Fixed Deposits:</b> Certain banks offer fixed deposits with a lock-in period of 5 years that offer tax benefits under Section 80C.</li>
+                <li><b>Unit Linked Insurance Plans (ULIPs):</b> ULIPs are insurance cum investment plans that offer tax benefits under Section 80C.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Benefits of Tax Saving Schemes</h1>
+            <p>Investing in tax saving schemes offers several benefits, including:</p>
+            <ul>
+                <li>Reducing taxable income and hence tax liability.</li>
+                <li>Building a corpus for long-term financial goals.</li>
+                <li>Enjoying tax-free returns or tax-deferred growth.</li>
+                <li>Encouraging regular savings and disciplined investing.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Considerations Before Investing</h1>
+            <p>Before investing in tax saving schemes, individuals should consider the following factors:</p>
+            <ul>
+                <li>Lock-in period of the scheme.</li>
+                <li>Expected returns and risk profile of the scheme.</li>
+                <li>Tax benefits available and their impact on overall tax planning.</li>
+                <li>Investment goals and liquidity needs.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Tax saving schemes in India offer individuals a way to save tax while also building wealth for the future. By understanding the various options available and considering their financial goals, individuals can make informed decisions and optimize their tax planning strategies.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next UNIT</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC401.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>

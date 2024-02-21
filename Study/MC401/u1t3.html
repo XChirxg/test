@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+        
+    <div id="topicMarkowitzOptimization" class="slide">
+        <h1>Markowitz Risk-Return Optimization</h1>
+        <!-- Add the name of the topic here -->
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Markowitz Portfolio Theory</h1>
+            <p>Markowitz Portfolio Theory, developed by Harry Markowitz, is a framework for constructing portfolios that optimally balance risk and return.</p>
+        </div>
+        <div class="slide">
+            <h1>Efficient Frontier</h1>
+            <p>The efficient frontier is the set of optimal portfolios that offer the highest expected return for a given level of risk, or the lowest risk for a given level of return.</p>
+        </div>
+        <div class="slide">
+            <h1>Formula for Markowitz Optimization</h1>
+            <p>The formula to calculate the optimal portfolio weights for a given set of assets is:</p>
+            <p>Weight of Asset i = (Expected Return of Asset i - Risk-Free Rate) / (Standard Deviation of Portfolio)</p>
+        </div>
+        <div class="slide">
+            <h1>Example</h1>
+            <p>Suppose you have two assets, Asset 1 and Asset 2, with expected returns of 10% and 15% respectively, and standard deviations of 5% and 10% respectively. If the risk-free rate is 3%, the optimal weights would be:</p>
+            <p>Weight of Asset 1 = (10% - 3%) / Standard Deviation of Portfolio</p>
+            <p>Weight of Asset 2 = (15% - 3%) / Standard Deviation of Portfolio</p>
+            <p>Given that the standard deviation of the portfolio is calculated as in the previous example, the weights can be calculated accordingly.</p>
+        </div>
+        <div class="slide">
+            <h1>Types of Portfolios</h1>
+            <ul>
+                <li><b>Minimum Variance Portfolio:</b> Portfolio with the lowest possible variance.</li>
+                <li><b>Tangency Portfolio:</b> Portfolio that lies on the efficient frontier and offers the highest Sharpe ratio.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Need for Markowitz Optimization</h1>
+            <p>Markowitz optimization helps investors in constructing portfolios that offer the best possible trade-off between risk and return, based on their risk preferences.</p>
+        </div>
+        <div class="slide">
+            <h1>Nature/Features of Markowitz Optimization</h1>
+            <ul>
+                <li>Focuses on diversification to reduce risk.</li>
+                <li>Uses historical data to estimate expected returns and standard deviations.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Advantages of Markowitz Optimization</h1>
+            <ul>
+                <li>Helps investors in constructing diversified portfolios.</li>
+                <li>Provides a systematic approach to balancing risk and return.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Disadvantages of Markowitz Optimization</h1>
+            <ul>
+                <li>Relies heavily on historical data, which may not always be reliable.</li>
+                <li>Assumes that the risk and return of assets can be accurately estimated, which may not always be the case.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Conclusion</h1>
+            <p>Markowitz Risk-Return Optimization provides a valuable framework for investors to construct portfolios that balance risk and return, but it should be used along with other measures and considerations to make informed investment decisions.</p>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC401.html"; }
+
+    </script>
+</body>
+</html>
