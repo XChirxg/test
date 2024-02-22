@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicEnvironmentalAwarenessSWOT" class="slide">
+        <h1>Environmental Awareness and SWOT Analysis</h1>
+        <ul>
+            <li>Environmental awareness involves understanding the external factors that may impact an organization's performance and decision-making.</li>
+            <li>SWOT analysis is a strategic planning tool used to identify an organization's strengths, weaknesses, opportunities, and threats.</li>
+            <li>Environmental awareness and SWOT analysis help organizations make informed decisions and develop effective strategies.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Environmental Awareness</h1>
+            <ul>
+                <li>External Factors: Economic, social, technological, legal, and environmental factors.</li>
+                <li>Impact on Business: Market trends, competitor behavior, regulatory changes.</li>
+                <li>Tools and Techniques: PESTLE analysis, Porter's Five Forces, scenario planning.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>SWOT Analysis</h1>
+            <ul>
+                <li>Strengths: Internal capabilities and resources that give an organization a competitive advantage.</li>
+                <li>Weaknesses: Internal limitations and challenges that may hinder the organization's performance.</li>
+                <li>Opportunities: External factors that the organization could exploit to its advantage.</li>
+                <li>Threats: External factors that could pose a risk to the organization's success.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Using SWOT Analysis for Strategic Planning</h1>
+            <ul>
+                <li>Developing Strategies: Matching strengths with opportunities, addressing weaknesses, mitigating threats.</li>
+                <li>Setting Objectives: Aligning strategies with organizational objectives.</li>
+                <li>Monitoring and Evaluation: Regularly reviewing and updating the SWOT analysis.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

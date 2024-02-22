@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicFinancialAnalysisFailure" class="slide">
+        <h1>Financial Analysis and Predicting Company Failure</h1>
+        <ul>
+            <li>Financial analysis involves assessing an organization's financial health and performance.</li>
+            <li>Predicting company failure requires analyzing financial statements and using financial ratios to identify warning signs of potential failure.</li>
+            <li>Financial analysis helps stakeholders make informed decisions about investing, lending, or doing business with a company.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Financial Analysis</h1>
+            <ul>
+                <li>Types of Financial Statements: Income statement, balance sheet, cash flow statement.</li>
+                <li>Financial Ratios: Liquidity ratios, profitability ratios, solvency ratios, efficiency ratios.</li>
+                <li>Common Size Analysis: Expressing financial statement items as percentages of a base item.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Predicting Company Failure</h1>
+            <ul>
+                <li>Signs of Financial Distress: Declining profitability, liquidity problems, high debt levels.</li>
+                <li>Altman Z-Score: A formula for predicting bankruptcy based on financial ratios.</li>
+                <li>Other Predictive Models: Logit models, discriminant analysis.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Using Financial Analysis for Decision Making</h1>
+            <ul>
+                <li>Investment Decisions: Assessing the financial health of potential investments.</li>
+                <li>Lending Decisions: Evaluating the creditworthiness of borrowers.</li>
+                <li>Business Strategy: Identifying areas for improvement and strategic decision-making.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

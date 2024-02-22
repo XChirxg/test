@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicEVRCongruence" class="slide">
+        <h1>EV-R Congruence</h1>
+        <ul>
+            <li>EV-R Congruence is a strategic management model that focuses on aligning the elements of an organization's strategy, structure, processes, and people.</li>
+            <li>The model emphasizes the importance of congruence, or alignment, between these elements to achieve organizational effectiveness.</li>
+            <li>By aligning strategy, structure, processes, and people, organizations can enhance their performance and adapt to changing environments.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Elements of EV-R Congruence</h1>
+            <ul>
+                <li>Environment: External factors that impact the organization.</li>
+                <li>Values: Core beliefs and principles that guide the organization.</li>
+                <li>Resources: Tangible and intangible assets that the organization uses to achieve its goals.</li>
+                <li>Organizational Structure: Framework that defines how activities are coordinated and controlled.</li>
+                <li>Processes: Activities and workflows that transform inputs into outputs.</li>
+                <li>People: Individuals within the organization and their capabilities, skills, and motivations.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Benefits of EV-R Congruence</h1>
+            <ul>
+                <li>Enhanced organizational performance.</li>
+                <li>Improved decision-making and problem-solving.</li>
+                <li>Increased employee engagement and satisfaction.</li>
+                <li>Greater adaptability to change and uncertainty.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Implementing EV-R Congruence</h1>
+            <ul>
+                <li>Assessing current alignment between strategy, structure, processes, and people.</li>
+                <li>Identifying areas for improvement and developing action plans.</li>
+                <li>Implementing changes and monitoring their impact on organizational effectiveness.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t6.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicCorporateStrategicManagement" class="slide">
+        <h1>Strategic Management at the Corporate Level</h1>
+        <ul>
+            <li>Strategic management at the corporate level involves developing and implementing strategies that guide the overall direction and growth of a company.</li>
+            <li>Corporate-level strategies are concerned with issues such as portfolio management, resource allocation, and synergy among business units.</li>
+            <li>Understanding strategic management at the corporate level is essential for top executives and board members.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Portfolio Management</h1>
+            <ul>
+                <li>Managing a portfolio of businesses to achieve overall corporate objectives.</li>
+                <li>Includes decisions on which businesses to invest in, grow, or divest.</li>
+                <li>Strategic analysis of each business unit's performance and potential.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Resource Allocation</h1>
+            <ul>
+                <li>Allocating resources such as capital, talent, and technology among different business units.</li>
+                <li>Ensuring that resources are aligned with corporate strategy and objectives.</li>
+                <li>Balancing short-term and long-term resource needs.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Synergy Among Business Units</h1>
+            <ul>
+                <li>Creating synergies among different parts of the organization to enhance overall performance.</li>
+                <li>Ensuring that business units collaborate and share resources effectively.</li>
+                <li>Identifying opportunities for cross-selling, cross-promotion, and cost-sharing.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Planning and Implementation</h1>
+            <ul>
+                <li>Developing corporate-level strategies and plans that align with the company's mission and vision.</li>
+                <li>Implementing strategies through effective communication, leadership, and monitoring.</li>
+                <li>Evaluating and adjusting strategies based on performance and market conditions.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

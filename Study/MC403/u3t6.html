@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+
+    <div id="topicStrategicConsolidation" class="slide">
+        <h1>Issues in Strategic Consolidation and Recovery</h1>
+        <ul>
+            <li>Strategic consolidation involves strengthening and optimizing a company's operations to improve efficiency and competitiveness.</li>
+            <li>Recovery strategies are implemented to overcome challenges and restore profitability.</li>
+            <li>Understanding the issues in strategic consolidation and recovery is essential for revitalizing a business.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Feasibility of Recovery</h1>
+            <ul>
+                <li>Assessing the feasibility of recovery strategies based on the current market conditions and internal capabilities.</li>
+                <li>Identifying potential barriers and challenges that may hinder the recovery process.</li>
+                <li>Developing a realistic and achievable recovery plan.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Retrenchment Strategies</h1>
+            <ul>
+                <li>Implementing retrenchment strategies to reduce costs and improve efficiency.</li>
+                <li>Strategies may include downsizing, restructuring, or divesting non-core assets.</li>
+                <li>Managing the impact of retrenchment on employees, stakeholders, and the organization's reputation.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Turnaround Strategies</h1>
+            <ul>
+                <li>Implementing turnaround strategies to reverse a decline in performance and restore profitability.</li>
+                <li>Strategies may include operational improvements, financial restructuring, and strategic repositioning.</li>
+                <li>Overcoming resistance to change and gaining buy-in from stakeholders.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Managing Recession</h1>
+            <ul>
+                <li>Developing strategies to navigate through economic downturns and recessions.</li>
+                <li>Strategies may include cost-cutting, diversification, and innovation.</li>
+                <li>Strengthening the organization's resilience to withstand future economic challenges.</li>
+            </ul>
+        </div>
+    </div>
+    
+      
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Unit</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

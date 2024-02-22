@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicStrategicOperationControl" class="slide">
+        <h1>Strategic Control and Operation Control</h1>
+        <ul>
+            <li>Strategic control involves monitoring the execution of a company's strategy and making adjustments to ensure its alignment with strategic goals.</li>
+            <li>Operation control, on the other hand, focuses on monitoring and managing day-to-day operations to ensure efficiency and effectiveness.</li>
+            <li>Both forms of control are essential for achieving strategic objectives and maintaining competitive advantage.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Strategic Control</h1>
+            <ul>
+                <li>Monitoring key performance indicators (KPIs) related to strategic objectives.</li>
+                <li>Assessing the external environment for changes that may impact the strategy.</li>
+                <li>Implementing corrective actions to realign strategy with changing conditions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Operation Control</h1>
+            <ul>
+                <li>Monitoring daily operations to ensure they are in line with organizational goals and standards.</li>
+                <li>Identifying and addressing operational issues that may impact efficiency and effectiveness.</li>
+                <li>Implementing process improvements to enhance operational performance.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Integration of Strategic and Operation Control</h1>
+            <ul>
+                <li>Ensuring that operational decisions support strategic objectives.</li>
+                <li>Aligning operational processes with strategic goals to maximize efficiency and effectiveness.</li>
+                <li>Using feedback from operational performance to inform strategic decision-making.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t5.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

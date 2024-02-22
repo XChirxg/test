@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicStrategicAlternatives" class="slide">
+        <h1>Strategic Alternatives and Market Entry Strategies</h1>
+        <ul>
+            <li>Strategic alternatives are the different courses of action that an organization can take to achieve its objectives.</li>
+            <li>Market entry strategies are the methods by which a company enters a new market.</li>
+            <li>Understanding strategic alternatives and market entry strategies is crucial for strategic decision-making.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Strategic Alternatives</h1>
+            <ul>
+                <li>Market Penetration: Increasing market share in existing markets with existing products.</li>
+                <li>Market Development: Entering new markets with existing products.</li>
+                <li>Product Development: Introducing new products to existing markets.</li>
+                <li>Diversification: Entering new markets with new products.</li>
+                <li>Acquisition: Acquiring other companies to expand market presence.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Market Entry Strategies</h1>
+            <ul>
+                <li>Exporting: Selling products or services to foreign markets.</li>
+                <li>Licensing: Allowing a foreign company to use intellectual property in exchange for royalties.</li>
+                <li>Joint Venture: Partnering with a local company to enter a new market.</li>
+                <li>Direct Investment: Establishing a presence in a foreign market through ownership or control.</li>
+                <li>Franchising: Granting a franchisee the right to operate a business using your brand and business model.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Factors Influencing Strategic Alternatives and Market Entry Strategies</h1>
+            <ul>
+                <li>Market Dynamics: Size, growth rate, competition.</li>
+                <li>Resource Availability: Capital, technology, human resources.</li>
+                <li>Risk Tolerance: Willingness to take on risk.</li>
+                <li>Regulatory Environment: Laws and regulations governing the industry.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t5.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

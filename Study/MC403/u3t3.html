@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicPlanningCorporateStrategy" class="slide">
+        <h1>Planning and Creating Corporate Strategy</h1>
+        <ul>
+            <li>Corporate strategy is the overarching plan that defines the direction and scope of an organization to achieve its objectives.</li>
+            <li>Planning and creating an effective corporate strategy involves assessing the internal and external environment, setting goals, and formulating action plans.</li>
+            <li>Understanding the process of planning and creating corporate strategy is essential for strategic management.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Strategic Planning Process</h1>
+            <ul>
+                <li>Environmental Analysis: Assessing the internal and external factors that may impact the organization.</li>
+                <li>Goal Setting: Defining the long-term objectives and direction of the organization.</li>
+                <li>Strategy Formulation: Developing strategies to achieve the organization's goals.</li>
+                <li>Strategy Implementation: Putting the strategies into action through resource allocation and organizational alignment.</li>
+                <li>Strategy Evaluation: Monitoring and evaluating the effectiveness of the strategies.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Corporate Strategy Models</h1>
+            <ul>
+                <li>Porter's Generic Strategies: Cost leadership, differentiation, and focus.</li>
+                <li>Ansoff Matrix: Market penetration, market development, product development, and diversification.</li>
+                <li>SWOT Analysis: Identifying strengths, weaknesses, opportunities, and threats to formulate strategy.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Creating Action Plans</h1>
+            <ul>
+                <li>Setting Priorities: Determining which strategies to prioritize based on resource availability and impact.</li>
+                <li>Assigning Responsibilities: Allocating tasks and responsibilities to individuals or teams.</li>
+                <li>Establishing Timelines: Setting deadlines and milestones to track progress.</li>
+                <li>Monitoring and Adjusting: Regularly reviewing performance and making adjustments as needed.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

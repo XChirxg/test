@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicBusinessPolicyGenesis" class="slide">
+        <h1>Business Policy and Genesis of Strategic Management and Business Policy</h1>
+        <ul>
+            <li>Business policy refers to the guidelines, principles, and rules of conduct formulated by an organization to achieve its long-term goals.</li>
+            <li>Strategic management and business policy are closely related disciplines that focus on the formulation and implementation of strategies to achieve organizational objectives.</li>
+            <li>The genesis of strategic management and business policy can be traced back to the early 20th century, with the emergence of formalized strategic planning processes in organizations.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Evolution of Strategic Management</h1>
+            <ul>
+                <li>Early Management Thought: Frederick Taylor's scientific management principles.</li>
+                <li>Classical Management Theories: Fayol's principles of management, Weber's bureaucratic theory.</li>
+                <li>Modern Management Theories: Drucker's management by objectives (MBO), Chandler's structure follows strategy.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Planning Process</h1>
+            <ul>
+                <li>Environmental Analysis: Assessing internal and external factors that may impact the organization.</li>
+                <li>Strategy Formulation: Developing strategies based on the analysis of the organization's strengths, weaknesses, opportunities, and threats (SWOT).</li>
+                <li>Strategy Implementation: Executing the chosen strategies through action plans and organizational initiatives.</li>
+                <li>Strategy Evaluation: Assessing the effectiveness of strategies and making adjustments as needed.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Role of Business Policy</h1>
+            <ul>
+                <li>Provides a framework for decision-making and action within the organization.</li>
+                <li>Helps align individual and departmental goals with the overall objectives of the organization.</li>
+                <li>Ensures consistency and coherence in decision-making across the organization.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t9.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

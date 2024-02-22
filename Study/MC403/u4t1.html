@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+    <div id="topicCorporateManagementStyles" class="slide">
+        <h1>Styles of Corporate Management</h1>
+        <ul>
+            <li>Corporate management styles refer to the approaches and philosophies that guide how a company is run and managed.</li>
+            <li>Different styles of corporate management can have a significant impact on organizational culture, decision-making processes, and overall performance.</li>
+            <li>Understanding the various styles of corporate management is important for effective leadership and organizational success.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Autocratic Management</h1>
+            <ul>
+                <li>Centralized decision-making by top management without input from subordinates.</li>
+                <li>Can lead to quick decision-making but may result in a lack of employee empowerment and motivation.</li>
+                <li>Common in hierarchical organizations with strict chains of command.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Democratic Management</h1>
+            <ul>
+                <li>Decision-making involves input from employees at all levels of the organization.</li>
+                <li>Encourages participation and collaboration but can be time-consuming.</li>
+                <li>Can lead to higher levels of employee satisfaction and engagement.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Laissez-Faire Management</h1>
+            <ul>
+                <li>Minimal intervention by management, allowing employees to make decisions independently.</li>
+                <li>Can foster creativity and innovation but may result in a lack of direction and coordination.</li>
+                <li>Works best in organizations with highly skilled and motivated employees.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Transformational Management</h1>
+            <ul>
+                <li>Focuses on inspiring and motivating employees to achieve organizational goals.</li>
+                <li>Emphasizes communication, vision, and empowerment.</li>
+                <li>Can lead to high levels of employee engagement and organizational performance.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

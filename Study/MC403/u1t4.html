@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicAwarenessChange" class="slide">
+        <h1>Strategic Management: Awareness and Change</h1>
+        <ul>
+            <li>Awareness of strategic management involves understanding the importance of strategic planning and its impact on organizational success.</li>
+            <li>Change is a constant in strategic management, as organizations must adapt to new market conditions, technologies, and competitive pressures.</li>
+            <li>Strategic management helps organizations anticipate change, respond effectively, and stay competitive in dynamic environments.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Importance of Strategic Awareness</h1>
+            <ul>
+                <li>Enhances organizational performance and competitiveness.</li>
+                <li>Improves decision-making and resource allocation.</li>
+                <li>Increases adaptability to changing market conditions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Managing Change in Strategic Management</h1>
+            <ul>
+                <li>Recognizing the need for change based on environmental scans and performance evaluations.</li>
+                <li>Implementing change through strategic initiatives and organizational restructuring.</li>
+                <li>Evaluating the effectiveness of change efforts and making adjustments as needed.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Change Models</h1>
+            <ul>
+                <li>Lewin's Change Management Model: Unfreeze, Change, Refreeze.</li>
+                <li>Kotter's 8-Step Change Model: Create a Sense of Urgency, Form a Powerful Coalition, Create a Vision for Change, Communicate the Vision, Remove Obstacles, Create Short-Term Wins, Build on the Change, Anchor the Changes in Corporate Culture.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t5.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

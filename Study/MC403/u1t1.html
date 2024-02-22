@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+
+
+    
+
+
+    <div id="topicStrategicManagement" class="slide">
+        <h1>Strategic Management - Meaning and Process</h1>
+        <ul>
+            <li>Strategic management is the process of formulating and implementing strategies to achieve organizational goals.</li>
+            <li>It involves analyzing internal and external factors, setting objectives, and developing strategies.</li>
+            <li>The process includes strategy formulation, implementation, and evaluation to ensure the organization's long-term success.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Importance of Strategic Management</h1>
+            <ul>
+                <li>Helps organizations set clear goals and objectives.</li>
+                <li>Ensures efficient allocation of resources.</li>
+                <li>Adapts to changing market conditions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Key Components of Strategic Management</h1>
+            <ul>
+                <li>Strategic planning: Setting goals and objectives.</li>
+                <li>Implementation: Executing strategies.</li>
+                <li>Evaluation: Assessing strategy effectiveness.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Management Process</h1>
+            <ul>
+                <li>Environmental scanning: Analyzing internal and external factors.</li>
+                <li>Strategy formulation: Developing strategies based on analysis.</li>
+                <li>Strategy implementation: Executing strategies.</li>
+                <li>Strategy evaluation: Assessing strategy effectiveness.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

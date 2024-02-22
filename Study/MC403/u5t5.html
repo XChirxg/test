@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+    <div id="topicStrategicEvaluationControlTechniques" class="slide">
+        <h1>Techniques of Strategic Evaluation and Control</h1>
+        <ul>
+            <li>Various techniques are used for strategic evaluation and control to assess the performance of a company's strategy and make informed decisions.</li>
+            <li>These techniques help in identifying strengths, weaknesses, opportunities, and threats (SWOT analysis), and measuring progress against strategic goals.</li>
+            <li>Effective use of these techniques can enhance strategic planning and decision-making processes.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>SWOT Analysis</h1>
+            <ul>
+                <li>Assessing the internal strengths and weaknesses of the organization and the external opportunities and threats it faces.</li>
+                <li>Helps in identifying strategic issues and developing strategies to address them.</li>
+                <li>Provides a framework for decision-making and strategy formulation.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Balanced Scorecard</h1>
+            <ul>
+                <li>Measuring organizational performance across four key perspectives: financial, customer, internal business processes, and learning and growth.</li>
+                <li>Provides a balanced view of organizational performance and helps in aligning strategic objectives with operational activities.</li>
+                <li>Facilitates communication and understanding of strategic objectives throughout the organization.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Key Performance Indicators (KPIs)</h1>
+            <ul>
+                <li>Quantifiable measures used to evaluate the success of an organization in achieving its strategic objectives.</li>
+                <li>Help in monitoring progress, identifying areas for improvement, and making informed decisions.</li>
+                <li>Should be aligned with strategic goals and relevant to the organization's objectives.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Benchmarking</h1>
+            <ul>
+                <li>Comparing organizational performance against industry best practices or competitors.</li>
+                <li>Helps in identifying areas where the organization can improve and setting performance targets.</li>
+                <li>Provides insights into how other organizations achieve success and informs strategic decision-making.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Subject Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Subject</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "../index.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

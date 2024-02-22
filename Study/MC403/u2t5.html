@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicValueChainAdvantage" class="slide">
+        <h1>Value Chain and Competitive Advantage</h1>
+        <ul>
+            <li>The value chain is a framework that describes the activities that an organization performs to deliver valuable products or services to customers.</li>
+            <li>Competitive advantage can be achieved by optimizing the value chain to reduce costs or differentiate products/services.</li>
+            <li>Understanding the value chain helps organizations identify opportunities for efficiency improvements and innovation.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Value Chain Activities</h1>
+            <ul>
+                <li>Inbound Logistics: Receiving, storing, and distributing inputs.</li>
+                <li>Operations: Transforming inputs into finished products or services.</li>
+                <li>Outbound Logistics: Distributing finished products or services to customers.</li>
+                <li>Marketing and Sales: Promoting and selling products or services.</li>
+                <li>Service: Providing customer support and after-sales service.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Value Chain Analysis</h1>
+            <ul>
+                <li>Identifying Value Activities: Mapping out the organization's value chain activities.</li>
+                <li>Cost Advantage: Finding ways to perform value activities more efficiently than competitors.</li>
+                <li>Differentiation Advantage: Adding unique value to products or services through value activities.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Implications</h1>
+            <ul>
+                <li>Cost Leadership: Focusing on cost optimization in value chain activities.</li>
+                <li>Differentiation: Creating unique value in value chain activities to differentiate products or services.</li>
+                <li>Value Innovation: Redefining the value chain to create entirely new markets or industries.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Unit Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next UNIT</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "MC.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

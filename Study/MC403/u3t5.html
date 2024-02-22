@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+
+    <div id="topicStrategicGrowth" class="slide">
+        <h1>Issues in Strategic Growth</h1>
+        <ul>
+            <li>Strategic growth involves expanding a company's market presence, increasing revenue, and improving profitability.</li>
+            <li>There are several challenges and issues that companies may face in achieving strategic growth.</li>
+            <li>Understanding these issues is crucial for developing effective growth strategies.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Diversification and Acquisition</h1>
+            <ul>
+                <li>Diversification: Expanding into new markets or industries to reduce risk.</li>
+                <li>Acquisition: Merging with or acquiring other companies to achieve growth.</li>
+                <li>Challenges: Integration of new businesses, cultural differences, and financial risks.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Alliances and Joint Ventures</h1>
+            <ul>
+                <li>Strategic Alliances: Partnerships between companies to achieve mutual goals.</li>
+                <li>Joint Ventures: Collaborative ventures between two or more companies.</li>
+                <li>Challenges: Managing relationships, sharing resources, and aligning objectives.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Managing Growth</h1>
+            <ul>
+                <li>Scaling Operations: Expanding production, distribution, and sales capabilities.</li>
+                <li>Financial Management: Managing cash flow, working capital, and investment decisions.</li>
+                <li>Organizational Structure: Adapting the organizational structure to support growth.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t6.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

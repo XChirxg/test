@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+
+    <div id="topicStrategicEvaluationControl" class="slide">
+        <h1>Strategic Evaluation and Control - Overview and Nature</h1>
+        <ul>
+            <li>Strategic evaluation and control involve assessing the effectiveness of a company's strategy and making adjustments to ensure its successful implementation.</li>
+            <li>It is a continuous process that helps organizations stay on track toward their strategic goals and objectives.</li>
+            <li>Effective evaluation and control mechanisms are essential for monitoring progress, identifying issues, and making informed decisions.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Strategic Evaluation</h1>
+            <ul>
+                <li>Assessing the extent to which strategic goals and objectives are being achieved.</li>
+                <li>Evaluating the performance of the organization against key performance indicators (KPIs).</li>
+                <li>Identifying strengths, weaknesses, opportunities, and threats (SWOT analysis) related to strategy implementation.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Control</h1>
+            <ul>
+                <li>Establishing mechanisms to monitor progress and performance against strategic goals.</li>
+                <li>Implementing corrective actions when performance deviates from the planned course.</li>
+                <li>Ensuring that resources are being used efficiently and effectively to support strategy implementation.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Requirements for Effective Evaluation</h1>
+            <ul>
+                <li>Clear and measurable strategic objectives.</li>
+                <li>Access to relevant and timely data for performance measurement.</li>
+                <li>Commitment from top management to support evaluation and control processes.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

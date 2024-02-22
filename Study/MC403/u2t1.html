@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+    <div id="topicMissionVisionObjectives" class="slide">
+        <h1>Organizational Mission, Vision, and Objectives</h1>
+        <ul>
+            <li>The organizational mission is a statement that defines the purpose and reason for the existence of the organization.</li>
+            <li>The vision is a statement that describes the desired future state or long-term goal of the organization.</li>
+            <li>Objectives are specific, measurable targets that help the organization achieve its mission and vision.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Organizational Mission</h1>
+            <ul>
+                <li>Defines the organization's core purpose and reason for existence.</li>
+                <li>Provides a clear direction for the organization's activities and decision-making.</li>
+                <li>Should be concise, meaningful, and inspiring.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Organizational Vision</h1>
+            <ul>
+                <li>Describes the desired future state or long-term goal of the organization.</li>
+                <li>Inspires and motivates employees and stakeholders.</li>
+                <li>Should be ambitious yet achievable.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Organizational Objectives</h1>
+            <ul>
+                <li>Specific, measurable targets that support the organization's mission and vision.</li>
+                <li>Help define the organization's priorities and guide decision-making.</li>
+                <li>Should be SMART: Specific, Measurable, Achievable, Relevant, Time-bound.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Take Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u2t2.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz2.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

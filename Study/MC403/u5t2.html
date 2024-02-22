@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    
+        
+    <div id="topicResourceAllocation" class="slide">
+        <h1>Resource Allocation and Strategic Budgeting</h1>
+        <ul>
+            <li>Resource allocation is the process of distributing resources such as capital, personnel, and equipment among different business units or projects.</li>
+            <li>Strategic budgeting involves setting financial goals and allocating resources in line with strategic objectives.</li>
+            <li>Effective resource allocation and strategic budgeting are critical for achieving organizational goals and maximizing performance.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Setting Financial Goals</h1>
+            <ul>
+                <li>Defining clear financial objectives that support the organization's strategic direction.</li>
+                <li>Establishing key performance indicators (KPIs) to measure financial performance.</li>
+                <li>Aligning financial goals with overall business strategy.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Allocating Resources</h1>
+            <ul>
+                <li>Identifying resource needs for each business unit or project.</li>
+                <li>Allocating resources based on priority and expected return on investment.</li>
+                <li>Ensuring that resources are allocated efficiently and effectively to support strategic objectives.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Budgeting</h1>
+            <ul>
+                <li>Developing a budget that aligns with the organization's strategic goals and priorities.</li>
+                <li>Monitoring and controlling expenditures to ensure they are in line with the budget.</li>
+                <li>Revising the budget as needed based on changes in the business environment or strategic priorities.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Performance Evaluation</h1>
+            <ul>
+                <li>Measuring the performance of each business unit or project against budgeted targets.</li>
+                <li>Identifying variances and taking corrective actions to address them.</li>
+                <li>Using performance data to inform future resource allocation and budgeting decisions.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz"> Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u5t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz5.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

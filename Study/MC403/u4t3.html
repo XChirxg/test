@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+    <div id="topicStrategicResourceManagement" class="slide">
+        <h1>Issues in Strategic Resource Management</h1>
+        <ul>
+            <li>Strategic resource management involves the efficient allocation and utilization of resources to achieve organizational goals.</li>
+            <li>Various issues can impact strategic resource management, affecting an organization's ability to achieve its objectives.</li>
+            <li>Addressing these issues is crucial for optimizing resource allocation and enhancing organizational performance.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Resource Planning</h1>
+            <ul>
+                <li>Aligning resource allocation with strategic goals and objectives.</li>
+                <li>Forecasting resource needs based on business requirements and market conditions.</li>
+                <li>Developing strategies to acquire, develop, and retain key resources.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Functional Planning</h1>
+            <ul>
+                <li>Ensuring that resources are allocated efficiently across different functions and departments.</li>
+                <li>Coordinating activities and resources to avoid duplication and inefficiencies.</li>
+                <li>Integrating functional plans with overall strategic objectives.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Policies, Procedures, Plans, and Budgets</h1>
+            <ul>
+                <li>Developing and implementing policies and procedures to govern resource allocation and utilization.</li>
+                <li>Creating detailed plans and budgets that allocate resources according to strategic priorities.</li>
+                <li>Monitoring and controlling resource utilization to ensure alignment with plans and budgets.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Crisis Avoidance and Management</h1>
+            <ul>
+                <li>Identifying potential crises that could impact resource availability or utilization.</li>
+                <li>Developing contingency plans to mitigate the impact of crises on resource management.</li>
+                <li>Implementing strategies to manage crises effectively when they occur.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u4t4.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz4.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

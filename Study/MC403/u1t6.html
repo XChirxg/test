@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+        
+    <div id="topicModelsStrategicManagement" class="slide">
+        <h1>Models of Strategic Management</h1>
+        <ul>
+            <li>Models of strategic management are frameworks that help organizations develop and implement effective strategies.</li>
+            <li>These models provide a systematic approach to strategic planning, execution, and evaluation.</li>
+            <li>Various models exist, each with its own focus and methodology.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>SWOT Analysis</h1>
+            <ul>
+                <li>Strengths, Weaknesses, Opportunities, Threats.</li>
+                <li>Assesses internal strengths and weaknesses, as well as external opportunities and threats.</li>
+                <li>Helps identify strategic options based on the organization's current position.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>PESTLE Analysis</h1>
+            <ul>
+                <li>Political, Economic, Social, Technological, Legal, Environmental.</li>
+                <li>Assesses the external environment to identify factors that may impact the organization.</li>
+                <li>Provides insights into potential risks and opportunities in the external environment.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Porter's Five Forces</h1>
+            <ul>
+                <li>Threat of new entrants, Bargaining power of buyers, Bargaining power of suppliers, Threat of substitute products, Competitive rivalry within the industry.</li>
+                <li>Helps analyze the competitive forces in an industry and develop strategies to address them.</li>
+                <li>Provides a framework for understanding industry dynamics and competitive positioning.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t7.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>

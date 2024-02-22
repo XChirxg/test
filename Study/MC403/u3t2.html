@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+    
+
+
+
+    <div id="topicInfoSystemsAdvantage" class="slide">
+        <h1>Information Systems and Competitive Advantage</h1>
+        <ul>
+            <li>Information systems play a crucial role in enabling organizations to gain a competitive advantage.</li>
+            <li>Effective use of information systems can improve decision-making, enhance operational efficiency, and enable innovation.</li>
+            <li>Understanding how information systems contribute to competitive advantage is essential for strategic management.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Types of Information Systems</h1>
+            <ul>
+                <li>Transaction Processing Systems (TPS): Record and process transactions.</li>
+                <li>Management Information Systems (MIS): Provide reports and summaries of organizational data.</li>
+                <li>Decision Support Systems (DSS): Assist in decision-making by providing interactive tools and models.</li>
+                <li>Enterprise Resource Planning (ERP) Systems: Integrate and automate business processes.</li>
+                <li>Customer Relationship Management (CRM) Systems: Manage interactions with customers.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Impact on Competitive Advantage</h1>
+            <ul>
+                <li>Improved Decision-Making: Access to real-time data and analysis tools improves decision-making processes.</li>
+                <li>Operational Efficiency: Automation of processes and workflows reduces costs and improves efficiency.</li>
+                <li>Innovation: Information systems enable new products, services, and business models.</li>
+                <li>Customer Engagement: CRM systems help organizations better understand and serve customers.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Strategic Use of Information Systems</h1>
+            <ul>
+                <li>Aligning with Business Strategy: Information systems should support and align with organizational goals.</li>
+                <li>Investing in Innovation: Using information systems to drive innovation and create new opportunities.</li>
+                <li>Continuous Improvement: Regularly updating and optimizing information systems to maintain competitive edge.</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u3t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz3.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
+

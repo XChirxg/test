@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Page</title>
+    <link rel="stylesheet" href="styles/topic.css">
+</head>
+<body>
+    <div id="head">
+        <div id="progressBar"></div>
+    </div>
+    <br>
+ 
+        
+
+
+
+
+    <div id="topicLevelStrategy" class="slide">
+        <h1>Level at Which Strategy Operates</h1>
+        <ul>
+            <li>Strategies operate at various levels within an organization, each with its own scope and focus.</li>
+            <li>Understanding these levels helps in aligning strategies with organizational goals and objectives.</li>
+        </ul>
+    </div>
+    
+    <div id="slideContainer">
+        <div class="slide">
+            <h1>Corporate Level Strategy</h1>
+            <ul>
+                <li>Concerned with the overall scope and direction of the organization.</li>
+                <li>Involves decisions related to the company's mission, vision, and long-term objectives.</li>
+                <li>Determines the allocation of resources across different business units and geographical regions.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Business Unit Level Strategy</h1>
+            <ul>
+                <li>Focused on individual business units or divisions within the organization.</li>
+                <li>Addresses competitive dynamics within specific industries or markets.</li>
+                <li>Involves decisions related to market positioning, product development, and competitive advantage.</li>
+            </ul>
+        </div>
+        <div class="slide">
+            <h1>Functional Level Strategy</h1>
+            <ul>
+                <li>Concerned with the activities of individual functional areas such as marketing, finance, operations, etc.</li>
+                <li>Supports the achievement of business unit and corporate-level objectives.</li>
+                <li>Includes decisions related to resource allocation, process optimization, and functional integration.</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+    
+
+
+
+
+        <br><br><br>
+        <div class="slide" id="lastSlide">
+            <h1>Completed!</h1>
+            <p>Choose an option:</p>
+            <button id="nextTopic">Next Topic</button>
+            <button id="takeQuiz">Unit Quiz</button>
+            <button id="allTopics">All Topics</button>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="previous">Previous</div>
+        <div id="next">Next</div>
+    </div>
+    <audio id="correctAudio" src="correct.mp3"></audio>
+    <script src="scripts/learn.js"></script>
+    <script>
+        document.getElementById("nextTopic").addEventListener("click", nextTopic);
+        function nextTopic(){ window.location = "u1t3.html"; }
+        document.getElementById("takeQuiz").addEventListener("click", takeQuiz);
+        function takeQuiz(){ window.location = "quiz1.html"; }
+        document.getElementById("allTopics").addEventListener("click", allTopics);
+        function allTopics(){ window.location = "MC.html"; }
+
+    </script>
+</body>
+</html>
