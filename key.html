@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keyboard Interaction Example</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    transition: background-color 0.3s;
+  }
+</style>
+</head>
+<body>
+  <script>
+    document.addEventListener("keydown", function(event) {
+      const key = event.key.toLowerCase();
+      switch(key) {
+        case "w":
+        case "arrowup":
+          document.body.style.backgroundColor = "red";
+          break;
+        case "a":
+        case "arrowleft":
+          document.body.style.backgroundColor = "blue";
+          break;
+        case "s":
+        case "arrowdown":
+          document.body.style.backgroundColor = "green";
+          break;
+        case "d":
+        case "arrowright":
+          document.body.style.backgroundColor = "yellow";
+          break;
+        default:
+          // Do nothing for other keys
+      }
+    });
+  </script>
+</body>
+</html>
