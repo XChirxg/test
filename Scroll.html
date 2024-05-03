@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fullpage Scroll Snapping</title>
+<style>
+  /* This CSS is for demonstration purposes and may need to be adjusted for your specific website */
+
+  /* Make the body take up the full viewport */
+  body {
+    margin: 0;
+    height: 100vh;
+    overflow-y: scroll; /* Allow vertical scrolling */
+    scroll-snap-type: y mandatory; /* Snap vertically */
+  }
+
+  /* Define the sections to snap to */
+  section {
+    height: 100vh; /* Take up the full viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  /* Hide the URL bar on scroll */
+  /* This part might not work on all browsers */
+  /* For Chrome, you can use this JavaScript snippet */
+  window.addEventListener("scroll", function() {
+    if (window.scrollY > 0) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  });
+</style>
+</head>
+<body>
+  <section style="background-color: #f44336;">Section 1</section>
+  <section style="background-color: #4caf50;">Section 2</section>
+  <section style="background-color: #2196f3;">Section 3</section>
+  <section style="background-color: #ff9800;">Section 4</section>
+</body>
+</html>
