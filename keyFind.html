@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real-Time Key Press Detection</title>
+</head>
+<body>
+  <h1>Press any key</h1>
+  <div id="key-info"></div>
+
+  <script>
+    document.addEventListener("keydown", function(event) {
+      const keyInfo = document.getElementById("key-info");
+      keyInfo.innerHTML = `
+        <p>Key Code: ${event.keyCode}</p>
+        <p>Key Name: ${event.key}</p>
+      `;
+    });
+  </script>
+</body>
+</html>
