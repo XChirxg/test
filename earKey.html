@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Player Controls Example</title>
+<style>
+  body {
+    margin: 0;
+    height: 200vh; /* Make the body taller for scrolling */
+  }
+  .scroll-indicator {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+</style>
+</head>
+<body>
+  <div class="scroll-indicator">Scrolling: Paused</div>
+  <script>
+    let isScrolling = false;
+
+    function scrollPage(direction) {
+      if (isScrolling) return;
+      const scrollAmount = 100; // Adjust scroll speed as needed
+      const currentScroll = window.scrollY;
+      let targetScroll;
+      if (direction === 'up') {
+        targetScroll = Math.max(0, currentScroll - scrollAmount);
+      } else if (direction === 'down') {
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        targetScroll = Math.min(maxScroll, currentScroll + scrollAmount);
+      }
+      isScrolling = true;
+      window.scrollTo({
+        top: targetScroll,
+        behavior: 'smooth'
+      });
+      setTimeout(() => {
+        isScrolling = false;
+      }, 500); // Adjust timeout to prevent rapid scrolling
+    }
+
+    function toggleScrolling() {
+      isScrolling = !isScrolling;
+      const indicator = document.querySelector('.scroll-indicator');
+      indicator.textContent = `Scrolling: ${isScrolling ? 'Active' : 'Paused'}`;
+    }
+
+    document.addEventListener("keydown", function(event) {
+      const key = event.key.toLowerCase();
+      switch(key) {
+        case "+":
+          scrollPage('down');
+          break;
+        case "-":
+          scrollPage('up');
+          break;
+        case " ":
+          toggleScrolling();
+          break;
+        case "b":
+          history.back();
+          break;
+        case "n":
+          window.location.href = 'https://www.example.com'; // Replace with your desired URL
+          break;
+        default:
+          // Do nothing for other keys
+      }
+    });
+  </script>
+</body>
+</html>
