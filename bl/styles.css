@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a transparent black background */
+  }
+  
+  /* Rest of your CSS styles */
+  
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .instructions {
+    margin-bottom: 20px;
+  }
+  
+  .parameter {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+  }
+  
+  input[type="range"] {
+    width: 60%;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  span {
+    display: inline-block;
+    width: 40px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  .special-box {
+    background-color: #222;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .progress-bar-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    height: 30px;
+  }
+  
+  .progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #0f0;
+    transition: width 0.3s ease;
+  }
+  
+  .exceed {
+    width: 100%;
+    height: 100%;
+    background-color: #f00;
+    transition: background-color 0.3s ease;
+  }
+  

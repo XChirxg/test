@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Before Life Philosophy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>What do you think what can be the best combination for your life?</h1>
+  <div class="instructions">
+    <p>Your task is to allocate 500 points among the following 10 parameters. Each parameter should be assigned a value between 0 and 100. You cannot exceed a total of 500 points.</p>
+  </div>
+  <form id="lifeParameters">
+    <div class="parameter">
+      <label for="love">Love:</label>
+      <input type="range" id="love" name="love" min="0" max="100" value="0">
+      <span id="loveValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="wealth">Wealth:</label>
+      <input type="range" id="wealth" name="wealth" min="0" max="100" value="0">
+      <span id="wealthValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="health">Health:</label>
+      <input type="range" id="health" name="health" min="0" max="100" value="0">
+      <span id="healthValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="intelligence">Intelligence:</label>
+      <input type="range" id="intelligence" name="intelligence" min="0" max="100" value="0">
+      <span id="intelligenceValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="creativity">Creativity:</label>
+      <input type="range" id="creativity" name="creativity" min="0" max="100" value="0">
+      <span id="creativityValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="beauty">Beauty:</label>
+      <input type="range" id="beauty" name="beauty" min="0" max="100" value="0">
+      <span id="beautyValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="social">Social acceptance:</label>
+      <input type="range" id="social" name="social" min="0" max="100" value="0">
+      <span id="socialValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="adventure">Adventure:</label>
+      <input type="range" id="adventure" name="adventure" min="0" max="100" value="0">
+      <span id="adventureValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="luck">Luck:</label>
+      <input type="range" id="luck" name="luck" min="0" max="100" value="0">
+      <span id="luckValue">0%</span>
+    </div>
+    <div class="parameter">
+      <label for="deathAge">Death Age:</label>
+      <input type="range" id="deathAge" name="deathAge" min="0" max="100" value="0">
+      <span id="deathAgeValue">0%</span>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<div class="progress-bar-container">
+  <div class="progress-bar"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
