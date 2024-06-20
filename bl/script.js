@@ -27,7 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
     function updateValues() {
       sliders.forEach((slider, index) => {
-        parameterValues[index].textContent = `${slider.value}%`;
+        if (slider.id === 'deathAge') {
+          parameterValues[index].textContent = `${slider.value} Years`;
+        } else {
+          parameterValues[index].textContent = `${slider.value}%`;
+        }
       });
     }
   
