@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    width: 80%;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+#question-section, #answer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#personal-account-section, #real-account-section, #nominal-account-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account-type {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.account-symbol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.account-line {
+    display: flex;
+    overflow-x: auto;
+}
+
+.account-line .account-symbol {
+    margin-right: 10px;
+}
+
+#question-box, #answer-box {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
