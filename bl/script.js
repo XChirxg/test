@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const infoText = document.getElementById('infoText');
   const closeInfoButton = document.getElementById('closeInfoButton');
   
+  
   // Initialize Display Values
   updateValues();
   updateProgressBar();
@@ -332,5 +333,39 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const infoMessage = document.getElementById('infoMessage');
+  const closeButton = document.getElementById('closeInfoButton');
+  const questionMark = document.getElementById('questionMark');
+
+  // Function to show the message
+  function showMessage() {
+      infoMessage.style.display = 'flex'; // Show the message
+  }
+
+  // Function to hide the message
+  function hideMessage() {
+      infoMessage.style.display = 'none'; // Hide the message
+  }
+
+  // Close button event listener
+  closeButton.addEventListener('click', function() {
+      hideMessage(); // Hide message on close
+  });
+
+  // Question mark event listener
+  questionMark.addEventListener('click', function() {
+      showMessage(); // Show message when question mark is clicked
+  });
+
+  // Add event listeners to the sliders or parameters
+  const parameters = document.querySelectorAll('.parameter input[type="range"]');
+  parameters.forEach(parameter => {
+      parameter.addEventListener('input', function() {
+          // Handle parameter change here
+          hideMessage(); // Keep the message hidden when changing parameters
+      });
+  });
+});
 
 
