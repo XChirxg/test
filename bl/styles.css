@@ -3,7 +3,7 @@
 
 /* Reset Styles */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;  
   margin: 0;
   padding: 0;
 }
@@ -80,7 +80,6 @@ h1 {
 .optional-info input:focus {
   border-color: #FFA500;
   box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
-  outline: none;
 }
 
 /* Parameters Sliders */
@@ -103,42 +102,34 @@ h1 {
 .parameter input[type="range"] {
   -webkit-appearance: none;
   width: 50%;
-  height: 10px;
-  border-radius: 5px;
-  background: #444;
+  height: 4px; /* Reduced height */
+  border-radius: 10px; /* Rounded corners */
+  background: #444; /* Non-filled part */
   outline: none;
   transition: background 0.3s ease;
   position: relative;
   z-index: 2;
-  background-image: linear-gradient(to right, #FFD700 0%, #FFD700 0%, #444 0%, #444 100%);
+  background-image: linear-gradient(to right, #FFD700 0%, #FFD700 var(--value), #444 var(--value), #444 100%);
 }
 
 .parameter input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 20px; /* Smaller thumb size */
+  height: 20px;
   border-radius: 50%;
   background: #FFD700;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .parameter input[type="range"]::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
+  width: 20px; /* Smaller thumb size */
+  height: 20px;
   border-radius: 50%;
   background: #FFD700;
   cursor: pointer;
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.parameter input[type="range"]::-webkit-slider-thumb:hover,
-.parameter input[type="range"]::-moz-range-thumb:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 15px rgba(255, 215, 0, 1);
 }
 
 /* Filled Portion of Slider */
@@ -146,14 +137,7 @@ h1 {
   --value: 0%;
 }
 
-.parameter input[type="range"]::-webkit-slider-runnable-track {
-  background: linear-gradient(to right, #FFD700 0%, #FFD700 var(--value), #444 var(--value), #444 100%);
-}
-
-.parameter input[type="range"]::-moz-range-track {
-  background: linear-gradient(to right, #FFD700 0%, #FFD700 var(--value), #444 var(--value), #444 100%);
-}
-
+/* Span */
 .parameter span {
   width: 60px;
   text-align: left;
@@ -285,16 +269,15 @@ button:hover {
 /* Informational Message Box */
 .info-message {
   position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Cover the whole width */
   background-color: rgba(30, 30, 30, 0.95);
   color: #FFD700;
-  padding: 15px 20px;
+  padding: 10px 20px; /* Reduced height */
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
   z-index: 1000;
-  max-width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -302,14 +285,15 @@ button:hover {
 
 .info-message p {
   margin: 0;
-  font-size: 1em;
+  font-size: 0.9em; /* Smaller font size */
 }
 
+/* Close Button */
 #closeInfoButton {
   background: none;
   border: none;
   color: #FFD700;
-  font-size: 1.2em;
+  font-size: 1em; /* Smaller size */
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -332,30 +316,31 @@ button:hover {
   }
 
   .parameter input[type="range"] {
-    width: 80%;
+    width: 90%; /* Adjusted width for mobile */
   }
 
-  .parameter span {
-    width: 100%;
-    text-align: center;
-    margin-top: 5px;
+  h1 {
+    font-size: 2em; /* Smaller size for mobile */
   }
 
-  .optional-info {
-    flex-direction: column;
-  }
-
-  .optional-info label, .optional-info input {
-    margin: 5px 0;
-    width: 80%;
+  .instructions,
+  .remaining-points {
+    font-size: 1em; /* Smaller size for mobile */
   }
 
   button {
-    width: 80%;
-    margin: 10px 0;
+    width: 90%; /* Full width for buttons on mobile */
   }
 
-  #submitSection p {
-    font-size: 1em;
+  #analysisSummary {
+    padding: 15px; /* Reduced padding */
+  }
+
+  .optional-info input {
+    width: 80%; /* Reduced width for input fields on mobile */
+  }
+
+  .info-message p {
+    font-size: 0.8em; /* Smaller font size for mobile */
   }
 }
