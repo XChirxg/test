@@ -3,39 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="mcq.css">
- </head>
+    <title>Quiz Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <div id="head"><div id="progressBar"></div></div><br><br>
-  <!-- Add this div for total results -->
-<div id="totalResults"></div>
-
-  <div id="question">Q1. This is the place for the question?</div>
-  <br><br><br><br>
-  <center>
-  <div id="options">
-    <p id="A">Option A</p>
-    <p id="B">Option B</p>
-    <p id="C">Option C</p>
-    <p id="D">Option D</p>
-  </div><br><br><br>
-    <div id="bottom">
-    <div id="previous">Previous</div>
-  <div id="result">
-    <p id= "submit" >Submit</p>
-    <p id="wrong">Wrong X</p>
-    <p id="correct">Correct !</p>
-    
-    <!-- Add this div for total results -->
-<div id="totalResults"></div>
-
-    
-    
+    <div id="start-screen" class="quiz-container">
+        <h1>Welcome to the Quiz!</h1>
+        <p>Get ready to test your knowledge.</p>
+    <button id="start-btn" onclick="startQuiz()">Start Quiz</button>
     </div>
-    <div id="next">Next</div>
-  </div>
-  </div>
-  </center>
-  <script src=mcq.js></script>
+    
+
+    <div class="quiz-container hidden" id="quiz-content">
+        <div class="line-timer"></div>
+        <div id="question-box">
+            <h1 id="question">Demo Question?</h1>
+            <div class="options">
+                <div class="option" id="A" onclick="checkAnswer('A')">
+                    <div class="option-key">A</div>
+                    <div class="option-text">Option1</div>
+                </div>
+                <div class="option" id="B" onclick="checkAnswer('B')">
+                    <div class="option-key">B</div>
+                    <div class="option-text">Option2</div>
+                </div>
+                <div class="option" id="C" onclick="checkAnswer('C')">
+                    <div class="option-key">C</div>
+                    <div class="option-text">Option3</div>
+                </div>
+                <div class="option" id="D" onclick="checkAnswer('D')">
+                    <div class="option-key">D</div>
+                    <div class="option-text">Option4</div>
+                </div>
+            </div>
+        </div>
+        <div id="answer-box" class="hidden">
+            <h1 id="answer-text">Correct Answer: A</h1>
+            <p id="explanation" style="font-size: 1.5em; color: white;">Because I want it to be answer 4</p>
+        </div>
+    </div>
+
+    <div id="end-screen" class="quiz-container hidden">
+        <h1>Thanks for Watching!</h1>
+        <p>We hope you enjoyed the quiz.</p>
+    </div>
+
+    <div id="fullscreen-icon" onclick="toggleFullscreen()">
+        🔲
+    </div>
+
+    
+    
+    
+
+    <audio id="bgm" loop>
+        <source src="BGM_MCQ.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
 </body>
 </html>
