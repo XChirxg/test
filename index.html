@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Quiz</title>
+    <style>
+        .timer {
+            font-size: 1.5rem;
+            color: blue;
+            margin: 10px 0;
+        }
+        .correct-answer {
+            color: green;
+            font-weight: bold;
+        }
+        .wrong-answer {
+            color: red;
+            font-weight: bold;
+        }
+        .summary {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1 class="title">Quiz App</h1>
+    </header>
+
+    <main id="main-content">
+        <!-- Input Section -->
+        <section id="text-section">
+            <textarea id="text-box" class="text-box" rows="10">
+{
+    "questions": [
+        {
+            "question": "What is 2 + 2?",
+            "options": {"A": "3", "B": "4", "C": "5", "D": "6"},
+            "correctOption": "B",
+            "explanation": "2 + 2 equals 4.",
+            "category": "Math Aptitude"
+        },
+        {
+            "question": "Which is a programming language?",
+            "options": {"A": "Python", "B": "Lion", "C": "Tiger", "D": "Bear"},
+            "correctOption": "A",
+            "explanation": "Python is a programming language.",
+            "category": "Logical Aptitude"
+        }
+    ]
+}
+            </textarea>
+            <div class="text-options">
+                <button id="copy-text" class="button">Copy Text</button>
+                <button id="clear-paste-text" class="button">Clear and Paste</button>
+            </div>
+            <div class="settings">
+                <label for="question-timer" class="label">Question Timer:</label>
+                <select id="question-timer" class="select">
+                    <option value="1">1 Second</option>
+                    <option value="10">10 Seconds</option>
+                    <option value="30">30 Seconds</option>
+                    <option value="60">1 Minute</option>
+                    <option value="300">5 Minutes</option>
+                </select>
+
+                <label for="theme" class="label">Theme:</label>
+                <select id="theme" class="select">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </div>
+            <button id="load-quiz" class="button">Load Quiz</button>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz-section" style="display:none;">
+            <p id="question" class="question"></p>
+            <div id="timer" class="timer"></div>
+            <ul id="options" class="options"></ul>
+            <p id="feedback" class="feedback"></p>
+            <button id="next-question" class="button" style="display:none;">Next Question</button>
+        </section>
+
+        <!-- Summary Section -->
+        <section id="summary-section" style="display:none;">
+            <h2>Quiz Summary</h2>
+            <p id="correct-answers">Correct Answers: 0</p>
+            <p id="percentage">Percentage: 0%</p>
+            <p id="average-time">Average Time per Question: 0s</p>
+            <p id="least-time-category">Least Time Category: </p>
+            <h3>Category Rankings</h3>
+            <ul id="category-rankings"></ul>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p class="footer-text">© 2024 Quiz App</p>
+    </footer>
+
+    <script>
+        let quizData = [];
+        let currentQuestionIndex = 0;
+        let timer;
+        let countdown;
+        let correctAnswers = 0;
+        let totalTimeTaken = 0;
+        let categoryStats = {};
+        let startTime;
+
+        const textBox = document.getElementById('text-box');
+        const loadQuizButton = document.getElementById('load-quiz');
+        const quizSection = document.getElementById('quiz-section');
+        const questionElement = document.getElementById('question');
+        const optionsElement = document.getElementById('options');
+        const feedbackElement = document.getElementById('feedback');
+        const nextQuestionButton = document.getElementById('next-question');
+        const questionTimerSelect = document.getElementById('question-timer');
+        const themeSelect = document.getElementById('theme');
+        const timerElement = document.getElementById('timer');
+
+        const copyTextButton = document.getElementById('copy-text');
+        const clearPasteTextButton = document.getElementById('clear-paste-text');
+
+        const correctAnswersElement = document.getElementById('correct-answers');
+        const percentageElement = document.getElementById('percentage');
+        const averageTimeElement = document.getElementById('average-time');
+        const leastTimeCategoryElement = document.getElementById('least-time-category');
+        const categoryRankingsElement = document.getElementById('category-rankings');
+
+        // Copy Text
+        copyTextButton.addEventListener('click', () => {
+            navigator.clipboard.writeText(textBox.value).then(() => {
+                alert("Text copied to clipboard!");
+            }).catch(err => {
+                alert("Failed to copy text: " + err);
+            });
+        });
+
+        // Clear and Paste Text
+        clearPasteTextButton.addEventListener('click', async () => {
+            textBox.value = '';
+            const text = await navigator.clipboard.readText();
+            textBox.value = text;
+        });
+
+        // Load Quiz from Text Box
+        loadQuizButton.addEventListener('click', () => {
+            try {
+                const inputData = JSON.parse(textBox.value.trim());
+                quizData = inputData.questions || [];
+                if (quizData.length === 0) throw new Error("No questions found!");
+                currentQuestionIndex = 0;
+                displayQuestion();
+                quizSection.style.display = 'block';
+            } catch (e) {
+                alert("Invalid input! Please check your template.");
+            }
+        });
+
+        // Display the current question
+        function displayQuestion() {
+            const questionData = quizData[currentQuestionIndex];
+            questionElement.textContent = `${currentQuestionIndex + 1}. ${questionData.question}`;
+            optionsElement.innerHTML = '';
+            feedbackElement.textContent = '';
+            feedbackElement.style.display = 'none';
+            nextQuestionButton.style.display = 'none';
+            timerElement.textContent = '';
+
+            // Start Countdown Timer
+            const timerValue = parseInt(questionTimerSelect.value);
+            clearInterval(countdown);
+            let timeLeft = timerValue;
+            startTime = Date.now(); // Start time for this question
+            countdown = setInterval(() => {
+                timerElement.textContent = `Time Remaining: ${timeLeft} seconds`;
+                timeLeft--;
+                if (timeLeft < 0) {
+                    clearInterval(countdown);
+                    showCorrectAnswer();
+                }
+            }, 1000);
+
+            for (const [key, value] of Object.entries(questionData.options)) {
+                const li = document.createElement('li');
+                li.className = 'option';
+                li.textContent = `${key}: ${value}`;
+                li.addEventListener('click', () => checkAnswer(key));
+                optionsElement.appendChild(li);
+            }
+        }
+
+        // Check the selected answer
+        function checkAnswer(selectedOption) {
+            clearInterval(countdown); // Stop Timer
+            const questionData = quizData[currentQuestionIndex];
+            const timeTaken = (Date.now() - startTime) / 1000; // Time taken in seconds
+            totalTimeTaken += timeTaken;
+
+            // Track category statistics
+            const category = questionData.category;
+            if (!categoryStats[category]) {
+                categoryStats[category] = { correct: 0, times: [] };
+            }
+            categoryStats[category].times.push(timeTaken);
+
+            const isCorrect = selectedOption === questionData.correctOption;
+            if (isCorrect) {
+                correctAnswers++;
+            }
+
+            feedbackElement.textContent = isCorrect
+                ? `Correct! ${questionData.explanation}`
+                : `Wrong! Correct answer is ${questionData.correctOption}. ${questionData.explanation}`;
+            feedbackElement.style.color = isCorrect ? 'green' : 'red';
+            feedbackElement.style.display = 'block';
+
+            disableOptions();
+            nextQuestionButton.style.display = 'inline-block';
+        }
+
+        // Show correct answer after timeout
+        function showCorrectAnswer() {
+            const questionData = quizData[currentQuestionIndex];
+            feedbackElement.textContent = `Time's up! Correct answer is ${questionData.correctOption}. ${questionData.explanation}`;
+            feedbackElement.style.color = 'red';
+            feedbackElement.style.display = 'block';
+            disableOptions();
+            nextQuestionButton.style.display = 'inline-block';
+        }
+
+        // Disable options after answer is selected
+        function disableOptions() {
+            const options = optionsElement.getElementsByClassName('option');
+            for (let option of options) {
+                option.style.pointerEvents = 'none';
+            }
+        }
+
+        // Move to the next question
+        nextQuestionButton.addEventListener('click', () => {
+            if (currentQuestionIndex < quizData.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            } else {
+                displaySummary();
+            }
+        });
+
+        // Display the summary after quiz completion
+        function displaySummary() {
+            quizSection.style.display = 'none';
+            const totalQuestions = quizData.length;
+            const percentage = (correctAnswers / totalQuestions) * 100;
+            const averageTime = (totalTimeTaken / totalQuestions).toFixed(2);
+
+            correctAnswersElement.textContent = `Correct Answers: ${correctAnswers} / ${totalQuestions}`;
+            percentageElement.textContent = `Percentage: ${percentage}%`;
+            averageTimeElement.textContent = `Average Time per Question: ${averageTime}s`;
+
+            // Find least time taken in each category
+            let leastTimeCategory = '';
+            let leastTimeValue = Infinity;
+            for (const [category, data] of Object.entries(categoryStats)) {
+                const minTime = Math.min(...data.times);
+                if (minTime < leastTimeValue) {
+                    leastTimeCategory = category;
+                    leastTimeValue = minTime;
+                }
+            }
+            leastTimeCategoryElement.textContent = `Least Time Category: ${leastTimeCategory} (${leastTimeValue.toFixed(2)}s)`;
+
+            // Rank categories by correct answers
+            const categoryRankings = Object.entries(categoryStats)
+                .map(([category, data]) => ({
+                    category,
+                    correct: data.correct
+                }))
+                .sort((a, b) => b.correct - a.correct);
+
+            categoryRankingsElement.innerHTML = categoryRankings
+                .map(item => `<li>${item.category}: ${item.correct} Correct Answers</li>`)
+                .join('');
+            document.getElementById('summary-section').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
