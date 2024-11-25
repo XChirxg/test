@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free MCQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark">
+
+    <!-- Header -->
+    <header id="header">
+            <!-- Sound Controls -->
+    <div class="sound-controls">
+        <label>
+            <input type="checkbox" id="mute-toggle" />
+            Mute Sounds
+        </label>
+    </div>
+
+        <h1 class="title">Free MCQ</h1>
+            <!-- Theme Selector -->
+    <label for="theme" class="label">Theme:</label>
+    <select id="theme" class="select">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+    </header>
+
+
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <div id="hideForQuiz">
+
+            <!-- File Upload Section -->
+            <section class="file-upload" id="file-upload">
+                <label for="file-input" class="label">Upload JSON File:</label>
+                <input type="file" id="file-input" accept=".json" />
+                <div class="or-divider">
+                    <a href="Community.html">View and Download Quiz Created by Community</a>
+                </div>
+            </section>
+
+            <!-- OR Divider -->
+            <div class="or-divider">OR</div>
+
+            <!-- Text Box Section -->
+            <p>
+                Copy the code template and paste it into any LLM (e.g., ChatGPT, Google Gemini, Meta AI) and give it a topic or PDF to make a quiz in the given template format. Then paste the code response in the box below.
+            </p>
+            <section id="text-section">
+                <textarea id="text-box" class="text-box" rows="10">
+{
+    "questions": [
+        {
+            "question": "What is 2 + 2?",
+            "options": {"A": "3", "B": "4", "C": "5", "D": "6"},
+            "correctOption": "B",
+            "explanation": "2 + 2 equals 4.",
+            "category": "Math Aptitude"
+        },
+        {
+            "question": "Which is a programming language?",
+            "options": {"A": "Python", "B": "Lion", "C": "Tiger", "D": "Bear"},
+            "correctOption": "A",
+            "explanation": "Python is a programming language.",
+            "category": "Logical Aptitude"
+        }
+    ]
+}
+                </textarea>
+                <div class="text-options">
+                    <button id="copy-text" class="button">Copy Text</button>
+                    <button id="clear-paste-text" class="button">Clear and Paste</button>
+                </div>
+
+                <!-- Question Timer Slider -->
+                <label for="question-timer-slider" class="label">Per Question Time:</label>
+                <input id="question-timer-slider" class="slider" type="range" min="0" max="60" value="10" step="1">
+                <span id="slider-value">10s</span>
+
+                <button id="load-quiz" class="button">Load Quiz</button>
+            </section>
+        </div>
+
+        <!-- Progress Bar -->
+        <div id="progress-container" style="width: 100%; height: 10px; background-color: #ccc; margin-top: 20px;">
+            <div id="progress-bar" style="height: 100%; width: 0%; background-color: #4caf50;"></div>
+        </div>
+
+        <!-- Quiz Section -->
+        <section id="quiz-section" style="display:none;">
+            <div id="timer" class="timer"></div>
+            <p id="question" class="question"></p>
+            <ul id="options" class="options"></ul>
+            <p id="feedback" class="feedback"></p>
+            <button id="next-question" class="button" style="display:none;">Next Question</button>
+        </section>
+
+        <!-- Summary Section -->
+        <section id="summary-section" style="display:none;">
+            <h2>Quiz Summary</h2>
+            <p id="correct-answers">Correct Answers: 0</p>
+            <p id="percentage">Percentage: 0%</p>
+            <p id="average-time">Average Time per Question: 0s</p>
+            <p id="least-time-category">Least Time Category:</p>
+            <h3>Category Rankings</h3>
+            <ul id="category-rankings"></ul>
+            <button id="restart-test" class="button">Restart Test</button>
+            <button id="refresh-page" class="button">Refresh Page</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <div id="footer-section" class="footer">
+        <img src="chirag.jpg" alt="Chirag Sharma" class="footer-photo" />
+        <div class="footer-content">
+            <h3>A Free MCQ Community</h3>
+            <p>Developed by Chirag Sharma</p>
+            <p>Join us to enhance your knowledge with interactive quizzes!</p>
+            <p>
+                Connect with me on 
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> or 
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>.
+            </p>
+        </div>
+    </div>
+
+    <!-- External Script -->
+    <script src="script.js"></script>
+</body>
+</html>

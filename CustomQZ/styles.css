@@ -1,0 +1,90 @@
+
+    /* General body styling */
+    body.light {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    body.dark {
+        background: url('bg.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: #ffffff;
+    }
+
+    /* Accent color for dark theme */
+    body.dark .button, 
+    body.dark .select, 
+    body.dark .label {
+        color: #00ffff; /* Cyan accent color */
+        background-color: #1a1a1a; /* Dark background for contrast */
+        border: 1px solid #00ffff;
+    }
+
+    body.dark .button:hover {
+        background-color: #00ffff;
+        color: #000000; /* Contrast text on hover */
+    }
+
+    .timer {
+        font-size: 1.5rem;
+        color: #00ffff;
+        margin: 10px 0;
+    }
+
+    .correct-answer {
+        color: #00ff00;
+        font-weight: bold;
+    }
+
+    .wrong-answer {
+        color: #ff0000;
+        font-weight: bold;
+    }
+
+
+
+.summary {
+    margin-top: 20px;
+}
+
+.file-upload,
+.label,
+.button,
+.text-box {
+    margin: 10px 0;
+}
+
+.or-divider {
+    margin: 15px 0;
+    text-align: center;
+    color: gray;
+}
+
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #00ffff;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-photo {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.footer-content {
+    margin-top: 10px;
+}
+
+
