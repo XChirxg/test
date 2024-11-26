@@ -68,7 +68,6 @@ fileInput.addEventListener('change', (event) => {
             try {
                 const data = JSON.parse(e.target.result);
                 textBox.value = JSON.stringify(data, null, 2);
-                alert("File loaded successfully. Click 'Load Quiz' to begin!");
             } catch (error) {
                 alert("Invalid JSON file. Please try again.");
             }
@@ -81,24 +80,27 @@ fileInput.addEventListener('change', (event) => {
 copyTextButton.addEventListener('click', () => {
     textBox.select();
     document.execCommand('copy');
-    alert("Text copied to clipboard!");
+    alert("Text copied to clipboard! Now paste it on Some AI LLM");
 });
 
 
-        // Clear and Paste Template
-        clearPasteButton.addEventListener('click', () => {
-    textBox.value = `{
-"questions": [
-{
-    "question": "What is the capital of France?",
-    "options": {"A": "Paris", "B": "London", "C": "Berlin", "D": "Madrid"},
-    "correctOption": "A",
-    "explanation": "Paris is the capital of France.",
-    "category": "Geography"
-}
-]
-}`;
+clearPasteButton.addEventListener('click', async () => {
+    try {
+        // Check if the Clipboard API is supported
+        if (navigator.clipboard && navigator.clipboard.readText) {
+            // Get the text from the clipboard
+            const clipboardText = await navigator.clipboard.readText();
+            textBox.value = clipboardText; // Paste the clipboard content into the text box
+            
+        } else {
+            alert("Clipboard API not supported in this browser.");
+        }
+    } catch (error) {
+        console.error("Failed to paste text from clipboard:", error);
+        alert("Unable to paste text. Please check your browser settings.");
+    }
 });
+
 
 
 // Update slider value display
@@ -167,7 +169,7 @@ function displayQuestion() {
     let timeLeft = timerValue;
     startTime = Date.now();
     countdown = setInterval(() => {
-        timerElement.textContent = `Time Remaining: ${timeLeft} seconds`;
+        timerElement.textContent = ` ${timeLeft} sec`;
         timeLeft--;
         if (timeLeft < 0) {
             clearInterval(countdown);
@@ -212,6 +214,10 @@ function checkAnswer(selectedOption) {
         categoryStats[category].correct++;
         playSound(winSound);
     }
+    else {
+        playSound(wrongSound);  // Plays sound when wrong answer is selected
+    }
+    
 
     feedbackElement.textContent = isCorrect
         ? `Correct! ${questionData.explanation}`

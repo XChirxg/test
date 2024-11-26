@@ -18,12 +18,6 @@
             "correctOption": "B",
             "explanation": "2 + 2 equals 4.",
             "category": "Math Aptitude"
-        },        {
-            "question": "What is 2 + 2?",
-            "options": {"A": "3", "B": "4", "C": "5", "D": "6"},
-            "correctOption": "B",
-            "explanation": "2 + 2 equals 4.",
-            "category": "Math Aptitude"
         },
         {
             "question": "Which is a programming language?",

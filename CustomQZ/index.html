@@ -8,24 +8,26 @@
 </head>
 <body class="dark">
 
-    <!-- Header -->
-    <header id="header">
-            <!-- Sound Controls -->
-    <div class="sound-controls">
-        <label>
-            <input type="checkbox" id="mute-toggle" />
-            Mute Sounds
-        </label>
-    </div>
+<!-- Header -->
+<header id="header" class="header">
+    <h1 class="title">Free MCQ</h1>
+    
+    <div class="header-controls">
+        <!-- Mute Control -->
+        <div class="sound-controls">
+            <label class="control-label">
+                <span>Mute</span>
+                <input type="checkbox" id="mute-toggle" />
+            </label>
+        </div>
 
-        <h1 class="title">Free MCQ</h1>
-            <!-- Theme Selector -->
-    <label for="theme" class="label">Theme:</label>
-    <select id="theme" class="select">
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-    </select>
-    </header>
+        <!-- Theme Switch -->
+        <select id="theme" class="select">
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+        </select>
+    </div>
+</header>
 
 
 
@@ -33,99 +35,268 @@
     <main id="main-content">
         <div id="hideForQuiz">
 
-            <!-- File Upload Section -->
-            <section class="file-upload" id="file-upload">
-                <label for="file-input" class="label">Upload JSON File:</label>
-                <input type="file" id="file-input" accept=".json" />
-                <div class="or-divider">
-                    <a href="Community.html">View and Download Quiz Created by Community</a>
-                </div>
-            </section>
+<!-- File Upload Section -->
+<section class="file-upload" id="file-upload">
+    <label for="file-input" class="label">Upload JSON File:</label>
+    <input type="file" id="file-input" accept=".json" class="file-input" />
+    <div class="or-divider">
+        <a href="Community.html" class="community-link">View and Download Quiz Created by Community</a>
+    </div>
+</section>
+
+
 
             <!-- OR Divider -->
             <div class="or-divider">OR</div>
 
-            <!-- Text Box Section -->
-            <p>
-                Copy the code template and paste it into any LLM (e.g., ChatGPT, Google Gemini, Meta AI) and give it a topic or PDF to make a quiz in the given template format. Then paste the code response in the box below.
-            </p>
-            <section id="text-section">
-                <textarea id="text-box" class="text-box" rows="10">
-{
-    "questions": [
+
+
+
+            
+           <!-- Text Box Section -->
+<section id="text-section" class="text-section">
+    <p class="text-description">
+        Copy the code template and paste it into any LLM (e.g., ChatGPT, Google Gemini, Meta AI) and give it a topic or PDF to make a quiz in the given template format. Then paste the code response in the box below.
+    </p>
+    <textarea id="text-box" class="text-box" rows="8">
+
+        
+
         {
-            "question": "What is 2 + 2?",
-            "options": {"A": "3", "B": "4", "C": "5", "D": "6"},
-            "correctOption": "B",
-            "explanation": "2 + 2 equals 4.",
-            "category": "Math Aptitude"
-        },
-        {
-            "question": "Which is a programming language?",
-            "options": {"A": "Python", "B": "Lion", "C": "Tiger", "D": "Bear"},
-            "correctOption": "A",
-            "explanation": "Python is a programming language.",
-            "category": "Logical Aptitude"
+            "questions": [
+                {
+                    "question": "What is the capital of Kazakhstan?",
+                    "options": {
+                        "A": "Astana",
+                        "B": "Almaty",
+                        "C": "Tashkent",
+                        "D": "Bishkek"
+                    },
+                    "correctOption": "A",
+                    "explanation": "The capital of Kazakhstan is Astana, renamed from Akmolinsk in 1998. Astana became the capital city due to strategic planning aimed at developing northern Kazakhstan. The decision was made after considering political, economic, and geographical factors. The city was also chosen to help balance regional development in the country. Therefore, Astana, now Nur-Sultan, serves as a critical political center.",
+                    "category": "Geography"
+                },
+                {
+                    "question": "Which of the following is a key factor in Quantum Superposition?",
+                    "options": {
+                        "A": "Observation collapses the wave function",
+                        "B": "Energy levels are quantized",
+                        "C": "Massless photons",
+                        "D": "Electrons exhibit wave-particle duality"
+                    },
+                    "correctOption": "A",
+                    "explanation": "Quantum Superposition refers to a quantum system's ability to exist in multiple states at once. When observed, the system collapses into one state. This is known as the wave function collapse, a core concept in quantum mechanics. Superposition plays a key role in quantum computing, allowing quantum bits (qubits) to exist in multiple states simultaneously, offering immense computational power.",
+                    "category": "Physics"
+                },
+                {
+                    "question": "What is the next number in the series: 1, 4, 9, 16, 25, ___?",
+                    "options": {
+                        "A": "36",
+                        "B": "30",
+                        "C": "40",
+                        "D": "49"
+                    },
+                    "correctOption": "A",
+                    "explanation": "This is a sequence of perfect squares: 1^2, 2^2, 3^2, 4^2, 5^2, and the next number in the sequence is 6^2, which is 36. The pattern follows n^2, where n is the position in the sequence.",
+                    "category": "Mathematical Aptitude"
+                },
+                {
+                    "question": "If all roses are flowers, and some flowers fade quickly, can we conclude that some roses fade quickly?",
+                    "options": {
+                        "A": "Yes",
+                        "B": "No",
+                        "C": "It depends on the type of rose",
+                        "D": "Not enough information"
+                    },
+                    "correctOption": "D",
+                    "explanation": "This is an example of logical reasoning. The premise that 'some flowers fade quickly' does not necessarily apply to 'roses,' as roses are a specific subset of flowers. There is not enough information to directly conclude whether some roses fade quickly.",
+                    "category": "Logical Reasoning"
+                },
+                {
+                    "question": "Match the following countries with their respective continents:",
+                    "options": {
+                        "A": "Canada - North America, Egypt - Africa, Japan - Asia, Brazil - South America",
+                        "B": "Canada - Europe, Egypt - North America, Japan - Asia, Brazil - South America",
+                        "C": "Canada - North America, Egypt - Africa, Japan - Europe, Brazil - South America",
+                        "D": "Canada - Asia, Egypt - Europe, Japan - Africa, Brazil - North America"
+                    },
+                    "correctOption": "A",
+                    "explanation": "Canada is located in North America, Egypt is in Africa, Japan is in Asia, and Brazil is in South America. Each country is correctly paired with its continent based on geographic locations.",
+                    "category": "General Knowledge"
+                },
+                {
+                    "question": "Which of the following is the primary cause of acid rain?",
+                    "options": {
+                        "A": "Sulfur dioxide and nitrogen oxides",
+                        "B": "Carbon dioxide",
+                        "C": "Methane emissions",
+                        "D": "Ozone depletion"
+                    },
+                    "correctOption": "A",
+                    "explanation": "Acid rain is primarily caused by sulfur dioxide (SO2) and nitrogen oxides (NOx), which are released into the atmosphere through the burning of fossil fuels. These pollutants react with water vapor and other chemicals to form sulfuric and nitric acids, which then fall as acid rain. This phenomenon harms ecosystems, buildings, and the health of water bodies.",
+                    "category": "Environmental Science"
+                },
+                {
+                    "question": "In the context of artificial intelligence, which of the following is an example of supervised learning?",
+                    "options": {
+                        "A": "Training a model to predict house prices based on historical data",
+                        "B": "Training a model to play chess without prior knowledge",
+                        "C": "Using a model to generate new music without examples",
+                        "D": "Training a model to classify images of cats and dogs"
+                    },
+                    "correctOption": "D",
+                    "explanation": "Supervised learning involves training an AI model using labeled data, where the correct output is provided. In the case of classifying images of cats and dogs, the model is provided with labeled images (e.g., 'cat' or 'dog'), and the model learns to make predictions based on this data.",
+                    "category": "Artificial Intelligence"
+                },
+                {
+                    "question": "Which of the following statements about blockchain is correct?",
+                    "options": {
+                        "A": "It is a centralized database",
+                        "B": "It guarantees complete privacy",
+                        "C": "It is an immutable, distributed ledger",
+                        "D": "It is only used for cryptocurrency transactions"
+                    },
+                    "correctOption": "C",
+                    "explanation": "Blockchain is an immutable, distributed ledger that records transactions across multiple computers in a way that prevents alteration. It is not centralized, guarantees transparency, and is not limited to cryptocurrency transactions. Blockchain has a wide range of applications, including supply chain tracking, voting systems, and more.",
+                    "category": "Technology"
+                },
+                {
+                    "question": "Who is known as the father of modern physics?",
+                    "options": {
+                        "A": "Albert Einstein",
+                        "B": "Isaac Newton",
+                        "C": "Niels Bohr",
+                        "D": "Galileo Galilei"
+                    },
+                    "correctOption": "A",
+                    "explanation": "Albert Einstein is regarded as the father of modern physics due to his groundbreaking theories, including the theory of relativity and his contributions to quantum mechanics. His work revolutionized our understanding of space, time, and energy, and laid the foundation for many advances in physics and technology.",
+                    "category": "History of Science"
+                },
+                {
+                    "question": "Which of the following is a valid syntax for declaring a function in JavaScript?",
+                    "options": {
+                        "A": "function myFunction() {}",
+                        "B": "function: myFunction() {}",
+                        "C": "func myFunction() {}",
+                        "D": "def myFunction() {}"
+                    },
+                    "correctOption": "A",
+                    "explanation": "In JavaScript, the correct syntax to declare a function is 'function myFunction() {}'. This syntax follows JavaScript's standard function declaration format, where 'function' is the keyword followed by the function name and parentheses.",
+                    "category": "Programming"
+                }
+            ]
         }
-    ]
-}
-                </textarea>
-                <div class="text-options">
-                    <button id="copy-text" class="button">Copy Text</button>
-                    <button id="clear-paste-text" class="button">Clear and Paste</button>
-                </div>
+        
 
-                <!-- Question Timer Slider -->
-                <label for="question-timer-slider" class="label">Per Question Time:</label>
-                <input id="question-timer-slider" class="slider" type="range" min="0" max="60" value="10" step="1">
-                <span id="slider-value">10s</span>
 
-                <button id="load-quiz" class="button">Load Quiz</button>
+
+        
+    </textarea>
+    <div class="text-options">
+        <button id="copy-text" class="button">Copy Text</button>
+        <button id="clear-paste-text" class="button">Clear and Paste</button>
+    </div>
+</section>
+
+
+
+
+
+<!-- Question Timer Slider -->
+<section class="question-timer-section">
+    <label for="question-timer-slider" class="text">Per Question Time:</label>
+    <div class="slider-container">
+        <input id="question-timer-slider" class="slider" type="range" min="0" max="60" value="10" step="1">
+        <span id="slider-value" class="slider-value">10s</span>
+    </div>
+    <button id="load-quiz" class="button">Load Quiz</button>
+</section>
+
+
+           
+           
             </section>
         </div>
 
-        <!-- Progress Bar -->
-        <div id="progress-container" style="width: 100%; height: 10px; background-color: #ccc; margin-top: 20px;">
-            <div id="progress-bar" style="height: 100%; width: 0%; background-color: #4caf50;"></div>
+<!-- Progress Bar -->
+<div id="progress-container" class="progress-container">
+    <div id="progress-bar" class="progress-bar"></div>
+</div>
+
+
+
+
+
+
+
+<!-- Quiz Section -->
+<section id="quiz-section" style="display:none;">
+    <div id="timer" class="timer">10s</div>
+    <h2 id="question" class="question">What is the capital of France?</h2>
+    <div id="options" class="options">
+        <div class="option" id="A" onclick="checkAnswer('A')">
+            <div class="option-key">A</div>
+            <div class="option-text">Paris</div>
         </div>
-
-        <!-- Quiz Section -->
-        <section id="quiz-section" style="display:none;">
-            <div id="timer" class="timer"></div>
-            <p id="question" class="question"></p>
-            <ul id="options" class="options"></ul>
-            <p id="feedback" class="feedback"></p>
-            <button id="next-question" class="button" style="display:none;">Next Question</button>
-        </section>
-
-        <!-- Summary Section -->
-        <section id="summary-section" style="display:none;">
-            <h2>Quiz Summary</h2>
-            <p id="correct-answers">Correct Answers: 0</p>
-            <p id="percentage">Percentage: 0%</p>
-            <p id="average-time">Average Time per Question: 0s</p>
-            <p id="least-time-category">Least Time Category:</p>
-            <h3>Category Rankings</h3>
-            <ul id="category-rankings"></ul>
-            <button id="restart-test" class="button">Restart Test</button>
-            <button id="refresh-page" class="button">Refresh Page</button>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <div id="footer-section" class="footer">
-        <img src="chirag.jpg" alt="Chirag Sharma" class="footer-photo" />
-        <div class="footer-content">
-            <h3>A Free MCQ Community</h3>
-            <p>Developed by Chirag Sharma</p>
-            <p>Join us to enhance your knowledge with interactive quizzes!</p>
-            <p>
-                Connect with me on 
-                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> or 
-                <a href="https://www.twitter.com" target="_blank">Twitter</a>.
-            </p>
+        <div class="option" id="B" onclick="checkAnswer('B')">
+            <div class="option-key">B</div>
+            <div class="option-text">London</div>
+        </div>
+        <div class="option" id="C" onclick="checkAnswer('C')">
+            <div class="option-key">C</div>
+            <div class="option-text">Berlin</div>
+        </div>
+        <div class="option" id="D" onclick="checkAnswer('D')">
+            <div class="option-key">D</div>
+            <div class="option-text">Madrid</div>
         </div>
     </div>
+    <p id="feedback" class="feedback"></p>
+    <button id="next-question" class="button" style="display:none;" onclick="loadNextQuestion()">Next Question</button>
+</section>
+
+
+
+
+
+
+
+<!-- Summary Section -->
+<section id="summary-section" class="summary-section" style="display:none;">
+    <h2 class="summary-title">Quiz Summary</h2>
+    <div class="summary-content">
+        <p id="correct-answers" class="summary-item">Correct Answers: 0</p>
+        <p id="percentage" class="summary-item">Percentage: 0%</p>
+        <p id="average-time" class="summary-item">Average Time per Question: 0s</p>
+        <p id="least-time-category" class="summary-item">Least Time Category:</p>
+    </div>
+    
+    <h3 class="category-rankings-title">Category Rankings</h3>
+    <ul id="category-rankings" class="category-rankings-list"></ul>
+    
+    <div class="summary-actions">
+        <button id="restart-test" class="button summary-button">Restart Test</button>
+        <button id="refresh-page" class="button summary-button">Refresh Page</button>
+    </div>
+</section>
+
+
+    </main>
+
+<!-- Footer Section -->
+<div id="footer-section" class="footer">
+    <img src="chirag.jpg" alt="Chirag Sharma" class="footer-photo" />
+    <div class="footer-content">
+        <h4>A Free MCQ Community</h4>
+        <p class="footer-description">Developed by Chirag Sharma</p>
+        <p class="footer-description">Join us to enhance your knowledge with interactive quizzes!</p>
+        <p>
+            <a href="https://www.linkedin.com/xchirxg" target="_blank" class="social-link">LinkedIn</a> |
+            <a href="https://www.twitter.com/xchirxg" target="_blank" class="social-link">Twitter</a>
+        </p>
+    </div>
+</div>
+
 
     <!-- External Script -->
     <script src="script.js"></script>
