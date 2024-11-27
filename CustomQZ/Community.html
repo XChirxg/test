@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Quiz Community</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        
+        /* General Body Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* General body styling */
+        body.dark {
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+
+        body.dark .button, 
+        body.dark .select, 
+        body.dark .label {
+            color: #00ffff;
+            background-color: #1a1a1a00;
+            border: 1px solid #00ffff;
+        }
+
+        body.dark .button:hover {
+            background-color: #00ffff;
+            color: #000000;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a00;
+        }
+
+        .header h1 {
+            color: #ffffff;
+        }
+
+        .quiz-section, .quiz-post-section, .footer {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .quiz-section h2, .quiz-post-section h2 {
+            color: #00ffff;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #1a1a1a;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: #00ffff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #575757;
+        }
+
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .file-list li {
+            padding: 5px 0;
+        }
+
+        .file-list li a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        .file-list li a:hover {
+            color: #fff;
+        }
+
+        .button {
+            padding: 8px 12px;
+            background-color: #00ffff;
+            color: #000;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #00e1ff;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .footer p {
+            margin: 10px 0;
+        }
+
+        /* Form Section */
+        .form-section {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .text-box {
+            width: 100%;
+            padding: 12px;
+            font-size: 1em;
+            color: #00eeff;
+            background-color: #ff000000;
+            border: 1px solid #00ccff;
+            border-radius: 8px;
+            resize: none;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body class="dark">
+    <div class="header">
+        <h1>Free Quiz Community</h1>
+        <p>Join our community to practice quizzes for UPSC, CAT, UGC-NET, and more!</p>
+    </div>
+
+    <div class="quiz-section">
+
+
+
+        <h2>Paper 1: Teaching and Research Aptitude</h2>
+        <p>Click on the units below to download quizzes for Paper 1:</p>
+        <div class="dropdown">
+            <button class="button">Teaching and Research Aptitude</button>
+            <div class="dropdown-content">
+                <ul class="file-list">
+                    <li><a href="01/unit1.json" download>Unit 1: Teaching Aptitude</a></li>
+                    <li><a href="01/unit2.json" download>Unit 2: Research Aptitude</a></li>
+                    <li><a href="01/unit3.json" download>Unit 3: Communication</a></li>
+                    <li><a href="01/unit4.json" download>Unit 4: Reasoning</a></li>
+                    <li><a href="01/unit5.json" download>Unit 5: Logical Reasoning</a></li>
+                    <li><a href="01/unit6.json" download>Unit 6: Data Interpretation</a></li>
+                    <li><a href="01/unit7.json" download>Unit 7: Information and Communication Technology</a></li>
+                    <li><a href="01/unit8.json" download>Unit 8: People and Environment</a></li>
+                    <li><a href="01/unit9.json" download>Unit 9: Higher Education System</a></li>
+                    <li><a href="01/unit10.json" download>Unit 10: Development and Policies</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+
+        <h2>UGC-NET Quiz</h2>
+        <p>Click on the units below to download quizzes for UGC-NET Commerce:</p>
+        <div class="dropdown">
+            <button class="button">Commerce UGC-NET</button>
+            <div class="dropdown-content">
+                <ul class="file-list">
+                    <li><a href="08/unit1.json" download>Unit 1: Business Environment and International Business</a></li>
+                    <li><a href="08/unit2.json" download>Unit 2: Accounting and Auditing</a></li>
+                    <li><a href="08/unit3.json" download>Unit 3: Business Economics</a></li>
+                    <li><a href="08/unit4.json" download>Unit 4: Business Finance</a></li>
+                    <li><a href="08/unit5.json" download>Unit 5: Business Statistics and Research Methods</a></li>
+                    <li><a href="08/unit6.json" download>Unit 6: Business Management and Human Resource Management</a></li>
+                    <li><a href="08/unit7.json" download>Unit 7: Banking and Financial Institutions</a></li>
+                    <li><a href="08/unit8.json" download>Unit 8: Marketing Management</a></li>
+                    <li><a href="08/unit9.json" download>Unit 9: Legal Aspects of Business</a></li>
+                    <li><a href="08/unit10.json" download>Unit 10: Income-tax and Corporate Tax Planning</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="quiz-section">
+        <h2>UPSC</h2>
+        
+    </div>
+
+
+
+
+
+
+
+    <div class="quiz-post-section">
+        <h2>Post Your Own Quiz</h2>
+        <div class="form-section">
+            <p>Submit your quiz by pasting the .json file and quiz details:</p>
+            <form action="https://formspree.io/f/xldeppag" method="POST" enctype="multipart/form-data">
+                <textarea class="text-box" name="quizDetails" placeholder="Paste your .json file here along with quiz details"></textarea>
+                <input type="submit" value="Submit Quiz" class="button">
+            </form>
+        </div>
+    </div>
+
+<!-- Footer Section -->
+<div id="footer-section" class="footer">
+    <img src="chirag.jpg" alt="Chirag Sharma" class="footer-photo" />
+    <div class="footer-content">
+        <h4>A Free MCQ Community</h4>
+        <p class="footer-description">Developed by Chirag Sharma</p>
+        <p class="footer-description">Join us to enhance your knowledge with interactive quizzes!</p>
+        <p>
+            <a href="https://www.linkedin.com/xchirxg" target="_blank" class="social-link">LinkedIn</a> |
+            <a href="https://www.twitter.com/xchirxg" target="_blank" class="social-link">Twitter</a>
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

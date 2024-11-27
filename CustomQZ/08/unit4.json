@@ -1,0 +1,536 @@
+
+        
+
+        {
+          "questions": 
+[
+  {
+    "question": "What is the primary goal of financial management?",
+    "options": {
+      "A": "Maximizing profit",
+      "B": "Minimizing risk",
+      "C": "Maximizing shareholder wealth",
+      "D": "Ensuring social responsibility"
+    },
+    "correctOption": "C",
+    "explanation": "While profit and risk are important, the overarching goal of financial management is to maximize the value of the firm for its owners (shareholders).",
+    "category": "Financial Management Principles"
+  },
+  {
+    "question": "Which of the following is a key component of working capital?",
+    "options": {
+      "A": "Fixed assets",
+      "B": "Long-term debt",
+      "C": "Inventory",
+      "D": "Retained earnings"
+    },
+    "correctOption": "C",
+    "explanation": "Working capital focuses on short-term assets and liabilities. Inventory is a crucial short-term asset used in day-to-day operations.",
+    "category": "Working Capital Management"
+  },
+  {
+    "question": "The cost of debt capital is typically lower than the cost of equity capital. Why?",
+    "options": {
+      "A": "Debt is less risky for investors",
+      "B": "Interest payments on debt are tax-deductible",
+      "C": "Equity holders have a higher claim on company assets",
+      "D": "Both A and B"
+    },
+    "correctOption": "D",
+    "explanation": "Debt is considered less risky as debtholders are paid before equity holders in case of liquidation. Additionally, the tax deductibility of interest payments further reduces the cost of debt.",
+    "category": "Cost of Capital"
+  },
+  {
+    "question": "What does the payback period method of investment appraisal measure?",
+    "options": {
+      "A": "Profitability of an investment",
+      "B": "Time taken to recover the initial investment",
+      "C": "Risk associated with an investment",
+      "D": "The return on investment"
+    },
+    "correctOption": "B",
+    "explanation": "The payback period focuses on the time it takes for an investment to generate enough cash flow to cover the initial outlay, emphasizing liquidity.",
+    "category": "Capital Budgeting"
+  },
+  {
+    "question": "Which financial statement reflects the assets, liabilities, and equity of a company at a specific point in time?",
+    "options": {
+      "A": "Income Statement",
+      "B": "Cash Flow Statement",
+      "C": "Statement of Retained Earnings",
+      "D": "Balance Sheet"
+    },
+    "correctOption": "D",
+    "explanation": "The balance sheet provides a snapshot of a company's financial position (what it owns and owes) at a given date.",
+    "category": "Financial Statements Analysis"
+  },
+  {
+    "question": "What is the formula for calculating the current ratio?",
+    "options": {
+      "A": "Current assets / Current liabilities",
+      "B": "Total debt / Total assets",
+      "C": "Net income / Total equity",
+      "D": "Sales / Inventory"
+    },
+    "correctOption": "A",
+    "explanation": "The current ratio assesses a company's short-term liquidity by comparing its current assets (that can be converted to cash quickly) with its current liabilities (short-term obligations).",
+    "category": "Ratio Analysis"
+  },
+  {
+    "question": "Which of the following is NOT a source of long-term financing?",
+    "options": {
+      "A": "Trade credit",
+      "B": "Equity shares",
+      "C": "Bonds",
+      "D": "Term loans"
+    },
+    "correctOption": "A",
+    "explanation": "Trade credit is a short-term financing arrangement where suppliers allow a delayed payment for goods or services.",
+    "category": "Long-Term Financing"
+  },
+  {
+    "question": "What does the term 'capital structure' refer to?",
+    "options": {
+      "A": "The mix of debt and equity used to finance a company",
+      "B": "The company's investment in fixed assets",
+      "C": "The amount of working capital a company holds",
+      "D": "The company's dividend policy"
+    },
+    "correctOption": "A",
+    "explanation": "Capital structure is a crucial decision involving the proportion of debt and equity financing used to fund a company's operations and growth.",
+    "category": "Capital Structure"
+  },
+  {
+    "question": "What is the purpose of a cash flow statement?",
+    "options": {
+      "A": "To show the company's profit or loss",
+      "B": "To track the movement of cash in and out of the company",
+      "C": "To report on the company's assets and liabilities",
+      "D": "To explain changes in retained earnings"
+    },
+    "correctOption": "B",
+    "explanation": "The cash flow statement highlights the sources and uses of cash, providing insight into a company's liquidity and financial health.",
+    "category": "Cash Flow Analysis"
+  },
+  {
+    "question": "What does the acronym NPV stand for in capital budgeting?",
+    "options": {
+      "A": "Net Present Value",
+      "B": "Net Profit Value",
+      "C": "Nominal Present Value",
+      "D": "Nominal Profit Value"
+    },
+    "correctOption": "A",
+    "explanation": "Net Present Value (NPV) is a sophisticated method used to evaluate investments by discounting future cash flows to their present value and comparing them to the initial investment.",
+    "category": "Capital Budgeting"
+  },
+  {
+    "question": "What is the difference between a merger and an acquisition?",
+    "options": {
+      "A": "A merger is a friendly combination of companies, while an acquisition is a hostile takeover",
+      "B": "A merger involves two companies of similar size, while an acquisition involves a larger company buying a smaller one",
+      "C": "Both A and B",
+      "D": "There is no significant difference"
+    },
+    "correctOption": "C",
+    "explanation": "While the terms are sometimes used interchangeably, mergers are generally seen as collaborative, while acquisitions often imply a dominant company taking control.",
+    "category": "Mergers and Acquisitions"
+  },
+  {
+    "question": "What is the purpose of financial leverage?",
+    "options": {
+      "A": "To reduce the company's tax liability",
+      "B": "To increase the return on equity by using debt financing",
+      "C": "To improve the company's liquidity",
+      "D": "To reduce the risk of bankruptcy"
+    },
+    "correctOption": "B",
+    "explanation": "Financial leverage involves using debt to potentially amplify returns for equity holders, though it also increases financial risk.",
+    "category": "Financial Leverage"
+  },
+  {
+    "question": "What is the function of a stock exchange?",
+    "options": {
+      "A": "To facilitate the buying and selling of stocks",
+      "B": "To set interest rates",
+      "C": "To regulate banks",
+      "D": "To issue government bonds"
+    },
+    "correctOption": "A",
+    "explanation": "Stock exchanges provide a platform for trading stocks, promoting liquidity and transparency in the capital markets.",
+    "category": "Stock Markets"
+  },
+  {
+    "question": "What is the difference between a bond and a stock?",
+    "options": {
+      "A": "A bond represents ownership in a company, while a stock represents debt",
+      "B": "A bond is a long-term investment, while a stock is a short-term investment",
+      "C": "A bond pays a fixed interest rate, while a stock's returns are variable",
+      "D": "Bonds are riskier than stocks"
+    },
+    "correctOption": "C",
+    "explanation": "Bonds are debt instruments that typically pay a fixed interest rate (coupon) over a specific period, while stocks represent ownership shares with variable returns depending on company performance.",
+    "category": "Financial Instruments"
+  },
+  {
+    "question": "What is the purpose of a dividend?",
+    "options": {
+      "A": "To reduce the company's tax liability",
+      "B": "To distribute profits to shareholders",
+      "C": "To increase the company's debt",
+      "D": "To buy back company stock"
+    },
+    "correctOption": "B",
+    "explanation": "Dividends are a portion of company profits that are paid out to shareholders, representing a return on their investment.",
+    "category": "Dividends"
+  },
+  {
+    "question": "What does the term 'risk diversification' mean?",
+    "options": {
+      "A": "Investing in a single asset to maximize returns",
+      "B": "Spreading investments across different assets to reduce risk",
+      "C": "Borrowing money to invest in high-risk assets",
+      "D": "Avoiding all investments to eliminate risk"
+    },
+    "correctOption": "B",
+    "explanation": "Risk diversification is a fundamental principle of investing that involves allocating capital across various assets to mitigate the impact of potential losses in any single investment.",
+    "category": "Risk Management"
+  },
+  {
+    "question": "What is the role of a financial analyst?",
+    "options": {
+      "A": "To manage the company's day-to-day finances",
+      "B": "To audit the company's financial statements",
+      "C": "To provide recommendations on investment decisions",
+      "D": "To set the company's dividend policy"
+    },
+    "correctOption": "C",
+    "explanation": "Financial analysts research companies, industries, and economic trends to provide insights and recommendations for investment decisions.",
+    "category": "Financial Professionals"
+  },
+  {
+    "question": "What is the purpose of a credit rating agency?",
+    "options": {
+      "A": "To set interest rates",
+      "B": "To regulate banks",
+      "C": "To assess the creditworthiness of borrowers",
+      "D": "To issue government bonds"
+    },
+    "correctOption": "C",
+    "explanation": "Credit rating agencies evaluate the credit risk of companies and governments, assigning ratings that reflect the likelihood of default on debt obligations.",
+    "category": "Credit Rating"
+  },
+  {
+    "question": "What is the difference between a bull market and a bear market?",
+    "options": {
+      "A": "A bull market is characterized by rising stock prices, while a bear market is characterized by falling stock prices",
+      "B": "A bull market is a short-term trend, while a bear market is a long-term trend",
+      "C": "A bull market is driven by optimism, while a bear market is driven by pessimism",
+      "D": "Both A and C"
+    },
+    "correctOption": "D",
+    "explanation": "Bull markets are typically associated with investor confidence and rising prices, while bear markets reflect pessimism and declining valuations.",
+    "category": "Market Trends"
+  },
+  {
+    "question": "What is the purpose of an initial public offering (IPO)?",
+    "options": {
+      "A": "To raise capital for the company by selling shares to the public",
+      "B": "To pay dividends to existing shareholders",
+      "C": "To buy back company stock",
+      "D": "To merge with another company"
+    },
+    "correctOption": "A",
+    "explanation": "An IPO is the first time a company offers shares of its stock to the public, allowing it to raise capital for growth and expansion.",
+    "category": "Equity Financing"
+  },
+  {
+    "question": "What is the role of the Securities and Exchange Board of India (SEBI)?",
+    "options": {
+      "A": "To regulate the Indian stock market",
+      "B": "To set interest rates",
+      "C": "To manage the government's finances",
+      "D": "To issue currency"
+    },
+    "correctOption": "A",
+    "explanation": "SEBI is the regulatory authority responsible for overseeing the Indian securities market, protecting investors, and ensuring fair and transparent trading practices.",
+    "category": "Financial Regulation"
+  },
+  {
+    "question": "What is the difference between a debit card and a credit card?",
+    "options": {
+      "A": "A debit card deducts money directly from your bank account, while a credit card allows you to borrow money",
+      "B": "A debit card offers rewards points, while a credit card does not",
+      "C": "A debit card is riskier than a credit card",
+      "D": "Debit cards are only used for online purchases"
+    },
+    "correctOption": "A",
+    "explanation": "Debit cards provide direct access to funds in your bank account, while credit cards extend a line of credit that you must repay with interest.",
+    "category": "Personal Finance"
+  },
+  {
+    "question": "What is the purpose of a budget?",
+    "options": {
+      "A": "To track your income and expenses",
+      "B": "To invest your savings",
+      "C": "To get a loan",
+      "D": "To file your taxes"
+    },
+    "correctOption": "A",
+    "explanation": "Budgets are essential for managing personal finances by helping you monitor your cash flow, plan for future expenses, and achieve financial goals.",
+    "category": "Personal Finance"
+  },
+  {
+    "question": "What is the difference between a fixed interest rate and a variable interest rate?",
+    "options": {
+      "A": "A fixed interest rate stays the same over the loan term, while a variable interest rate can fluctuate",
+      "B": "A fixed interest rate is riskier than a variable interest rate",
+      "C": "A fixed interest rate is only available for short-term loans",
+      "D": "Fixed interest rates are always lower than variable interest rates"
+    },
+    "correctOption": "A",
+    "explanation": "Fixed interest rates provide predictability, while variable rates can change based on market conditions, potentially leading to higher or lower payments over time.",
+    "category": "Loans and Interest Rates"
+  },
+  {
+    "question": "What is the purpose of insurance?",
+    "options": {
+      "A": "To protect you from financial losses",
+      "B": "To invest your savings",
+      "C": "To get a loan",
+      "D": "To file your taxes"
+    },
+    "correctOption": "A",
+    "explanation": "Insurance provides financial protection against various risks, such as accidents, illness, property damage, and liability claims, by transferring the risk to an insurance company.",
+    "category": "Insurance"
+  },
+  {
+    "question": "What is the difference between a mutual fund and an exchange-traded fund (ETF)?",
+    "options": {
+      "A": "A mutual fund is actively managed, while an ETF is passively managed",
+      "B": "A mutual fund trades on a stock exchange, while an ETF does not",
+      "C": "A mutual fund is more diversified than an ETF",
+      "D": "Mutual funds are riskier than ETFs"
+    },
+    "correctOption": "A",
+    "explanation": "Mutual funds often have a portfolio manager actively making investment decisions, while ETFs typically track a specific index, resulting in lower fees.",
+    "category": "Investment Vehicles"
+  },
+  {
+    "question": "What is the purpose of retirement planning?",
+    "options": {
+      "A": "To ensure you have enough income to support yourself after you stop working",
+      "B": "To buy a house",
+      "C": "To pay for your children's education",
+      "D": "To travel the world"
+    },
+    "correctOption": "A",
+    "explanation": "Retirement planning involves saving and investing to build a financial nest egg that can provide a steady income stream after retirement.",
+    "category": "Financial Planning"
+  },
+  {
+    "question": "What is the difference between a traditional IRA and a Roth IRA?",
+    "options": {
+      "A": "Contributions to a traditional IRA are tax-deductible, while contributions to a Roth IRA are not",
+      "B": "Withdrawals from a traditional IRA are tax-free in retirement, while withdrawals from a Roth IRA are taxed",
+      "C": "Traditional IRAs have higher contribution limits than Roth IRAs",
+      "D": "Traditional IRAs are only available to people over 50"
+    },
+    "correctOption": "A",
+    "explanation": "Traditional IRAs offer tax benefits upfront, while Roth IRAs provide tax-free withdrawals in retirement. The best choice depends on individual circumstances and tax bracket.",
+    "category": "Retirement Accounts"
+  },
+  {
+    "question": "What is the purpose of a will?",
+    "options": {
+      "A": "To specify how you want your assets distributed after your death",
+      "B": "To avoid paying taxes",
+      "C": "To get a loan",
+      "D": "To buy insurance"
+    },
+    "correctOption": "A",
+    "explanation": "A will is a legal document that outlines your wishes regarding the distribution of your property and assets after your passing.",
+    "category": "Estate Planning"
+  },
+  {
+    "question": "What is the difference between a secured loan and an unsecured loan?",
+    "options": {
+      "A": "A secured loan requires collateral, while an unsecured loan does not",
+      "B": "A secured loan has a lower interest rate than an unsecured loan",
+      "C": "A secured loan is riskier for the lender",
+      "D": "Secured loans are only available for large purchases"
+    },
+    "correctOption": "A",
+    "explanation": "Secured loans, like mortgages and auto loans, use an asset as collateral, reducing lender risk and often leading to lower interest rates. Unsecured loans, like personal loans and credit cards, do not require collateral.",
+    "category": "Loans and Credit"
+  },
+  {
+    "question": "What is the purpose of a credit score?",
+    "options": {
+      "A": "To measure your creditworthiness",
+      "B": "To determine your tax bracket",
+      "C": "To track your investment returns",
+      "D": "To calculate your net worth"
+    },
+    "correctOption": "A",
+    "explanation": "Credit scores are numerical representations of your credit history, used by lenders to assess your likelihood of repaying debt.",
+    "category": "Creditworthiness"
+  },
+  {
+    "question": "What is the difference between compound interest and simple interest?",
+    "options": {
+      "A": "Compound interest earns interest on both the principal and accumulated interest, while simple interest only earns interest on the principal",
+      "B": "Compound interest is riskier than simple interest",
+      "C": "Compound interest is only available for long-term investments",
+      "D": "Compound interest rates are always lower than simple interest rates"
+    },
+    "correctOption": "A",
+    "explanation": "Compound interest has a powerful effect over time as earnings are reinvested and generate further interest, leading to exponential growth.",
+    "category": "Interest Calculations"
+  },
+  {
+    "question": "What is the purpose of a financial advisor?",
+    "options": {
+      "A": "To provide personalized financial guidance",
+      "B": "To manage your investments",
+      "C": "To help you plan for retirement",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "Financial advisors offer a range of services, including investment management, retirement planning, tax advice, and estate planning, tailored to individual needs and goals.",
+    "category": "Financial Planning"
+  },
+  {
+    "question": "What is the difference between a stock and a bond?",
+    "options": {
+      "A": "A stock represents ownership in a company, while a bond represents debt",
+      "B": "A stock pays a fixed interest rate, while a bond's returns are variable",
+      "C": "Stocks are less risky than bonds",
+      "D": "Stocks are only available to wealthy investors"
+    },
+    "correctOption": "A",
+    "explanation": "Stocks, also known as equities, give you a share of ownership in a corporation. Bonds are debt securities, essentially loans that you make to companies or governments.",
+    "category": "Investments"
+  },
+  {
+    "question": "What is the purpose of diversification in investing?",
+    "options": {
+      "A": "To maximize your returns",
+      "B": "To reduce your risk by spreading your investments across different asset classes",
+      "C": "To avoid paying taxes",
+      "D": "To guarantee a profit"
+    },
+    "correctOption": "B",
+    "explanation": "Diversification is a key risk management strategy. By investing in a variety of assets, you can reduce the impact of any single investment performing poorly.",
+    "category": "Investments"
+  },
+  {
+    "question": "What is a mutual fund?",
+    "options": {
+      "A": "A type of insurance policy",
+      "B": "A type of bank account",
+      "C": "An investment that pools money from multiple investors to buy a diversified portfolio of securities",
+      "D": "A type of loan"
+    },
+    "correctOption": "C",
+    "explanation": "Mutual funds offer a way for investors to diversify their investments by pooling their money with other investors.",
+    "category": "Investments"
+  },
+  {
+    "question": "What is an exchange-traded fund (ETF)?",
+    "options": {
+      "A": "A type of mutual fund that trades on a stock exchange",
+      "B": "A type of bond",
+      "C": "A type of savings account",
+      "D": "A type of insurance policy"
+    },
+    "correctOption": "A",
+    "explanation": "ETFs are similar to mutual funds in that they offer diversification, but they trade on stock exchanges like individual stocks.",
+    "category": "Investments"
+  },
+  {
+    "question": "What is the difference between a 401(k) and a Roth IRA?",
+    "options": {
+      "A": "A 401(k) is a retirement savings plan offered by employers, while a Roth IRA is an individual retirement account",
+      "B": "Contributions to a 401(k) are tax-deductible, while contributions to a Roth IRA are not",
+      "C": "Withdrawals from a 401(k) are tax-free in retirement, while withdrawals from a Roth IRA are taxed",
+      "D": "401(k) plans have lower contribution limits than Roth IRAs"
+    },
+    "correctOption": "A",
+    "explanation": "401(k) plans are employer-sponsored retirement plans, while Roth IRAs are individual retirement accounts that you set up yourself.",
+    "category": "Retirement Planning"
+  },
+  {
+    "question": "What is the purpose of estate planning?",
+    "options": {
+      "A": "To plan for your retirement",
+      "B": "To manage your investments",
+      "C": "To ensure that your assets are distributed according to your wishes after your death",
+      "D": "To avoid paying taxes"
+    },
+    "correctOption": "C",
+    "explanation": "Estate planning involves creating a plan for the management and distribution of your assets after your death.",
+    "category": "Estate Planning"
+  },
+  {
+    "question": "What is a capital gain?",
+    "options": {
+      "A": "The profit you make from selling an asset for more than you paid for it",
+      "B": "The interest you earn on a savings account",
+      "C": "The dividends you receive from a stock",
+      "D": "The money you lose from selling an asset for less than you paid for it"
+    },
+    "correctOption": "A",
+    "explanation": "A capital gain occurs when you sell an investment for a higher price than you purchased it for.",
+    "category": "Investments"
+  },
+  {
+    "question": "What is a dividend?",
+    "options": {
+      "A": "The interest you earn on a savings account",
+      "B": "A portion of a company's profits that is paid out to shareholders",
+      "C": "The profit you make from selling an asset for more than you paid for it",
+      "D": "The money you lose from selling an asset for less than you paid for it"
+    },
+    "correctOption": "B",
+    "explanation": "Dividends are payments made to shareholders, typically as a distribution of profits.",
+    "category": "Investments"
+  },
+  {
+    "question": "What is a budget deficit?",
+    "options": {
+      "A": "When you spend less money than you earn",
+      "B": "When you spend more money than you earn",
+      "C": "When you invest all of your savings",
+      "D": "When you donate to charity"
+    },
+    "correctOption": "B",
+    "explanation": "A budget deficit occurs when expenses exceed income.",
+    "category": "Personal Finance"
+  },
+  {
+    "question": "What is inflation?",
+    "options": {
+      "A": "A decrease in the general price level of goods and services",
+      "B": "An increase in the general price level of goods and services",
+      "C": "A period of economic growth",
+      "D": "A period of economic recession"
+    },
+    "correctOption": "B",
+    "explanation": "Inflation is a sustained increase in the prices of goods and services over time.",
+    "category": "Economics"
+  },
+  {
+    "question": "What is the purpose of a central bank?",
+    "options": {
+      "A": "To provide loans to individuals and businesses",
+      "B": "To regulate the money supply and interest rates",
+      "C": "To collect taxes",
+      "D": "To issue government bonds"
+    },
+    "correctOption": "B",
+    "explanation": "Central banks play a critical role in managing a country's monetary policy.",
+    "category": "Economics"
+  }
+]
+}

@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
     /* General body styling */
     body.light {
         background-color: #ffffff;
@@ -667,3 +674,47 @@ body.dark .footer {
     outline: none;
     border-color: #9d9d9d;
 }
+/* General styles */
+.feedback {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    color: #495057;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Hover effect */
+  .feedback:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Styling for specific feedback states */
+  .feedback.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .feedback.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .feedback.info {
+    background-color: #cce5ff;
+    color: #004085;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .feedback {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  

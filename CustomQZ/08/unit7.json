@@ -1,0 +1,557 @@
+        
+
+        {
+            "questions":
+[
+{
+"question": "Which of the following is NOT a function of the Reserve Bank of India?",
+"options": {
+"A": "Custodian of Cash Reserves of Commercial Banks",
+"B": "Controller of credit",
+"C": "Accepting deposits and advancing loans to the public",
+"D": "Issue of Banknotes"
+},
+"correctOption": "C",
+"explanation": "The Reserve Bank of India does not accept deposits or provide loans to the public. This is the function of commercial banks. The RBI primarily focuses on regulating the monetary system, managing currency, and overseeing financial institutions.",
+"category": "Banking Institutions"
+},
+{
+"question": "What is the main objective of the Market Stabilisation Scheme (MSS)?",
+"options": {
+"A": "To finance government infrastructure projects",
+"B": "To provide subsidies to small businesses",
+"C": "To absorb surplus liquidity in the market",
+"D": "To control inflation by reducing money supply"
+},
+"correctOption": "C",
+"explanation": "The Market Stabilization Scheme is designed to manage excess liquidity in the market, primarily stemming from large capital flows. It achieves this by selling short-term government securities and treasury bills, thereby absorbing excess funds. The funds are then held in a special account with the RBI and are not used for regular government expenditures.",
+"category": "Credit Control"
+},
+{
+"question": "Which institution was established in India in 1987 as a wholly owned subsidiary of the Reserve Bank of India?",
+"options": {
+"A": "State Bank of India",
+"B": "Life Insurance Corporation of India",
+"C": "Industrial Finance Corporation of India",
+"D": "National Housing Bank"
+},
+"correctOption": "D",
+"explanation": "The National Housing Bank (NHB) was set up in 1987 as a fully owned subsidiary of the RBI. Its main objective is to promote and regulate the housing finance sector in India.",
+"category": "Banking Institutions"
+},
+{
+"question": "Which of the following is a characteristic of 'ethnocentric firms' as a type of multinational corporation?",
+"options": {
+"A": "They maintain a balance between home country and host country practices",
+"B": "They primarily focus on adapting to the host country culture and practices",
+"C": "They rely mainly on the practices and policies of their home country",
+"D": "They prioritize hiring and promoting employees from the host country"
+},
+"correctOption": "C",
+"explanation": "Ethnocentric firms tend to extend their home country practices and policies to their foreign subsidiaries. They have a centralized decision-making process and often see their home country practices as superior." ,
+"category": "International Finance"
+},
+{
+"question": "What does the doctrine of 'Caveat Emptor' mean in the context of business transactions?",
+"options": {
+"A": "The seller is responsible for disclosing all product defects",
+"B": "The buyer should make payment well in time",
+"C": "The buyer assumes the risk of potential product defects",
+"D": "The seller must provide a warranty for the product"
+},
+"correctOption": "C",
+"explanation": "Caveat Emptor translates to 'buyer beware.' It means that the buyer is responsible for examining and evaluating the product before purchase. The seller is not obligated to disclose all potential issues, and the buyer assumes the risk of any undiscovered defects.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "Which financial statement is prepared to ascertain the financial position of a firm at a specific point in time?",
+"options": {
+"A": "Profit and Loss Account",
+"B": "Cash Flow Statement",
+"C": "Balance Sheet",
+"D": "Statement of Changes in Equity"
+},
+"correctOption": "C",
+"explanation": "The balance sheet provides a snapshot of a company's assets, liabilities, and equity at a particular date. It reflects the company's financial position and helps users understand its financial health.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What does SLR (Statutory Liquidity Ratio) represent for a bank?",
+"options": {
+"A": "The ratio of a bank's liquid assets to its total assets",
+"B": "The portion of a bank's deposits that must be held in cash",
+"C": "The percentage of a bank's deposits that must be invested in government securities",
+"D": "The minimum amount of capital a bank must maintain to cover potential losses"
+},
+"correctOption": "C",
+"explanation": "The SLR is the percentage of a bank's net demand and time liabilities that it must maintain in the form of cash, gold, or approved securities. This is a regulatory requirement set by the RBI to ensure the solvency of banks.",
+"category": "Credit Control"
+},
+{
+"question": "Which of the following is NOT considered a non-tariff barrier in international trade?",
+"options": {
+"A": "Import quotas",
+"B": "Complex customs procedures",
+"C": "Subsidies to domestic producers",
+"D": "Import tariffs"
+},
+"correctOption": "D",
+"explanation": "An import tariff is a tax levied on imported goods, making it a tariff barrier, not a non-tariff barrier. Non-tariff barriers are policies or regulations that restrict trade without directly imposing a tax.",
+"category": "International Finance"
+},
+{
+"question": "What is the primary function of a credit rating agency?",
+"options": {
+"A": "To provide loans to businesses and individuals",
+"B": "To assess and rate the creditworthiness of borrowers",
+"C": "To regulate the interest rates charged by banks",
+"D": "To insure deposits held in commercial banks"
+},
+"correctOption": "B",
+"explanation": "Credit rating agencies evaluate the credit risk of borrowers, including companies, governments, and individuals. They assign ratings based on their assessment of the borrower's ability to repay debt. These ratings are used by investors to make informed decisions.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the key difference between the terms 'LIBOR' and 'Eurocurrency'?",
+"options": {
+"A": "LIBOR refers to interest rates in the European market, while Eurocurrency refers to currencies held outside their country of origin",
+"B": "LIBOR is the interest rate on loans between banks in the London market, while Eurocurrency refers to currencies held in European banks",
+"C": "LIBOR is a benchmark interest rate for interbank lending, while Eurocurrency refers to the exchange rate between the Euro and other currencies",
+"D": "LIBOR is an interest rate set by the European Central Bank, while Eurocurrency refers to deposits denominated in Euros held outside the Eurozone"
+},
+"correctOption": "A",
+"explanation": "LIBOR (London Interbank Offered Rate) is a benchmark interest rate for short-term interbank lending in the London market. It is used as a reference rate for various financial instruments. Eurocurrency, on the other hand, refers to any currency held in a bank outside its country of origin.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main difference between 'strategic sale' and 'management-employee buyout' as methods of privatization?",
+"options": {
+"A": "Strategic sale involves selling a majority stake to a private investor, while management-employee buyout involves selling shares to the company's employees and management",
+"B": "Strategic sale is used for large public sector undertakings, while management-employee buyout is used for smaller companies",
+"C": "Strategic sale focuses on maximizing revenue for the government, while management-employee buyout aims to empower employees",
+"D": "Strategic sale is a transparent process, while management-employee buyout is often conducted through negotiations"
+},
+"correctOption": "A",
+"explanation": "In a strategic sale, the government sells a controlling stake in a public sector undertaking to a private investor, typically through a competitive bidding process. This is done to transfer ownership and control to the private sector. In a management-employee buyout, the company's employees and managers pool resources to acquire a controlling stake, often with the help of external financing.",
+"category": "Banking Institutions"
+},
+{
+"question": "Which of the following is NOT a key principle of corporate governance?",
+"options": {
+"A": "Transparency and disclosure",
+"B": "Accountability and responsibility",
+"C": "Maximizing shareholder profits at all costs",
+"D": "Fairness and equitable treatment of stakeholders"
+},
+"correctOption": "C",
+"explanation": "Corporate governance emphasizes a balanced approach that considers the interests of all stakeholders, not just shareholders. It promotes ethical conduct, transparency, and responsible decision-making to ensure long-term sustainability and fairness.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the primary purpose of a 'lock-box system' in cash flow management?",
+"options": {
+"A": "To secure cash on company premises",
+"B": "To expedite the collection of customer payments",
+"C": "To reduce the risk of fraud and theft",
+"D": "To invest excess cash in short-term securities"
+},
+"correctOption": "B",
+"explanation": "A lock-box system is a cash management technique that involves directing customer payments to a designated post office box. The bank then collects these payments and deposits them directly into the company's account, speeding up the collection process and improving cash flow.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "Which financial ratio measures a company's ability to meet its short-term obligations?",
+"options": {
+"A": "Debt-to-Equity Ratio",
+"B": "Current Ratio",
+"C": "Return on Equity",
+"D": "Profit Margin"
+},
+"correctOption": "B",
+"explanation": "The current ratio, calculated by dividing current assets by current liabilities, assesses a company's ability to pay off its short-term debts with its short-term assets. A higher current ratio indicates better short-term liquidity.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the main difference between 'dumping' and 'anti-competitive agreements' in the context of competition law?",
+"options": {
+"A": "Dumping involves selling products below cost in a foreign market, while anti-competitive agreements involve collusion between competitors to fix prices or divide markets",
+"B": "Dumping is illegal in all countries, while anti-competitive agreements are only illegal in some countries",
+"C": "Dumping harms domestic producers, while anti-competitive agreements harm consumers",
+"D": "Dumping is a form of price discrimination, while anti-competitive agreements are a form of market manipulation"
+},
+"correctOption": "A",
+"explanation": "Dumping is the practice of exporting a product at a price lower than its normal value in the exporting country or below its cost of production. This is often done to gain market share in a foreign country. Anti-competitive agreements involve collaboration between competitors to restrict competition, such as price-fixing or market allocation.",
+"category": "Financial Markets"
+},
+{
+"question": "Which of the following is NOT a feature of a 'venture capital fund'?",
+"options": {
+"A": "They invest in early-stage, high-growth companies",
+"B": "They provide long-term capital and mentorship",
+"C": "They are highly risk-averse and prefer stable investments",
+"D": "They seek high returns to compensate for the risks involved"
+},
+"correctOption": "C",
+"explanation": "Venture capital funds are known for their willingness to invest in high-risk ventures with the potential for significant growth. They are not risk-averse and understand that high returns are associated with higher risks.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the role of 'SWIFT' in international financial transactions?",
+"options": {
+"A": "To regulate international exchange rates",
+"B": "To facilitate cross-border payments and messaging",
+"C": "To provide credit ratings for multinational corporations",
+"D": "To insure international shipments of goods"
+},
+"correctOption": "B",
+"explanation": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) is a global interbank messaging system that enables financial institutions to send and receive information about financial transactions securely and reliably. It plays a crucial role in facilitating cross-border payments.",
+"category": "International Finance"
+},
+{
+"question": "What is the main purpose of a 'factoring' arrangement?",
+"options": {
+"A": "To obtain short-term financing by selling accounts receivable",
+"B": "To outsource the collection of customer payments",
+"C": "To insure against bad debts and credit losses",
+"D": "To improve customer relationships by offering extended payment terms"
+},
+"correctOption": "A",
+"explanation": "Factoring involves selling a company's accounts receivable (invoices) to a third party (factor) at a discount. This provides immediate cash flow to the company, although it receives less than the full value of the invoices. Factoring can be a useful source of short-term financing.",
+"category": "Financial Markets"
+},
+{
+"question": "Which of the following is NOT a typical stage in a product's life cycle?",
+"options": {
+"A": "Introduction",
+"B": "Growth",
+"C": "Maturity",
+"D": "Divestment"
+},
+"correctOption": "D",
+"explanation": "While 'divestment' can be a strategic decision for a company, it is not a typical stage in a product's life cycle. The standard stages include introduction, growth, maturity, and decline.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the primary function of the 'International Finance Corporation (IFC)'?",
+"options": {
+"A": "To provide loans and grants to developing countries",
+"B": "To regulate international trade between nations",
+"C": "To promote private sector development in emerging markets",
+"D": "To stabilize exchange rates and prevent currency crises"
+},
+"correctOption": "C",
+"explanation": "The IFC, a member of the World Bank Group, focuses on supporting private sector growth in developing countries. It provides investment, advisory services, and asset management services to companies in emerging markets.",
+"category": "International Finance"
+},
+{
+"question": "What is the difference between 'economic profit' and 'accounting profit'?",
+"options": {
+"A": "Economic profit considers both explicit and implicit costs, while accounting profit only considers explicit costs",
+"B": "Economic profit is always higher than accounting profit",
+"C": "Economic profit is used for tax purposes, while accounting profit is used for financial reporting",
+"D": "Economic profit focuses on long-term profitability, while accounting profit focuses on short-term profitability"
+},
+"correctOption": "A",
+"explanation": "Economic profit takes into account both explicit costs (out-of-pocket expenses) and implicit costs (opportunity costs). Accounting profit, as reported in financial statements, only considers explicit costs. This means that economic profit is typically lower than accounting profit.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the main purpose of conducting a 'mystery shopping' exercise?",
+"options": {
+"A": "To gather competitive intelligence on pricing and product offerings",
+"B": "To evaluate the effectiveness of sales and marketing campaigns",
+"C": "To assess customer service quality and identify areas for improvement",
+"D": "To test the security of retail stores and prevent shoplifting"
+},
+"correctOption": "C",
+"explanation": "Mystery shopping involves trained individuals posing as customers to evaluate the quality of service, compliance with standards, and overall customer experience. This provides insights into areas where improvements can be made.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "Which of the following is a characteristic of a 'bull market'?",
+"options": {
+"A": "Declining stock prices and investor pessimism",
+"B": "Rising stock prices and investor optimism",
+"C": "High volatility and unpredictable market movements",
+"D": "Stable prices and low trading volume"
+},
+"correctOption": "B",
+"explanation": "A bull market is characterized by rising stock prices and a positive outlook among investors. It is typically associated with economic growth and increased investor confidence. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main difference between 'quantitative easing' and 'open market operations' as monetary policy tools?",
+"options": {
+"A": "Quantitative easing involves buying long-term government bonds, while open market operations involve buying short-term government securities",
+"B": "Quantitative easing is used to stimulate economic growth, while open market operations are used to control inflation",
+"C": "Quantitative easing is a conventional monetary policy tool, while open market operations are unconventional",
+"D": "Quantitative easing is implemented by the government, while open market operations are implemented by the central bank"
+},
+"correctOption": "A",
+"explanation": "Quantitative easing (QE) is a monetary policy measure used by central banks to stimulate the economy when standard monetary policy tools have become ineffective. It involves injecting money into the financial system by purchasing assets, typically long-term government bonds, from commercial banks and other institutions. This increases the money supply and lowers long-term interest rates.Open market operations (OMO) are a more conventional tool used by central banks to manage the money supply. They involve buying or selling short-term government securities in the open market to influence short-term interest rates. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Credit Control"
+},
+{
+"question": "What is the primary purpose of the 'Basel Accords' in the banking industry?",
+"options": {
+"A": "To promote free trade and reduce barriers to international banking",
+"B": "To establish international standards for banking regulation and supervision",
+"C": "To provide emergency funding to banks facing financial difficulties",
+"D": "To set interest rates and exchange rates for international transactions"
+},
+"correctOption": "B",
+"explanation": "The Basel Accords are a set of international agreements developed by the Basel Committee on Banking Supervision (BCBS) to enhance financial stability by improving banking regulations worldwide. They focus on areas such as capital adequacy, risk management, and supervisory review.",
+"category": "Banking Institutions"
+},
+{
+"question": "What is the main difference between a 'forward contract' and a 'futures contract' in the context of derivative instruments?",
+"options": {
+"A": "A forward contract is traded on an exchange, while a futures contract is privately negotiated",
+"B": "A forward contract is standardized, while a futures contract is customized",
+"C": "A forward contract is settled daily, while a futures contract is settled at maturity",
+"D": "A forward contract carries higher counterparty risk, while a futures contract is cleared through a central counterparty"
+},
+"correctOption": "D",
+"explanation": "Both forward and futures contracts are agreements to buy or sell an asset at a future date at a predetermined price. However, forward contracts are privately negotiated agreements between two parties and carry counterparty risk (the risk that one party may default). Futures contracts, on the other hand, are standardized contracts traded on exchanges and are cleared through a central counterparty, reducing counterparty risk. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+},
+{
+"question": "What is the primary function of a 'depository' in the financial market?",
+"options": {
+"A": "To provide safekeeping and management of securities",
+"B": "To underwrite and distribute new securities",
+"C": "To facilitate trading of securities on an exchange",
+"D": "To provide investment advisory services to investors"
+},
+"correctOption": "A",
+"explanation": "A depository, like a central securities depository, holds securities in electronic form, providing safekeeping, clearing, and settlement services. It eliminates the need for physical certificates and simplifies the process of transferring securities. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+},
+{
+"question": "Which of the following is NOT a typical reason for a company to engage in mergers and acquisitions?",
+"options": {
+"A": "To achieve economies of scale and reduce costs",
+"B": "To diversify operations and reduce risk",
+"C": "To gain access to new markets and technologies",
+"D": "To comply with government regulations and avoid penalties"
+},
+"correctOption": "D",
+"explanation": "Mergers and acquisitions are strategic business decisions driven by factors such as growth, synergy, and market expansion. Compliance with regulations is a separate consideration and is not a primary driver of M&A activity.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the primary function of a 'hedge fund'?",
+"options": {
+"A": "To provide mutual fund investments to retail investors",
+"B": "To use advanced investment strategies to generate high returns",
+"C": "To offer low-risk, fixed-income investments",
+"D": "To invest in socially responsible and sustainable companies"
+},
+"correctOption": "B",
+"explanation": "Hedge funds are investment funds that use a wide range of strategies, often involving leverage and derivatives, to generate high returns for their investors. They are typically open to accredited investors with a high risk tolerance.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main purpose of a 'credit bureau' in the financial system?",
+"options": {
+"A": "To provide credit counseling and debt management services",
+"B": "To collect and maintain credit information on individuals and businesses",
+"C": "To regulate interest rates and lending practices of financial institutions",
+"D": "To insure deposits held in commercial banks and credit unions"
+},
+"correctOption": "B",
+"explanation": "Credit bureaus compile and maintain credit histories on individuals and businesses, providing this information to lenders to assess creditworthiness. This helps lenders make informed lending decisions and manage credit risk. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main difference between 'microfinance' and 'commercial banking'?",
+"options": {
+"A": "Microfinance focuses on providing small loans to low-income individuals and businesses, while commercial banking serves a broader range of customers",
+"B": "Microfinance is regulated by the government, while commercial banking is self-regulated",
+"C": "Microfinance institutions are non-profit organizations, while commercial banks are profit-making entities",
+"D": "Microfinance offers higher interest rates than commercial banking"
+},
+"correctOption": "A",
+"explanation": "Microfinance specializes in providing financial services, primarily small loans, to individuals and businesses that lack access to traditional banking services. It focuses on empowering low-income communities and promoting entrepreneurship. Commercial banks cater to a wider customer base and offer a broader range of financial products and services.",
+"category": "Banking Institutions"
+},
+{
+"question": "What is the primary function of a 'merchant bank'?",
+"options": {
+"A": "To provide retail banking services to individuals and small businesses",
+"B": "To offer investment banking services to corporations and high-net-worth individuals",
+"C": "To underwrite and distribute government securities",
+"D": "To regulate the activities of commercial banks and other financial institutions"
+},
+"correctOption": "B",
+"explanation": "Merchant banks provide financial services to corporations and wealthy individuals, including underwriting securities, mergers and acquisitions advisory, and financial restructuring. They do not engage in traditional retail banking activities.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main difference between 'debt financing' and 'equity financing'?",
+"options": {
+"A": "Debt financing involves borrowing money, while equity financing involves selling ownership shares",
+"B": "Debt financing is less risky than equity financing",
+"C": "Debt financing provides tax advantages, while equity financing does not",
+"D": "Debt financing is typically used for short-term needs, while equity financing is used for long-term needs"
+},
+"correctOption": "A",
+"explanation": "Debt financing involves borrowing money from lenders, creating a liability that must be repaid with interest. Equity financing involves issuing shares of stock, giving investors ownership in the company in exchange for capital. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+},
+{
+"question": "What is the primary purpose of conducting a 'stress test' on a bank?",
+"options": {
+"A": "To assess the bank's ability to withstand adverse economic conditions",
+"B": "To measure the bank's profitability and return on equity",
+"C": "To evaluate the bank's customer service quality and satisfaction",
+"D": "To determine the bank's compliance with regulatory requirements"
+},
+"correctOption": "A",
+"explanation": "Stress tests are simulations designed to evaluate how a bank would perform under hypothetical adverse economic scenarios. They assess the bank's capital adequacy, risk management practices, and overall resilience to economic shocks. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Banking Institutions"
+},
+{
+"question": "What is the main difference between a 'credit card' and a 'debit card'?",
+"options": {
+"A": "A credit card allows you to borrow money, while a debit card deducts funds directly from your bank account",
+"B": "A credit card offers rewards and cashback, while a debit card does not",
+"C": "A credit card is more secure than a debit card",
+"D": "A credit card can only be used online, while a debit card can be used both online and in-store"
+},
+"correctOption": "A",
+"explanation": "A credit card provides a line of credit, allowing you to make purchases and repay the borrowed amount later with interest. A debit card is linked to your bank account, and transactions deduct funds directly from your available balance.",
+"category": "Banking Institutions"
+},
+{
+"question": "What is the primary role of the 'Securities and Exchange Board of India (SEBI)'?",
+"options": {
+"A": "To regulate the banking industry and ensure financial stability",
+"B": "To protect the interests of investors in the securities market",
+"C": "To promote economic growth and development",
+"D": "To control inflation and manage the money supply"
+},
+"correctOption": "B",
+"explanation": "SEBI is the regulatory authority for the securities market in India. Its primary role is to protect investors, regulate market intermediaries, and ensure fair and transparent trading practices.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main difference between a 'primary market' and a 'secondary market' in the context of securities trading?",
+"options": {
+"A": "The primary market is where new securities are issued, while the secondary market is where existing securities are traded",
+"B": "The primary market is for institutional investors, while the secondary market is for retail investors",
+"C": "The primary market is regulated by the government, while the secondary market is self-regulated",
+"D": "The primary market is less liquid than the secondary market"
+},
+"correctOption": "A",
+"explanation": "In the primary market, companies and governments issue new securities (stocks and bonds) to raise capital. These securities are then traded among investors in the secondary market, such as stock exchanges.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the primary purpose of a 'letter of credit' in international trade?",
+"options": {
+"A": "To provide financing to the importer",
+"B": "To guarantee payment to the exporter",
+"C": "To insure the goods against damage or loss during transit",
+"D": "To reduce customs duties and tariffs"
+},
+"correctOption": "B",
+"explanation": "A letter of credit is a financial instrument issued by a bank on behalf of an importer (buyer) guaranteeing payment to an exporter (seller) upon fulfillment of specific trade terms. It reduces risk for both parties in international trade transactions.",
+"category": "International Finance"
+},
+{
+"question": "What is the main difference between 'systematic risk' and 'unsystematic risk' in the context of investment?",
+"options": {
+"A": "Systematic risk is specific to a particular company or industry, while unsystematic risk affects the entire market",
+"B": "Systematic risk can be diversified away, while unsystematic risk cannot",
+"C": "Systematic risk is also known as market risk, while unsystematic risk is also known as specific risk",
+"D": "Systematic risk is predictable, while unsystematic risk is unpredictable"
+},
+"correctOption": "C",
+"explanation": "Systematic risk, also called market risk, affects the overall market or a large segment of it and cannot be eliminated through diversification. Unsystematic risk, also called specific risk, is unique to a particular company or industry and can be reduced through diversification.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the primary purpose of 'financial statements'?",
+"options": {
+"A": "To track customer orders and manage inventory",
+"B": "To communicate financial information to stakeholders",
+"C": "To develop marketing strategies and sales projections",
+"D": "To manage employee payroll and benefits"
+},
+"correctOption": "B",
+"explanation": "Financial statements (balance sheet, income statement, cash flow statement) are prepared to provide a comprehensive overview of a company's financial performance and position. They are essential for communicating this information to investors, creditors, regulators, and other stakeholders.",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the main difference between a 'merger' and an 'acquisition'?",
+"options": {
+"A": "A merger involves two companies combining to form a new company, while an acquisition involves one company taking over another",
+"B": "A merger is a friendly transaction, while an acquisition is a hostile takeover",
+"C": "A merger is typically larger in scale than an acquisition",
+"D": "A merger is regulated by antitrust laws, while an acquisition is not"
+},
+"correctOption": "A",
+"explanation": "In a merger, two companies agree to combine into a new entity. In an acquisition, one company (acquirer) purchases a controlling stake in another company (target). Both transactions can be friendly or hostile and are subject to regulatory scrutiny.",
+"category": "Financial Markets"
+},
+{
+"question": "What is the primary function of a 'central bank'?",
+"options": {
+"A": "To provide retail banking services to the public",
+"B": "To regulate the financial system and control the money supply",
+"C": "To underwrite and distribute government securities",
+"D": "To insure deposits held in commercial banks"
+},
+"correctOption": "B",
+"explanation": "A central bank, such as the Reserve Bank of India, is responsible for managing the country's monetary policy, regulating banks, maintaining financial stability, and controlling the money supply.",
+"category": "Banking Institutions"
+},
+{
+"question": "What is the main purpose of 'financial planning' for an individual?",
+"options": {
+"A": "To track daily expenses and create a budget",
+"B": "To achieve financial goals through saving, investing, and managing risk",
+"C": "To minimize tax liabilities and maximize deductions",
+"D": "To obtain insurance coverage for unexpected events"
+},
+"correctOption": "B",
+"explanation": "Financial planning is a comprehensive process that involves setting financial goals, assessing your current financial situation, and developing a plan to achieve those goals through saving, investing, managing debt, and protecting assets. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the main difference between 'revenue' and 'profit'?",
+"options": {
+"A": "Revenue is the total amount of money a company earns from sales, while profit is the amount remaining after deducting expenses",
+"B": "Revenue is recognized when cash is received, while profit is recognized when goods are sold",
+"C": "Revenue is reported on the balance sheet, while profit is reported on the income statement",
+"D": "Revenue is a measure of a company's size, while profit is a measure of its efficiency"
+},
+"correctOption": "A",
+"explanation": "Revenue is the total income generated from a company's operations. Profit, also known as net income, is calculated by subtracting total expenses from total revenue. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Performance Analysis"
+},
+{
+"question": "What is the primary function of an 'underwriter' in the financial market?",
+"options": {
+"A": "To provide loans to companies issuing securities",
+"B": "To guarantee the sale of securities issued by a company",
+"C": "To regulate the trading of securities on an exchange",
+"D": "To provide investment advisory services to companies issuing securities"
+},
+"correctOption": "B",
+"explanation": "An underwriter, typically an investment bank, helps companies issue new securities by guaranteeing the sale of a certain number of shares or bonds. They purchase the securities from the issuer and then resell them to investors. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+},
+{
+"question": "What is the main difference between a 'bond' and a 'stock'?",
+"options": {
+"A": "A bond represents ownership in a company, while a stock represents a loan to a company or government",
+"B": "A bond pays a fixed interest rate, while a stock's returns are variable and depend on the company's performance",
+"C": "A bond is a less risky investment than a stock",
+"D": "A bond is traded on an exchange, while a stock is traded over the counter"
+},
+"correctOption": "B",
+"explanation": "A bond is a debt security that represents a loan made by an investor to a borrower (company or government). It typically pays a fixed interest rate (coupon) over a specific period and repays the principal at maturity. A stock, or share, represents ownership in a company. Its returns are not fixed and depend on the company's profitability and stock price movements. [Source: This information is not from the provided sources and may require independent verification.]",
+"category": "Financial Markets"
+}]}

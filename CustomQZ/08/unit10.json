@@ -1,0 +1,439 @@
+        
+
+        {
+          "questions":
+[
+  {
+    "question": "What is the maximum deduction allowed for cash donations under Section 80G of the Income Tax Act?",
+    "options": {
+      "A": "Rs. 1,000",
+      "B": "Rs. 2,000",
+      "C": "Rs. 5,000",
+      "D": "Rs. 10,000"
+    },
+    "correctOption": "D",
+    "explanation": "As per Section 80G, the maximum deduction allowed for cash donations is up to Rs. 10,000.",
+    "category": "Deductions and Exemptions"
+  },
+  {
+    "question": "Which committee is associated with investor protection in India?",
+    "options": {
+      "A": "Bhagwati Committee",
+      "B": "N.K. Mitra Committee",
+      "C": "J.R. Verma Committee",
+      "D": "L.C. Gupta Committee"
+    },
+    "correctOption": "C",
+    "explanation": "The J.R. Verma Committee is known for its recommendations on investor protection.",
+    "category": "Committees and Policies"
+  },
+  {
+    "question": "What does the term 'Hawala' refer to in the context of financial transactions?",
+    "options": {
+      "A": "Tax evasion",
+      "B": "Money laundering",
+      "C": "Foreign exchange trading",
+      "D": "Microfinance lending"
+    },
+    "correctOption": "A",
+    "explanation": "Hawala is an informal method of transferring money, often associated with tax evasion.",
+    "category": "Tax Evasion and Avoidance"
+  },
+  {
+    "question": "Under the Foreign Trade Policy 2015-2020, which additional ports were allowed for export and import activities?",
+    "options": {
+      "A": "Kandla and Mormugao",
+      "B": "Chennai and Visakhapatnam",
+      "C": "Kolkata and Paradip",
+      "D": "Mumbai and Cochin"
+    },
+    "correctOption": "A",
+    "explanation": "The Foreign Trade Policy 2015-2020 permitted the use of Kandla and Mormugao ports for additional export and import operations.",
+    "category": "Foreign Trade Policies"
+  },
+  {
+    "question": "What is the limit of holding by individual Foreign Institutional Investors (FIIs) in a company's shares?",
+    "options": {
+      "A": "5%",
+      "B": "10%",
+      "C": "24%",
+      "D": "34%"
+    },
+    "correctOption": "B",
+    "explanation": "The limit for individual FIIs to hold shares in a company has been raised from 5% to 10%.",
+    "category": "Foreign Investment Regulations"
+  },
+  {
+    "question": "What is the maximum deduction allowed under Section 80C of the Income Tax Act for the assessment year 2018-19?",
+    "options": {
+      "A": "Rs. 1,00,000",
+      "B": "Rs. 1,50,000",
+      "C": "Rs. 2,00,000",
+      "D": "Rs. 2,50,000"
+    },
+    "correctOption": "B",
+    "explanation": "This information is not available in the provided sources.",
+    "category": "Deductions and Exemptions"
+  },
+  {
+    "question": "Which of the following is a characteristic of a 'soft loan window' in international finance?",
+    "options": {
+      "A": "High interest rates and short repayment periods",
+      "B": "Loans provided for commercial projects with high returns",
+      "C": "Concessional terms with lower interest rates and longer repayment periods",
+      "D": "Loans exclusively provided to private sector entities"
+    },
+    "correctOption": "C",
+    "explanation": "Soft loan windows typically offer loans with more favorable terms, including lower interest rates and extended repayment periods.",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the purpose of the 'Entrepreneur Development Programme' in India?",
+    "options": {
+      "A": "Providing financial assistance to large corporations",
+      "B": "Promoting entrepreneurship and supporting new business ventures",
+      "C": "Regulating foreign direct investment in India",
+      "D": "Managing public sector undertakings"
+    },
+    "correctOption": "B",
+    "explanation": "The Entrepreneur Development Programme aims to encourage and assist individuals in starting and developing their own businesses.",
+    "category": "Entrepreneurship Development"
+  },
+  {
+    "question": "What is the key objective of tax planning?",
+    "options": {
+      "A": "Completely avoiding the payment of taxes",
+      "B": "Minimizing tax liability within the legal framework",
+      "C": "Maximizing profits without considering tax implications",
+      "D": "Engaging in aggressive tax avoidance schemes"
+    },
+    "correctOption": "B",
+    "explanation": "Tax planning involves structuring financial affairs in a way that reduces tax obligations while adhering to legal regulations.",
+    "category": "Tax Planning"
+  },
+  {
+    "question": "Which of the following is a component of the 'Narasimham Committee' recommendations related to the banking sector in India?",
+    "options": {
+      "A": "Nationalization of all private banks",
+      "B": "Establishment of specialized agricultural banks",
+      "C": "Introduction of capital adequacy norms for banks",
+      "D": "Promotion of microfinance institutions"
+    },
+    "correctOption": "C",
+    "explanation": "The Narasimham Committee's recommendations included the implementation of capital adequacy norms to strengthen the financial stability of banks.",
+    "category": "Banking Sector Reforms"
+  },
+  {
+    "question": "What is the concept of 'dumping' in international trade?",
+    "options": {
+      "A": "Selling goods at a higher price in the domestic market compared to the international market",
+      "B": "Exporting goods that are prohibited in the domestic market",
+      "C": "Exporting goods at a price lower than their fair market value",
+      "D": "Imposing high tariffs on imported goods"
+    },
+    "correctOption": "C",
+    "explanation": "Dumping occurs when a country exports products at prices below their normal value, potentially harming domestic industries in the importing country.",
+    "category": "International Trade Practices"
+  },
+  {
+    "question": "What is the main objective of the 'Marginal Costing' technique in cost accounting?",
+    "options": {
+      "A": "Allocating fixed costs to specific products or services",
+      "B": "Determining the optimal selling price based on fixed costs",
+      "C": "Analyzing the impact of variable costs on profitability",
+      "D": "Calculating the total cost of production including both fixed and variable costs"
+    },
+    "correctOption": "C",
+    "explanation": "Marginal costing focuses on analyzing how variable costs change in relation to production volume and their impact on profit.",
+    "category": "Cost Accounting"
+  },
+  {
+    "question": "What is the significance of the 'Bretton Woods Conference' in the context of international finance?",
+    "options": {
+      "A": "Establishment of the World Trade Organization (WTO)",
+      "B": "Creation of the International Monetary Fund (IMF) and the World Bank",
+      "C": "Formation of the European Union (EU)",
+      "D": "Signing of the North American Free Trade Agreement (NAFTA)"
+    },
+    "correctOption": "B",
+    "explanation": "The Bretton Woods Conference led to the establishment of key international financial institutions, including the IMF and the World Bank.",
+    "category": "International Financial Institutions"
+  },
+  {
+    "question": "Which of the following is a characteristic of a 'monopoly firm' in economics?",
+    "options": {
+      "A": "Many sellers competing in the market",
+      "B": "A single seller dominating the market",
+      "C": "Free entry and exit of firms in the market",
+      "D": "Homogeneous products sold by all firms"
+    },
+    "correctOption": "B",
+    "explanation": "A monopoly exists when a single firm has exclusive control over the supply of a particular product or service in a market.",
+    "category": "Market Structures"
+  },
+  {
+    "question": "What is the purpose of 'Wealth Management Software' in personal finance?",
+    "options": {
+      "A": "Managing accounting records for businesses",
+      "B": "Tracking and analyzing investment portfolios",
+      "C": "Processing payroll for employees",
+      "D": "Filing income tax returns"
+    },
+    "correctOption": "B",
+    "explanation": "Wealth management software is designed to assist individuals in monitoring and managing their investments.",
+    "category": "Personal Finance"
+  },
+  {
+    "question": "What is the concept of 'Minority Interest' in consolidated financial statements?",
+    "options": {
+      "A": "The ownership interest of the parent company in a subsidiary",
+      "B": "The ownership interest of non-controlling shareholders in a subsidiary",
+      "C": "The total equity of the parent company",
+      "D": "The total liabilities of the subsidiary"
+    },
+    "correctOption": "B",
+    "explanation": "Minority interest represents the portion of a subsidiary's equity that is not owned by the parent company.",
+    "category": "Consolidated Financial Statements"
+  },
+  {
+    "question": "What is the role of the 'Advertising Standards Council of India (ASCI)'?",
+    "options": {
+      "A": "A government body that regulates advertising content",
+      "B": "A self-regulatory organization that promotes ethical advertising practices",
+      "C": "A trade association representing advertising agencies",
+      "D": "A consumer group that files complaints against misleading advertisements"
+    },
+    "correctOption": "B",
+    "explanation": "The ASCI is a self-regulatory body that aims to ensure responsible and ethical advertising in India.",
+    "category": "Advertising Regulation"
+  },
+  {
+    "question": "What is the concept of 'factoring' in financial management?",
+    "options": {
+      "A": "Issuing shares to raise capital",
+      "B": "Selling accounts receivable to a third party",
+      "C": "Borrowing money from a bank",
+      "D": "Investing in long-term bonds"
+    },
+    "correctOption": "B",
+    "explanation": "Factoring involves a business selling its receivables to a factoring company at a discount to obtain immediate cash flow.",
+    "category": "Financial Management"
+  },
+  {
+    "question": "What is the purpose of the 'Securities and Exchange Board of India (SEBI)'?",
+    "options": {
+      "A": "Regulating the banking sector in India",
+      "B": "Overseeing the insurance industry",
+      "C": "Controlling foreign exchange transactions",
+      "D": "Protecting the interests of investors in the securities market"
+    },
+    "correctOption": "D",
+    "explanation": "SEBI is the regulatory authority responsible for protecting investors and maintaining fair and transparent practices in the Indian securities market.",
+    "category": "Securities Market Regulation"
+  },
+  {
+    "question": "What is the difference between 'tax planning' and 'tax management'?",
+    "options": {
+      "A": "Tax planning is illegal, while tax management is legal",
+      "B": "Tax planning focuses on the future, while tax management deals with current tax obligations",
+      "C": "Tax planning is done by individuals, while tax management is done by corporations",
+      "D": "Tax planning aims to maximize taxes, while tax management aims to minimize taxes"
+    },
+    "correctOption": "B",
+    "explanation": "Tax planning involves anticipating future tax implications and taking steps to optimize tax liability, whereas tax management focuses on fulfilling current tax requirements.",
+    "category": "Tax Planning and Management"
+  },
+  {
+    "question": "What is the significance of the 'SWIFT' system in international banking?",
+    "options": {
+      "A": "A cryptocurrency used for online transactions",
+      "B": "A global network for secure financial messaging and transactions",
+      "C": "A stock exchange for trading international securities",
+      "D": "An online platform for foreign exchange trading"
+    },
+    "correctOption": "B",
+    "explanation": "SWIFT (Society for Worldwide Interbank Financial Telecommunication) is a messaging system that facilitates secure and standardized communication for international financial transactions.",
+    "category": "International Banking"
+  },
+  {
+    "question": "What is the concept of 'Economic Order Quantity (EOQ)' in inventory management?",
+    "options": {
+      "A": "The maximum level of inventory that should be maintained",
+      "B": "The minimum level of inventory required to avoid stockouts",
+      "C": "The optimal order quantity that minimizes total inventory costs",
+      "D": "The average inventory level over a specific period"
+    },
+    "correctOption": "C",
+    "explanation": "EOQ is a model that calculates the order quantity that minimizes the combined costs of ordering and holding inventory.",
+    "category": "Inventory Management"
+  },
+  {
+    "question": "What is the purpose of a 'Non-Banking Financial Company (NBFC)' in India?",
+    "options": {
+      "A": "Accepting deposits from the public like commercial banks",
+      "B": "Providing financial services like loans and investments without a full banking license",
+      "C": "Issuing currency notes and regulating money supply",
+      "D": "Managing government finances and public debt"
+    },
+    "correctOption": "B",
+    "explanation": "NBFCs offer various financial services, such as loans and investments, but they do not hold a full banking license and cannot accept deposits from the general public.",
+    "category": "Non-Banking Financial Institutions"
+  },
+  {
+    "question": "What is the concept of 'price skimming' as a pricing strategy?",
+    "options": {
+      "A": "Setting a low initial price to gain market share",
+      "B": "Setting a high initial price to target early adopters",
+      "C": "Adjusting prices dynamically based on demand",
+      "D": "Offering discounts and promotions to attract customers"
+    },
+    "correctOption": "B",
+    "explanation": "Price skimming involves initially charging a high price for a new product to maximize profits from customers willing to pay a premium.",
+    "category": "Pricing Strategies"
+  },
+  {
+    "question": "What is the role of the 'Reserve Bank of India (RBI)' in the Indian economy?",
+    "options": {
+      "A": "Collecting taxes and managing government spending",
+      "B": "Regulating the stock market and protecting investors",
+      "C": "Acting as the central bank and controlling monetary policy",
+      "D": "Providing loans and financial assistance to businesses"
+    },
+    "correctOption": "C",
+    "explanation": "The RBI is India's central bank, responsible for controlling the money supply, managing inflation, and regulating the banking system.",
+    "category": "Central Banking"
+  },
+  {
+    "question": "What is the meaning of the term 'LIBOR' in finance?",
+    "options": {
+      "A": "London Interbank Offered Rate",
+      "B": "Liquidity and Investment Benchmark Rate",
+      "C": "Loan Interest and Borrowing Rate",
+      "D": "Leveraged Investment and Business Operations Rate"
+    },
+    "correctOption": "A",
+    "explanation": "LIBOR (London Interbank Offered Rate) is a benchmark interest rate at which major global banks lend to each other in the London interbank market.",
+    "category": "Interest Rates"
+  },
+  {
+    "question": "What is the purpose of the 'Export Promotion Capital Goods (EPCG)' scheme in India?",
+    "options": {
+      "A": "Encouraging the import of capital goods for export production",
+      "B": "Restricting the export of capital goods to conserve domestic resources",
+      "C": "Providing subsidies for the purchase of capital goods by domestic industries",
+      "D": "Imposing tariffs on imported capital goods to protect domestic manufacturers"
+    },
+    "correctOption": "A",
+    "explanation": "The EPCG scheme aims to promote exports by allowing duty-free imports of capital goods used for manufacturing export products.",
+    "category": "Export Promotion"
+  },
+  {
+    "question": "What is the concept of 'Corporate Social Responsibility (CSR)'?",
+    "options": {
+      "A": "Maximizing shareholder profits at all costs",
+      "B": "Focusing solely on compliance with legal requirements",
+      "C": "Integrating ethical and social considerations into business operations",
+      "D": "Engaging in charitable activities only for tax benefits"
+    },
+    "correctOption": "C",
+    "explanation": "CSR involves businesses going beyond their legal obligations to consider the ethical, social, and environmental impacts of their operations.",
+    "category": "Corporate Social Responsibility"
+  },
+  {
+    "question": "What is the difference between a 'Merger' and an 'Acquisition' in corporate finance?",
+    "options": {
+      "A": "A merger involves two companies combining as equals, while an acquisition is a takeover of one company by another",
+      "B": "A merger is a friendly combination, while an acquisition is a hostile takeover",
+      "C": "A merger creates a new company, while an acquisition does not",
+      "D": "A merger is regulated by antitrust laws, while an acquisition is not"
+    },
+    "correctOption": "A",
+    "explanation": "In a merger, two companies join together to form a new entity, whereas an acquisition involves one company purchasing and absorbing another.",
+    "category": "Corporate Finance"
+  },
+  {
+    "question": "What is the purpose of the 'Duty Entitlement Passbook (DEPB)' scheme in India?",
+    "options": {
+      "A": "Providing duty credits for imports used in export production",
+      "B": "Refunding duties paid on imported goods that are subsequently re-exported",
+      "C": "Granting exemptions from import duties for specific sectors",
+      "D": "Imposing restrictions on the import of goods to protect domestic industries"
+    },
+    "correctOption": "A",
+    "explanation": "The DEPB scheme was designed to neutralize the impact of import duties on export products by providing duty credit scrips to exporters.",
+    "category": "Export Promotion"
+  },
+  {
+    "question": "What is the meaning of 'Gratuity' in the context of employee compensation?",
+    "options": {
+      "A": "A bonus paid to employees based on performance",
+      "B": "A lump-sum payment made to employees upon retirement or termination of employment",
+      "C": "A monthly salary paid to employees for their services",
+      "D": "A deduction made from employees' salaries for taxes"
+    },
+    "correctOption": "B",
+    "explanation": "Gratuity is a retirement benefit paid to eligible employees upon leaving their job after a certain period of service.",
+    "category": "Employee Compensation"
+  },
+  {
+    "question": "What is the role of the 'International Centre for Settlement of Investment Disputes (ICSID)'?",
+    "options": {
+      "A": "Facilitating international trade negotiations",
+      "B": "Providing loans for development projects",
+      "C": "Resolving investment disputes between countries and investors",
+      "D": "Regulating global financial markets"
+    },
+    "correctOption": "C",
+    "explanation": "ICSID is an international institution that provides a forum for resolving investment-related disputes between states and private investors.",
+    "category": "Investment Dispute Resolution"
+  },
+  {
+    "question": "What is the concept of 'Non-Performing Assets (NPAs)' in banking?",
+    "options": {
+      "A": "Loans that are being repaid on time",
+      "B": "Investments that are generating high returns",
+      "C": "Deposits that are not being withdrawn by customers",
+      "D": "Loans that are not being repaid as per the agreed terms"
+    },
+    "correctOption": "D",
+    "explanation": "NPAs are loans or advances where repayments are overdue for a significant period, posing a risk to the financial health of banks.",
+    "category": "Banking"
+  },
+  {
+    "question": "What is the purpose of 'Statutory Reserve Ratio (SLR)' in banking regulation?",
+    "options": {
+      "A": "The portion of deposits that banks must hold in cash",
+      "B": "The maximum interest rate that banks can charge on loans",
+      "C": "The minimum capital requirement for banks to operate",
+      "D": "The percentage of deposits that banks must invest in government securities"
+    },
+    "correctOption": "D",
+    "explanation": "SLR is a regulatory requirement that mandates banks to maintain a certain percentage of their deposits in government securities.",
+    "category": "Banking Regulation"
+  },
+  {
+    "question": "What is the difference between 'GDP' and 'GNP' in macroeconomics?",
+    "options": {
+      "A": "GDP measures the value of goods and services produced within a country, while GNP includes income earned by residents abroad",
+      "B": "GDP includes net exports, while GNP does not",
+      "C": "GDP is calculated at market prices, while GNP is calculated at factor cost",
+      "D": "GDP is a measure of economic welfare, while GNP is a measure of economic growth"
+    },
+    "correctOption": "A",
+    "explanation": "GDP (Gross Domestic Product) measures economic activity within a country's borders, while GNP (Gross National Product) includes income earned by citizens abroad.",
+    "category": "Macroeconomics"
+  },
+  {
+    "question": "What is the concept of 'transfer pricing' in taxation?",
+    "options": {
+      "A": "The pricing of goods and services transferred between related parties",
+      "B": "The taxation of capital gains on the sale of assets",
+      "C": "The deduction of expenses incurred for business purposes",
+      "D": "The taxation of income earned from foreign sources"
+    },
+    "correctOption": "A",
+    "explanation": "Transfer pricing refers to the setting of prices for transactions between related entities within a multinational corporation.",
+    "category": "Taxation"
+  }
+]
+}

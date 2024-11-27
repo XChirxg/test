@@ -1,0 +1,558 @@
+
+{
+    "questions": 
+[
+{
+"question": "Which accounting principle states that revenue should be recognized when earned, not necessarily when cash is received?",
+"options": {
+"A": "Matching principle",
+"B": "Revenue recognition principle",
+"C": "Historical cost principle",
+"D": "Full disclosure principle"
+},
+"correctOption": "B",
+"explanation": "The revenue recognition principle states that revenue is recognized when it is earned, regardless of when cash is received. This is a fundamental principle of accrual accounting.",
+"category": "Accounting Principles"
+},
+{
+"question": "What is the purpose of a trial balance?",
+"options": {
+"A": "To ensure that all transactions have been recorded",
+"B": "To check the accuracy of the financial statements",
+"C": "To prove the equality of debits and credits",
+"D": "To summarize the financial position of a company"
+},
+"correctOption": "C",
+"explanation": "The primary purpose of a trial balance is to ensure that the total debits equal the total credits in the accounting system. This helps to identify any errors in recording transactions.",
+"category": "Financial Statements"
+},
+{
+"question": "Which of the following is NOT an example of an intangible asset?",
+"options": {
+"A": "Patents",
+"B": "Goodwill",
+"C": "Land",
+"D": "Trademarks"
+},
+"correctOption": "C",
+"explanation": "Land is a tangible asset because it has a physical form. Patents, goodwill, and trademarks are intangible assets because they lack physical substance.",
+"category": "Assets"
+},
+{
+"question": "What is the difference between a debit and a credit?",
+"options": {
+"A": "A debit increases an asset account, while a credit decreases an asset account.",
+"B": "A debit increases a liability account, while a credit decreases a liability account.",
+"C": "A debit increases an equity account, while a credit decreases an equity account.",
+"D": "Debits and credits are used to record different types of transactions."
+},
+"correctOption": "A",
+"explanation": "Debits increase asset, expense, and dividend accounts, while credits increase liability, equity, and revenue accounts. This is the fundamental basis of double-entry bookkeeping.",
+"category": "Double-Entry Bookkeeping"
+},
+{
+"question": "What is the purpose of depreciation?",
+"options": {
+"A": "To allocate the cost of an asset over its useful life",
+"B": "To reflect the decline in value of an asset over time",
+"C": "To reduce the tax liability of a company",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Depreciation serves all of the listed purposes. It is a key concept in matching expenses to the periods in which the related revenues are earned.",
+"category": "Depreciation"
+},
+{
+"question": "What is the difference between accrual accounting and cash accounting?",
+"options": {
+"A": "Accrual accounting records transactions when they occur, while cash accounting records transactions when cash is received or paid.",
+"B": "Accrual accounting is more complex than cash accounting.",
+"C": "Accrual accounting is required by generally accepted accounting principles (GAAP), while cash accounting is not.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "The key difference between accrual and cash accounting is the timing of revenue and expense recognition. Accrual accounting provides a more accurate picture of a company's financial performance over time, while cash accounting is simpler but may not reflect all economic activity.",
+"category": "Accounting Methods"
+},
+{
+"question": "What is the purpose of an audit?",
+"options": {
+"A": "To provide assurance on the financial statements of a company",
+"B": "To detect fraud",
+"C": "To improve the efficiency of a company's operations",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "The primary purpose of an audit is to provide an independent opinion on the fairness of a company's financial statements. While audits can help to detect fraud and improve efficiency, those are not their primary objectives.",
+"category": "Auditing"
+},
+{
+"question": "Which of the following is NOT a type of audit opinion?",
+"options": {
+"A": "Unqualified opinion",
+"B": "Qualified opinion",
+"C": "Adverse opinion",
+"D": "Favorable opinion"
+},
+"correctOption": "D",
+"explanation": "Audit opinions can be unqualified, qualified, adverse, or disclaimed. A favorable opinion is not a recognized type of audit opinion.",
+"category": "Audit Opinions"
+},
+{
+"question": "What is the difference between internal control and internal audit?",
+"options": {
+"A": "Internal control is a process designed to prevent fraud, while internal audit is a function that evaluates the effectiveness of internal control.",
+"B": "Internal control is a responsibility of management, while internal audit is a responsibility of the board of directors.",
+"C": "Internal control focuses on financial reporting, while internal audit focuses on operational efficiency.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "Internal control is a system of policies and procedures designed to ensure the accuracy and reliability of financial reporting and to safeguard assets. Internal audit is an independent function that evaluates the effectiveness of internal control and provides recommendations for improvement.",
+"category": "Internal Control & Audit"
+},
+{
+"question": "What is the purpose of a bank reconciliation?",
+"options": {
+"A": "To identify any discrepancies between the bank statement and the company's records",
+"B": "To prevent fraud",
+"C": "To improve the accuracy of the financial statements",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "A bank reconciliation serves all of the listed purposes. It is a critical control activity that helps to ensure the accuracy of cash balances.",
+"category": "Cash Management"
+},
+{
+"question": "Which of the following is an example of a current asset?",
+"options": {
+"A": "Cash",
+"B": "Accounts receivable",
+"C": "Inventory",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Current assets are assets that are expected to be converted into cash or used up within one year. Cash, accounts receivable, and inventory all meet this definition.",
+"category": "Assets"
+},
+{
+"question": "What is the purpose of a balance sheet?",
+"options": {
+"A": "To report the financial position of a company at a specific point in time",
+"B": "To report the profitability of a company over a period of time",
+"C": "To report the cash flow of a company over a period of time",
+"D": "To report the changes in equity of a company over a period of time"
+},
+"correctOption": "A",
+"explanation": "The balance sheet provides a snapshot of a company's assets, liabilities, and equity at a particular date. It is one of the primary financial statements used to assess the financial health of a company.",
+"category": "Financial Statements"
+},
+{
+"question": "What is the accounting equation?",
+"options": {
+"A": "Assets = Liabilities + Equity",
+"B": "Revenue - Expenses = Net Income",
+"C": "Cash Inflows - Cash Outflows = Net Cash Flow",
+"D": "Beginning Balance + Net Income - Dividends = Ending Balance"
+},
+"correctOption": "A",
+"explanation": "The accounting equation is the foundation of double-entry bookkeeping. It states that a company's assets must always equal the sum of its liabilities and equity.",
+"category": "Double-Entry Bookkeeping"
+},
+{
+"question": "What is the difference between a direct cost and an indirect cost?",
+"options": {
+"A": "A direct cost can be traced to a specific product or service, while an indirect cost cannot.",
+"B": "Direct costs are variable costs, while indirect costs are fixed costs.",
+"C": "Direct costs are recorded on the income statement, while indirect costs are recorded on the balance sheet.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "The key difference between direct and indirect costs is traceability. Direct costs can be easily assigned to a specific cost object, while indirect costs are shared among multiple cost objects.",
+"category": "Cost Accounting"
+},
+{
+"question": "What is the purpose of a statement of cash flows?",
+"options": {
+"A": "To report the sources and uses of cash over a period of time",
+"B": "To report the profitability of a company over a period of time",
+"C": "To report the financial position of a company at a specific point in time",
+"D": "To report the changes in equity of a company over a period of time"
+},
+"correctOption": "A",
+"explanation": "The statement of cash flows provides information about the cash inflows and outflows of a company during a specific period. It classifies cash flows into three categories: operating, investing, and financing.",
+"category": "Financial Statements"
+},
+{
+"question": "What is the difference between a liability and an equity?",
+"options": {
+"A": "A liability represents an obligation to pay a third party, while equity represents ownership in a company.",
+"B": "Liabilities are recorded on the left side of the balance sheet, while equity is recorded on the right side.",
+"C": "Liabilities are generally short-term obligations, while equity is a long-term investment.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "The fundamental difference between liabilities and equity lies in the nature of the obligation. Liabilities represent debts owed to outsiders, while equity represents the residual interest in the assets of a company after deducting liabilities.",
+"category": "Balance Sheet"
+},
+{
+"question": "What is the purpose of an income statement?",
+"options": {
+"A": "To report the profitability of a company over a period of time",
+"B": "To report the financial position of a company at a specific point in time",
+"C": "To report the cash flow of a company over a period of time",
+"D": "To report the changes in equity of a company over a period of time"
+},
+"correctOption": "A",
+"explanation": "The income statement, also known as the profit and loss statement, shows the revenues, expenses, and net income of a company over a specific period. It is a key indicator of a company's financial performance.",
+"category": "Financial Statements"
+},
+{
+"question": "What is the difference between a fixed cost and a variable cost?",
+"options": {
+"A": "A fixed cost remains constant regardless of the level of activity, while a variable cost changes in proportion to the level of activity.",
+"B": "Fixed costs are recorded on the balance sheet, while variable costs are recorded on the income statement.",
+"C": "Fixed costs are long-term costs, while variable costs are short-term costs.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "The key difference between fixed and variable costs is their behavior in relation to changes in activity levels. Fixed costs remain the same, while variable costs increase or decrease as production or sales volume changes.",
+"category": "Cost Accounting"
+},
+{
+"question": "What is the purpose of a budget?",
+"options": {
+"A": "To plan for future financial performance",
+"B": "To control spending",
+"C": "To evaluate the performance of a company",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "A budget is a financial plan that outlines a company's expected revenues and expenses over a period of time. It serves as a roadmap for achieving financial goals and provides a benchmark for evaluating performance.",
+"category": "Budgeting"
+},
+{
+"question": "What is the difference between financial accounting and managerial accounting?",
+"options": {
+"A": "Financial accounting focuses on external reporting, while managerial accounting focuses on internal decision-making.",
+"B": "Financial accounting is governed by GAAP, while managerial accounting is not.",
+"C": "Financial accounting is historical in nature, while managerial accounting is forward-looking.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Financial accounting provides information to external users, such as investors and creditors, while managerial accounting provides information to internal users, such as managers and employees. Financial accounting is more standardized and regulated, while managerial accounting is more flexible and tailored to the specific needs of the organization.",
+"category": "Accounting Branches"
+},
+{
+"question": "What is the purpose of a statement of changes in equity?",
+"options": {
+"A": "To report the changes in equity of a company over a period of time",
+"B": "To report the profitability of a company over a period of time",
+"C": "To report the financial position of a company at a specific point in time",
+"D": "To report the cash flow of a company over a period of time"
+},
+"correctOption": "A",
+"explanation": "The statement of changes in equity, also known as the statement of retained earnings, details the changes in the equity accounts of a company during a specific period. It shows how net income, dividends, and other transactions affect the ownership structure.",
+"category": "Financial Statements"
+},
+{
+"question": "What is the difference between a current liability and a long-term liability?",
+"options": {
+"A": "A current liability is due within one year, while a long-term liability is due after one year.",
+"B": "Current liabilities are recorded on the balance sheet, while long-term liabilities are recorded on the income statement.",
+"C": "Current liabilities are generally unsecured, while long-term liabilities are secured.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "The key difference between current and long-term liabilities is the timing of their maturity. Current liabilities are obligations that are expected to be settled within one year, while long-term liabilities have longer maturities.",
+"category": "Balance Sheet"
+},
+{
+"question": "What is the purpose of a cost-volume-profit (CVP) analysis?",
+"options": {
+"A": "To understand the relationship between costs, volume, and profit",
+"B": "To determine the break-even point",
+"C": "To make decisions about pricing and production levels",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "CVP analysis is a powerful tool for understanding how changes in costs, volume, and selling price affect a company's profitability. It is used to make strategic decisions about pricing, production, and cost management.",
+"category": "Cost Accounting"
+},
+{
+"question": "What is the difference between a job order costing system and a process costing system?",
+"options": {
+"A": "A job order costing system is used for custom products, while a process costing system is used for mass-produced products.",
+"B": "Job order costing tracks costs for each individual job, while process costing tracks costs for a continuous process.",
+"C": "Job order costing is more complex than process costing.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Job order and process costing are two different approaches to cost accounting. Job order costing is used when products are made to order, while process costing is used for standardized, continuous production processes.",
+"category": "Cost Accounting"
+},
+{
+"question": "What is the purpose of activity-based costing (ABC)?",
+"options": {
+"A": "To allocate overhead costs more accurately",
+"B": "To identify non-value-added activities",
+"C": "To improve pricing decisions",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "ABC is a costing method that assigns overhead costs to products or services based on the activities that drive those costs. It provides a more precise way to determine the true cost of products and services.",
+"category": "Cost Accounting"
+},
+{
+"question": "What is the difference between a financial audit and an operational audit?",
+"options": {
+"A": "A financial audit examines the financial statements of a company, while an operational audit examines the efficiency and effectiveness of a company's operations.",
+"B": "Financial audits are required by law, while operational audits are not.",
+"C": "Financial audits are performed by independent auditors, while operational audits are performed by internal auditors.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "Financial audits focus on the accuracy and fairness of financial reporting, while operational audits assess the efficiency and effectiveness of a company's processes and systems.",
+"category": "Auditing"
+},
+{
+"question": "What is the purpose of a fraud examination?",
+"options": {
+"A": "To investigate allegations of fraud",
+"B": "To determine the extent of the fraud",
+"C": "To identify the perpetrators of the fraud",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Fraud examinations are conducted to determine whether fraud has occurred, to assess the losses, and to identify those responsible. They often involve interviews, document analysis, and forensic accounting techniques.",
+"category": "Fraud Examination"
+},
+{
+"question": "What is the role of the Public Company Accounting Oversight Board (PCAOB)?",
+"options": {
+"A": "To oversee the audits of public companies",
+"B": "To set auditing standards for public companies",
+"C": "To discipline accounting firms that violate auditing standards",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "The PCAOB was established by the Sarbanes-Oxley Act of 2002 to improve the quality and reliability of audits of public companies. It has broad authority to set standards, conduct inspections, and impose sanctions.",
+"category": "Auditing"
+},
+{
+"question": "What is the purpose of a corporate governance framework?",
+"options": {
+"A": "To ensure that a company is managed ethically and responsibly",
+"B": "To protect the interests of shareholders",
+"C": "To comply with legal and regulatory requirements",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Corporate governance encompasses the system of rules, practices, and processes by which a company is directed and controlled. It aims to ensure accountability, fairness, and transparency in a company's operations.",
+"category": "Corporate Governance"
+},
+{
+"question": "Which of the following is NOT a component of internal control?",
+"options": {
+"A": "Control environment",
+"B": "Risk assessment",
+"C": "Control activities",
+"D": "External audit"
+},
+"correctOption": "D",
+"explanation": "The COSO framework defines five components of internal control: control environment, risk assessment, control activities, information and communication, and monitoring activities. External audit is a separate function that assesses the effectiveness of internal control.",
+"category": "Internal Control"
+},
+{
+"question": "What is the purpose of a management letter?",
+"options": {
+"A": "To communicate internal control weaknesses to management",
+"B": "To provide recommendations for improving internal control",
+"C": "To express an opinion on the fairness of the financial statements",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "A management letter is a confidential communication from the auditor to management that highlights any significant deficiencies in internal control identified during the audit.",
+"category": "Auditing"
+},
+{
+"question": "What is the difference between a review and an audit?",
+"options": {
+"A": "A review provides less assurance than an audit.",
+"B": "A review is less expensive than an audit.",
+"C": "A review is typically performed for companies that are not required to have an audit.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "A review is a less comprehensive engagement than an audit. It involves primarily inquiries and analytical procedures and provides limited assurance. Reviews are often performed for smaller companies or for interim financial statements.",
+"category": "Assurance Engagements"
+},
+{
+"question": "What is the purpose of a compilation engagement?",
+"options": {
+"A": "To assist management in preparing financial statements",
+"B": "To express an opinion on the fairness of the financial statements",
+"C": "To provide assurance on the financial statements",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "A compilation engagement involves assembling financial information provided by management into the form of financial statements. It does not provide any assurance on the accuracy or completeness of the information.",
+"category": "Assurance Engagements"
+},
+{
+"question": "What is the difference between a balance sheet and an income statement?",
+"options": {
+"A": "A balance sheet shows a company's assets, liabilities, and equity at a specific point in time, while an income statement shows a company's revenues and expenses over a period of time.",
+"B": "A balance sheet is prepared using the accrual basis of accounting, while an income statement is prepared using the cash basis of accounting.",
+"C": "A balance sheet is used to assess a company's financial position, while an income statement is used to assess a company's profitability.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "The balance sheet provides a snapshot of a company's financial health at a particular moment, while the income statement reports the financial performance of a company over a specified period.",
+"category": "Financial Statements"
+},
+{
+"question": "What is the role of the International Accounting Standards Board (IASB)?",
+"options": {
+"A": "To set international financial reporting standards (IFRS)",
+"B": "To promote the adoption of IFRS around the world",
+"C": "To improve the quality and consistency of financial reporting globally",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "The IASB is an independent body that develops and publishes IFRS, which are used in over 140 countries. The goal of IFRS is to create a single set of high-quality accounting standards that can be used by companies around the world.",
+"category": "International Accounting"
+},
+{
+"question": "What is the purpose of a code of ethics?",
+"options": {
+"A": "To guide the behavior of accountants and auditors",
+"B": "To promote ethical decision-making",
+"C": "To maintain the integrity of the accounting profession",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "A code of ethics establishes the principles and values that should guide the conduct of professionals in the accounting field. It helps to ensure that accountants and auditors act with honesty, objectivity, and integrity.",
+"category": "Professional Ethics"
+},
+{
+"question": "What is the difference between auditing and accounting?",
+"options": {
+"A": "Accounting is the process of recording, classifying, and summarizing financial transactions, while auditing is the process of examining and evaluating those transactions.",
+"B": "Accountants prepare financial statements, while auditors audit those statements.",
+"C": "Accounting is an internal function, while auditing is an external function.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Accounting and auditing are distinct but interrelated functions. Accountants are responsible for maintaining financial records and preparing financial statements, while auditors provide independent assurance on the accuracy and fairness of those statements.",
+"category": "Accounting vs. Auditing"
+},
+{
+"question": "What is the purpose of a risk assessment?",
+"options": {
+"A": "To identify and assess the risks that could affect the achievement of a company's objectives",
+"B": "To develop controls to mitigate those risks",
+"C": "To monitor the effectiveness of those controls",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Risk assessment is a systematic process of identifying, analyzing, and evaluating potential risks. It is an essential component of internal control and helps to ensure that a company is taking appropriate steps to manage its risks.",
+"category": "Risk Management"
+},
+{
+"question": "What is the difference between a material weakness and a significant deficiency?",
+"options": {
+"A": "A material weakness is more severe than a significant deficiency.",
+"B": "A material weakness is more likely to result in a misstatement of the financial statements.",
+"C": "A material weakness requires disclosure in the audit report, while a significant deficiency does not.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Material weaknesses and significant deficiencies are both types of internal control deficiencies. However, material weaknesses are more severe and represent a greater risk to the reliability of financial reporting.",
+"category": "Internal Control"
+},
+{
+"question": "What is the purpose of an audit committee?",
+"options": {
+"A": "To oversee the financial reporting process",
+"B": "To select the independent auditor",
+"C": "To review the audit plan and the audit report",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "The audit committee is a subcommittee of the board of directors that is responsible for overseeing the financial reporting process, including the external audit. It plays a critical role in ensuring the integrity of financial reporting.",
+"category": "Corporate Governance"
+},
+{
+"question": "What is the difference between a financial statement assertion and an audit procedure?",
+"options": {
+"A": "A financial statement assertion is a statement made by management about the financial statements, while an audit procedure is a step taken by the auditor to test that assertion.",
+"B": "Financial statement assertions are implicit, while audit procedures are explicit.",
+"C": "Financial statement assertions are qualitative, while audit procedures are quantitative.",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "Financial statement assertions are representations made by management, explicitly or implicitly, about the recognition, measurement, presentation, and disclosure of information in the financial statements. Audit procedures are the specific steps taken by the auditor to obtain evidence about whether those assertions are fairly stated.",
+"category": "Auditing"
+},
+{
+"question": "What is the purpose of an internal control questionnaire?",
+"options": {
+"A": "To document the understanding of internal control",
+"B": "To identify potential control weaknesses",
+"C": "To evaluate the design and operating effectiveness of internal control",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Internal control questionnaires are used by auditors to gather information about a company's internal control system. They help to identify potential risks and weaknesses and to evaluate the effectiveness of existing controls.",
+"category": "Internal Control"
+},
+{
+"question": "What is the difference between a detective control and a preventive control?",
+"options": {
+"A": "A detective control is designed to detect errors or fraud that have already occurred, while a preventive control is designed to prevent errors or fraud from occurring in the first place.",
+"B": "Detective controls are reactive, while preventive controls are proactive.",
+"C": "Detective controls are typically less expensive than preventive controls.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Detective controls are designed to uncover issues after they have happened, while preventive controls aim to stop problems from arising in the first place. Both types of controls are essential for a strong internal control system.",
+"category": "Internal Control"
+},
+{
+"question": "What is the purpose of a substantive procedure?",
+"options": {
+"A": "To obtain direct evidence about the amounts and disclosures in the financial statements",
+"B": "To evaluate the effectiveness of internal control",
+"C": "To identify potential control weaknesses",
+"D": "All of the above"
+},
+"correctOption": "A",
+"explanation": "Substantive procedures are audit procedures designed to test the accuracy and completeness of financial information. They are performed to obtain evidence that supports the amounts and disclosures in the financial statements.",
+"category": "Auditing"
+},
+{
+"question": "What is the difference between sampling risk and nonsampling risk?",
+"options": {
+"A": "Sampling risk is the risk that the sample selected is not representative of the population, while nonsampling risk is the risk that the auditor reaches an incorrect conclusion for reasons other than sampling error.",
+"B": "Sampling risk can be reduced by increasing the sample size, while nonsampling risk cannot.",
+"C": "Sampling risk is a quantitative risk, while nonsampling risk is a qualitative risk.",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "Sampling risk arises from the possibility that the sample selected is not representative of the entire population, while nonsampling risk relates to errors in judgment or execution by the auditor.",
+"category": "Auditing"
+},
+{
+"question": "What is the purpose of an audit risk model?",
+"options": {
+"A": "To assess the risk of material misstatement in the financial statements",
+"B": "To determine the appropriate level of audit evidence",
+"C": "To allocate audit resources effectively",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "The audit risk model is a framework used by auditors to assess the risk of material misstatement and to design appropriate audit procedures. It helps to ensure that sufficient evidence is gathered to support the audit opinion.",
+"category": "Auditing"
+}
+]
+}

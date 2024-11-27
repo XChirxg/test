@@ -1,0 +1,499 @@
+        
+
+        {
+          "questions":
+[
+  {
+    "question": "Which management function involves setting objectives and determining a course of action?",
+    "options": {
+      "A": "Planning",
+      "B": "Organizing",
+      "C": "Leading",
+      "D": "Controlling"
+    },
+    "correctOption": "A",
+    "explanation": "Planning is the process of setting goals and objectives and deciding how to achieve them.",
+    "category": "Principles of Management"
+  },
+  {
+    "question": "What type of leadership style involves making decisions without consulting the team?",
+    "options": {
+      "A": "Autocratic",
+      "B": "Democratic",
+      "C": "Laissez-faire",
+      "D": "Transformational"
+    },
+    "correctOption": "A",
+    "explanation": "Autocratic leaders make decisions independently and expect followers to obey.",
+    "category": "Leadership Styles"
+  },
+  {
+    "question": "Which motivational theory suggests that individuals are motivated by needs for achievement, affiliation, and power?",
+    "options": {
+      "A": "Maslow's Hierarchy of Needs",
+      "B": "Herzberg's Two-Factor Theory",
+      "C": "McClelland's Acquired Needs Theory",
+      "D": "Expectancy Theory"
+    },
+    "correctOption": "C",
+    "explanation": "McClelland's theory focuses on three learned needs: achievement, affiliation, and power.",
+    "category": "Motivation Theories"
+  },
+  {
+    "question": "What is the process of attracting, screening, and selecting qualified candidates for a job called?",
+    "options": {
+      "A": "Recruitment",
+      "B": "Training",
+      "C": "Performance Appraisal",
+      "D": "Compensation Management"
+    },
+    "correctOption": "A",
+    "explanation": "Recruitment encompasses all the activities involved in finding and hiring new employees.",
+    "category": "Human Resource Management"
+  },
+  {
+    "question": "Which performance appraisal method involves comparing an employee's performance to that of other employees?",
+    "options": {
+      "A": "Ranking",
+      "B": "Rating Scales",
+      "C": "360-Degree Feedback",
+      "D": "Management by Objectives (MBO)"
+    },
+    "correctOption": "A",
+    "explanation": "Ranking methods involve placing employees in order from best to worst performance.",
+    "category": "Performance Management"
+  },
+  {
+    "question": "What is the systematic process of determining the relative worth of jobs within an organization called?",
+    "options": {
+      "A": "Job Analysis",
+      "B": "Job Evaluation",
+      "C": "Job Description",
+      "D": "Job Specification"
+    },
+    "correctOption": "B",
+    "explanation": "Job evaluation aims to establish a fair and consistent pay structure.",
+    "category": "Compensation Management"
+  },
+  {
+    "question": "Which type of training method involves learning by doing in a simulated work environment?",
+    "options": {
+      "A": "On-the-Job Training",
+      "B": "Simulations",
+      "C": "Lectures",
+      "D": "Case Studies"
+    },
+    "correctOption": "B",
+    "explanation": "Simulations provide a safe space to practice skills and make decisions.",
+    "category": "Training and Development"
+  },
+  {
+    "question": "What is the process of negotiating and administering contracts between an employer and a labor union called?",
+    "options": {
+      "A": "Collective Bargaining",
+      "B": "Grievance Handling",
+      "C": "Labor Relations",
+      "D": "Employee Discipline"
+    },
+    "correctOption": "A",
+    "explanation": "Collective bargaining is the process of reaching agreements on working conditions.",
+    "category": "Labor Relations"
+  },
+  {
+    "question": "Which type of organizational structure groups employees based on their functional expertise?",
+    "options": {
+      "A": "Functional Structure",
+      "B": "Divisional Structure",
+      "C": "Matrix Structure",
+      "D": "Network Structure"
+    },
+    "correctOption": "A",
+    "explanation": "Functional structures organize departments by specialized areas like marketing or finance.",
+    "category": "Organizational Structure"
+  },
+  {
+    "question": "What is the process of planning, organizing, directing, and controlling the financial resources of an organization called?",
+    "options": {
+      "A": "Financial Management",
+      "B": "Marketing Management",
+      "C": "Operations Management",
+      "D": "Human Resource Management"
+    },
+    "correctOption": "A",
+    "explanation": "Financial management focuses on optimizing an organization's finances.",
+    "category": "Financial Management"
+  },
+  {
+    "question": "Which marketing concept focuses on understanding and meeting the needs of target customers?",
+    "options": {
+      "A": "Production Concept",
+      "B": "Product Concept",
+      "C": "Selling Concept",
+      "D": "Marketing Concept"
+    },
+    "correctOption": "D",
+    "explanation": "The marketing concept emphasizes customer satisfaction and long-term profitability.",
+    "category": "Marketing Management"
+  },
+  {
+    "question": "What is the process of creating, communicating, and delivering value to customers and managing customer relationships called?",
+    "options": {
+      "A": "Marketing",
+      "B": "Sales",
+      "C": "Advertising",
+      "D": "Public Relations"
+    },
+    "correctOption": "A",
+    "explanation": "Marketing is a broad field that encompasses various activities to reach and satisfy customers.",
+    "category": "Marketing Management"
+  },
+  {
+    "question": "Which element of the marketing mix refers to the goods or services offered to customers?",
+    "options": {
+      "A": "Product",
+      "B": "Price",
+      "C": "Place",
+      "D": "Promotion"
+    },
+    "correctOption": "A",
+    "explanation": "Product decisions involve features, quality, branding, and packaging.",
+    "category": "Marketing Mix"
+  },
+  {
+    "question": "What is the process of setting the price for a product or service called?",
+    "options": {
+      "A": "Pricing",
+      "B": "Costing",
+      "C": "Budgeting",
+      "D": "Financing"
+    },
+    "correctOption": "A",
+    "explanation": "Pricing strategies consider factors like cost, demand, competition, and value.",
+    "category": "Marketing Mix"
+  },
+  {
+    "question": "Which element of the marketing mix refers to the channels used to make the product available to customers?",
+    "options": {
+      "A": "Product",
+      "B": "Price",
+      "C": "Place",
+      "D": "Promotion"
+    },
+    "correctOption": "C",
+    "explanation": "Place decisions involve distribution channels, logistics, and inventory management.",
+    "category": "Marketing Mix"
+  },
+  {
+    "question": "What is the process of communicating information about a product or service to potential customers?",
+    "options": {
+      "A": "Promotion",
+      "B": "Sales",
+      "C": "Advertising",
+      "D": "Public Relations"
+    },
+    "correctOption": "A",
+    "explanation": "Promotion includes advertising, sales promotion, public relations, and personal selling.",
+    "category": "Marketing Mix"
+  },
+  {
+    "question": "Which financial statement provides a snapshot of an organization's financial position at a specific point in time?",
+    "options": {
+      "A": "Balance Sheet",
+      "B": "Income Statement",
+      "C": "Statement of Cash Flows",
+      "D": "Statement of Retained Earnings"
+    },
+    "correctOption": "A",
+    "explanation": "The balance sheet shows assets, liabilities, and equity.",
+    "category": "Financial Statements"
+  },
+  {
+    "question": "Which financial statement reports an organization's revenues and expenses over a period of time?",
+    "options": {
+      "A": "Balance Sheet",
+      "B": "Income Statement",
+      "C": "Statement of Cash Flows",
+      "D": "Statement of Retained Earnings"
+    },
+    "correctOption": "B",
+    "explanation": "The income statement shows profitability for a specific period.",
+    "category": "Financial Statements"
+  },
+  {
+    "question": "Which financial statement tracks the movement of cash into and out of an organization?",
+    "options": {
+      "A": "Balance Sheet",
+      "B": "Income Statement",
+      "C": "Statement of Cash Flows",
+      "D": "Statement of Retained Earnings"
+    },
+    "correctOption": "C",
+    "explanation": "The statement of cash flows analyzes cash from operations, investing, and financing.",
+    "category": "Financial Statements"
+  },
+  {
+    "question": "What is the process of planning, organizing, staffing, directing, and controlling the operations of an organization to achieve its objectives?",
+    "options": {
+      "A": "Financial Management",
+      "B": "Marketing Management",
+      "C": "Operations Management",
+      "D": "Human Resource Management"
+    },
+    "correctOption": "C",
+    "explanation": "Operations management focuses on efficiency and effectiveness in production and service delivery.",
+    "category": "Operations Management"
+  },
+  {
+    "question": "Which inventory management method aims to minimize inventory holding costs while ensuring that materials are available when needed?",
+    "options": {
+      "A": "Just-in-Time (JIT)",
+      "B": "Economic Order Quantity (EOQ)",
+      "C": "Materials Requirements Planning (MRP)",
+      "D": "First-In, First-Out (FIFO)"
+    },
+    "correctOption": "A",
+    "explanation": "JIT seeks to eliminate waste by receiving materials only when they are needed for production.",
+    "category": "Inventory Management"
+  },
+  {
+    "question": "What is the process of transforming inputs into outputs in an organization called?",
+    "options": {
+      "A": "Production",
+      "B": "Marketing",
+      "C": "Finance",
+      "D": "Human Resources"
+    },
+    "correctOption": "A",
+    "explanation": "Production involves the creation of goods or services.",
+    "category": "Operations Management"
+  },
+  {
+    "question": "Which quality management approach focuses on continuous improvement and customer satisfaction?",
+    "options": {
+      "A": "Total Quality Management (TQM)",
+      "B": "Six Sigma",
+      "C": "ISO 9001",
+      "D": "Lean Manufacturing"
+    },
+    "correctOption": "A",
+    "explanation": "TQM emphasizes quality in all aspects of an organization.",
+    "category": "Quality Management"
+  },
+  {
+    "question": "What is a formal statement that defines how an organization expects its employees to conduct themselves?",
+    "options": {
+      "A": "Code of Conduct",
+      "B": "Mission Statement",
+      "C": "Vision Statement",
+      "D": "Values Statement"
+    },
+    "correctOption": "A",
+    "explanation": "A code of conduct outlines ethical guidelines for behavior.",
+    "category": "Business Ethics"
+  },
+  {
+    "question": "Which ethical theory emphasizes the consequences of actions in determining their moral worth?",
+    "options": {
+      "A": "Utilitarianism",
+      "B": "Deontology",
+      "C": "Virtue Ethics",
+      "D": "Social Contract Theory"
+    },
+    "correctOption": "A",
+    "explanation": "Utilitarianism seeks to maximize happiness and minimize suffering.",
+    "category": "Business Ethics"
+  },
+  {
+    "question": "What is the process of identifying, assessing, and managing risks that could affect an organization?",
+    "options": {
+      "A": "Risk Management",
+      "B": "Crisis Management",
+      "C": "Strategic Planning",
+      "D": "Financial Planning"
+    },
+    "correctOption": "A",
+    "explanation": "Risk management aims to protect an organization from potential losses.",
+    "category": "Risk Management"
+  },
+  {
+    "question": "Which type of risk arises from changes in interest rates, exchange rates, or commodity prices?",
+    "options": {
+      "A": "Financial Risk",
+      "B": "Operational Risk",
+      "C": "Strategic Risk",
+      "D": "Compliance Risk"
+    },
+    "correctOption": "A",
+    "explanation": "Financial risks relate to fluctuations in market variables.",
+    "category": "Risk Management"
+  },
+  {
+    "question": "What is the process of planning and managing the resources needed to achieve an organization's goals?",
+    "options": {
+      "A": "Strategic Planning",
+      "B": "Operational Planning",
+      "C": "Financial Planning",
+      "D": "Human Resource Planning"
+    },
+    "correctOption": "A",
+    "explanation": "Strategic planning sets long-term direction for an organization.",
+    "category": "Strategic Management"
+  },
+  {
+    "question": "Which strategic analysis tool helps identify an organization's strengths, weaknesses, opportunities, and threats?",
+    "options": {
+      "A": "SWOT Analysis",
+      "B": "PESTLE Analysis",
+      "C": "Porter's Five Forces",
+      "D": "Boston Consulting Group Matrix"
+    },
+    "correctOption": "A",
+    "explanation": "SWOT analysis is a framework for evaluating an organization's competitive position.",
+    "category": "Strategic Management"
+  },
+  {
+    "question": "What is a company's overall plan for achieving its objectives in a competitive environment?",
+    "options": {
+      "A": "Mission Statement",
+      "B": "Vision Statement",
+      "C": "Strategy",
+      "D": "Goal"
+    },
+    "correctOption": "C",
+    "explanation": "Strategy outlines how an organization intends to compete and succeed.",
+    "category": "Strategic Management"
+  },
+  {
+    "question": "Which type of competitive advantage is achieved by offering unique products or services that customers are willing to pay a premium for?",
+    "options": {
+      "A": "Cost Leadership",
+      "B": "Differentiation",
+      "C": "Focus",
+      "D": "Market Share"
+    },
+    "correctOption": "B",
+    "explanation": "Differentiation involves creating value through uniqueness.",
+    "category": "Competitive Advantage"
+  },
+  {
+    "question": "What is the process of dividing a market into distinct groups of buyers with different needs, characteristics, or behaviors?",
+    "options": {
+      "A": "Market Segmentation",
+      "B": "Market Research",
+      "C": "Market Positioning",
+      "D": "Market Targeting"
+    },
+    "correctOption": "A",
+    "explanation": "Market segmentation helps tailor marketing efforts to specific customer groups.",
+    "category": "Marketing Management"
+  },
+  {
+    "question": "Which type of market segmentation is based on factors like age, gender, income, and education?",
+    "options": {
+      "A": "Demographic Segmentation",
+      "B": "Geographic Segmentation",
+      "C": "Psychographic Segmentation",
+      "D": "Behavioral Segmentation"
+    },
+    "correctOption": "A",
+    "explanation": "Demographic segmentation uses readily available data about population characteristics.",
+    "category": "Market Segmentation"
+  },
+  {
+    "question": "What is the process of creating a clear, distinct, and desirable image of a product or service in the minds of target customers?",
+    "options": {
+      "A": "Market Segmentation",
+      "B": "Market Research",
+      "C": "Market Positioning",
+      "D": "Market Targeting"
+    },
+    "correctOption": "C",
+    "explanation": "Market positioning helps differentiate a product from competitors.",
+    "category": "Marketing Management"
+  },
+  {
+    "question": "Which type of marketing research involves collecting data from a small group of people to gain insights into their thoughts and feelings?",
+    "options": {
+      "A": "Surveys",
+      "B": "Experiments",
+      "C": "Focus Groups",
+      "D": "Observational Studies"
+    },
+    "correctOption": "C",
+    "explanation": "Focus groups are moderated discussions to explore consumer perceptions.",
+    "category": "Market Research"
+  },
+  {
+    "question": "What is the process of planning, implementing, and controlling the flow of goods, services, and information from point of origin to point of consumption?",
+    "options": {
+      "A": "Supply Chain Management",
+      "B": "Logistics Management",
+      "C": "Inventory Management",
+      "D": "Distribution Management"
+    },
+    "correctOption": "A",
+    "explanation": "Supply chain management encompasses all activities involved in getting products to customers.",
+    "category": "Supply Chain Management"
+  },
+  {
+    "question": "Which inventory management method involves ordering a fixed quantity of inventory when the inventory level reaches a predetermined reorder point?",
+    "options": {
+      "A": "Just-in-Time (JIT)",
+      "B": "Economic Order Quantity (EOQ)",
+      "C": "Materials Requirements Planning (MRP)",
+      "D": "First-In, First-Out (FIFO)"
+    },
+    "correctOption": "B",
+    "explanation": "EOQ calculates the optimal order size to minimize costs.",
+    "category": "Inventory Management"
+  },
+  {
+    "question": "What is the process of planning and managing the movement of goods and services from one location to another?",
+    "options": {
+      "A": "Supply Chain Management",
+      "B": "Logistics Management",
+      "C": "Inventory Management",
+      "D": "Distribution Management"
+    },
+    "correctOption": "B",
+    "explanation": "Logistics focuses on transportation, warehousing, and order fulfillment.",
+    "category": "Supply Chain Management"
+  },
+  {
+    "question": "Which type of distribution channel involves selling products directly to consumers?",
+    "options": {
+      "A": "Direct Channel",
+      "B": "Indirect Channel",
+      "C": "Multichannel Distribution",
+      "D": "Omnichannel Distribution"
+    },
+    "correctOption": "A",
+    "explanation": "Direct channels eliminate intermediaries.",
+    "category": "Distribution Management"
+  },
+  {
+    "question": "What is the process of promoting and selling products or services through online channels?",
+    "options": {
+      "A": "E-commerce",
+      "B": "Social Media Marketing",
+      "C": "Digital Marketing",
+      "D": "Mobile Marketing"
+    },
+    "correctOption": "A",
+    "explanation": "E-commerce encompasses all aspects of buying and selling online.",
+    "category": "Digital Marketing"
+  },
+  {
+    "question": "Which type of social media platform is used for professional networking?",
+    "options": {
+      "A": "Facebook",
+      "B": "Twitter",
+      "C": "LinkedIn",
+      "D": "Instagram"
+    },
+    "correctOption": "C",
+    "explanation": "LinkedIn is a platform for connecting with professionals and building business relationships.",
+    "category": "Social Media Marketing"
+  }
+]
+}

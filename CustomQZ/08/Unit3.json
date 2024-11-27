@@ -1,0 +1,331 @@
+        
+
+        {
+            "questions": 
+[
+{
+"question": "A firm under perfect competition is in short-run equilibrium, earning supernormal profits. At its output level:",
+"options": {
+"A": "MC is at its minimum point",
+"B": "AC is at its minimum point",
+"C": "Both MC and AC are at their minimum",
+"D": "MC equals market price, exceeding AC" 
+},
+"correctOption": "D",
+"explanation": "In perfect competition, short-run supernormal profits occur when price (set by the market) is above average cost. The firm produces where MC = Price for profit maximization.",
+"category": "Market Structures & Profit"
+},
+{
+"question": "A monopolist's demand curve slopes downward because:",
+"options": {
+"A": "It can set any price it desires",
+"B": "It faces no competition", 
+"C": "To sell more, it must lower price", 
+"D": "Demand for its product is perfectly elastic"
+},
+"correctOption": "C",
+"explanation": "A monopolist, unlike perfect competition, has market power.  To increase sales volume, it must reduce the price, leading to the downward slope.",
+"category": "Market Structures & Demand" 
+},
+{
+"question": "Which pricing strategy aims to capture high initial profits, targeting early adopters willing to pay more?",
+"options": {
+"A": "Penetration Pricing",
+"B": "Cost-Plus Pricing", 
+"C": "Skimming Pricing",
+"D": "Competitive Pricing"
+},
+"correctOption": "C",
+"explanation": "Skimming sets a high price at launch, taking advantage of those who value the product highly, then lowers price to attract the wider market later.",
+"category": "Pricing Strategies" 
+},
+{
+"question": "If a 10% price increase leads to a 20% decrease in quantity demanded, demand is:",
+"options": {
+"A": "Inelastic",
+"B": "Elastic",
+"C": "Unitary Elastic", 
+"D": "Perfectly Inelastic"
+},
+"correctOption": "B",
+"explanation": "Elasticity is the percentage change in quantity divided by the percentage change in price. Here, 20%/10% = 2, greater than 1, indicating elastic demand.",
+"category": "Demand Analysis" 
+},
+{
+"question": "In the long run, a firm under perfect competition will:",
+"options": {
+"A": "Earn supernormal profits", 
+"B": "Produce where MC < AC", 
+"C": "Earn only normal profits", 
+"D": "Set its own price"
+},
+"correctOption": "C",
+"explanation": "Long-run perfect competition leads to firms entering/exiting the market until only normal profits (covering opportunity costs) remain.",
+"category": "Market Structures & Profit"
+},
+{
+"question": "Price discrimination is possible when:", 
+"options": {
+"A": "The firm has no control over price",
+"B": "Markets can be segmented with different price sensitivities", 
+"C": "The product is homogeneous", 
+"D": "All buyers have equal willingness to pay"
+},
+"correctOption": "B",
+"explanation": "Price discrimination works by charging different prices to groups with varying price elasticity of demand, requiring market segmentation.",
+"category": "Pricing Strategies" 
+},
+{
+"question": "If the price elasticity of demand is 0.5, a 10% price increase will lead to:",
+"options": {
+"A": "A 5% decrease in quantity demanded",
+"B": "A 20% decrease in quantity demanded", 
+"C": "No change in quantity demanded",
+"D": "A 5% increase in quantity demanded" 
+},
+"correctOption": "A",
+"explanation": "Quantity change = Elasticity * Price change. Thus, 0.5 * 10% = 5% decrease.",
+"category": "Demand Analysis" 
+},
+{
+"question": "A perfectly competitive firm's marginal revenue curve is:", 
+"options": {
+"A": "Downward sloping",
+"B": "Horizontal",
+"C": "Upward sloping", 
+"D": "U-shaped"
+},
+"correctOption": "B",
+"explanation": "In perfect competition, the firm is a price taker. It can sell any quantity at the market price, making MR equal to that price, hence horizontal.",
+"category": "Market Structures & Revenue" 
+},
+{
+"question": "Which is NOT a characteristic of monopolistic competition?",
+"options": {
+"A": "Many sellers",
+"B": "Differentiated products", 
+"C": "Easy entry and exit", 
+"D": "Homogeneous product" 
+},
+"correctOption": "D",
+"explanation": "Monopolistic competition features many firms, each with a slightly differentiated product (unlike perfect competition's homogeneity).",
+"category": "Market Structures" 
+},
+{
+"question": "The demand curve facing an individual firm under perfect competition is:",
+"options": {
+"A": "Downward sloping but less steep than the market demand curve", 
+"B": "Perfectly elastic", 
+"C": "Downward sloping and identical to the market demand curve",
+"D": "Upward sloping" 
+},
+"correctOption": "B",
+"explanation": "The firm is a price taker. It can sell any quantity at the market price, but raising its price means losing all customers, hence perfectly elastic.",
+"category": "Market Structures & Demand" 
+},
+{
+"question": "If a firm's average cost is decreasing as it increases output, then:",
+"options": {
+"A": "It is experiencing diseconomies of scale", 
+"B": "Marginal cost is below average cost",
+"C": "Marginal cost is above average cost", 
+"D": "It is operating in the long run" 
+},
+"correctOption": "B",
+"explanation": "When MC is below AC, it pulls AC down. This is typical in the early stages of production before diminishing returns set in.",
+"category": "Cost Concepts"
+},
+{
+"question": "A firm's total revenue is maximized when its price elasticity of demand is:",
+"options": {
+"A": "Zero",
+"B": "Less than one (inelastic)", 
+"C": "One (unitary elastic)", 
+"D": "Greater than one (elastic)"
+},
+"correctOption": "C",
+"explanation": "At unitary elasticity, a price change is exactly offset by the quantity change, leading to maximum revenue.",
+"category": "Demand Analysis & Revenue" 
+},
+{
+"question": "Which is NOT a barrier to entry in a monopoly?",
+"options": {
+"A": "Government regulations", 
+"B": "Control of key resources", 
+"C": "Perfect information",
+"D": "Economies of scale" 
+},
+"correctOption": "C",
+"explanation": "Barriers to entry protect monopolies. Perfect information would actually make entry easier, hindering monopoly power.",
+"category": "Market Structures & Barriers"
+},
+{
+"question": "If the marginal cost of production is rising, then:",
+"options": {
+"A": "Average variable cost must be rising",
+"B": "Average total cost must be rising", 
+"C": "Marginal product of labor is falling", 
+"D": "The firm is experiencing economies of scale" 
+},
+"correctOption": "C",
+"explanation": "Rising MC is often due to diminishing returns, meaning each additional unit of input (like labor) adds less output, hence falling marginal product.",
+"category": "Cost & Production Concepts" 
+},
+{
+"question": "A firm operating under perfect competition will shut down in the short run if:",
+"options": {
+"A": "Price is less than average total cost",
+"B": "Price is less than average variable cost", 
+"C": "Economic profit is zero", 
+"D": "Total revenue is less than total fixed cost" 
+},
+"correctOption": "B",
+"explanation": "If price can't even cover variable costs, it's better to shut down and minimize losses to just fixed costs in the short run.",
+"category": "Market Structures & Shutdown Decision" 
+},
+{
+"question": "A Giffen good is one for which:", 
+"options": {
+"A": "Demand increases as price increases", 
+"B": "Demand is perfectly elastic", 
+"C": "Income elasticity of demand is negative",
+"D": "Cross elasticity of demand is positive"
+},
+"correctOption": "A",
+"explanation": "Giffen goods are a rare exception where the demand curve slopes upward due to strong income effects and limited substitutes.",
+"category": "Demand Analysis" 
+},
+{
+"question": "Which cost concept is relevant for deciding how much output to produce in the short run?",
+"options": {
+"A": "Fixed cost",
+"B": "Sunk cost", 
+"C": "Marginal cost",
+"D": "Average total cost" 
+},
+"correctOption": "C",
+"explanation": "MC tells the cost of producing ONE more unit. Firms compare this to price/revenue to decide if producing more is profitable.",
+"category": "Cost & Production Decisions" 
+},
+{
+"question": "In a perfectly competitive market, the market price is determined by:", 
+"options": {
+"A": "The largest firm in the market",
+"B": "Government regulation", 
+"C": "The interaction of market demand and supply", 
+"D": "Collusion among firms" 
+},
+"correctOption": "C",
+"explanation": "Perfect competition assumes many buyers and sellers, none powerful enough to influence price individually. Price emerges from their combined actions.",
+"category": "Market Structures & Price Determination" 
+},
+{
+"question": "A firm's average fixed cost curve:",
+"options": {
+"A": "Is U-shaped", 
+"B": "Slopes upward", 
+"C": "Is horizontal", 
+"D": "Slopes downward"
+},
+"correctOption": "D",
+"explanation": "Fixed costs don't change with output. As output increases, AFC (Fixed Cost / Output) keeps decreasing, giving the downward slope.",
+"category": "Cost Concepts"
+},
+{
+"question": "Which is NOT a feature of oligopoly?", 
+"options": {
+"A": "Interdependence of firms", 
+"B": "Significant barriers to entry", 
+"C": "Large number of small firms", 
+"D": "Strategic behavior" 
+},
+"correctOption": "C",
+"explanation": "Oligopolies have few, large firms, leading to their actions impacting each other significantly. Many small firms would be monopolistic competition.",
+"category": "Market Structures"
+},
+{
+"question": "When a firm sets its price equal to its marginal cost, it ensures:", 
+"options": {
+"A": "Profit maximization", 
+"B": "Normal profits", 
+"C": "Allocative efficiency", 
+"D": "Minimization of average cost"
+},
+"correctOption": "C",
+"explanation": "Allocative efficiency is where societal welfare is maximized, occurring when price (what consumers are willing to pay) matches the cost of production (MC).",
+"category": "Efficiency & Pricing"
+},
+{
+"question": "Which is NOT a factor affecting price elasticity of demand?", 
+"options": {
+"A": "Availability of substitutes", 
+"B": "Proportion of income spent on the good",
+"C": "Number of firms in the market", 
+"D": "Time period considered"
+},
+"correctOption": "C",
+"explanation": "While the market structure impacts a *firm's* elasticity, the *demand* elasticity itself is about consumer behavior, unrelated to firm count.",
+"category": "Demand Analysis"
+},
+{
+"question": "If a firm's total cost is Rs. 10,000 and its total variable cost is Rs. 6,000, its total fixed cost is:", 
+"options": {
+"A": "Rs. 4,000", 
+"B": "Rs. 16,000", 
+"C": "Rs. 6,000", 
+"D": "Cannot be determined" 
+},
+"correctOption": "A",
+"explanation": "Total Cost = Fixed Cost + Variable Cost.  Therefore, Fixed Cost = Total Cost - Variable Cost.",
+"category": "Cost Concepts"
+},
+{
+"question": "A perfectly inelastic demand curve is:", 
+"options": {
+"A": "Horizontal",
+"B": "Vertical",
+"C": "Downward sloping",
+"D": "Upward sloping"
+},
+"correctOption": "B",
+"explanation": "Perfectly inelastic means quantity demanded DOES NOT change regardless of price, represented by a vertical line.",
+"category": "Demand Analysis"
+},
+{
+"question": "Which of the following is NOT a feature of a perfectly competitive market?", 
+"options": {
+"A": "Free entry and exit of firms",
+"B": "Product differentiation",
+"C": "Large number of buyers and sellers", 
+"D": "Perfect mobility of factors of production" 
+},
+"correctOption": "B",
+"explanation": "Perfect competition assumes homogeneous products, meaning they are identical, so no firm can differentiate itself.",
+"category": "Market Structures"
+},
+{
+"question": "If the cross elasticity of demand between two goods is negative, the goods are:",
+"options": {
+"A": "Substitutes", 
+"B": "Complements", 
+"C": "Independent",
+"D": "Normal goods"
+},
+"correctOption": "B",
+"explanation": "Negative cross elasticity means as the price of one good rises, demand for the other falls, indicating they are used together (complements).",
+"category": "Demand Analysis"
+},
+{
+"question": "Which of the following is NOT a function of money?",
+"options": {
+"A": "Medium of exchange", 
+"B": "Store of value", 
+"C": "Unit of account",
+"D": "Factor of production"
+},
+"correctOption": "D",
+"explanation": "Money facilitates transactions but is not directly used in creating goods/services like factors of production (land, labor, capital).",
+"category": "Money & Its Functions"
+}
+]
+}

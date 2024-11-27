@@ -1,0 +1,655 @@
+        
+
+        {
+          "questions":
+[
+  {
+    "question": "Which of the following is NOT a responsibility of an organization to its workers?",
+    "options": {
+      "A": "The payment of fair wages",
+      "B": "Arrangement of proper training and education",
+      "C": "The provision of best possible working conditions",
+      "D": "Unlimited freedom to choose working hours"
+    },
+    "correctOption": "D",
+    "explanation": "While fair wages, training, and good working conditions are standard responsibilities of an organization to its employees, unlimited freedom to choose working hours is not typically considered a basic right.",
+    "category": "Employee Rights and Responsibilities"
+  },
+  {
+    "question": "What does the term 'Capital Structure' imply?",
+    "options": {
+      "A": "Share Capital + Reserves + Long-Term Debts",
+      "B": "Share Capital + Long and Short-Term Debts",
+      "C": "Share Capital + Debentures + Long-Term Loans",
+      "D": "Share Capital + Reserves + Surplus + Long-Term Debts"
+    },
+    "correctOption": "D",
+    "explanation": "The capital structure of a company represents the combination of all long-term sources of funds used to finance its assets. This includes share capital, reserves, surplus, and long-term debts.",
+    "category": "Capital Structure and Financing"
+  },
+  {
+    "question": "Which type of retail store typically incurs the highest operating costs?",
+    "options": {
+      "A": "Discount stores",
+      "B": "Department stores",
+      "C": "Specialty stores",
+      "D": "Online retailers"
+    },
+    "correctOption": "B",
+    "explanation": "Department stores generally have higher operating costs compared to other retail formats due to factors like larger physical spaces, wider product assortments, and higher staffing requirements.", 
+    "category": "Retail Management and Operations"
+  },
+  {
+    "question": "'Make sufficient provisions for future losses, but do not anticipate future profits.' This statement aligns with which accounting concept?",
+    "options": {
+      "A": "Matching",
+      "B": "Objectivity",
+      "C": "Conservatism",
+      "D": "Materiality"
+    },
+    "correctOption": "C",
+    "explanation": "The principle of conservatism in accounting dictates that potential losses should be recognized as soon as they are reasonably possible, while potential profits should only be recognized when they are realized. This approach ensures that financial statements are not overly optimistic.",
+    "category": "Accounting Principles and Concepts"
+  },
+  {
+    "question": "What is the primary objective of the Competition Act in India?",
+    "options": {
+      "A": "To promote free trade agreements",
+      "B": "To control foreign direct investment",
+      "C": "To prevent practices that have an adverse effect on competition",
+      "D": "To regulate the stock market"
+    },
+    "correctOption": "C",
+    "explanation": "The Competition Act in India aims to establish a level playing field for businesses by prohibiting anti-competitive agreements, abuse of dominant positions, and mergers that could harm competition.",
+    "category": "Competition Law and Policy"
+  },
+  {
+    "question": "Which of the following is an example of an 'Unfair Trade Practice' under the Consumer Protection Act?",
+    "options": {
+      "A": "Offering discounts to attract customers",
+      "B": "Selling products with minor defects at a reduced price",
+      "C": "Misleading advertising about a product's features",
+      "D": "Refusing to accept returns for defective products"
+    },
+    "correctOption": "C",
+    "explanation": "The Consumer Protection Act defines unfair trade practices as those that are deceptive or misleading to consumers. This includes false or exaggerated claims about a product's qualities or benefits.", 
+    "category": "Consumer Protection Law"
+  },
+  {
+    "question": "What is the role of the Securities and Exchange Board of India (SEBI)?",
+    "options": {
+      "A": "To regulate foreign exchange markets",
+      "B": "To oversee the operations of commercial banks",
+      "C": "To protect the interests of investors in the securities market",
+      "D": "To manage the public debt of the government"
+    },
+    "correctOption": "C",
+    "explanation": "SEBI is the regulatory authority responsible for ensuring fairness, transparency, and efficiency in the Indian securities market. Its primary goal is to protect investors from fraudulent practices and promote investor confidence.",
+    "category": "Securities Law and Regulation"
+  },
+  {
+    "question": "What is the concept of 'Corporate Governance' primarily concerned with?",
+    "options": {
+      "A": "Maximizing shareholder profits",
+      "B": "Ensuring ethical and responsible corporate behavior",
+      "C": "Complying with environmental regulations",
+      "D": "Developing marketing strategies"
+    },
+    "correctOption": "B",
+    "explanation": "Corporate governance involves a set of principles, practices, and mechanisms that ensure a company is managed ethically and responsibly. It includes accountability to stakeholders, transparency in decision-making, and fairness in dealings.", 
+    "category": "Corporate Governance and Ethics"
+  },
+  {
+    "question": "What is the purpose of a 'Patent' in business?",
+    "options": {
+      "A": "To protect a company's brand name",
+      "B": "To prevent competitors from copying a unique invention",
+      "C": "To secure funding for a new business venture",
+      "D": "To register a company's trademark"
+    },
+    "correctOption": "B",
+    "explanation": "A patent grants exclusive rights to an inventor to make, use, and sell their invention for a limited period. This protection incentivizes innovation by ensuring inventors can benefit from their creations.",
+    "category": "Intellectual Property Rights"
+  },
+  {
+    "question": "Which of the following is a key principle of the World Trade Organization (WTO)?",
+    "options": {
+      "A": "Promoting free trade between nations",
+      "B": "Restricting foreign direct investment",
+      "C": "Controlling currency exchange rates",
+      "D": "Imposing tariffs on imported goods"
+    },
+    "correctOption": "A",
+    "explanation": "The WTO aims to facilitate international trade by reducing barriers such as tariffs and quotas. It provides a framework for negotiating trade agreements and resolving trade disputes.",
+    "category": "International Trade Law"
+  },
+  {
+    "question": "What is the purpose of a 'Force Majeure' clause in a contract?",
+    "options": {
+      "A": "To allow parties to terminate the contract for any reason",
+      "B": "To excuse a party from performing their obligations due to unforeseen events",
+      "C": "To require parties to renegotiate the contract terms",
+      "D": "To limit the liability of one party in case of breach"
+    },
+    "correctOption": "B",
+    "explanation": "A Force Majeure clause relieves a party from contractual obligations if their performance is prevented by events beyond their control, such as natural disasters, wars, or pandemics.",
+    "category": "Contract Law"
+  },
+  {
+    "question": "What is the difference between 'Mergers' and 'Acquisitions' in the context of business law?",
+    "options": {
+      "A": "Mergers involve the creation of a new company, while acquisitions involve one company taking over another.",
+      "B": "Mergers are hostile takeovers, while acquisitions are friendly agreements.",
+      "C": "Mergers are regulated by the government, while acquisitions are not.",
+      "D": "Mergers involve the combination of two companies of equal size, while acquisitions involve a larger company buying a smaller one."
+    },
+    "correctOption": "A",
+    "explanation": "In a merger, two or more companies combine to form a new entity. In an acquisition, one company purchases a controlling stake in another company, which may continue to operate as a subsidiary or be absorbed into the acquiring company.", 
+    "category": "Mergers and Acquisitions"
+  },
+  {
+    "question": "What is the purpose of 'Insolvency and Bankruptcy Code' in India?",
+    "options": {
+      "A": "To provide a framework for resolving financial distress in companies and individuals",
+      "B": "To punish companies that engage in fraudulent practices",
+      "C": "To regulate the stock market and prevent insider trading",
+      "D": "To protect the intellectual property rights of businesses"
+    },
+    "correctOption": "A",
+    "explanation": "The Insolvency and Bankruptcy Code establishes a process for dealing with insolvent entities, aiming to maximize the value of assets and ensure fair treatment of creditors.", 
+    "category": "Insolvency and Bankruptcy Law"
+  },
+  {
+    "question": "What is the significance of the 'Right to Information Act' for businesses in India?",
+    "options": {
+      "A": "It allows businesses to access government information and ensure transparency.",
+      "B": "It restricts businesses from sharing confidential information with competitors.",
+      "C": "It requires businesses to disclose their financial statements to the public.",
+      "D": "It protects businesses from unfair competition and predatory pricing."
+    },
+    "correctOption": "A",
+    "explanation": "The Right to Information Act empowers citizens, including businesses, to request information from public authorities. This promotes transparency and accountability in government functioning.", 
+    "category": "Right to Information and Transparency"
+  },
+  {
+    "question": "Which of the following is a characteristic of a 'Sole Proprietorship'?",
+    "options": {
+      "A": "Limited liability for the owner",
+      "B": "Separate legal entity from the owner",
+      "C": "Easy to raise capital",
+      "D": "Unlimited liability for the owner"
+    },
+    "correctOption": "D",
+    "explanation": "In a sole proprietorship, the business is not a separate legal entity from the owner. This means the owner is personally liable for all business debts and obligations.",
+    "category": "Forms of Business Organization"
+  },
+  {
+    "question": "What is a key difference between a 'Partnership' and a 'Limited Liability Partnership (LLP)'?",
+    "options": {
+      "A": "Partners in a partnership have limited liability, while partners in an LLP have unlimited liability.",
+      "B": "Partnerships are easier to form than LLPs.",
+      "C": "Partners in an LLP have limited liability, while partners in a partnership have unlimited liability.",
+      "D": "LLPs are not required to register with the government."
+    },
+    "correctOption": "C",
+    "explanation": "An LLP offers limited liability to its partners, protecting their personal assets from business debts. In a traditional partnership, partners face unlimited liability.",
+    "category": "Forms of Business Organization"
+  },
+  {
+    "question": "What is the role of a 'Promoter' in company formation?",
+    "options": {
+      "A": "To manage the day-to-day operations of the company",
+      "B": "To provide legal advice to the company",
+      "C": "To conceive the idea of the company and take necessary steps for its formation",
+      "D": "To audit the financial statements of the company"
+    },
+    "correctOption": "C",
+    "explanation": "A promoter is involved in the initial stages of a company's formation, from developing the business concept to registering the company and raising capital.",
+    "category": "Company Law"
+  },
+  {
+    "question": "What is the purpose of a 'Memorandum of Association (MoA)'?",
+    "options": {
+      "A": "To outline the internal rules and regulations of the company",
+      "B": "To define the company's objectives, powers, and scope of operations",
+      "C": "To record the minutes of the company's meetings",
+      "D": "To list the names and addresses of the company's shareholders"
+    },
+    "correctOption": "B",
+    "explanation": "The MoA is a fundamental document that establishes the company's legal framework and sets out its essential characteristics.",
+    "category": "Company Law"
+  },
+  {
+    "question": "What are the duties of a 'Director' in a company?",
+    "options": {
+      "A": "To act in the best interests of the company and its shareholders",
+      "B": "To avoid conflicts of interest",
+      "C": "To exercise reasonable care and skill",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "Directors have a fiduciary duty to the company, requiring them to act honestly, in good faith, and in the company's best interests.",
+    "category": "Company Law"
+  },
+  {
+    "question": "What is an 'Offer' in contract law?",
+    "options": {
+      "A": "An invitation to treat",
+      "B": "A promise to do or refrain from doing something",
+      "C": "A definite proposal to enter into a contract",
+      "D": "A counter-offer"
+    },
+    "correctOption": "C",
+    "explanation": "An offer is a clear statement of willingness to enter into a contract on specific terms.",
+    "category": "Contract Law"
+  },
+  {
+    "question": "What is 'Consideration' in contract law?",
+    "options": {
+      "A": "Something of value exchanged between parties to a contract",
+      "B": "A moral obligation to perform a contract",
+      "C": "A promise to do something in the future",
+      "D": "A gift given by one party to another"
+    },
+    "correctOption": "A",
+    "explanation": "Consideration is an essential element of a valid contract, ensuring that each party is giving and receiving something of value.",
+    "category": "Contract Law"
+  },
+  {
+    "question": "What is a 'Breach of Contract'?",
+    "options": {
+      "A": "Failure by one party to perform their obligations under a contract",
+      "B": "A change in the contract terms agreed upon by both parties",
+      "C": "An unforeseen event that makes it impossible to perform the contract",
+      "D": "A dispute between parties regarding the interpretation of the contract"
+    },
+    "correctOption": "A",
+    "explanation": "A breach occurs when a party fails to fulfill their contractual obligations, leading to legal remedies for the non-breaching party.",
+    "category": "Contract Law"
+  },
+  {
+    "question": "What is the purpose of 'Damages' in contract law?",
+    "options": {
+      "A": "To punish the breaching party",
+      "B": "To compensate the non-breaching party for losses suffered",
+      "C": "To force the breaching party to perform the contract",
+      "D": "To terminate the contract"
+    },
+    "correctOption": "B",
+    "explanation": "Damages are monetary compensation awarded to the non-breaching party to put them in the position they would have been in had the contract been performed.",
+    "category": "Contract Law"
+  },
+  {
+    "question": "What is the difference between a 'Condition' and a 'Warranty' in a contract?",
+    "options": {
+      "A": "Conditions are minor terms, while warranties are essential terms.",
+      "B": "Conditions are statements of fact, while warranties are promises.",
+      "C": "Conditions are implied terms, while warranties are express terms.",
+      "D": "Conditions are essential terms, breach of which allows termination, while warranties are less important, breach of which allows only damages."
+    },
+    "correctOption": "D",
+    "explanation": "A condition is a fundamental term of a contract. A breach of condition allows the non-breaching party to terminate the contract and claim damages. A warranty is a less important term, and a breach of warranty allows the non-breaching party to claim damages but not terminate the contract.",
+    "category": "Contract Law"
+  },
+  {
+    "question": "What is the purpose of the 'Sale of Goods Act'?",
+    "options": {
+      "A": "To regulate the sale of services",
+      "B": "To govern contracts for the sale of goods",
+      "C": "To protect intellectual property rights",
+      "D": "To regulate the formation of companies"
+    },
+    "correctOption": "B",
+    "explanation": "The Sale of Goods Act provides a legal framework for contracts involving the buying and selling of goods, covering aspects like implied terms, transfer of ownership, and remedies for breach.",
+    "category": "Sale of Goods"
+  },
+  {
+    "question": "What is an 'Implied Warranty' under the Sale of Goods Act?",
+    "options": {
+      "A": "A warranty explicitly stated in the contract",
+      "B": "A warranty that is automatically included in the contract by law",
+      "C": "A warranty that can be excluded by agreement between parties",
+      "D": "A warranty that applies only to specific types of goods"
+    },
+    "correctOption": "B",
+    "explanation": "Implied warranties are legal protections for buyers, ensuring that goods meet certain standards of quality, fitness for purpose, and description, even if not explicitly mentioned in the contract.",
+    "category": "Sale of Goods"
+  },
+  {
+    "question": "What is a 'Negotiable Instrument'?",
+    "options": {
+      "A": "A written document that represents a debt",
+      "B": "A contract for the sale of goods",
+      "C": "A document that can be transferred to another person, giving them the right to claim the debt",
+      "D": "A document that evidences ownership of property"
+    },
+    "correctOption": "C",
+    "explanation": "Negotiable instruments, such as checks and promissory notes, allow for the easy transfer of debt obligations from one party to another.",
+    "category": "Negotiable Instruments"
+  },
+  {
+    "question": "What is the purpose of 'Endorsement' on a negotiable instrument?",
+    "options": {
+      "A": "To sign the instrument",
+      "B": "To transfer the instrument to another person",
+      "C": "To guarantee payment of the instrument",
+      "D": "To cancel the instrument"
+    },
+    "correctOption": "B",
+    "explanation": "Endorsement involves signing the instrument and delivering it to another person, thereby transferring the right to claim the debt.",
+    "category": "Negotiable Instruments"
+  },
+  {
+    "question": "What is the role of the 'Reserve Bank of India (RBI)' in the context of negotiable instruments?",
+    "options": {
+      "A": "To regulate the issuance of negotiable instruments",
+      "B": "To oversee the clearing and settlement of negotiable instruments",
+      "C": "To protect the interests of holders of negotiable instruments",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "The RBI plays a central role in regulating and overseeing the use of negotiable instruments in India, ensuring smooth functioning and consumer protection.",
+    "category": "Negotiable Instruments"
+  },
+  {
+    "question": "What is the purpose of 'Consumer Protection Act' in India?",
+    "options": {
+      "A": "To protect the interests of businesses",
+      "B": "To promote competition in the market",
+      "C": "To regulate foreign trade",
+      "D": "To protect the rights and interests of consumers"
+    },
+    "correctOption": "D",
+    "explanation": "The Consumer Protection Act aims to safeguard consumers from unfair trade practices, defective products, and deficient services, empowering them with rights and remedies.",
+    "category": "Consumer Protection Law"
+  },
+  {
+    "question": "What are the three levels of consumer dispute redressal forums in India?",
+    "options": {
+      "A": "District Forum, State Commission, National Commission",
+      "B": "Local Court, High Court, Supreme Court",
+      "C": "Consumer Council, Trade Association, Government Ministry",
+      "D": "None of the above"
+    },
+    "correctOption": "A",
+    "explanation": "The Consumer Protection Act establishes a three-tier system for resolving consumer disputes, starting with the District Forum, then the State Commission, and finally the National Commission.",
+    "category": "Consumer Protection Law"
+  },
+  {
+    "question": "What is the concept of 'Product Liability'?",
+    "options": {
+      "A": "The liability of a manufacturer or seller for harm caused by defective products",
+      "B": "The responsibility of consumers to use products safely",
+      "C": "The liability of the government for regulating product safety",
+      "D": "The duty of retailers to provide warranties on products"
+    },
+    "correctOption": "A",
+    "explanation": "Product liability holds manufacturers and sellers accountable for injuries or damages caused by flaws in their products, emphasizing consumer safety.",
+    "category": "Product Liability"
+  },
+  {
+    "question": "What are the grounds for filing a product liability claim?",
+    "options": {
+      "A": "Manufacturing defects",
+      "B": "Design defects",
+      "C": "Failure to warn about potential hazards",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "Product liability claims can arise from various defects, including manufacturing errors, flawed designs, or inadequate warnings about product risks.",
+    "category": "Product Liability"
+  },
+  {
+    "question": "What is the purpose of the 'Information Technology Act' in India?",
+    "options": {
+      "A": "To promote the use of technology in governance",
+      "B": "To regulate electronic commerce and online transactions",
+      "C": "To address cybercrime and data security issues",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "The Information Technology Act is a comprehensive legislation covering various aspects of the digital landscape, from e-commerce to cybersecurity.",
+    "category": "Information Technology Law"
+  },
+  {
+    "question": "What is 'Cybercrime'?",
+    "options": {
+      "A": "Any illegal activity that involves the use of computers or the internet",
+      "B": "Theft of physical property",
+      "C": "Breach of contract in offline transactions",
+      "D": "Violation of intellectual property rights"
+    },
+    "correctOption": "A",
+    "explanation": "Cybercrime encompasses a wide range of illegal activities conducted using technology, such as hacking, phishing, and online fraud.",
+    "category": "Cyber Law"
+  },
+  {
+    "question": "What is the purpose of 'Data Protection Laws'?",
+    "options": {
+      "A": "To protect the privacy and security of personal information",
+      "B": "To regulate the use of intellectual property",
+      "C": "To prevent unfair competition in the market",
+      "D": "To control the flow of foreign currency"
+    },
+    "correctOption": "A",
+    "explanation": "Data protection laws aim to safeguard individuals' personal information from unauthorized access, use, or disclosure, promoting privacy and data security.",
+    "category": "Data Protection and Privacy"
+  },
+  {
+    "question": "What is the concept of 'Corporate Social Responsibility (CSR)'?",
+    "options": {
+      "A": "The legal obligation of companies to pay taxes",
+      "B": "The ethical responsibility of companies to contribute to the well-being of society",
+      "C": "The duty of companies to maximize shareholder profits",
+      "D": "The responsibility of companies to comply with environmental regulations"
+    },
+    "correctOption": "B",
+    "explanation": "CSR encourages businesses to consider their impact on society and the environment, going beyond legal compliance to engage in ethical and sustainable practices.",
+    "category": "Corporate Social Responsibility"
+  },
+  {
+    "question": "Which of the following are common examples of CSR initiatives?",
+    "options": {
+      "A": "Philanthropic donations",
+      "B": "Environmental conservation efforts",
+      "C": "Community development programs",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "CSR initiatives can take various forms, including charitable giving, environmental sustainability programs, and efforts to improve the lives of local communities.",
+    "category": "Corporate Social Responsibility"
+  },
+  {
+    "question": "What is the purpose of 'Antitrust Laws'?",
+    "options": {
+      "A": "To promote monopolies in the market",
+      "B": "To prevent unfair competition and promote fair trade",
+      "C": "To regulate foreign investment",
+      "D": "To control the pricing of essential commodities"
+    },
+    "correctOption": "B",
+    "explanation": "Antitrust laws aim to prevent anticompetitive practices, such as price-fixing, bid-rigging, and monopolization, fostering a competitive marketplace.",
+    "category": "Competition Law and Policy"
+  },
+  {
+    "question": "What is a 'Horizontal Restraint of Trade'?",
+    "options": {
+      "A": "Agreements between competitors that restrict competition",
+      "B": "Agreements between companies at different levels of the supply chain",
+      "C": "Agreements that limit the quantity of goods produced",
+      "D": "Agreements that fix the price of goods"
+    },
+    "correctOption": "A",
+    "explanation": "Horizontal restraints occur when businesses at the same level of the market collude to limit competition, harming consumers and other businesses.",
+    "category": "Competition Law and Policy"
+  },
+  {
+    "question": "What is a 'Vertical Restraint of Trade'?",
+    "options": {
+      "A": "Agreements between companies at different levels of the supply chain that restrict competition",
+      "B": "Agreements between competitors that fix prices",
+      "C": "Agreements that limit the quantity of goods imported",
+      "D": "Agreements that restrict the use of technology"
+    },
+    "correctOption": "A",
+    "explanation": "Vertical restraints involve agreements between companies operating at different stages of production or distribution that can limit competition, such as exclusive dealing arrangements or territorial restrictions.",
+    "category": "Competition Law and Policy"
+  },
+  {
+    "question": "What is the purpose of 'Environmental Protection Laws'?",
+    "options": {
+      "A": "To promote economic growth",
+      "B": "To protect human health and the environment",
+      "C": "To regulate international trade",
+      "D": "To control the use of technology"
+    },
+    "correctOption": "B",
+    "explanation": "Environmental protection laws aim to safeguard the environment and human health by regulating pollution, waste management, and resource conservation.",
+    "category": "Environmental Law"
+  },
+  {
+    "question": "What is the concept of 'Sustainable Development'?",
+    "options": {
+      "A": "Meeting the needs of the present generation without compromising the ability of future generations to meet their own needs",
+      "B": "Maximizing profits for businesses",
+      "C": "Exploiting natural resources for economic growth",
+      "D": "Focusing solely on technological advancements"
+    },
+    "correctOption": "A",
+    "explanation": "Sustainable development emphasizes balancing economic growth with environmental protection and social equity, ensuring a healthy planet for current and future generations.",
+    "category": "Environmental Law"
+  },
+  {
+    "question": "What is the purpose of 'Labor Laws'?",
+    "options": {
+      "A": "To regulate the relationship between employers and employees",
+      "B": "To promote international trade",
+      "C": "To protect intellectual property rights",
+      "D": "To regulate the formation of companies"
+    },
+    "correctOption": "A",
+    "explanation": "Labor laws cover a wide range of issues related to employment, including wages, working conditions, trade unions, and dispute resolution.",
+    "category": "Labor Law"
+  },
+  {
+    "question": "What is the concept of 'Minimum Wage'?",
+    "options": {
+      "A": "The highest wage that an employer can pay an employee",
+      "B": "The average wage paid to workers in a particular industry",
+      "C": "The lowest wage per hour that a worker may be paid legally",
+      "D": "The wage negotiated between an employer and a trade union"
+    },
+    "correctOption": "C",
+    "explanation": "Minimum wage laws set a floor on hourly wages, ensuring that workers receive a basic level of income.",
+    "category": "Labor Law"
+  },
+  {
+    "question": "What is the role of 'Trade Unions'?",
+    "options": {
+      "A": "To represent the interests of employers",
+      "B": "To negotiate with the government on economic policies",
+      "C": "To protect the rights and interests of workers",
+      "D": "To regulate competition in the market"
+    },
+    "correctOption": "C",
+    "explanation": "Trade unions are organizations that advocate for workers' rights, including fair wages, safe working conditions, and collective bargaining agreements.",
+    "category": "Labor Law"
+  },
+  {
+    "question": "What is the purpose of 'Intellectual Property Rights (IPR)'?",
+    "options": {
+      "A": "To protect the creators of original works and inventions",
+      "B": "To regulate the use of natural resources",
+      "C": "To prevent unfair competition in the market",
+      "D": "To control the flow of foreign currency"
+    },
+    "correctOption": "A",
+    "explanation": "IPR grants exclusive rights to creators, incentivizing innovation and creativity.",
+    "category": "Intellectual Property Law"
+  },
+  {
+    "question": "Which of the following are types of Intellectual Property Rights?",
+    "options": {
+      "A": "Patents",
+      "B": "Trademarks",
+      "C": "Copyrights",
+      "D": "All of the above"
+    },
+    "correctOption": "D",
+    "explanation": "Patents, trademarks, and copyrights are different types of IPR, each providing protection for specific creations.",
+    "category": "Intellectual Property Law"
+  },
+  {
+    "question": "What is a 'Trademark'?",
+    "options": {
+      "A": "A symbol, design, or phrase legally registered to represent a company or product",
+      "B": "A secret formula or process used in manufacturing",
+      "C": "A literary or artistic work protected by copyright",
+      "D": "A patent granted for a new invention"
+    },
+    "correctOption": "A",
+    "explanation": "Trademarks help businesses distinguish their products or services from those of others, building brand recognition and preventing consumer confusion.",
+    "category": "Intellectual Property Law"
+  },
+  {
+    "question": "What is 'Copyright'?",
+    "options": {
+      "A": "The right to copy someone else's work",
+      "B": "The exclusive right to produce, reproduce, publish, or perform an original work",
+      "C": "A patent granted for a new invention",
+      "D": "A trademark registered to represent a company"
+    },
+    "correctOption": "B",
+    "explanation": "Copyright protects original literary, artistic, musical, and dramatic works, granting creators exclusive rights to control their use and distribution.",
+    "category": "Intellectual Property Law"
+  },
+  {
+    "question": "What is the purpose of 'International Business Law'?",
+    "options": {
+      "A": "To regulate trade and commerce between nations",
+      "B": "To govern domestic business transactions",
+      "C": "To protect the environment",
+      "D": "To regulate the use of technology"
+    },
+    "correctOption": "A",
+    "explanation": "International business law provides a framework for cross-border transactions, addressing issues like trade agreements, foreign investment, and dispute resolution.",
+    "category": "International Business Law"
+  },
+  {
+    "question": "What is a 'Free Trade Agreement (FTA)'?",
+    "options": {
+      "A": "An agreement between countries to reduce or eliminate trade barriers",
+      "B": "A restriction on the import of goods",
+      "C": "A tax imposed on imported goods",
+      "D": "A subsidy provided to domestic industries"
+    },
+    "correctOption": "A",
+    "explanation": "FTAs aim to promote trade between participating countries by lowering tariffs, quotas, and other barriers to trade.",
+    "category": "International Business Law"
+  },
+  {
+    "question": "What is 'Foreign Direct Investment (FDI)'?",
+    "options": {
+      "A": "Investment made by a company in a foreign country",
+      "B": "Investment made by a government in its own country",
+      "C": "Investment made by individuals in the stock market",
+      "D": "Investment made in real estate"
+    },
+    "correctOption": "A",
+    "explanation": "FDI involves a company establishing a business presence or acquiring assets in another country.",
+    "category": "International Business Law"
+  },
+  {
+    "question": "What is 'Arbitration' in the context of international business disputes?",
+    "options": {
+      "A": "A method of dispute resolution where parties agree to have their dispute decided by a neutral third party",
+      "B": "A lawsuit filed in a court of law",
+      "C": "A negotiation between parties to reach a settlement",
+      "D": "A mediation process facilitated by a mediator"
+    },
+    "correctOption": "A",
+    "explanation": "Arbitration is a form of alternative dispute resolution where parties agree to have their dispute decided by an impartial arbitrator, often chosen by the parties themselves.",
+    "category": "International Business Law"
+  }
+]
+}

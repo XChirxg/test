@@ -1,0 +1,413 @@
+
+{
+    "questions": 
+    [
+  {
+    "question": "What is the primary function of the World Trade Organization (WTO)?",
+    "options": [
+      "To regulate international trade and resolve trade disputes",
+      "To provide financial assistance to developing countries",
+      "To promote economic development through infrastructure projects",
+      "To foster cultural exchange between nations"
+    ],
+    "answer": "To regulate international trade and resolve trade disputes",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is a key difference between a multinational company (MNC) and a transnational company (TNC)?",
+    "options": [
+      "MNCs have a centralized management structure, while TNCs have a decentralized structure.",
+      "MNCs focus on global integration, while TNCs prioritize local responsiveness.",
+      "MNCs primarily operate in developed countries, while TNCs focus on emerging markets.",
+      "MNCs are publicly traded, while TNCs are privately held."
+    ],
+    "answer": "MNCs focus on global integration, while TNCs prioritize local responsiveness.",
+    "category": "Multinational Corporations"
+  },
+  {
+    "question": "Which of the following is NOT a component of the International Reserve?",
+    "options": [
+      "Special Drawing Rights (SDRs)",
+      "Reserve Position in the IMF",
+      "Money Market Instruments",
+      "Monetary Gold"
+    ],
+    "answer": "Money Market Instruments",
+    "category": "International Finance"
+  },
+  {
+    "question": "What does LIBOR stand for?",
+    "options": [
+      "London Interbank Offered Rate",
+      "Liberalization of Interest Bearing Obligations and Regulations",
+      "Liquidity and Investment Benchmark for Overseas Remittances",
+      "Legal and Institutional Basis for Offshore Refinancing"
+    ],
+    "answer": "London Interbank Offered Rate",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the purpose of the Foreign Trade Policy (FTP) in India?",
+    "options": [
+      "To promote domestic consumption of goods and services",
+      "To restrict foreign investment in strategic sectors",
+      "To regulate cross-border movement of labor",
+      "To enhance India's international trade competitiveness"
+    ],
+    "answer": "To enhance India's international trade competitiveness",
+    "category": "Foreign Trade Policy"
+  },
+  {
+    "question": "What is dumping in international trade?",
+    "options": [
+      "Selling goods in a foreign market at a price below the cost of production",
+      "Exporting goods that are prohibited in the domestic market",
+      "Imposing high tariffs on imported goods to protect domestic industries",
+      "Providing subsidies to domestic producers to gain an unfair advantage"
+    ],
+    "answer": "Selling goods in a foreign market at a price below the cost of production",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is the role of the International Finance Corporation (IFC)?",
+    "options": [
+      "To provide loans and grants to governments for infrastructure projects",
+      "To promote private sector investment in developing countries",
+      "To regulate international currency exchange rates",
+      "To monitor global financial markets and prevent systemic risks"
+    ],
+    "answer": "To promote private sector investment in developing countries",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the difference between Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI)?",
+    "options": [
+      "FDI involves controlling ownership in a foreign company, while FPI is a passive investment.",
+      "FDI is a short-term investment, while FPI is a long-term investment.",
+      "FDI is primarily focused on developed countries, while FPI targets emerging markets.",
+      "FDI is regulated by the World Bank, while FPI is overseen by the IMF."
+    ],
+    "answer": "FDI involves controlling ownership in a foreign company, while FPI is a passive investment.",
+    "category": "Foreign Investment"
+  },
+  {
+    "question": "What is a key function of a credit rating agency?",
+    "options": [
+      "To provide financial advice to corporations on capital structure",
+      "To assess the creditworthiness of borrowers and issue ratings",
+      "To regulate the operations of commercial banks and financial institutions",
+      "To guarantee the repayment of loans and bonds"
+    ],
+    "answer": "To assess the creditworthiness of borrowers and issue ratings",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the purpose of a letter of credit (LC) in international trade?",
+    "options": [
+      "To provide a guarantee of payment from the buyer to the seller",
+      "To finance the transportation of goods between countries",
+      "To insure against losses or damages during shipment",
+      "To resolve trade disputes between importers and exporters"
+    ],
+    "answer": "To provide a guarantee of payment from the buyer to the seller",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is the significance of the Bretton Woods Agreement?",
+    "options": [
+      "It established the World Trade Organization (WTO).",
+      "It led to the creation of the International Monetary Fund (IMF) and the World Bank.",
+      "It introduced the concept of floating exchange rates.",
+      "It imposed strict regulations on international capital flows."
+    ],
+    "answer": "It led to the creation of the International Monetary Fund (IMF) and the World Bank.",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a Special Drawing Right (SDR)?",
+    "options": [
+      "An international reserve asset created by the IMF",
+      "A type of bond issued by developing countries",
+      "A currency used for transactions between central banks",
+      "A form of foreign aid provided by developed countries"
+    ],
+    "answer": "An international reserve asset created by the IMF",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the purpose of the Export Promotion Council (EPC) in India?",
+    "options": [
+      "To regulate imports and protect domestic industries",
+      "To provide financial assistance to exporters",
+      "To promote Indian exports and facilitate trade",
+      "To negotiate trade agreements with other countries"
+    ],
+    "answer": "To promote Indian exports and facilitate trade",
+    "category": "Foreign Trade Policy"
+  },
+  {
+    "question": "What is the role of the Securities and Exchange Board of India (SEBI)?",
+    "options": [
+      "To regulate the banking sector and control money supply",
+      "To oversee and develop the Indian capital market",
+      "To promote foreign investment in infrastructure projects",
+      "To provide insurance coverage for export shipments"
+    ],
+    "answer": "To oversee and develop the Indian capital market",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the difference between a Free Trade Agreement (FTA) and a Customs Union?",
+    "options": [
+      "FTAs eliminate tariffs between member countries, while customs unions also have a common external tariff.",
+      "FTAs involve free movement of labor, while customs unions do not.",
+      "FTAs are limited to goods, while customs unions also cover services.",
+      "FTAs are regional agreements, while customs unions are global agreements."
+    ],
+    "answer": "FTAs eliminate tariffs between member countries, while customs unions also have a common external tariff.",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is the impact of globalization on businesses?",
+    "options": [
+      "Increased competition, access to new markets, and technological advancements",
+      "Reduced competition, higher trade barriers, and economic isolation",
+      "Greater government control, nationalization of industries, and protectionist policies",
+      "Slower economic growth, higher unemployment, and reduced consumer spending"
+    ],
+    "answer": "Increased competition, access to new markets, and technological advancements",
+    "category": "Globalization"
+  },
+  {
+    "question": "What is the significance of a foreign exchange rate?",
+    "options": [
+      "It determines the value of one currency in relation to another.",
+      "It sets the interest rates charged on international loans.",
+      "It regulates the flow of goods and services between countries.",
+      "It determines the balance of payments between nations."
+    ],
+    "answer": "It determines the value of one currency in relation to another.",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a key function of the International Monetary Fund (IMF)?",
+    "options": [
+      "To promote free trade and resolve trade disputes",
+      "To provide financial assistance to countries facing balance of payments difficulties",
+      "To regulate international banking and financial institutions",
+      "To enforce environmental regulations on multinational corporations"
+    ],
+    "answer": "To provide financial assistance to countries facing balance of payments difficulties",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a foreign exchange risk?",
+    "options": [
+      "The risk of loss due to fluctuations in exchange rates",
+      "The risk of political instability in a foreign country",
+      "The risk of non-payment by a foreign buyer",
+      "The risk of damage or loss of goods during international shipment"
+    ],
+    "answer": "The risk of loss due to fluctuations in exchange rates",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a hedging strategy in international finance?",
+    "options": [
+      "A technique to minimize exposure to foreign exchange risk",
+      "A method to maximize profits from currency speculation",
+      "A strategy to invest in foreign stock markets",
+      "A way to reduce taxes on international transactions"
+    ],
+    "answer": "A technique to minimize exposure to foreign exchange risk",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a key difference between a spot exchange rate and a forward exchange rate?",
+    "options": [
+      "Spot rates are for immediate delivery, while forward rates are for future delivery.",
+      "Spot rates are fixed, while forward rates fluctuate based on market conditions.",
+      "Spot rates are used for large transactions, while forward rates are for small transactions.",
+      "Spot rates are determined by central banks, while forward rates are set by commercial banks."
+    ],
+    "answer": "Spot rates are for immediate delivery, while forward rates are for future delivery.",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a foreign exchange market?",
+    "options": [
+      "A physical location where currencies are traded",
+      "A global network of banks and financial institutions that facilitate currency exchange",
+      "A government agency that regulates exchange rates",
+      "An online platform for individuals to trade currencies"
+    ],
+    "answer": "A global network of banks and financial institutions that facilitate currency exchange",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the purpose of a balance of payments (BOP) statement?",
+    "options": [
+      "To track the financial performance of a multinational corporation",
+      "To record all economic transactions between a country and the rest of the world",
+      "To measure the level of economic inequality within a country",
+      "To determine the exchange rate between two currencies"
+    ],
+    "answer": "To record all economic transactions between a country and the rest of the world",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a current account deficit?",
+    "options": [
+      "When a country imports more goods and services than it exports",
+      "When a country's government spending exceeds its revenue",
+      "When a country's central bank prints too much money",
+      "When a country has a high level of foreign debt"
+    ],
+    "answer": "When a country imports more goods and services than it exports",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a key factor that influences foreign exchange rates?",
+    "options": [
+      "Supply and demand for currencies",
+      "Government regulations and policies",
+      "Political stability and economic performance",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a foreign exchange derivative?",
+    "options": [
+      "A financial instrument whose value is derived from an underlying asset, such as a currency",
+      "A type of bond issued by a foreign government",
+      "A loan denominated in a foreign currency",
+      "An investment in a foreign stock market"
+    ],
+    "answer": "A financial instrument whose value is derived from an underlying asset, such as a currency",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a currency swap?",
+    "options": [
+      "An agreement to exchange currencies at a predetermined rate in the future",
+      "A simultaneous purchase and sale of a currency for profit",
+      "A loan denominated in one currency and repaid in another",
+      "An investment in a basket of foreign currencies"
+    ],
+    "answer": "An agreement to exchange currencies at a predetermined rate in the future",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is the purpose of a foreign exchange control?",
+    "options": [
+      "To promote free trade and encourage foreign investment",
+      "To restrict the flow of currencies in and out of a country",
+      "To stabilize exchange rates and prevent currency fluctuations",
+      "To facilitate international payments and settlements"
+    ],
+    "answer": "To restrict the flow of currencies in and out of a country",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a foreign exchange reserve?",
+    "options": [
+      "A stock of foreign currencies held by a central bank",
+      "A fund used to finance international development projects",
+      "A type of insurance policy to protect against currency losses",
+      "A tax levied on foreign exchange transactions"
+    ],
+    "answer": "A stock of foreign currencies held by a central bank",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a key function of a central bank in the foreign exchange market?",
+    "options": [
+      "To set exchange rates and control currency fluctuations",
+      "To provide loans to commercial banks in foreign currencies",
+      "To regulate the activities of foreign exchange brokers",
+      "To intervene in the market to buy or sell currencies"
+    ],
+    "answer": "To intervene in the market to buy or sell currencies",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a currency peg?",
+    "options": [
+      "When a country fixes its exchange rate to another currency or a basket of currencies",
+      "When a country allows its currency to float freely in the market",
+      "When a country adopts a single currency with other nations",
+      "When a country uses gold as a backing for its currency"
+    ],
+    "answer": "When a country fixes its exchange rate to another currency or a basket of currencies",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a currency crisis?",
+    "options": [
+      "A rapid depreciation of a country's currency",
+      "A sudden increase in the value of a country's currency",
+      "A shortage of foreign currency reserves",
+      "A loss of confidence in a country's banking system"
+    ],
+    "answer": "A rapid depreciation of a country's currency",
+    "category": "International Finance"
+  },
+  {
+    "question": "What is a key benefit of international trade?",
+    "options": [
+      "It allows countries to specialize in the production of goods and services where they have a comparative advantage.",
+      "It reduces competition and protects domestic industries from foreign competition.",
+      "It leads to higher prices for consumers and lower wages for workers.",
+      "It increases government control over the economy and reduces individual freedom."
+    ],
+    "answer": "It allows countries to specialize in the production of goods and services where they have a comparative advantage.",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is a tariff?",
+    "options": [
+      "A tax on imported goods",
+      "A subsidy paid to domestic producers",
+      "A quota on the quantity of goods that can be imported",
+      "A ban on the import of certain goods"
+    ],
+    "answer": "A tax on imported goods",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is the purpose of a trade agreement?",
+    "options": [
+      "To reduce trade barriers and promote free trade between countries",
+      "To increase trade barriers and protect domestic industries from foreign competition",
+      "To regulate the flow of labor between countries",
+      "To establish a common currency for a group of nations"
+    ],
+    "answer": "To reduce trade barriers and promote free trade between countries",
+    "category": "International Trade"
+  },
+  {
+    "question": "What is a key challenge of globalization?",
+    "options": [
+      "Increased inequality, job displacement, and environmental degradation",
+      "Reduced competition, higher prices, and slower economic growth",
+      "Greater government control, nationalization of industries, and protectionist policies",
+      "Isolationism, nationalism, and a decline in international cooperation"
+    ],
+    "answer": "Increased inequality, job displacement, and environmental degradation",
+    "category": "Globalization"
+  },
+  {
+    "question": "What is the role of the World Bank?",
+    "options": [
+      "To provide financial assistance to developing countries for poverty reduction and economic development",
+      "To regulate international trade and resolve trade disputes",
+      "To manage global currency exchange rates and reserves",
+      "To monitor global financial markets and prevent systemic risks"
+    ],
+    "answer": "To provide financial assistance to developing countries for poverty reduction and economic development",
+    "category": "International Finance"
+  }
+]
+}

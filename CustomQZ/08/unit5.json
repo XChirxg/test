@@ -1,0 +1,488 @@
+
+        
+
+        {
+            "questions":
+[
+{
+"question": "Which of the following is a measure of central tendency?",
+"options": {
+"A": "Range",
+"B": "Variance",
+"C": "Median",
+"D": "Standard Deviation"
+},
+"correctOption": "C",
+"explanation": "The median is a measure of central tendency, representing the middle value in a sorted dataset.",
+"category": "Descriptive Statistics"
+},
+{
+"question": "What is the purpose of hypothesis testing?",
+"options": {
+"A": "To prove a theory",
+"B": "To collect data",
+"C": "To make decisions based on data",
+"D": "To describe a population"
+},
+"correctOption": "C",
+"explanation": "Hypothesis testing helps researchers make informed decisions about a population based on sample data.",
+"category": "Inferential Statistics"
+},
+{
+"question": "Which sampling method ensures every member of the population has an equal chance of being selected?",
+"options": {
+"A": "Convenience sampling",
+"B": "Stratified sampling",
+"C": "Simple random sampling",
+"D": "Snowball sampling"
+},
+"correctOption": "C",
+"explanation": "Simple random sampling is the most basic probability sampling method that guarantees equal selection probability for all population members.",
+"category": "Sampling Techniques"
+},
+{
+"question": "What type of data is represented by categories with no inherent order?",
+"options": {
+"A": "Nominal",
+"B": "Ordinal",
+"C": "Interval",
+"D": "Ratio"
+},
+"correctOption": "A",
+"explanation": "Nominal data, like gender or color, consists of categories without any specific order or ranking.",
+"category": "Data Types"
+},
+{
+"question": "Which research design involves manipulating an independent variable to observe its effect on a dependent variable?",
+"options": {
+"A": "Descriptive",
+"B": "Correlational",
+"C": "Experimental",
+"D": "Exploratory"
+},
+"correctOption": "C",
+"explanation": "Experimental designs focus on establishing cause-and-effect relationships by manipulating variables under controlled conditions.",
+"category": "Research Design"
+},
+{
+"question": "What does a correlation coefficient of -1 indicate?",
+"options": {
+"A": "No correlation",
+"B": "Weak positive correlation",
+"C": "Strong positive correlation",
+"D": "Perfect negative correlation"
+},
+"correctOption": "D",
+"explanation": "A correlation coefficient of -1 represents a perfect negative linear relationship between two variables.",
+"category": "Correlation"
+},
+{
+"question": "What is the difference between a population and a sample?",
+"options": {
+"A": "A population is a subset of a sample",
+"B": "A sample is a subset of a population",
+"C": "Populations are always larger than samples",
+"D": "Samples are always larger than populations"
+},
+"correctOption": "B",
+"explanation": "A sample is a smaller, representative group selected from a larger population for research purposes.",
+"category": "Basic Concepts"
+},
+{
+"question": "What type of chart is best for displaying the distribution of a single variable?",
+"options": {
+"A": "Bar chart",
+"B": "Pie chart",
+"C": "Scatter plot",
+"D": "Histogram"
+},
+"correctOption": "D",
+"explanation": "Histograms are effective in visualizing the frequency distribution of a single continuous variable.",
+"category": "Data Visualization"
+},
+{
+"question": "What is the purpose of a control group in an experiment?",
+"options": {
+"A": "To receive the treatment",
+"B": "To provide a baseline for comparison",
+"C": "To manipulate the independent variable",
+"D": "To measure the dependent variable"
+},
+"correctOption": "B",
+"explanation": "The control group does not receive the treatment and serves as a benchmark to compare against the experimental group.",
+"category": "Experimental Design"
+},
+{
+"question": "What is the difference between probability sampling and non-probability sampling?",
+"options": {
+"A": "Probability sampling is random, non-probability sampling is not",
+"B": "Non-probability sampling is more representative of the population",
+"C": "Probability sampling is only used for quantitative research",
+"D": "Non-probability sampling is only used for qualitative research"
+},
+"correctOption": "A",
+"explanation": "The key difference is the use of random selection in probability sampling, which allows for generalizability of findings.",
+"category": "Sampling Methods"
+},
+{
+"question": "What is the mode of the following dataset: 2, 5, 3, 2, 5, 2, 6?",
+"options": {
+"A": "2",
+"B": "3",
+"C": "5",
+"D": "6"
+},
+"correctOption": "A",
+"explanation": "The mode is the most frequently occurring value, which is 2 in this dataset.",
+"category": "Descriptive Statistics"
+},
+{
+"question": "What does a p-value less than 0.05 indicate in hypothesis testing?",
+"options": {
+"A": "The null hypothesis is true",
+"B": "The alternative hypothesis is true",
+"C": "There is strong evidence to reject the null hypothesis",
+"D": "There is weak evidence to reject the null hypothesis"
+},
+"correctOption": "C",
+"explanation": "A p-value below 0.05 suggests that the observed results are statistically significant and unlikely to occur by chance alone, leading to rejection of the null hypothesis.",
+"category": "Hypothesis Testing"
+},
+{
+"question": "What type of research focuses on understanding subjective experiences and meanings?",
+"options": {
+"A": "Quantitative",
+"B": "Qualitative",
+"C": "Mixed methods",
+"D": "Experimental"
+},
+"correctOption": "B",
+"explanation": "Qualitative research explores complex social phenomena through in-depth interviews, observations, and text analysis.",
+"category": "Research Approaches"
+},
+{
+"question": "Which of the following is a measure of variability?",
+"options": {
+"A": "Mean",
+"B": "Median",
+"C": "Standard deviation",
+"D": "Mode"
+},
+"correctOption": "C",
+"explanation": "Standard deviation quantifies the spread or dispersion of data points around the mean.",
+"category": "Descriptive Statistics"
+},
+{
+"question": "What is the purpose of a research proposal?",
+"options": {
+"A": "To present the findings of a study",
+"B": "To outline the plan for a research project",
+"C": "To collect data",
+"D": "To analyze data"
+},
+"correctOption": "B",
+"explanation": "A research proposal details the research question, methodology, and timeline for a proposed study.",
+"category": "Research Process"
+},
+{
+"question": "What type of data is measured on a scale with equal intervals but no true zero point?",
+"options": {
+"A": "Nominal",
+"B": "Ordinal",
+"C": "Interval",
+"D": "Ratio"
+},
+"correctOption": "C",
+"explanation": "Interval data, like temperature in Celsius or Fahrenheit, has consistent intervals but lacks a meaningful zero.",
+"category": "Data Types"
+},
+{
+"question": "Which research method involves collecting data through questionnaires or surveys?",
+"options": {
+"A": "Experiment",
+"B": "Interview",
+"C": "Observation",
+"D": "Survey"
+},
+"correctOption": "D",
+"explanation": "Surveys are a common quantitative method for gathering data from a large sample using standardized questions.",
+"category": "Data Collection Methods"
+},
+{
+"question": "What is the purpose of a literature review in research?",
+"options": {
+"A": "To summarize existing knowledge on a topic",
+"B": "To collect new data",
+"C": "To analyze data",
+"D": "To write a research report"
+},
+"correctOption": "A",
+"explanation": "A literature review synthesizes existing research to provide context and justify the need for a new study.",
+"category": "Research Process"
+},
+{
+"question": "What is the difference between a null hypothesis and an alternative hypothesis?",
+"options": {
+"A": "The null hypothesis is the opposite of the alternative hypothesis",
+"B": "The alternative hypothesis is the researcher's prediction",
+"C": "The null hypothesis assumes no effect or relationship",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "The null hypothesis represents the status quo, while the alternative hypothesis proposes a different outcome based on the research question.",
+"category": "Hypothesis Testing"
+},
+{
+"question": "Which of the following is a type of non-probability sampling?",
+"options": {
+"A": "Simple random sampling",
+"B": "Stratified sampling",
+"C": "Quota sampling",
+"D": "Cluster sampling"
+},
+"correctOption": "C",
+"explanation": "Quota sampling is a non-probability method where researchers select participants based on pre-defined characteristics.",
+"category": "Sampling Techniques"
+},
+{
+"question": "What type of variable can be manipulated or changed by the researcher?",
+"options": {
+"A": "Independent variable",
+"B": "Dependent variable",
+"C": "Control variable",
+"D": "Extraneous variable"
+},
+"correctOption": "A",
+"explanation": "The independent variable is the factor that is intentionally manipulated to observe its impact on the dependent variable.",
+"category": "Variables"
+},
+{
+"question": "What is the purpose of data analysis in research?",
+"options": {
+"A": "To collect data",
+"B": "To interpret and draw conclusions from data",
+"C": "To write a research proposal",
+"D": "To conduct a literature review"
+},
+"correctOption": "B",
+"explanation": "Data analysis involves organizing, summarizing, and extracting meaningful insights from collected data.",
+"category": "Research Process"
+},
+{
+"question": "Which of the following is a characteristic of a good research question?",
+"options": {
+"A": "Clear and focused",
+"B": "Testable and measurable",
+"C": "Relevant and significant",
+"D": "All of the above"
+},
+"correctOption": "D",
+"explanation": "A well-formulated research question guides the research process and ensures the study is meaningful and feasible.",
+"category": "Research Design"
+},
+{
+"question": "What is the difference between validity and reliability?",
+"options": {
+"A": "Validity refers to accuracy, reliability refers to consistency",
+"B": "Reliability refers to accuracy, validity refers to consistency",
+"C": "Validity and reliability are the same thing",
+"D": "Validity is only important for quantitative research"
+},
+"correctOption": "A",
+"explanation": "Validity ensures a measurement tool assesses what it intends to, while reliability reflects the stability and repeatability of measurements.",
+"category": "Measurement"
+},
+{
+"question": "What type of graph is used to display the relationship between two continuous variables?",
+"options": {
+"A": "Bar chart",
+"B": "Pie chart",
+"C": "Scatter plot",
+"D": "Histogram"
+},
+"correctOption": "C",
+"explanation": "Scatter plots illustrate the correlation between two variables by plotting data points on a two-dimensional plane.",
+"category": "Data Visualization"
+},
+{
+"question": "What is the purpose of a research report?",
+"options": {
+"A": "To collect data",
+"B": "To analyze data",
+"C": "To present the findings of a study",
+"D": "To write a research proposal"
+},
+"correctOption": "C",
+"explanation": "A research report communicates the study's methodology, results, and conclusions to a wider audience.",
+"category": "Research Process"
+},
+{
+"question": "What is the difference between descriptive statistics and inferential statistics?",
+"options": {
+"A": "Descriptive statistics summarize data, inferential statistics make predictions",
+"B": "Inferential statistics summarize data, descriptive statistics make predictions",
+"C": "Descriptive statistics are only used for qualitative research",
+"D": "Inferential statistics are only used for quantitative research"
+},
+"correctOption": "A",
+"explanation": "Descriptive statistics focus on summarizing key features of a dataset, while inferential statistics use sample data to draw conclusions about a population.",
+"category": "Statistical Methods"
+},
+{
+"question": "What is the purpose of a research ethics committee?",
+"options": {
+"A": "To review research proposals for ethical considerations",
+"B": "To collect data",
+"C": "To analyze data",
+"D": "To write a research report"
+},
+"correctOption": "A",
+"explanation": "Research ethics committees ensure studies involving human participants adhere to ethical principles and protect their well-being.",
+"category": "Research Ethics"
+},
+{
+"question": "What type of variable is measured on a scale with a true zero point?",
+"options": {
+"A": "Nominal",
+"B": "Ordinal",
+"C": "Interval",
+"D": "Ratio"
+},
+"correctOption": "D",
+"explanation": "Ratio data, like height, weight, or income, has equal intervals and a meaningful zero point, allowing for comparisons of magnitudes.",
+"category": "Data Types"
+},
+{
+"question": "Which research method involves observing and recording behavior in natural settings?",
+"options": {
+"A": "Experiment",
+"B": "Interview",
+"C": "Observation",
+"D": "Survey"
+},
+"correctOption": "C",
+"explanation": "Observational research gathers data by directly observing and documenting behaviors, interactions, and events.",
+"category": "Data Collection Methods"
+},
+{
+"question": "What is the purpose of a sample size calculation in research?",
+"options": {
+"A": "To determine the number of participants needed for a study",
+"B": "To collect data",
+"C": "To analyze data",
+"D": "To write a research report"
+},
+"correctOption": "A",
+"explanation": "Sample size calculations ensure the study has enough statistical power to detect meaningful effects.",
+"category": "Research Design"
+},
+{
+"question": "What is the difference between a cross-sectional study and a longitudinal study?",
+"options": {
+"A": "Cross-sectional studies collect data at one point in time, longitudinal studies collect data over time",
+"B": "Longitudinal studies collect data at one point in time, cross-sectional studies collect data over time",
+"C": "Cross-sectional studies are only used for qualitative research",
+"D": "Longitudinal studies are only used for quantitative research"
+},
+"correctOption": "A",
+"explanation": "Cross-sectional studies provide a snapshot of a population at a specific time, while longitudinal studies track changes over an extended period.",
+"category": "Research Design"
+},
+{
+"question": "What is the purpose of a confounding variable in research?",
+"options": {
+"A": "To manipulate the independent variable",
+"B": "To measure the dependent variable",
+"C": "To control for extraneous variables",
+"D": "To distort the relationship between the independent and dependent variables"
+},
+"correctOption": "D",
+"explanation": "Confounding variables are extraneous factors that interfere with the study's ability to establish a clear cause-and-effect relationship.",
+"category": "Variables"
+},
+{
+"question": "What type of data is ranked or ordered, but the differences between ranks are not equal?",
+"options": {
+"A": "Nominal",
+"B": "Ordinal",
+"C": "Interval",
+"D": "Ratio"
+},
+"correctOption": "B",
+"explanation": "Ordinal data, like rankings or levels of agreement, has a specific order but lacks consistent intervals between categories.",
+"category": "Data Types"
+},
+{
+"question": "Which research method involves asking open-ended questions to gather in-depth information from participants?",
+"options": {
+"A": "Experiment",
+"B": "Interview",
+"C": "Observation",
+"D": "Survey"
+},
+"correctOption": "B",
+"explanation": "Interviews allow researchers to explore individual perspectives and experiences through detailed conversations.",
+"category": "Data Collection Methods"
+},
+{
+"question": "What is the purpose of statistical significance testing?",
+"options": {
+"A": "To prove a theory",
+"B": "To determine if results are likely due to chance",
+"C": "To collect data",
+"D": "To describe a population"
+},
+"correctOption": "B",
+"explanation": "Statistical significance testing helps researchers assess whether observed effects are statistically meaningful or simply random variations.",
+"category": "Hypothesis Testing"
+},
+{
+"question": "What is the difference between a research question and a hypothesis?",
+"options": {
+"A": "A research question is broader, a hypothesis is more specific and testable",
+"B": "A hypothesis is broader, a research question is more specific and testable",
+"C": "Research questions are only used in quantitative research",
+"D": "Hypotheses are only used in qualitative research"
+},
+"correctOption": "A",
+"explanation": "A research question explores a general area of interest, while a hypothesis proposes a testable prediction about the relationship between variables.",
+"category": "Research Design"
+},
+{
+"question": "Which of the following is a type of probability sampling?",
+"options": {
+"A": "Convenience sampling",
+"B": "Snowball sampling",
+"C": "Quota sampling",
+"D": "Cluster sampling"
+},
+"correctOption": "D",
+"explanation": "Cluster sampling involves dividing the population into clusters and randomly selecting entire clusters for the study.",
+"category": "Sampling Techniques"
+},
+{
+"question": "What type of variable is influenced or affected by the independent variable?",
+"options": {
+"A": "Independent variable",
+"B": "Dependent variable",
+"C": "Control variable",
+"D": "Extraneous variable"
+},
+"correctOption": "B",
+"explanation": "The dependent variable is the outcome or response that is measured to determine the effect of the independent variable.",
+"category": "Variables"
+},
+{
+"question": "What is the purpose of data visualization in research?",
+"options": {
+"A": "To collect data",
+"B": "To present data in a clear and understandable way",
+"C": "To write a research proposal",
+"D": "To conduct a literature review"
+},
+"correctOption": "B",
+"explanation": "Data visualization techniques, like charts and graphs, help researchers communicate findings effectively and identify patterns in data.",
+"category": "Data Analysis"
+}
+]
+}
