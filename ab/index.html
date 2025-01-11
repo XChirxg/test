@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Selector - A/B Testing</title>
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 500px;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .image-container img {
+            width: 48%;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select the Most Clickable Photo</h1>
+        <div id="imageContainer" class="image-container">
+            <!-- Images will be dynamically inserted here -->
+        </div>
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script>
+        // Photos Array - You can replace these URLs with your own images
+        const photos = [
+            'IMG_7794.jpg',
+            'IMG_7800.jpg',
+            'IMG_7804.jpg',
+            'IMG_7794.jpg',
+            'IMG_7800.jpg',
+            'IMG_7804.jpg',
+            'IMG_7821.jpg'
+        ];
+
+        let selectedPhotos = [...photos];
+        const imageContainer = document.getElementById('imageContainer');
+        const resultDiv = document.getElementById('result');
+
+        function renderPhotos() {
+            if (selectedPhotos.length > 1) {
+                const photo1 = selectedPhotos.shift();
+                const photo2 = selectedPhotos.shift();
+
+                imageContainer.innerHTML = `
+                    <img src="${photo1}" alt="Photo 1" onclick="choosePhoto('${photo1}', '${photo2}')">
+                    <img src="${photo2}" alt="Photo 2" onclick="choosePhoto('${photo2}', '${photo1}')">
+                `;
+            } else {
+                const bestPhoto = selectedPhotos[0];
+                imageContainer.style.display = 'none';
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = `The most clickable photo is:<br><img src="${bestPhoto}" alt="Best Photo" style="width: 100%; margin-top: 10px;">`;
+            }
+        }
+
+        function choosePhoto(winner, loser) {
+            selectedPhotos.push(winner);
+            renderPhotos();
+        }
+
+        // Initial render
+        renderPhotos();
+    </script>
+</body>
+</html>
