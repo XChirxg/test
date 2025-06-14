@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Audio Mixer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            color: #ffffff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .status {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .status-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 25px;
+            border-radius: 15px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .status-item.active {
+            border-color: #4ecdc4;
+            box-shadow: 0 0 20px rgba(78, 205, 196, 0.3);
+        }
+        
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .control-panel {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .control-panel h3 {
+            color: #4ecdc4;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+        
+        .control-group {
+            margin-bottom: 20px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        .slider-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        
+        .slider {
+            width: 100%;
+            height: 8px;
+            border-radius: 5px;
+            background: linear-gradient(90deg, #333, #666);
+            outline: none;
+            -webkit-appearance: none;
+            cursor: pointer;
+        }
+        
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(78, 205, 196, 0.5);
+        }
+        
+        .slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            cursor: pointer;
+            border: none;
+        }
+        
+        .button {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 5px;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(78, 205, 196, 0.4);
+        }
+        
+        .button:active {
+            transform: translateY(0);
+        }
+        
+        .button.danger {
+            background: linear-gradient(45deg, #ff4757, #ff3838);
+        }
+        
+        .visualizer {
+            height: 100px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+        
+        .visualizer canvas {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .meter {
+            width: 100%;
+            height: 20px;
+            background: #333;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .meter-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ecdc4, #45b7d1, #ff6b6b);
+            width: 0%;
+            transition: width 0.1s ease;
+        }
+        
+        .device-selector {
+            margin-bottom: 15px;
+        }
+        
+        .device-selector select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 14px;
+        }
+        
+        .device-selector select option {
+            background: #1a1a2e;
+            color: white;
+        }
+        
+        .effects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .effect-button {
+            padding: 8px 12px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 12px;
+        }
+        
+        .effect-button.active {
+            border-color: #4ecdc4;
+            background: rgba(78, 205, 196, 0.2);
+        }
+        
+        .warning {
+            background: linear-gradient(45deg, #ff9500, #ff6b00);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎤 Live Audio Mixer</h1>
+            <p>Professional Real-Time Audio Routing System</p>
+        </div>
+        
+        <div class="warning">
+            ⚠️ Make sure to adjust volume levels carefully to prevent feedback loops!
+        </div>
+        
+        <div class="status">
+            <div class="status-item" id="micStatus">
+                🎤 Microphone: <span>Disconnected</span>
+            </div>
+            <div class="status-item" id="speakerStatus">
+                🔊 Speaker: <span>Disconnected</span>
+            </div>
+            <div class="status-item" id="audioStatus">
+                🔄 Audio: <span>Stopped</span>
+            </div>
+        </div>
+        
+        <div class="controls-grid">
+            <!-- Device Selection -->
+            <div class="control-panel">
+                <h3>🎯 Device Selection</h3>
+                <div class="device-selector">
+                    <label>Microphone Input:</label>
+                    <select id="micSelect">
+                        <option value="">Select Microphone...</option>
+                    </select>
+                </div>
+                <div class="device-selector">
+                    <label>Speaker Output:</label>
+                    <select id="speakerSelect">
+                        <option value="">Select Speaker...</option>
+                    </select>
+                </div>
+                <button class="button" id="startBtn">🚀 Start Audio</button>
+                <button class="button danger" id="stopBtn">⏹️ Stop Audio</button>
+            </div>
+            
+            <!-- Volume Controls -->
+            <div class="control-panel">
+                <h3>🔊 Volume & Gain</h3>
+                <div class="control-group">
+                    <label>Master Volume: <span id="masterVol">50%</span></label>
+                    <input type="range" class="slider" id="masterVolume" min="0" max="100" value="50">
+                </div>
+                <div class="control-group">
+                    <label>Microphone Gain: <span id="micGain">50%</span></label>
+                    <input type="range" class="slider" id="microphoneGain" min="0" max="200" value="50">
+                </div>
+                <div class="control-group">
+                    <label>Input Level Meter:</label>
+                    <div class="meter">
+                        <div class="meter-fill" id="inputMeter"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Audio Effects -->
+            <div class="control-panel">
+                <h3>🎛️ Audio Effects</h3>
+                <div class="effects-grid">
+                    <button class="effect-button" id="reverbBtn">Reverb</button>
+                    <button class="effect-button" id="echoBtn">Echo</button>
+                    <button class="effect-button" id="distortionBtn">Distortion</button>
+                    <button class="effect-button" id="compressorBtn">Compressor</button>
+                    <button class="effect-button" id="bassBoostBtn">Bass Boost</button>
+                    <button class="effect-button" id="trebleBtn">Treble</button>
+                </div>
+                <div class="control-group">
+                    <label>Effect Intensity: <span id="effectInt">30%</span></label>
+                    <input type="range" class="slider" id="effectIntensity" min="0" max="100" value="30">
+                </div>
+            </div>
+            
+            <!-- EQ Controls -->
+            <div class="control-panel">
+                <h3>🎚️ Equalizer</h3>
+                <div class="control-group">
+                    <label>Low (60Hz): <span id="lowFreq">0dB</span></label>
+                    <input type="range" class="slider" id="lowEQ" min="-20" max="20" value="0">
+                </div>
+                <div class="control-group">
+                    <label>Mid (1kHz): <span id="midFreq">0dB</span></label>
+                    <input type="range" class="slider" id="midEQ" min="-20" max="20" value="0">
+                </div>
+                <div class="control-group">
+                    <label>High (8kHz): <span id="highFreq">0dB</span></label>
+                    <input type="range" class="slider" id="highEQ" min="-20" max="20" value="0">
+                </div>
+            </div>
+            
+            <!-- Advanced Settings -->
+            <div class="control-panel">
+                <h3>⚙️ Advanced Settings</h3>
+                <div class="control-group">
+                    <label>Noise Gate: <span id="noiseGate">-40dB</span></label>
+                    <input type="range" class="slider" id="noiseGateLevel" min="-60" max="0" value="-40">
+                </div>
+                <div class="control-group">
+                    <label>Limiter Threshold: <span id="limiter">-3dB</span></label>
+                    <input type="range" class="slider" id="limiterThreshold" min="-20" max="0" value="-3">
+                </div>
+                <button class="button" id="muteBtn">🔇 Mute</button>
+                <button class="button" id="resetBtn">↺ Reset All</button>
+            </div>
+            
+            <!-- Visualizer -->
+            <div class="control-panel">
+                <h3>📊 Audio Visualizer</h3>
+                <div class="visualizer">
+                    <canvas id="visualizer" width="400" height="100"></canvas>
+                </div>
+                <div class="control-group">
+                    <label>Visualization Mode:</label>
+                    <select id="vizMode">
+                        <option value="frequency">Frequency Spectrum</option>
+                        <option value="waveform">Waveform</option>
+                        <option value="bars">Bar Graph</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class LiveAudioMixer {
+            constructor() {
+                this.audioContext = null;
+                this.microphone = null;
+                this.destination = null;
+                this.gainNode = null;
+                this.masterGainNode = null;
+                this.analyser = null;
+                this.isActive = false;
+                this.isMuted = false;
+                
+                // Audio effects nodes
+                this.reverbNode = null;
+                this.delayNode = null;
+                this.distortionNode = null;
+                this.compressorNode = null;
+                this.lowEQ = null;
+                this.midEQ = null;
+                this.highEQ = null;
+                
+                this.initializeElements();
+                this.initializeEventListeners();
+                this.initializeDevices();
+                this.initializeVisualizer();
+            }
+            
+            initializeElements() {
+                this.elements = {
+                    micSelect: document.getElementById('micSelect'),
+                    speakerSelect: document.getElementById('speakerSelect'),
+                    startBtn: document.getElementById('startBtn'),
+                    stopBtn: document.getElementById('stopBtn'),
+                    masterVolume: document.getElementById('masterVolume'),
+                    microphoneGain: document.getElementById('microphoneGain'),
+                    inputMeter: document.getElementById('inputMeter'),
+                    micStatus: document.getElementById('micStatus'),
+                    speakerStatus: document.getElementById('speakerStatus'),
+                    audioStatus: document.getElementById('audioStatus'),
+                    reverbBtn: document.getElementById('reverbBtn'),
+                    echoBtn: document.getElementById('echoBtn'),
+                    distortionBtn: document.getElementById('distortionBtn'),
+                    compressorBtn: document.getElementById('compressorBtn'),
+                    bassBoostBtn: document.getElementById('bassBoostBtn'),
+                    trebleBtn: document.getElementById('trebleBtn'),
+                    effectIntensity: document.getElementById('effectIntensity'),
+                    lowEQ: document.getElementById('lowEQ'),
+                    midEQ: document.getElementById('midEQ'),
+                    highEQ: document.getElementById('highEQ'),
+                    noiseGateLevel: document.getElementById('noiseGateLevel'),
+                    limiterThreshold: document.getElementById('limiterThreshold'),
+                    muteBtn: document.getElementById('muteBtn'),
+                    resetBtn: document.getElementById('resetBtn'),
+                    visualizer: document.getElementById('visualizer'),
+                    vizMode: document.getElementById('vizMode')
+                };
+            }
+            
+            initializeEventListeners() {
+                this.elements.startBtn.addEventListener('click', () => this.startAudio());
+                this.elements.stopBtn.addEventListener('click', () => this.stopAudio());
+                this.elements.muteBtn.addEventListener('click', () => this.toggleMute());
+                this.elements.resetBtn.addEventListener('click', () => this.resetAll());
+                
+                // Volume controls
+                this.elements.masterVolume.addEventListener('input', (e) => {
+                    document.getElementById('masterVol').textContent = e.target.value + '%';
+                    this.updateMasterVolume(e.target.value / 100);
+                });
+                
+                this.elements.microphoneGain.addEventListener('input', (e) => {
+                    document.getElementById('micGain').textContent = e.target.value + '%';
+                    this.updateMicGain(e.target.value / 100);
+                });
+                
+                // EQ controls
+                this.elements.lowEQ.addEventListener('input', (e) => {
+                    document.getElementById('lowFreq').textContent = e.target.value + 'dB';
+                    this.updateEQ('low', e.target.value);
+                });
+                
+                this.elements.midEQ.addEventListener('input', (e) => {
+                    document.getElementById('midFreq').textContent = e.target.value + 'dB';
+                    this.updateEQ('mid', e.target.value);
+                });
+                
+                this.elements.highEQ.addEventListener('input', (e) => {
+                    document.getElementById('highFreq').textContent = e.target.value + 'dB';
+                    this.updateEQ('high', e.target.value);
+                });
+                
+                // Noise gate and limiter
+                this.elements.noiseGateLevel.addEventListener('input', (e) => {
+                    document.getElementById('noiseGate').textContent = e.target.value + 'dB';
+                });
+                
+                this.elements.limiterThreshold.addEventListener('input', (e) => {
+                    document.getElementById('limiter').textContent = e.target.value + 'dB';
+                });
+                
+                this.elements.effectIntensity.addEventListener('input', (e) => {
+                    document.getElementById('effectInt').textContent = e.target.value + '%';
+                });
+                
+                // Effect buttons
+                const effectButtons = ['reverbBtn', 'echoBtn', 'distortionBtn', 'compressorBtn', 'bassBoostBtn', 'trebleBtn'];
+                effectButtons.forEach(btnId => {
+                    this.elements[btnId].addEventListener('click', (e) => this.toggleEffect(e.target));
+                });
+            }
+            
+            async initializeDevices() {
+                try {
+                    const devices = await navigator.mediaDevices.enumerateDevices();
+                    
+                    // Populate microphone options
+                    const audioInputs = devices.filter(device => device.kind === 'audioinput');
+                    audioInputs.forEach(device => {
+                        const option = document.createElement('option');
+                        option.value = device.deviceId;
+                        option.textContent = device.label || `Microphone ${device.deviceId.substr(0, 5)}`;
+                        this.elements.micSelect.appendChild(option);
+                    });
+                    
+                    // Populate speaker options
+                    const audioOutputs = devices.filter(device => device.kind === 'audiooutput');
+                    audioOutputs.forEach(device => {
+                        const option = document.createElement('option');
+                        option.value = device.deviceId;
+                        option.textContent = device.label || `Speaker ${device.deviceId.substr(0, 5)}`;
+                        this.elements.speakerSelect.appendChild(option);
+                    });
+                    
+                } catch (error) {
+                    console.error('Error enumerating devices:', error);
+                }
+            }
+            
+            async startAudio() {
+                try {
+                    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                    
+                    const constraints = {
+                        audio: {
+                            deviceId: this.elements.micSelect.value || undefined,
+                            echoCancellation: false,
+                            noiseSuppression: false,
+                            autoGainControl: false
+                        }
+                    };
+                    
+                    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+                    this.microphone = this.audioContext.createMediaStreamSource(stream);
+                    
+                    // Create audio processing chain
+                    this.setupAudioChain();
+                    
+                    // Connect the chain
+                    this.connectAudioChain();
+                    
+                    this.isActive = true;
+                    this.updateStatus();
+                    this.startLevelMonitoring();
+                    this.startVisualization();
+                    
+                } catch (error) {
+                    console.error('Error starting audio:', error);
+                    alert('Error starting audio: ' + error.message);
+                }
+            }
+            
+            setupAudioChain() {
+                // Create gain nodes
+                this.gainNode = this.audioContext.createGain();
+                this.masterGainNode = this.audioContext.createGain();
+                
+                // Create EQ filters
+                this.lowEQ = this.audioContext.createBiquadFilter();
+                this.lowEQ.type = 'lowshelf';
+                this.lowEQ.frequency.value = 60;
+                
+                this.midEQ = this.audioContext.createBiquadFilter();
+                this.midEQ.type = 'peaking';
+                this.midEQ.frequency.value = 1000;
+                this.midEQ.Q.value = 1;
+                
+                this.highEQ = this.audioContext.createBiquadFilter();
+                this.highEQ.type = 'highshelf';
+                this.highEQ.frequency.value = 8000;
+                
+                // Create compressor
+                this.compressorNode = this.audioContext.createDynamicsCompressor();
+                this.compressorNode.threshold.value = -24;
+                this.compressorNode.knee.value = 30;
+                this.compressorNode.ratio.value = 12;
+                this.compressorNode.attack.value = 0.003;
+                this.compressorNode.release.value = 0.25;
+                
+                // Create delay for echo effect
+                this.delayNode = this.audioContext.createDelay();
+                this.delayNode.delayTime.value = 0.3;
+                
+                // Create analyser for visualization
+                this.analyser = this.audioContext.createAnalyser();
+                this.analyser.fftSize = 256;
+                
+                // Set initial values
+                this.updateMasterVolume(0.5);
+                this.updateMicGain(0.5);
+            }
+            
+            connectAudioChain() {
+                // Connect: Mic -> Gain -> EQ -> Compressor -> Delay -> Master -> Analyser -> Destination
+                this.microphone
+                    .connect(this.gainNode)
+                    .connect(this.lowEQ)
+                    .connect(this.midEQ)
+                    .connect(this.highEQ)
+                    .connect(this.compressorNode)
+                    .connect(this.delayNode)
+                    .connect(this.masterGainNode)
+                    .connect(this.analyser)
+                    .connect(this.audioContext.destination);
+            }
+            
+            stopAudio() {
+                if (this.audioContext) {
+                    this.audioContext.close();
+                    this.audioContext = null;
+                }
+                this.isActive = false;
+                this.updateStatus();
+            }
+            
+            updateMasterVolume(value) {
+                if (this.masterGainNode) {
+                    this.masterGainNode.gain.value = value;
+                }
+            }
+            
+            updateMicGain(value) {
+                if (this.gainNode) {
+                    this.gainNode.gain.value = value * 2; // Allow up to 2x gain
+                }
+            }
+            
+            updateEQ(band, value) {
+                const gain = parseFloat(value);
+                switch(band) {
+                    case 'low':
+                        if (this.lowEQ) this.lowEQ.gain.value = gain;
+                        break;
+                    case 'mid':
+                        if (this.midEQ) this.midEQ.gain.value = gain;
+                        break;
+                    case 'high':
+                        if (this.highEQ) this.highEQ.gain.value = gain;
+                        break;
+                }
+            }
+            
+            toggleEffect(button) {
+                button.classList.toggle('active');
+                // Effect implementation would go here
+            }
+            
+            toggleMute() {
+                this.isMuted = !this.isMuted;
+                if (this.masterGainNode) {
+                    this.masterGainNode.gain.value = this.isMuted ? 0 : this.elements.masterVolume.value / 100;
+                }
+                this.elements.muteBtn.textContent = this.isMuted ? '🔊 Unmute' : '🔇 Mute';
+            }
+            
+            resetAll() {
+                // Reset all controls to default values
+                this.elements.masterVolume.value = 50;
+                this.elements.microphoneGain.value = 50;
+                this.elements.lowEQ.value = 0;
+                this.elements.midEQ.value = 0;
+                this.elements.highEQ.value = 0;
+                this.elements.effectIntensity.value = 30;
+                
+                // Update displays
+                document.getElementById('masterVol').textContent = '50%';
+                document.getElementById('micGain').textContent = '50%';
+                document.getElementById('lowFreq').textContent = '0dB';
+                document.getElementById('midFreq').textContent = '0dB';
+                document.getElementById('highFreq').textContent = '0dB';
+                document.getElementById('effectInt').textContent = '30%';
+                
+                // Reset effects
+                document.querySelectorAll('.effect-button').forEach(btn => btn.classList.remove('active'));
+                
+                // Apply reset values
+                this.updateMasterVolume(0.5);
+                this.updateMicGain(0.5);
+                this.updateEQ('low', 0);
+                this.updateEQ('mid', 0);
+                this.updateEQ('high', 0);
+            }
+            
+            updateStatus() {
+                this.elements.micStatus.innerHTML = `🎤 Microphone: <span>${this.isActive ? 'Connected' : 'Disconnected'}</span>`;
+                this.elements.speakerStatus.innerHTML = `🔊 Speaker: <span>${this.isActive ? 'Connected' : 'Disconnected'}</span>`;
+                this.elements.audioStatus.innerHTML = `🔄 Audio: <span>${this.isActive ? 'Active' : 'Stopped'}</span>`;
+                
+                this.elements.micStatus.classList.toggle('active', this.isActive);
+                this.elements.speakerStatus.classList.toggle('active', this.isActive);
+                this.elements.audioStatus.classList.toggle('active', this.isActive);
+            }
+            
+            startLevelMonitoring() {
+                if (!this.analyser) return;
+                
+                const dataArray = new Uint8Array(this.analyser.frequencyBinCount);
+                
+                const updateLevel = () => {
+                    if (!this.isActive) return;
+                    
+                    this.analyser.getByteFrequencyData(dataArray);
+                    const average = dataArray.reduce((a, b) => a + b) / dataArray.length;
+                    const level = (average / 255) * 100;
+                    
+                    this.elements.inputMeter.style.width = level + '%';
+                    
+                    requestAnimationFrame(updateLevel);
+                };
+                
+                updateLevel();
+            }
+            
+            initializeVisualizer() {
+                this.canvas = this.elements.visualizer;
+                this.canvasCtx = this.canvas.getContext('2d');
+            }
+            
+            startVisualization() {
+                if (!this.analyser) return;
+                
+                const bufferLength = this.analyser.frequencyBinCount;
+                const dataArray = new Uint8Array(bufferLength);
+                
+                const draw = () => {
+                    if (!this.isActive) return;
+                    
+                    requestAnimationFrame(draw);
+                    
+                    this.analyser.getByteFrequencyData(dataArray);
+                    
+                    this.canvasCtx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+                    this.canvasCtx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+                    
+                    const barWidth = (this.canvas.width / bufferLength) * 2.5;
+                    let barHeight;
+                    let x = 0;
+                    
+                    for (let i = 0; i < bufferLength; i++) {
+                        barHeight = (dataArray[i] / 255) * this.canvas.height;
+                        
+                        const gradient = this.canvasCtx.createLinearGradient(0, this.canvas.height - barHeight, 0, this.canvas.height);
+                        gradient.addColorStop(0, '#4ecdc4');
+                        gradient.addColorStop(0.5, '#45b7d1');
+                        gradient.addColorStop(1, '#ff6b6b');
+                        
+                        this.canvasCtx.fillStyle = gradient;
+                        this.canvasCtx.fillRect(x, this.canvas.height - barHeight, barWidth, barHeight);
+                        
+                        x += barWidth + 1;
+                    }
+                };
+                
+                draw();
+            }
+        }
+        
+        // Initialize the mixer when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            const mixer = new LiveAudioMixer();
+        });
+    </script>
+</body>
+</html>
