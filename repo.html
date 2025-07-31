@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Learning Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .control-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            background: white;
+            transition: all 0.3s ease;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .content-area {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            min-height: 400px;
+        }
+
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            padding: 40px;
+        }
+
+        .error {
+            background-color: #fee;
+            color: #c33;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #c33;
+        }
+
+        .course-info {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .course-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .topic-content {
+            line-height: 1.6;
+        }
+
+        .topic-content h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .topic-content h4 {
+            color: #764ba2;
+            margin: 20px 0 10px 0;
+        }
+
+        .topic-content pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            border-left: 4px solid #667eea;
+            margin: 15px 0;
+        }
+
+        .topic-content code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+        }
+
+        .topic-content ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .topic-content li {
+            margin-bottom: 5px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .refresh-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: transform 0.2s ease;
+            margin-left: 10px;
+        }
+
+        .refresh-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .controls, .content-area {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Dynamic Learning Platform</h1>
+            <p class="subtitle">Learn at your own pace with our dynamic content system</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="courseSelect">
+                    📚 Select Course:
+                    <button class="refresh-btn" onclick="loadCourses()">🔄 Refresh</button>
+                </label>
+                <select id="courseSelect" onchange="loadTopics()">
+                    <option value="">Choose a course...</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="topicSelect">📖 Select Topic:</label>
+                <select id="topicSelect" onchange="loadContent()" disabled>
+                    <option value="">First select a course...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="content-area" id="contentArea">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading courses from GitHub...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration - Update with your GitHub username and repository
+        const GITHUB_USERNAME = 'xchirxg';
+        const GITHUB_REPO = 'xml'; // Change this to your actual repository name
+        const XML_FILE_PATH = 'syllabus.xml';
+        
+        // Build the raw GitHub URL
+        const XML_URL = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/main/${XML_FILE_PATH}`;
+
+        let coursesData = null;
+        let currentCourse = null;
+
+        // Load and parse XML data from GitHub
+        async function loadCourses() {
+            const contentArea = document.getElementById('contentArea');
+            const courseSelect = document.getElementById('courseSelect');
+            const topicSelect = document.getElementById('topicSelect');
+            
+            // Show loading state
+            contentArea.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading courses from GitHub repository...</p>
+                </div>`;
+
+            try {
+                console.log('Fetching XML from:', XML_URL);
+                const response = await fetch(XML_URL);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const xmlText = await response.text();
+                console.log('XML loaded successfully');
+                
+                // Parse XML
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+                
+                // Check for parsing errors
+                const parseError = xmlDoc.querySelector('parsererror');
+                if (parseError) {
+                    throw new Error('XML parsing error: ' + parseError.textContent);
+                }
+                
+                const courses = xmlDoc.querySelectorAll('course');
+                coursesData = {};
+
+                // Clear existing options
+                courseSelect.innerHTML = '<option value="">Choose a course...</option>';
+                
+                courses.forEach(course => {
+                    const courseId = course.getAttribute('id');
+                    const courseName = course.getAttribute('name');
+                    const description = course.querySelector('description').textContent;
+                    
+                    // Store course data
+                    coursesData[courseId] = {
+                        name: courseName,
+                        description: description,
+                        topics: {}
+                    };
+                    
+                    // Parse topics
+                    const topics = course.querySelectorAll('topic');
+                    topics.forEach(topic => {
+                        const topicId = topic.getAttribute('id');
+                        const topicTitle = topic.getAttribute('title');
+                        const content = topic.querySelector('content').textContent.trim();
+                        
+                        coursesData[courseId].topics[topicId] = {
+                            title: topicTitle,
+                            content: content
+                        };
+                    });
+                    
+                    // Add option to select
+                    const option = document.createElement('option');
+                    option.value = courseId;
+                    option.textContent = courseName;
+                    courseSelect.appendChild(option);
+                });
+
+                // Reset topic select
+                topicSelect.innerHTML = '<option value="">First select a course...</option>';
+                topicSelect.disabled = true;
+
+                // Show success message
+                contentArea.innerHTML = `
+                    <div style="text-align: center; padding: 40px;">
+                        <h3 style="color: #667eea; margin-bottom: 15px;">✅ Courses Loaded Successfully!</h3>
+                        <p>Found <strong>${Object.keys(coursesData).length}</strong> courses. Please select a course to get started.</p>
+                        <p style="margin-top: 15px; color: #666; font-size: 14px;">
+                            Data loaded from: <code>${XML_URL}</code>
+                        </p>
+                    </div>`;
+
+                console.log('Courses loaded:', Object.keys(coursesData));
+
+            } catch (error) {
+                console.error('Error loading courses:', error);
+                contentArea.innerHTML = `
+                    <div class="error">
+                        <h3>❌ Error Loading Courses</h3>
+                        <p><strong>Error:</strong> ${error.message}</p>
+                        <p><strong>Trying to load from:</strong> <code>${XML_URL}</code></p>
+                        <h4>Troubleshooting:</h4>
+                        <ul>
+                            <li>Make sure your repository <code>${GITHUB_REPO}</code> exists</li>
+                            <li>Ensure the file <code>${XML_FILE_PATH}</code> is in the main branch</li>
+                            <li>Check that the repository is public</li>
+                            <li>Verify the XML file is valid</li>
+                        </ul>
+                        <button class="refresh-btn" onclick="loadCourses()" style="margin-top: 15px;">
+                            🔄 Try Again
+                        </button>
+                    </div>`;
+            }
+        }
+
+        // Load topics for selected course
+        function loadTopics() {
+            const courseSelect = document.getElementById('courseSelect');
+            const topicSelect = document.getElementById('topicSelect');
+            const contentArea = document.getElementById('contentArea');
+            
+            const selectedCourse = courseSelect.value;
+            
+            if (!selectedCourse || !coursesData[selectedCourse]) {
+                topicSelect.innerHTML = '<option value="">First select a course...</option>';
+                topicSelect.disabled = true;
+                return;
+            }
+            
+            currentCourse = coursesData[selectedCourse];
+            
+            // Clear and populate topic select
+            topicSelect.innerHTML = '<option value="">Choose a topic...</option>';
+            
+            Object.keys(currentCourse.topics).forEach(topicId => {
+                const topic = currentCourse.topics[topicId];
+                const option = document.createElement('option');
+                option.value = topicId;
+                option.textContent = topic.title;
+                topicSelect.appendChild(option);
+            });
+            
+            topicSelect.disabled = false;
+            
+            // Show course info
+            contentArea.innerHTML = `
+                <div class="course-info">
+                    <h2>📚 ${currentCourse.name}</h2>
+                    <p>${currentCourse.description}</p>
+                </div>
+                <div style="text-align: center; padding: 20px; color: #666;">
+                    <p>Select a topic from the dropdown above to view the content.</p>
+                    <p><strong>${Object.keys(currentCourse.topics).length}</strong> topics available in this course.</p>
+                </div>`;
+        }
+
+        // Load content for selected topic
+        function loadContent() {
+            const topicSelect = document.getElementById('topicSelect');
+            const contentArea = document.getElementById('contentArea');
+            
+            const selectedTopic = topicSelect.value;
+            
+            if (!selectedTopic || !currentCourse || !currentCourse.topics[selectedTopic]) {
+                return;
+            }
+            
+            const topic = currentCourse.topics[selectedTopic];
+            
+            contentArea.innerHTML = `
+                <div class="course-info">
+                    <h2>📚 ${currentCourse.name}</h2>
+                    <p>${currentCourse.description}</p>
+                </div>
+                <div class="topic-content">
+                    <h2 style="color: #667eea; margin-bottom: 20px;">📖 ${topic.title}</h2>
+                    ${topic.content}
+                </div>`;
+        }
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Learning platform initialized');
+            console.log('GitHub URL:', XML_URL);
+            loadCourses();
+        });
+    </script>
+</body>
+</html>
